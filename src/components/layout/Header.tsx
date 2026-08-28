@@ -25,8 +25,8 @@ export function Header({ pendingReportsCount = 0 }: { pendingReportsCount?: numb
             <span className="w-9 h-9 rounded-lg bg-teal-600 text-white flex items-center justify-center font-bold text-lg shadow-sm group-hover:bg-teal-700 transition">
               🩺
             </span>
-            <span className="font-bold text-slate-900 dark:text-white text-lg tracking-tight">
-              QCM <span className="text-teal-600">Médecine</span>
+            <span className="font-extrabold text-slate-900 dark:text-white text-xl tracking-tight">
+              Med<span className="text-teal-600">ix</span>
             </span>
           </Link>
         </div>
