@@ -67,10 +67,30 @@ export default function AdminImportPage() {
         )}
 
         <form onSubmit={handleImport} className="space-y-4">
-          <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300">
               Contenu JSON des questions
             </label>
+            <label className="cursor-pointer text-xs font-semibold text-teal-600 hover:text-teal-700 bg-teal-50 dark:bg-teal-950 px-3 py-1 rounded-lg border border-teal-200 dark:border-teal-800">
+              📁 Charger un fichier .json
+              <input
+                type="file"
+                accept=".json,application/json"
+                className="hidden"
+                onChange={(e) => {
+                  const file = e.target.files?.[0]
+                  if (file) {
+                    const reader = new FileReader()
+                    reader.onload = (event) => {
+                      setJsonText((event.target?.result as string) || '')
+                    }
+                    reader.readAsText(file)
+                  }
+                }}
+              />
+            </label>
+          </div>
+          <div>
             <textarea
               required
               rows={14}

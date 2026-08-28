@@ -14,6 +14,24 @@ export default async function AdminSignalementsPage() {
     },
   })
 
+  const qcmIds = signalements.filter((s) => s.questionType === 'qcm').map((s) => s.questionId)
+  const redactionIds = signalements.filter((s) => s.questionType === 'redaction').map((s) => s.questionId)
+
+  const [qcms, redactions] = await Promise.all([
+    prisma.questionQcm.findMany({
+      where: { id: { in: qcmIds } },
+      select: { id: true, enonce: true, cours: { select: { titre: true } } },
+    }),
+    prisma.questionRedactionnelle.findMany({
+      where: { id: { in: redactionIds } },
+      select: { id: true, enonce: true, cours: { select: { titre: true } } },
+    }),
+  ])
+
+  const questionsMap = new Map<string, { enonce: string; provenance: string }>()
+  qcms.forEach((q) => questionsMap.set(`qcm:${q.id}`, { enonce: q.enonce, provenance: q.cours?.titre || 'Annales' }))
+  redactions.forEach((r) => questionsMap.set(`redaction:${r.id}`, { enonce: r.enonce, provenance: r.cours?.titre || 'Annales' }))
+
   async function updateStatut(id: number, statut: 'nouveau' | 'traite' | 'ignore') {
     'use server'
     await requireAdmin()
@@ -49,6 +67,7 @@ export default async function AdminSignalementsPage() {
       ) : (
         <div className="space-y-4">
           {signalements.map((s) => {
+            const qInfo = questionsMap.get(`${s.questionType}:${s.questionId}`)
             let badge = 'bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-300'
             if (s.statut === 'traite') badge = 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300'
             if (s.statut === 'ignore') badge = 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300'
@@ -73,13 +92,19 @@ export default async function AdminSignalementsPage() {
                   </span>
                 </div>
 
-                <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800 text-xs text-slate-700 dark:text-slate-300 space-y-1">
-                  <div className="font-semibold text-slate-900 dark:text-white">
-                    Question cible : #{s.questionId} ({s.questionType.toUpperCase()})
+                <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800 text-xs text-slate-700 dark:text-slate-300 space-y-1.5">
+                  <div className="font-semibold text-slate-900 dark:text-white flex items-center justify-between">
+                    <span>Question cible : #{s.questionId} ({s.questionType.toUpperCase()})</span>
+                    {qInfo && <span className="text-[11px] text-teal-600 font-normal">{qInfo.provenance}</span>}
                   </div>
+                  {qInfo && (
+                    <p className="text-slate-800 dark:text-slate-200 font-medium whitespace-pre-line bg-white dark:bg-slate-900 p-2.5 rounded-lg border border-slate-200 dark:border-slate-700">
+                      {qInfo.enonce}
+                    </p>
+                  )}
                   {s.commentaire && (
-                    <p className="italic text-slate-600 dark:text-slate-400">
-                      « {s.commentaire} »
+                    <p className="italic text-slate-600 dark:text-slate-400 pt-1">
+                      Commentaire : « {s.commentaire} »
                     </p>
                   )}
                 </div>

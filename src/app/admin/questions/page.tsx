@@ -5,10 +5,14 @@ import { revalidatePath } from 'next/cache'
 export default async function AdminQuestionsPage() {
   await requireAdmin()
 
-  const [coursList, qcms] = await Promise.all([
+  const [coursList, partiesList, qcms] = await Promise.all([
     prisma.cours.findMany({
       orderBy: { titre: 'asc' },
       select: { id: true, titre: true },
+    }),
+    prisma.examenPartie.findMany({
+      orderBy: { id: 'asc' },
+      include: { examen: true },
     }),
     prisma.questionQcm.findMany({
       take: 50,
@@ -21,8 +25,12 @@ export default async function AdminQuestionsPage() {
     'use server'
     await requireAdmin()
     const enonce = (formData.get('enonce') as string)?.trim()
-    const coursId = parseInt(formData.get('coursId') as string, 10)
+    const coursIdRaw = formData.get('coursId') as string
+    const partieIdRaw = formData.get('partieId') as string
     const explication = (formData.get('explication') as string)?.trim()
+
+    const coursId = coursIdRaw ? parseInt(coursIdRaw, 10) : null
+    const partieId = partieIdRaw ? parseInt(partieIdRaw, 10) : null
 
     if (!enonce) return
 
@@ -34,6 +42,8 @@ export default async function AdminQuestionsPage() {
     const c3 = formData.get('c3') === 'on'
     const p4 = (formData.get('p4') as string)?.trim()
     const c4 = formData.get('c4') === 'on'
+    const p5 = (formData.get('p5') as string)?.trim()
+    const c5 = formData.get('c5') === 'on'
 
     const propositions = [
       { t: p1, c: c1 },
@@ -41,6 +51,7 @@ export default async function AdminQuestionsPage() {
     ]
     if (p3) propositions.push({ t: p3, c: c3 })
     if (p4) propositions.push({ t: p4, c: c4 })
+    if (p5) propositions.push({ t: p5, c: c5 })
 
     const correctCount = propositions.filter((p) => p.c).length
     const type = correctCount > 1 ? 'QCM' : 'QCU'
@@ -48,7 +59,8 @@ export default async function AdminQuestionsPage() {
     await prisma.questionQcm.create({
       data: {
         enonce,
-        coursId: isNaN(coursId) ? null : coursId,
+        coursId: coursId && !isNaN(coursId) ? coursId : null,
+        partieId: partieId && !isNaN(partieId) ? partieId : null,
         type,
         propositions,
         explication: explication || null,
@@ -83,21 +95,40 @@ export default async function AdminQuestionsPage() {
         </h2>
 
         <form action={addQcm} className="space-y-4">
-          <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
-              Rattacher à un cours
-            </label>
-            <select
-              name="coursId"
-              className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
-            >
-              <option value="">Sélectionner un cours...</option>
-              {coursList.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.titre}
-                </option>
-              ))}
-            </select>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
+                Rattacher à un cours
+              </label>
+              <select
+                name="coursId"
+                className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+              >
+                <option value="">Sélectionner un cours...</option>
+                {coursList.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.titre}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
+                Ou rattacher à une partie d&apos;examen
+              </label>
+              <select
+                name="partieId"
+                className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+              >
+                <option value="">Sélectionner une partie d&apos;examen...</option>
+                {partiesList.map((p) => (
+                  <option key={p.id} value={p.id}>
+                    {p.examen.titre} ➔ {p.nom}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           <div>
@@ -156,6 +187,16 @@ export default async function AdminQuestionsPage() {
                 type="text"
                 name="p4"
                 placeholder="Proposition D (optionnel)"
+                className="flex-1 p-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+              />
+            </div>
+
+            <div className="flex items-center gap-2">
+              <input type="checkbox" name="c5" className="h-4 w-4 text-teal-600 rounded" />
+              <input
+                type="text"
+                name="p5"
+                placeholder="Proposition E (optionnel)"
                 className="flex-1 p-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
               />
             </div>
