@@ -54,6 +54,27 @@ export default async function ExamensOfficielsPage() {
     }
   })
 
+  const examensWithAccess = await Promise.all(
+    examens.map(async (exam) => {
+      const hasAccess = await userHasSemestreAccess(
+        user.id,
+        exam.module.semestreId,
+        user.role === 'admin'
+      )
+      const pastScores = scoresByExamen.get(exam.id) || []
+      const totalQcm = exam.parties.reduce((acc, p) => acc + p._count.questionsQcm, 0)
+      const totalRedaction = exam.parties.reduce((acc, p) => acc + p._count.questionsRedaction, 0)
+
+      return {
+        ...exam,
+        hasAccess,
+        pastScores,
+        totalQcm,
+        totalRedaction,
+      }
+    })
+  )
+
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 sm:px-6 lg:px-8 space-y-6">
       <div>
@@ -65,22 +86,14 @@ export default async function ExamensOfficielsPage() {
         </p>
       </div>
 
-      {examens.length === 0 ? (
+      {examensWithAccess.length === 0 ? (
         <div className="p-12 text-center bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 text-slate-400 text-sm">
           Aucun examen officiel disponible pour le moment.
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {examens.map(async (exam) => {
-            const hasAccess = await userHasSemestreAccess(
-              user.id,
-              exam.module.semestreId,
-              user.role === 'admin'
-            )
-
-            const pastScores = scoresByExamen.get(exam.id) || []
-            const totalQcm = exam.parties.reduce((acc, p) => acc + p._count.questionsQcm, 0)
-            const totalRedaction = exam.parties.reduce((acc, p) => acc + p._count.questionsRedaction, 0)
+          {examensWithAccess.map((exam) => {
+            const { hasAccess, pastScores, totalQcm, totalRedaction } = exam
 
             return (
               <div

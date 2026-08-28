@@ -13,13 +13,30 @@ export async function GET(req: Request) {
     const { searchParams } = new URL(req.url)
     const coursParam = searchParams.get('cours')
     const idsParam = searchParams.get('ids')
+    const revisionParam = searchParams.get('revision')
     const typeParam = searchParams.get('type') || 'all'
     const shuffleProps = searchParams.get('shuffle_props') === '1'
 
     let coursId: number | null = null
     let questionIds: number[] = []
 
-    if (idsParam) {
+    if (revisionParam) {
+      const revScoreId = parseInt(revisionParam, 10)
+      if (isNaN(revScoreId)) {
+        return NextResponse.json({ error: 'ID de révision invalide' }, { status: 400 })
+      }
+      const score = await prisma.score.findFirst({
+        where: { id: revScoreId, userId: user.id },
+      })
+      if (!score || !score.erreursIds) {
+        return NextResponse.json({ error: 'Score de révision introuvable' }, { status: 404 })
+      }
+      try {
+        questionIds = JSON.parse(score.erreursIds) as number[]
+      } catch {
+        questionIds = []
+      }
+    } else if (idsParam) {
       questionIds = idsParam
         .split(',')
         .map((x) => parseInt(x.trim(), 10))
@@ -39,7 +56,7 @@ export async function GET(req: Request) {
         }
       }
     } else {
-      return NextResponse.json({ error: 'Paramètre cours ou ids requis' }, { status: 400 })
+      return NextResponse.json({ error: 'Paramètre cours, revision ou ids requis' }, { status: 400 })
     }
 
     // Récupérer les favoris et notes de l'utilisateur
@@ -55,7 +72,7 @@ export async function GET(req: Request) {
     let qcmList: QuestionQcmClient[] = []
     if (typeParam === 'all' || typeParam === 'qcm') {
       const rawQcm = await prisma.questionQcm.findMany({
-        where: idsParam
+        where: idsParam || revisionParam
           ? { id: { in: questionIds } }
           : { coursId: coursId! },
         include: {

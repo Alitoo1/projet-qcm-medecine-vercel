@@ -123,31 +123,31 @@ export default async function AdminHierarchiePage() {
       </div>
 
       {/* Formulaires d'ajout rapide */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Ajouter Semestre */}
-        <div className="p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
+        <div className="p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs space-y-2.5">
           <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
             ➕ Nouveau Semestre
           </div>
-          <form action={addSemestre} className="flex gap-2">
+          <form action={addSemestre} className="flex flex-col gap-2">
             <input
               type="text"
               name="nom"
               required
               placeholder="Ex: Semestre 1 (S1)"
-              className="flex-1 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+              className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
             />
             <button
               type="submit"
-              className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs cursor-pointer"
+              className="w-full py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs cursor-pointer"
             >
-              Ajouter
+              Ajouter Semestre
             </button>
           </form>
         </div>
 
         {/* Ajouter Module */}
-        <div className="p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs space-y-3">
+        <div className="p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs space-y-2.5">
           <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
             ➕ Nouveau Module
           </div>
@@ -157,27 +157,100 @@ export default async function AdminHierarchiePage() {
               required
               className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
             >
+              <option value="">Sélectionner semestre...</option>
               {semestres.map((s) => (
                 <option key={s.id} value={s.id}>
                   {s.nom}
                 </option>
               ))}
             </select>
-            <div className="flex gap-2">
-              <input
-                type="text"
-                name="nom"
-                required
-                placeholder="Ex: Anatomie I"
-                className="flex-1 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
-              />
-              <button
-                type="submit"
-                className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs cursor-pointer"
-              >
-                Ajouter
-              </button>
-            </div>
+            <input
+              type="text"
+              name="nom"
+              required
+              placeholder="Ex: Anatomie I"
+              className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+            />
+            <button
+              type="submit"
+              className="w-full py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs cursor-pointer"
+            >
+              Ajouter Module
+            </button>
+          </form>
+        </div>
+
+        {/* Ajouter Sous-Module */}
+        <div className="p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs space-y-2.5">
+          <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
+            ➕ Nouveau Sous-Module
+          </div>
+          <form action={addSousModule} className="space-y-2">
+            <select
+              name="moduleId"
+              required
+              className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+            >
+              <option value="">Sélectionner module...</option>
+              {semestres.flatMap((s) =>
+                s.modules.map((m) => (
+                  <option key={m.id} value={m.id}>
+                    {s.nom} ➔ {m.nom}
+                  </option>
+                ))
+              )}
+            </select>
+            <input
+              type="text"
+              name="nom"
+              required
+              placeholder="Ex: Membre supérieur"
+              className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+            />
+            <button
+              type="submit"
+              className="w-full py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs cursor-pointer"
+            >
+              Ajouter Sous-Module
+            </button>
+          </form>
+        </div>
+
+        {/* Ajouter Cours */}
+        <div className="p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs space-y-2.5">
+          <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
+            ➕ Nouveau Cours
+          </div>
+          <form action={addCours} className="space-y-2">
+            <select
+              name="sousModuleId"
+              required
+              className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+            >
+              <option value="">Sélectionner sous-module...</option>
+              {semestres.flatMap((s) =>
+                s.modules.flatMap((m) =>
+                  m.sousModules.map((sm) => (
+                    <option key={sm.id} value={sm.id}>
+                      {m.nom} ➔ {sm.nom}
+                    </option>
+                  ))
+                )
+              )}
+            </select>
+            <input
+              type="text"
+              name="titre"
+              required
+              placeholder="Ex: Ostéologie du bras"
+              className="w-full px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
+            />
+            <button
+              type="submit"
+              className="w-full py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs cursor-pointer"
+            >
+              Ajouter Cours
+            </button>
           </form>
         </div>
       </div>

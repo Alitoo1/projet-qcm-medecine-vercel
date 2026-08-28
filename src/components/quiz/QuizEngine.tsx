@@ -100,8 +100,8 @@ export function QuizEngine({
       } else if (moduleId) {
         endpoint = `/api/examen/blanc?module=${moduleId}&n=20&shuffle_props=${shuffleProps ? 1 : 0}`
       } else if (revisionScoreId) {
-        // En révision, on récupère les questions via get_questions
-        endpoint = `/api/questions?ids=${revisionScoreId}&shuffle_props=${shuffleProps ? 1 : 0}`
+        // En révision, on récupère les questions erronées du score
+        endpoint = `/api/questions?revision=${revisionScoreId}&shuffle_props=${shuffleProps ? 1 : 0}`
       } else if (coursId) {
         endpoint = `/api/questions?cours=${coursId}&type=qcm&shuffle_props=${shuffleProps ? 1 : 0}`
       }
