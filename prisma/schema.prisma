@@ -1,0 +1,369 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ── Enums ──────────────────────────────────────────────────────────
+
+enum Role {
+  etudiant
+  admin
+}
+
+enum TypeQuestion {
+  QCU
+  QCM
+}
+
+enum ModeScore {
+  entrainement
+  examen
+  revision
+}
+
+enum MotifSignalement {
+  reponse_fausse
+  enonce_ambigu
+  faute_frappe
+  autre
+}
+
+enum StatutSignalement {
+  nouveau
+  traite
+  ignore
+}
+
+enum StatutSuggestion {
+  nouveau
+  lu
+}
+
+enum TypeQuestionRef {
+  qcm
+  redaction
+}
+
+// ── Utilisateurs ───────────────────────────────────────────────────
+
+model User {
+  id               Int       @id @default(autoincrement())
+  nom              String    @db.VarChar(100)
+  prenom           String    @db.VarChar(100)
+  email            String    @unique @db.VarChar(190)
+  passwordHash     String    @map("password_hash") @db.VarChar(255)
+  role             Role      @default(etudiant)
+  annee            Int?      @db.SmallInt
+  emailVerifiedAt  DateTime? @map("email_verified_at")
+  currentStreak    Int       @default(0) @map("current_streak")
+  longestStreak    Int       @default(0) @map("longest_streak")
+  lastActivityDate DateTime? @map("last_activity_date") @db.Date
+  createdAt        DateTime  @default(now()) @map("created_at")
+
+  scores             Score[]
+  signalements       Signalement[]
+  notesQuestions     NoteQuestion[]
+  suggestions        Suggestion[]
+  reponsesLog        ReponseLog[]
+  favoris            Favori[]
+  passwordResets     PasswordReset[]
+  emailVerifications EmailVerification[]
+  accesPremium       AccesPremium[]
+  examSessions       ExamSession[]
+
+  @@map("users")
+}
+
+// ── Hiérarchie pédagogique ─────────────────────────────────────────
+
+model Semestre {
+  id         Int     @id @default(autoincrement())
+  nom        String  @db.VarChar(100)
+  estPremium Boolean @default(false) @map("est_premium")
+  ordre      Int     @default(0)
+
+  modules      Module[]
+  accesPremium AccesPremium[]
+
+  @@map("semestres")
+}
+
+model AccesPremium {
+  id         Int       @id @default(autoincrement())
+  userId     Int       @map("user_id")
+  semestreId Int       @map("semestre_id")
+  grantedAt  DateTime  @default(now()) @map("granted_at")
+  expiresAt  DateTime? @map("expires_at")
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  semestre Semestre @relation(fields: [semestreId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, semestreId])
+  @@map("acces_premium")
+}
+
+model Module {
+  id         Int    @id @default(autoincrement())
+  semestreId Int    @map("semestre_id")
+  nom        String @db.VarChar(150)
+  ordre      Int    @default(0)
+
+  semestre         Semestre         @relation(fields: [semestreId], references: [id], onDelete: Cascade)
+  sousModules      SousModule[]
+  examensOfficiels ExamenOfficiel[]
+  scores           Score[]
+
+  @@map("modules")
+}
+
+model SousModule {
+  id       Int    @id @default(autoincrement())
+  moduleId Int    @map("module_id")
+  nom      String @db.VarChar(150)
+  ordre    Int    @default(0)
+
+  module Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  cours  Cours[]
+
+  @@map("sous_modules")
+}
+
+model Cours {
+  id           Int     @id @default(autoincrement())
+  sousModuleId Int     @map("sous_module_id")
+  titre        String  @db.VarChar(200)
+  description  String? @db.Text
+  estPublie    Boolean @default(true) @map("est_publie")
+  ordre        Int     @default(0)
+
+  sousModule         SousModule               @relation(fields: [sousModuleId], references: [id], onDelete: Cascade)
+  questionsQcm       QuestionQcm[]
+  questionsRedaction QuestionRedactionnelle[]
+  scores             Score[]
+
+  @@map("cours")
+}
+
+// ── Examens officiels ──────────────────────────────────────────────
+
+model ExamenOfficiel {
+  id        Int      @id @default(autoincrement())
+  moduleId  Int      @map("module_id")
+  titre     String   @db.VarChar(190)
+  estPublie Boolean  @default(true) @map("est_publie")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  module  Module         @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  parties ExamenPartie[]
+  scores  Score[]
+
+  @@map("examens_officiels")
+}
+
+model ExamenPartie {
+  id       Int    @id @default(autoincrement())
+  examenId Int    @map("examen_id")
+  nom      String @db.VarChar(190)
+  ordre    Int    @default(0)
+
+  examen             ExamenOfficiel           @relation(fields: [examenId], references: [id], onDelete: Cascade)
+  questionsQcm       QuestionQcm[]
+  questionsRedaction QuestionRedactionnelle[]
+
+  @@map("examen_parties")
+}
+
+// ── Questions ──────────────────────────────────────────────────────
+
+model QuestionQcm {
+  id           Int          @id @default(autoincrement())
+  coursId      Int?         @map("cours_id")
+  partieId     Int?         @map("partie_id")
+  type         TypeQuestion @default(QCU)
+  enonce       String       @db.Text
+  propositions Json
+  explication  String?      @db.Text
+  images       Json?
+  createdAt    DateTime     @default(now()) @map("created_at")
+
+  cours       Cours?        @relation(fields: [coursId], references: [id], onDelete: Cascade)
+  partie      ExamenPartie? @relation(fields: [partieId], references: [id], onDelete: Cascade)
+  reponsesLog ReponseLog[]
+
+  @@map("questions_qcm")
+}
+
+model QuestionRedactionnelle {
+  id            Int      @id @default(autoincrement())
+  coursId       Int?     @map("cours_id")
+  partieId      Int?     @map("partie_id")
+  enonce        String   @db.Text
+  reponseModele String   @map("reponse_modele") @db.Text
+  motsCles      Json?    @map("mots_cles")
+  images        Json?
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  cours  Cours?        @relation(fields: [coursId], references: [id], onDelete: Cascade)
+  partie ExamenPartie? @relation(fields: [partieId], references: [id], onDelete: Cascade)
+
+  @@map("questions_redactionnelles")
+}
+
+// ── Scores & historique ────────────────────────────────────────────
+
+model Score {
+  id               Int       @id @default(autoincrement())
+  userId           Int       @map("user_id")
+  coursId          Int?      @map("cours_id")
+  moduleId         Int?      @map("module_id")
+  examenOfficielId Int?      @map("examen_officiel_id")
+  score            Int       @default(0)
+  total            Int       @default(0)
+  pourcentage      Decimal   @default(0) @db.Decimal(5, 2)
+  dureeSecondes    Int?      @map("duree_secondes")
+  mode             ModeScore @default(entrainement)
+  erreursIds       String?   @map("erreurs_ids") @db.Text
+  partiesScores    String?   @map("parties_scores") @db.Text
+  reponsesData     String?   @map("reponses_data") @db.Text
+  createdAt        DateTime  @default(now()) @map("created_at")
+
+  user           User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cours          Cours?          @relation(fields: [coursId], references: [id], onDelete: Cascade)
+  module         Module?         @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  examenOfficiel ExamenOfficiel? @relation(fields: [examenOfficielId], references: [id], onDelete: Cascade)
+
+  @@map("scores")
+}
+
+model ReponseLog {
+  id         Int      @id @default(autoincrement())
+  questionId Int      @map("question_id")
+  userId     Int      @map("user_id")
+  correct    Boolean
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  user     User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question QuestionQcm @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@map("reponses_log")
+}
+
+// ── Fonctionnalités utilisateur ────────────────────────────────────
+
+model Signalement {
+  id           Int               @id @default(autoincrement())
+  userId       Int               @map("user_id")
+  questionType TypeQuestionRef   @map("question_type")
+  questionId   Int               @map("question_id")
+  motif        MotifSignalement
+  commentaire  String?           @db.Text
+  statut       StatutSignalement @default(nouveau)
+  createdAt    DateTime          @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([questionType, questionId])
+  @@map("signalements")
+}
+
+model NoteQuestion {
+  id           Int             @id @default(autoincrement())
+  userId       Int             @map("user_id")
+  questionType TypeQuestionRef @map("question_type")
+  questionId   Int             @map("question_id")
+  contenu      String          @db.Text
+  updatedAt    DateTime        @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionType, questionId])
+  @@map("notes_questions")
+}
+
+model Suggestion {
+  id        Int              @id @default(autoincrement())
+  userId    Int              @map("user_id")
+  contenu   String           @db.Text
+  statut    StatutSuggestion @default(nouveau)
+  createdAt DateTime         @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("suggestions")
+}
+
+model Favori {
+  id           Int             @id @default(autoincrement())
+  userId       Int             @map("user_id")
+  questionType TypeQuestionRef @map("question_type")
+  questionId   Int             @map("question_id")
+  createdAt    DateTime        @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionType, questionId])
+  @@map("favoris")
+}
+
+// ── Auth & sécurité ────────────────────────────────────────────────
+
+model PasswordReset {
+  id        Int       @id @default(autoincrement())
+  userId    Int       @map("user_id")
+  tokenHash String    @map("token_hash") @db.Char(64)
+  expiresAt DateTime  @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([tokenHash])
+  @@map("password_resets")
+}
+
+model EmailVerification {
+  id        Int      @id @default(autoincrement())
+  userId    Int      @map("user_id")
+  tokenHash String   @map("token_hash") @db.Char(64)
+  expiresAt DateTime @map("expires_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([tokenHash])
+  @@map("email_verifications")
+}
+
+model LoginAttempt {
+  id          Int      @id @default(autoincrement())
+  email       String   @db.VarChar(190)
+  ip          String   @db.VarChar(45)
+  attemptedAt DateTime @default(now()) @map("attempted_at")
+
+  @@index([email, attemptedAt])
+  @@index([ip, attemptedAt])
+  @@map("login_attempts")
+}
+
+// ── Sessions d'examen anti-triche ──────────────────────────────────
+
+model ExamSession {
+  id         String    @id @default(cuid())
+  userId     Int       @map("user_id")
+  type       String    @db.VarChar(20) // 'blanc' | 'officiel'
+  payload    Json      // { moduleId/examenId, questionIds, shuffleProps }
+  tokenHash  String    @map("token_hash") @db.Char(64)
+  expiresAt  DateTime  @map("expires_at")
+  consumedAt DateTime? @map("consumed_at")
+  createdAt  DateTime  @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([tokenHash])
+  @@map("exam_sessions")
+}
