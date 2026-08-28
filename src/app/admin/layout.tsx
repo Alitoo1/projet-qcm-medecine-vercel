@@ -28,7 +28,6 @@ export default async function AdminLayout({
     { label: 'Utilisateurs', href: '/admin/utilisateurs', icon: '👥' },
     { label: 'Signalements', href: '/admin/signalements', icon: '🚩', badge: pendingReports },
     { label: 'Statistiques & Idées', href: '/admin/statistiques', icon: '💡', badge: unreadSuggestions },
-    { label: 'Difficulté Questions', href: '/admin/stats-questions', icon: '🎯' },
     { label: 'Accès Premium', href: '/admin/premium', icon: '💎' },
     { label: 'Doublons', href: '/admin/doublons', icon: '🔍' },
   ]
