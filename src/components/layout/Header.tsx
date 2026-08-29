@@ -25,14 +25,9 @@ export function Header({ pendingReportsCount = 0 }: { pendingReportsCount?: numb
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-600 to-emerald-400 text-white flex items-center justify-center font-bold text-xl shadow-md shadow-teal-500/20 group-hover:scale-105 transition transform">
               🩺
             </div>
-            <div className="flex items-center gap-1.5">
-              <span className="font-extrabold text-slate-900 dark:text-white text-2xl tracking-tight">
-                QC<span className="bg-gradient-to-r from-teal-500 to-emerald-400 bg-clip-text text-transparent">Med</span>
-              </span>
-              <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800">
-                PRO
-              </span>
-            </div>
+            <span className="font-extrabold text-slate-900 dark:text-white text-2xl tracking-tight">
+              QC<span className="bg-gradient-to-r from-teal-500 to-emerald-400 bg-clip-text text-transparent">Med</span>
+            </span>
           </Link>
         </div>
 
