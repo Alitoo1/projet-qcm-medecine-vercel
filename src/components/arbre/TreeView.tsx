@@ -129,16 +129,9 @@ export function TreeView({ semestres }: TreeViewProps) {
                                                   : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300'
                                               }`}
                                             >
-                                              <div className="flex items-center gap-1.5 truncate pr-2">
-                                                <span className="truncate">
-                                                  {c.titre} {c.masque && '🚫 (Masqué)'}
-                                                </span>
-                                                {c.description && (
-                                                  <span className="text-[9px] px-1.5 py-0.5 rounded bg-teal-50 dark:bg-teal-950 text-teal-700 dark:text-teal-300 font-semibold border border-teal-200/50 dark:border-teal-900/50 shrink-0">
-                                                    {c.description}
-                                                  </span>
-                                                )}
-                                              </div>
+                                              <span className="truncate pr-2">
+                                                {c.titre} {c.masque && '🚫 (Masqué)'}
+                                              </span>
                                               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 shrink-0">
                                                 {c.nbQuestions} Q
                                               </span>

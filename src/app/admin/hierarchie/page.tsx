@@ -508,13 +508,8 @@ export default async function AdminHierarchiePage() {
                                   key={c.id}
                                   className="flex items-center justify-between p-2 rounded-lg bg-white dark:bg-slate-800 text-xs border border-slate-100 dark:border-slate-700/40"
                                 >
-                                  <div className="flex items-center gap-2 flex-wrap">
-                                    <span className="font-medium">📄 {c.titre}</span>
-                                    {c.description && (
-                                      <span className="text-[10px] px-2 py-0.5 rounded-md bg-teal-50 dark:bg-teal-950 text-teal-700 dark:text-teal-300 font-semibold border border-teal-200/60 dark:border-teal-900/60">
-                                        👤 {c.description}
-                                      </span>
-                                    )}
+                                  <div className="flex items-center gap-2">
+                                    <span>📄 {c.titre}</span>
                                     <form action={toggleCoursPublie.bind(null, c.id, c.estPublie)}>
                                       <button
                                         type="submit"
