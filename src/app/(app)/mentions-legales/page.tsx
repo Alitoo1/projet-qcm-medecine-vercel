@@ -51,19 +51,47 @@ export default function MentionsLegalesPage() {
 
         <section className="space-y-3">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <span>📖</span> 3. Contenus Pédagogiques & Propriété
+            <span>📖</span> 3. Propriété Intellectuelle, Annales & Procédure de Retrait (Notice & Takedown)
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            Les outils, l&apos;interface logicielle, la structure d&apos;entraînement et les explications pédagogiques sont édités par QCMed pour l&apos;entraînement individuel de ses utilisateurs.
+            L&apos;architecture logicielle, le design, les algorithmes de révision, les synthèses et les explications détaillées rédigées sur la plateforme sont la propriété intellectuelle exclusive de <strong>QCMed</strong>.
           </p>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            Tout utilisateur constatant une imprécision ou une erreur scientifique peut la signaler directement via l&apos;option <em>Signaler une erreur</em> disponible sur chaque question pour examen et mise à jour continue.
+            Les énoncés de questions et annales d&apos;examens sont regroupés et cités à des fins strictement pédagogiques d&apos;étude et d&apos;entraînement individuel (courte citation et entraide étudiante).
           </p>
+          <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 text-xs text-slate-600 dark:text-slate-300 space-y-1.5 leading-relaxed font-normal">
+            <p className="font-bold text-slate-900 dark:text-white">
+              🛡️ Procédure de retrait immédiat (Notice & Takedown) :
+            </p>
+            <p>
+              Si un enseignant, auteur ou ayant droit légitime souhaite le retrait d&apos;un sujet ou d&apos;une ressource spécifique lui appartenant, il lui suffit d&apos;adresser une simple demande écrite via notre formulaire de suggestion ou par messagerie. Le contenu concerné sera vérifié et retiré sans délai.
+            </p>
+          </div>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <span>💎</span> 4. Accès au Service & Abonnements
+            <span>🩺</span> 4. Clause de Non-Responsabilité Médicale & Pédagogique (Exonération)
+          </h2>
+          <div className="p-4 rounded-2xl bg-amber-50/80 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900/60 text-xs text-amber-900 dark:text-amber-200 space-y-2 leading-relaxed font-normal">
+            <p className="font-bold text-amber-950 dark:text-amber-100 flex items-center gap-1.5 text-sm">
+              <span>⚠️</span> Avertissement & Limite de Responsabilité :
+            </p>
+            <p>
+              <strong>1. Outil d&apos;entraînement d&apos;appoint :</strong> QCMed est un support d&apos;auto-évaluation et de révision complémentaire. Malgré le soin apporté à la vérification des corrections, la plateforme ne prétend pas remplacer les cours magistraux, polycopiés officiels ou recommandations universitaires de référence.
+            </p>
+            <p>
+              <strong>2. Absence d&apos;avis médical clinique :</strong> Les contenus, cas cliniques et explications proposés sont purement didactiques. Ils ne constituent en aucun cas une directive de pratique clinique, une prescription ou un avis médical opposable dans la prise en charge de patients réels.
+            </p>
+            <p>
+              <strong>3. Exonération :</strong> QCMed ne saurait être tenu responsable d&apos;éventuelles divergences scientifiques, errata d&apos;examen ou conséquences liées à l&apos;utilisation des informations fournies sur la plateforme.
+            </p>
+          </div>
+        </section>
+
+        <section className="space-y-3">
+          <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <span>💎</span> 5. Accès au Service & Abonnements
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
             QCMed propose différentes formules d&apos;accès aux contenus et aux fonctionnalités de révision (accès standard ou accès étendu par semestre/module). Les conditions et modalités d&apos;accès applicables sont celles précisées sur la plateforme lors de l&apos;activation des services.
