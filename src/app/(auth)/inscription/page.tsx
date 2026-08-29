@@ -112,7 +112,6 @@ export default function InscriptionPage() {
                 required
                 value={prenom}
                 onChange={(e) => setPrenom(e.target.value)}
-                placeholder="Ahmed"
                 className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-slate-900 dark:text-white focus:ring-2 focus:ring-teal-500 focus:outline-none text-sm transition"
               />
             </div>
@@ -125,7 +124,6 @@ export default function InscriptionPage() {
                 required
                 value={nom}
                 onChange={(e) => setNom(e.target.value)}
-                placeholder="El Amrani"
                 className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-slate-900 dark:text-white focus:ring-2 focus:ring-teal-500 focus:outline-none text-sm transition"
               />
             </div>
@@ -140,7 +138,6 @@ export default function InscriptionPage() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="etudiant@usmba.ac.ma"
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-slate-900 dark:text-white focus:ring-2 focus:ring-teal-500 focus:outline-none text-sm transition"
             />
           </div>

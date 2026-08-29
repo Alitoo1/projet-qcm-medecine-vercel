@@ -9,7 +9,7 @@ export function Footer() {
         <p className="flex items-center gap-1.5 font-medium">
           <span>© {year}</span>
           <span className="font-bold text-slate-900 dark:text-white">QC<span className="text-teal-600">Med</span></span>
-          <span>— Faculté de Médecine et de Pharmacie • Tous droits réservés.</span>
+          <span>— Plateforme étudiante d&apos;entraînement aux examens médicaux. Tous droits réservés.</span>
         </p>
         <div className="flex items-center gap-4">
           <Link

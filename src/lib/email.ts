@@ -45,7 +45,7 @@ export async function sendWelcomeEmail(to: string, prenom: string): Promise<void
           </div>
 
           <p style="font-size: 12px; color: #94a3b8; text-align: center; margin-top: 32px; border-top: 1px solid #e2e8f0; padding-top: 16px;">
-            Faculté de Médecine et de Pharmacie de Fès — Université Sidi Mohamed Ben Abdellah
+            QCMed — Plateforme étudiante d'entraînement aux examens médicaux
           </p>
         </div>
       `,
@@ -102,7 +102,7 @@ export async function sendPasswordResetEmail(to: string, token: string, prenom: 
   await resend.emails.send({
     from: fromEmail,
     to,
-    subject: 'Réinitialisation de votre mot de passe — QCM Médecine',
+    subject: 'Réinitialisation de votre mot de passe — QCMed',
     html: `
       <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b;">
         <h2 style="color: #0d9488;">Bonjour ${prenom},</h2>
