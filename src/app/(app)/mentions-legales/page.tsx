@@ -10,19 +10,19 @@ export default function MentionsLegalesPage() {
             Conditions d&apos;Utilisation & Politique de Confidentialité
           </h1>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-2">
-            Plateforme QCMed • Projet étudiant bénévole et indépendant
+            Plateforme QCMed • Service pédagogique indépendant
           </p>
         </div>
 
         <section className="space-y-3">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <span>🎯</span> 1. Nature & Objet du Projet
+            <span>🎯</span> 1. Nature & Objet du Service
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            <strong>QCMed</strong> est une plateforme étudiante indépendante et bénévole, développée à des fins d&apos;entraide pédagogique pour accompagner les étudiants en médecine dans la révision de leurs cours et la préparation de leurs examens.
+            <strong>QCMed</strong> est une plateforme numérique éducative indépendante conçue pour accompagner les étudiants en médecine dans l&apos;apprentissage de leurs cours, l&apos;auto-évaluation par QCM et la préparation méthodique de leurs examens.
           </p>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            Ce projet est une initiative personnelle d&apos;apprentissage et de révision. Il n&apos;est rattaché administrativement à aucune faculté officielle.
+            Le service est une initiative privée d&apos;accompagnement aux études médicales et n&apos;est rattaché administrativement à aucun établissement public ni faculté officielle.
           </p>
         </section>
 
@@ -35,29 +35,38 @@ export default function MentionsLegalesPage() {
           </p>
           <ul className="list-disc pl-5 text-sm text-slate-600 dark:text-slate-300 space-y-2 leading-relaxed font-normal">
             <li>
-              <strong>Données collectées :</strong> Vos nom, prénom, adresse email (utilisée pour votre connexion), année d&apos;étude, ainsi que vos statistiques d&apos;entraînement (scores, historique de quiz, questions favorites, notes privées).
+              <strong>Données collectées :</strong> Vos nom, prénom, adresse email (utilisée pour l&apos;accès à votre compte), année d&apos;étude, ainsi que vos statistiques d&apos;entraînement (scores, historique des quiz, questions favorites, fiches et notes privées).
             </li>
             <li>
-              <strong>Finalité exclusive :</strong> Ces informations servent uniquement à sauvegarder votre progression personnelle et à vous permettre de réviser vos erreurs.
+              <strong>Finalité exclusive :</strong> Ces informations sont strictement utilisées pour le bon fonctionnement de votre espace membre, l&apos;enregistrement de votre progression et le suivi de vos révisions.
             </li>
             <li>
-              <strong>Non-commercialisation :</strong> Vos données ne sont jamais partagées, vendues, louées ou cédées à des tiers.
+              <strong>Confidentialité & Non-cession :</strong> Vos informations personnelles ne sont jamais cédées, louées ou commercialisées à des tiers.
             </li>
             <li>
-              <strong>Droit à l&apos;oubli & Suppression totale :</strong> Vous conservez le contrôle total de vos données. Vous pouvez supprimer définitivement votre compte et l&apos;intégralité de vos informations à tout moment depuis la page <em>Mon Compte</em>.
+              <strong>Droit de suppression totale :</strong> Vous disposez d&apos;un droit d&apos;accès, de modification et de suppression intégrale de vos données personnelles, exécutable à tout moment et en un clic depuis votre page <em>Mon Compte</em>.
             </li>
           </ul>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <span>📖</span> 3. Contenus Pédagogiques & Entraide
+            <span>📖</span> 3. Contenus Pédagogiques & Propriété
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            Les questions, QCM et annales disponibles sur QCMed sont rassemblés et organisés dans un but d&apos;entraînement personnel et collaboratif entre étudiants.
+            Les outils, l&apos;interface logicielle, la structure d&apos;entraînement et les explications pédagogiques sont édités par QCMed pour l&apos;entraînement individuel de ses utilisateurs.
           </p>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            Si vous constatez une erreur dans un énoncé ou une correction, vous pouvez utiliser la fonction <em>Signaler une erreur</em> disponible sous chaque question pour que la communauté puisse la corriger rapidement.
+            Tout utilisateur constatant une imprécision ou une erreur scientifique peut la signaler directement via l&apos;option <em>Signaler une erreur</em> disponible sur chaque question pour examen et mise à jour continue.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <span>💎</span> 4. Accès au Service & Abonnements
+          </h2>
+          <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+            QCMed propose différentes formules d&apos;accès aux contenus et aux fonctionnalités de révision (accès standard ou accès étendu par semestre/module). Les conditions et modalités d&apos;accès applicables sont celles précisées sur la plateforme lors de l&apos;activation des services.
           </p>
         </section>
       </div>
