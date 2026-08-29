@@ -6,6 +6,8 @@ import { useState } from 'react'
 import { useSession, signOut } from 'next-auth/react'
 import { useTheme } from '../providers/ThemeProvider'
 
+import { Logo } from '../brand/Logo'
+
 export function Header({ pendingReportsCount = 0 }: { pendingReportsCount?: number }) {
   const pathname = usePathname()
   const { data: session } = useSession()
@@ -21,13 +23,8 @@ export function Header({ pendingReportsCount = 0 }: { pendingReportsCount?: numb
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo & Titre */}
         <div className="flex items-center gap-3">
-          <Link href={user ? '/tableau-de-bord' : '/'} className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-600 to-emerald-400 text-white flex items-center justify-center font-bold text-xl shadow-md shadow-teal-500/20 group-hover:scale-105 transition transform">
-              🩺
-            </div>
-            <span className="font-extrabold text-slate-900 dark:text-white text-2xl tracking-tight">
-              QC<span className="bg-gradient-to-r from-teal-500 to-emerald-400 bg-clip-text text-transparent">Med</span>
-            </span>
+          <Link href={user ? '/tableau-de-bord' : '/'}>
+            <Logo iconSize="w-9 h-9" textSize="text-2xl" />
           </Link>
         </div>
 

@@ -4,6 +4,7 @@ import { useState, Suspense } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
+import { LogoIcon } from '@/components/brand/Logo'
 
 function ConnexionForm() {
   const router = useRouter()
@@ -51,8 +52,8 @@ function ConnexionForm() {
   return (
     <div className="max-w-md w-full space-y-6 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-8 sm:p-10 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 shadow-xl shadow-teal-500/5 animate-fade-in">
       <div className="text-center space-y-2.5">
-        <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-teal-600 to-emerald-400 text-white flex items-center justify-center text-2xl mx-auto shadow-md shadow-teal-500/20">
-          🩺
+        <div className="w-12 h-12 mx-auto shadow-md shadow-teal-500/20 rounded-2xl">
+          <LogoIcon className="w-12 h-12" />
         </div>
         <h1 className="text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
           Connexion à <span className="text-teal-600">QCMed</span>
