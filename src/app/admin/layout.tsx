@@ -21,6 +21,7 @@ export default async function AdminLayout({
 
   const navItems = [
     { label: 'Tableau de bord', href: '/admin', icon: '📊' },
+    { label: 'Activité en direct', href: '/admin/activite', icon: '🔴' },
     { label: 'Arborescence', href: '/admin/hierarchie', icon: '📂' },
     { label: 'Gestion des Questions', href: '/admin/questions', icon: '📝' },
     { label: 'Examens Officiels', href: '/admin/examens', icon: '🎓' },

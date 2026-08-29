@@ -57,6 +57,11 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           return null
         }
 
+        // ── Vérification compte suspendu ──
+        if (user.estBloque) {
+          throw new Error('Votre compte a été suspendu par un administrateur.')
+        }
+
         // ── Succès ──
         await prisma.loginAttempt.deleteMany({ where: { email } })
 

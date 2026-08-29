@@ -63,6 +63,7 @@ model User {
   currentStreak    Int       @default(0) @map("current_streak")
   longestStreak    Int       @default(0) @map("longest_streak")
   lastActivityDate DateTime? @map("last_activity_date") @db.Date
+  estBloque        Boolean   @default(false) @map("est_bloque")
   createdAt        DateTime  @default(now()) @map("created_at")
 
   scores             Score[]
