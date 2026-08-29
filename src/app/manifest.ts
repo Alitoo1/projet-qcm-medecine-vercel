@@ -2,12 +2,12 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'QCM Médecine — FMP Fès / USMBA',
-    short_name: 'QCM Médecine',
-    description: "Plateforme d'entraînement aux QCM pour étudiants en médecine",
+    name: 'QCMed — Examens & QCM de Médecine',
+    short_name: 'QCMed',
+    description: "Plateforme d'excellence pour préparer vos examens de médecine",
     start_url: '/',
     display: 'standalone',
-    background_color: '#0f172a',
+    background_color: '#090d16',
     theme_color: '#0d9488',
     icons: [
       {

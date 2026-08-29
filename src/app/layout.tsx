@@ -9,8 +9,8 @@ import { Footer } from '@/components/layout/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Medix — QCM & Examens de Médecine',
-  description: "Plateforme d'entraînement aux examens et QCM pour étudiants en médecine",
+  title: 'QCMed — Plateforme de Révision & Examens de Médecine',
+  description: "Préparez vos examens médicaux, QCM, QCU et annales officielles avec QCMed. Conçu spécialement pour les étudiants en médecine.",
   manifest: '/manifest.webmanifest',
 }
 

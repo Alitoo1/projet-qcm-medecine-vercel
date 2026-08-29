@@ -175,26 +175,27 @@ export function TreeView({ semestres }: TreeViewProps) {
               )}
             </div>
 
-            <div className="p-4 rounded-xl bg-teal-50 dark:bg-teal-950/50 border border-teal-200 dark:border-teal-900/50 space-y-1 text-center">
-              <div className="text-2xl font-extrabold text-teal-700 dark:text-teal-300">
+            <div className="p-5 rounded-2xl bg-gradient-to-br from-teal-50 to-emerald-50 dark:from-teal-950/60 dark:to-emerald-950/60 border border-teal-200/80 dark:border-teal-900/60 space-y-1 text-center shadow-xs">
+              <div className="text-3xl font-extrabold bg-gradient-to-r from-teal-700 to-emerald-600 dark:from-teal-300 dark:to-emerald-300 bg-clip-text text-transparent">
                 {selectedCours.nbQuestions}
               </div>
-              <div className="text-xs text-teal-800 dark:text-teal-400 font-medium">
+              <div className="text-xs text-teal-900/80 dark:text-teal-300/80 font-semibold">
                 Questions disponibles pour ce cours
               </div>
             </div>
 
             <Link
               href={`/quiz?cours=${selectedCours.id}`}
-              className="w-full py-3 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-sm shadow-xs transition flex items-center justify-center gap-2"
+              className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-sm shadow-md shadow-teal-500/20 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
             >
-              Lancer l&apos;entraînement →
+              <span>Lancer l&apos;entraînement</span>
+              <span>🚀</span>
             </Link>
           </div>
         ) : (
-          <div className="p-8 text-center text-slate-400 text-xs space-y-2 border border-dashed border-slate-200 dark:border-slate-800 rounded-xl">
-            <span className="text-3xl block">👆</span>
-            <span>Sélectionnez un cours dans l&apos;arborescence pour voir ses détails et démarrer un quiz.</span>
+          <div className="p-8 text-center text-slate-400 text-xs space-y-3 border-2 border-dashed border-slate-200 dark:border-slate-800 rounded-2xl">
+            <span className="text-4xl block animate-bounce">👈</span>
+            <span className="leading-relaxed block font-medium">Sélectionnez un cours dans l&apos;arborescence pour voir ses détails et démarrer votre session QCM.</span>
           </div>
         )}
       </div>

@@ -5,31 +5,36 @@
   --brand-hover: #0f766e;
 }
 
-/* ── Dark Mode overrides matching legacy theme ── */
+/* ── Smooth Scroll & Typography ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Dark Mode Overrides ── */
 html.dark {
   color-scheme: dark;
-  background-color: #0f172a;
+  background-color: #090d16;
   color: #f1f5f9;
 }
 
 html.dark body {
-  background-color: #0f172a;
+  background-color: #090d16;
   color: #f1f5f9;
 }
 
 /* Dark mode utility adaptors */
 html.dark .bg-white {
-  background-color: #1e293b !important;
+  background-color: #111827 !important;
 }
 
 html.dark .bg-slate-50,
 html.dark .bg-gray-50 {
-  background-color: #0f172a !important;
+  background-color: #090d16 !important;
 }
 
 html.dark .bg-slate-100,
 html.dark .bg-gray-100 {
-  background-color: #334155 !important;
+  background-color: #1f293d !important;
 }
 
 html.dark .text-slate-900,
@@ -55,23 +60,55 @@ html.dark .border-slate-200,
 html.dark .border-slate-100,
 html.dark .border-gray-200,
 html.dark .border-gray-100 {
-  border-color: #334155 !important;
+  border-color: #1e293b !important;
 }
 
 html.dark input,
 html.dark select,
 html.dark textarea {
-  background-color: #1e293b !important;
+  background-color: #111827 !important;
   color: #f8fafc !important;
-  border-color: #475569 !important;
+  border-color: #334155 !important;
 }
 
-/* Animations */
+/* ── Animations & Aesthetic Glows ── */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
+  from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
 .animate-fade-in {
-  animation: fadeIn 0.25s ease-out forwards;
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.glow-mesh {
+  background: radial-gradient(circle at 50% 0%, rgba(20, 184, 166, 0.15), transparent 70%);
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }

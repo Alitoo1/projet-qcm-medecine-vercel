@@ -81,12 +81,16 @@ export default function InscriptionPage() {
 
   return (
     <div className="flex-1 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-lg w-full space-y-6 bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-        <div className="text-center space-y-2">
-          <span className="text-4xl">📝</span>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Inscription Étudiant</h1>
-          <p className="text-sm text-slate-600 dark:text-slate-400">
-            Rejoignez la communauté des étudiants en médecine
+      <div className="max-w-lg w-full space-y-6 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-8 sm:p-10 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 shadow-xl shadow-teal-500/5 animate-fade-in">
+        <div className="text-center space-y-2.5">
+          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-teal-600 to-emerald-400 text-white flex items-center justify-center text-2xl mx-auto shadow-md shadow-teal-500/20">
+            🩺
+          </div>
+          <h1 className="text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+            Inscription à <span className="text-teal-600">QCMed</span>
+          </h1>
+          <p className="text-xs text-slate-500 dark:text-slate-400">
+            Rejoignez la plateforme d&apos;excellence pour vos révisions médicales
           </p>
         </div>
 

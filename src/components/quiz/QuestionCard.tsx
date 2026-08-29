@@ -105,39 +105,41 @@ export function QuestionCard({
 
       {/* Liste des propositions */}
       <div className="space-y-3 pt-2">
-        {question.propositions.map((p) => {
+        {question.propositions.map((p, index) => {
           const isSelected = selectedAnswers.includes(p.i)
-          let stateStyle = 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
+          const optionLetter = String.fromCharCode(65 + index) // A, B, C, D, E...
+          let stateStyle = 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white/50 dark:bg-slate-900/50'
 
           if (checkResult) {
             const isCorrectAnswer = checkResult.bonnes_reponses.includes(p.i)
             if (isCorrectAnswer) {
-              stateStyle = 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 text-emerald-900 dark:text-emerald-200'
+              stateStyle = 'bg-emerald-50/90 dark:bg-emerald-950/70 border-emerald-500 text-emerald-900 dark:text-emerald-200 font-semibold'
             } else if (isSelected) {
-              stateStyle = 'bg-red-50 dark:bg-red-950/60 border-red-500 text-red-900 dark:text-red-200'
+              stateStyle = 'bg-rose-50/90 dark:bg-rose-950/70 border-rose-500 text-rose-900 dark:text-rose-200 font-semibold'
             } else {
-              stateStyle = 'opacity-60 border-slate-200 dark:border-slate-800'
+              stateStyle = 'opacity-50 border-slate-200 dark:border-slate-800'
             }
           } else if (isSelected) {
-            stateStyle = 'bg-teal-50 dark:bg-teal-950/60 border-teal-600 text-teal-900 dark:text-teal-200 font-semibold shadow-xs'
+            stateStyle = 'bg-teal-50/90 dark:bg-teal-950/70 border-teal-600 text-teal-900 dark:text-teal-200 font-semibold shadow-xs'
           }
 
           return (
             <div
               key={p.i}
               onClick={() => handleOptionClick(p.i)}
-              className={`flex items-start gap-3 p-4 rounded-xl border text-sm transition cursor-pointer select-none ${stateStyle}`}
+              className={`flex items-start gap-3.5 p-4 rounded-2xl border text-sm transition-all duration-150 cursor-pointer select-none ${stateStyle}`}
             >
+              {/* Badge de lettre A, B, C, D... */}
               <div
-                className={`w-5 h-5 rounded-${isQCU ? 'full' : 'md'} border flex items-center justify-center text-xs font-bold mt-0.5 shrink-0 transition ${
+                className={`w-6 h-6 ${isQCU ? 'rounded-full' : 'rounded-lg'} border flex items-center justify-center text-xs font-bold shrink-0 transition ${
                   isSelected
-                    ? 'bg-teal-600 border-teal-600 text-white'
-                    : 'border-slate-300 dark:border-slate-600'
+                    ? 'bg-teal-600 border-teal-600 text-white shadow-xs'
+                    : 'border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
                 }`}
               >
-                {isSelected && (isQCU ? '•' : '✓')}
+                {isSelected ? (isQCU ? '•' : '✓') : optionLetter}
               </div>
-              <span className="leading-normal">{p.t}</span>
+              <span className="leading-relaxed pt-0.5">{p.t}</span>
             </div>
           )
         })}
@@ -150,34 +152,58 @@ export function QuestionCard({
             type="button"
             onClick={handleCheck}
             disabled={checking || selectedAnswers.length === 0}
-            className="px-5 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 disabled:opacity-50 text-white font-semibold text-xs transition cursor-pointer"
+            className="px-6 py-3 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 disabled:opacity-40 text-white font-bold text-xs shadow-md shadow-teal-500/20 transition transform hover:-translate-y-0.5 cursor-pointer disabled:cursor-not-allowed"
           >
-            {checking ? 'Vérification...' : 'Vérifier ma réponse'}
+            {checking ? 'Vérification en cours...' : 'Vérifier ma réponse 💡'}
           </button>
         </div>
       )}
 
-      {/* Explication après vérification */}
+      {/* Résultat de la vérification instantanée */}
       {checkResult && (
-        <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 space-y-2 text-xs leading-relaxed animate-fade-in">
-          <div className="font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
-            <span>{checkResult.correct ? '✅ Bonne réponse !' : '❌ Réponse incorrecte.'}</span>
+        <div
+          className={`p-5 rounded-2xl border text-xs space-y-2 animate-fade-in ${
+            checkResult.correct
+              ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-200 dark:border-emerald-900 text-emerald-900 dark:text-emerald-200'
+              : 'bg-rose-50 dark:bg-rose-950/60 border-rose-200 dark:border-rose-900 text-rose-900 dark:text-rose-200'
+          }`}
+        >
+          <div className="font-extrabold text-sm flex items-center gap-2">
+            <span>{checkResult.correct ? '✅ Excellente réponse !' : '❌ Réponse incorrecte'}</span>
           </div>
+
           {checkResult.explication && (
-            <p className="text-slate-600 dark:text-slate-300 whitespace-pre-line">
-              {checkResult.explication}
-            </p>
+            <div className="pt-2 border-t border-emerald-200/50 dark:border-emerald-900/50 leading-relaxed space-y-1">
+              <span className="font-bold">💡 Explication médicale :</span>
+              <p className="whitespace-pre-line text-slate-800 dark:text-slate-200 font-normal">
+                {checkResult.explication}
+              </p>
+            </div>
           )}
         </div>
       )}
 
-      {/* Note personnelle */}
-      <div className="pt-2 border-t border-slate-100 dark:border-slate-800">
-        <NoteWidget
-          questionType="qcm"
-          questionId={question.id}
-          initialNote={question.note}
-        />
+      {/* Widgets Favoris, Notes privées & Signalement */}
+      <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-slate-100 dark:border-slate-800/80">
+        <div className="flex items-center gap-3">
+          <FavoriteButton
+            questionType="qcm"
+            questionId={question.id}
+            initialFavori={question.favori}
+          />
+          <ReportWidget
+            questionType="qcm"
+            questionId={question.id}
+          />
+        </div>
+
+        <div className="flex-1 max-w-sm">
+          <NoteWidget
+            questionType="qcm"
+            questionId={question.id}
+            initialNote={question.note}
+          />
+        </div>
       </div>
     </div>
   )

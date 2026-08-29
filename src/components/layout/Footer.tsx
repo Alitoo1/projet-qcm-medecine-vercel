@@ -6,8 +6,10 @@ export function Footer() {
   return (
     <footer className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 text-sm text-slate-500 dark:text-slate-400 mt-auto transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p>
-          © {year} Medix — FMP Fès / USMBA. Tous droits réservés.
+        <p className="flex items-center gap-1.5 font-medium">
+          <span>© {year}</span>
+          <span className="font-bold text-slate-900 dark:text-white">QC<span className="text-teal-600">Med</span></span>
+          <span>— Faculté de Médecine et de Pharmacie • Tous droits réservés.</span>
         </p>
         <div className="flex items-center gap-4">
           <Link

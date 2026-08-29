@@ -17,17 +17,22 @@ export function Header({ pendingReportsCount = 0 }: { pendingReportsCount?: numb
   const isActive = (path: string) => pathname === path
 
   return (
-    <header className="sticky top-0 z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs transition-colors">
+    <header className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800/80 shadow-xs transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo & Titre */}
         <div className="flex items-center gap-3">
           <Link href={user ? '/tableau-de-bord' : '/'} className="flex items-center gap-2.5 group">
-            <span className="w-9 h-9 rounded-lg bg-teal-600 text-white flex items-center justify-center font-bold text-lg shadow-sm group-hover:bg-teal-700 transition">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-600 to-emerald-400 text-white flex items-center justify-center font-bold text-xl shadow-md shadow-teal-500/20 group-hover:scale-105 transition transform">
               🩺
-            </span>
-            <span className="font-extrabold text-slate-900 dark:text-white text-xl tracking-tight">
-              Med<span className="text-teal-600">ix</span>
-            </span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span className="font-extrabold text-slate-900 dark:text-white text-2xl tracking-tight">
+                QC<span className="bg-gradient-to-r from-teal-500 to-emerald-400 bg-clip-text text-transparent">Med</span>
+              </span>
+              <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300 border border-teal-200 dark:border-teal-800">
+                PRO
+              </span>
+            </div>
           </Link>
         </div>
 
