@@ -1,13 +1,14 @@
 'use client'
 
-import { useState, Suspense } from 'react'
-import { signIn } from 'next-auth/react'
+import { useState, useEffect, Suspense } from 'react'
+import { signIn, useSession } from 'next-auth/react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { LogoIcon } from '@/components/brand/Logo'
 
 function ConnexionForm() {
   const router = useRouter()
+  const { data: session, status } = useSession()
   const searchParams = useSearchParams()
   const callbackUrl = searchParams.get('callbackUrl') || '/tableau-de-bord'
   const verified = searchParams.get('verified') === '1'
@@ -17,6 +18,20 @@ function ConnexionForm() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    if (status === 'authenticated') {
+      router.replace('/tableau-de-bord')
+    }
+  }, [status, router])
+
+  if (status === 'authenticated') {
+    return (
+      <div className="flex-1 flex items-center justify-center p-12 text-sm text-slate-500 font-semibold">
+        Redirection vers votre tableau de bord...
+      </div>
+    )
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

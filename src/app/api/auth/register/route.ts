@@ -3,6 +3,7 @@ import { z } from 'zod'
 import bcrypt from 'bcryptjs'
 import { prisma } from '@/lib/prisma'
 import { sendWelcomeEmail } from '@/lib/email'
+import { auth } from '@/lib/auth'
 
 const registerSchema = z.object({
   prenom: z.string().min(2, 'Le prénom doit contenir au moins 2 caractères'),
@@ -14,6 +15,14 @@ const registerSchema = z.object({
 
 export async function POST(req: Request) {
   try {
+    const session = await auth()
+    if (session?.user) {
+      return NextResponse.json(
+        { error: 'Vous êtes déjà connecté avec un compte. Déconnectez-vous pour créer un nouveau compte.' },
+        { status: 400 }
+      )
+    }
+
     const body = await req.json()
     const parsed = registerSchema.safeParse(body)
 

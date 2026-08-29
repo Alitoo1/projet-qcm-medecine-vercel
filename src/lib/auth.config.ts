@@ -21,6 +21,18 @@ export const authConfig = {
         '/admin',
       ].some((route) => nextUrl.pathname.startsWith(route))
 
+      const isAuthRoute = [
+        '/connexion',
+        '/inscription',
+        '/mot-de-passe-oublie',
+        '/reinitialiser',
+      ].some((route) => nextUrl.pathname.startsWith(route))
+
+      // Si l'utilisateur est déjà connecté et tente d'accéder aux pages d'authentification
+      if (isAuthRoute && isLoggedIn) {
+        return Response.redirect(new URL('/tableau-de-bord', nextUrl))
+      }
+
       if (isProtected) {
         if (isLoggedIn) {
           if (nextUrl.pathname.startsWith('/admin') && auth.user.role !== 'admin') {
