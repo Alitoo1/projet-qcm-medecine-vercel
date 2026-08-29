@@ -41,30 +41,17 @@ export default function MentionsLegalesPage() {
           </ul>
         </section>
 
-        {/* 3. Propriété Intellectuelle, Anti-Scraping & Notice and Takedown */}
+        {/* 3. Propriété Intellectuelle */}
         <section className="space-y-3">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <span>📖</span> 3. Propriété Intellectuelle, Protection Anti-Pillage & Retrait
+            <span>📖</span> 3. Propriété Intellectuelle
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-            L&apos;architecture logicielle, le design, l&apos;arborescence, les synthèses et les explications détaillées rédigées sur la plateforme sont la propriété intellectuelle exclusive de <strong>QCMed</strong>.
+            L&apos;ensemble des éléments constituant la plateforme <strong>QCMed</strong> (notamment l&apos;architecture logicielle, les designs, logos, interfaces, bases de données, synthèses et explications pédagogiques) est protégé par les lois relatives à la propriété intellectuelle.
           </p>
-          <ul className="list-disc pl-5 text-sm text-slate-600 dark:text-slate-300 space-y-1.5 leading-relaxed font-normal">
-            <li>
-              <strong>Interdiction de reproduction :</strong> Toute extraction automatisée (scraping), capture massive, redistribution ou revente des contenus sous forme de fichiers PDF, banques de données ou canaux tiers (WhatsApp, Telegram, etc.) est strictement interdite et passible de poursuites.
-            </li>
-            <li>
-              <strong>Annales & Courte citation :</strong> Les énoncés issus d&apos;annales sont cités à titre d&apos;illustration et d&apos;entraînement pédagogique individuel.
-            </li>
-          </ul>
-          <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 text-xs text-slate-600 dark:text-slate-300 space-y-1.5 leading-relaxed font-normal">
-            <p className="font-bold text-slate-900 dark:text-white">
-              🛡️ Procédure de retrait pour ayant droit (Notice & Takedown) :
-            </p>
-            <p>
-              Si un enseignant, auteur ou ayant droit légitime souhaite le retrait d&apos;un sujet ou d&apos;une ressource spécifique lui appartenant, il lui suffit d&apos;adresser une simple demande écrite via notre formulaire de suggestion ou par email. Le contenu concerné sera examiné et retiré sans délai.
-            </p>
-          </div>
+          <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+            Toute reproduction, représentation, diffusion ou exploitation, totale ou partielle, de ces éléments sous quelque forme que ce soit sans autorisation préalable expresse est strictement interdite.
+          </p>
         </section>
 
         {/* 4. Non-Responsabilité Médicale */}
