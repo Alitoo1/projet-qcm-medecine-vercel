@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { auth } from '@/lib/auth'
 import { InteractiveDemo } from '@/components/home/InteractiveDemo'
 
+export const dynamic = 'force-dynamic'
+
 export default async function HomePage() {
   const session = await auth()
   const user = session?.user
