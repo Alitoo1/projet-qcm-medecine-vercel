@@ -114,7 +114,31 @@ export async function GET(req: Request) {
           const hasAccess = await userHasSemestreAccess(user.id, semId, user.role === 'admin')
           if (!hasAccess) continue // Ignorer les questions des semestres verrouillés
         }
+
         accessibleQcm.push(q)
+      }
+
+      // Trier par ordre naturel du document si les IDs ne sont pas spécifiés
+      if (!idsParam) {
+        accessibleQcm.sort((a, b) => {
+          const matchNumA = a.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
+          const numA = matchNumA ? parseInt(matchNumA[1] || matchNumA[2], 10) : 99999
+
+          const matchNumB = b.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
+          const numB = matchNumB ? parseInt(matchNumB[1] || matchNumB[2], 10) : 99999
+
+          if (numA !== numB) return numA - numB
+
+          const matchBlockA = a.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
+          const blockA = matchBlockA ? parseInt(matchBlockA[1], 10) : 0
+
+          const matchBlockB = b.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
+          const blockB = matchBlockB ? parseInt(matchBlockB[1], 10) : 0
+
+          if (blockA !== blockB) return blockA - blockB
+
+          return a.id - b.id
+        })
       }
 
       qcmList = accessibleQcm.map((q) => {

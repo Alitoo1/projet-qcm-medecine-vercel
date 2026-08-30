@@ -161,6 +161,31 @@ export function QuestionsManagerClient({
       }
 
       return true
+    }).sort((a, b) => {
+      // 1. D'abord par cours si sélection globale
+      if (a.coursId !== b.coursId) {
+        return (a.coursId || 0) - (b.coursId || 0)
+      }
+
+      // 2. Extraire le numéro de question (ex: "1-", "12-", "QR 1 :")
+      const matchNumA = a.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
+      const numA = matchNumA ? parseInt(matchNumA[1] || matchNumA[2], 10) : 99999
+
+      const matchNumB = b.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
+      const numB = matchNumB ? parseInt(matchNumB[1] || matchNumB[2], 10) : 99999
+
+      if (numA !== numB) return numA - numB
+
+      // 3. Extraire le numéro de bloc (ex: "(bloc 1/3)" -> 1)
+      const matchBlockA = a.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
+      const blockA = matchBlockA ? parseInt(matchBlockA[1], 10) : 0
+
+      const matchBlockB = b.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
+      const blockB = matchBlockB ? parseInt(matchBlockB[1], 10) : 0
+
+      if (blockA !== blockB) return blockA - blockB
+
+      return a.id - b.id
     })
   }, [questions, selectedSemestreId, selectedModuleId, selectedSousModuleId, selectedCoursId, searchQuery])
 
