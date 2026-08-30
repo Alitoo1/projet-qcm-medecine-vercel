@@ -8,19 +8,27 @@ export const dynamic = 'force-dynamic'
 export default async function AdminQuestionsPage() {
   await requireAdmin()
 
-  const [coursRaw, partiesList, allQcms] = await Promise.all([
-    prisma.cours.findMany({
-      orderBy: [{ sousModule: { module: { nom: 'asc' } } }, { ordre: 'asc' }, { titre: 'asc' }],
+  const [semestresHierarchy, partiesList, allQcms] = await Promise.all([
+    prisma.semestre.findMany({
+      orderBy: { ordre: 'asc' },
       include: {
-        sousModule: {
+        modules: {
+          orderBy: { ordre: 'asc' },
           include: {
-            module: {
-              select: { nom: true },
+            sousModules: {
+              orderBy: { ordre: 'asc' },
+              include: {
+                cours: {
+                  orderBy: { ordre: 'asc' },
+                  include: {
+                    _count: {
+                      select: { questionsQcm: true, questionsRedaction: true },
+                    },
+                  },
+                },
+              },
             },
           },
-        },
-        _count: {
-          select: { questionsQcm: true, questionsRedaction: true },
         },
       },
     }),
@@ -36,7 +44,11 @@ export default async function AdminQuestionsPage() {
             sousModule: {
               include: {
                 module: {
-                  select: { nom: true },
+                  include: {
+                    semestre: {
+                      select: { id: true, nom: true },
+                    },
+                  },
                 },
               },
             },
@@ -47,12 +59,35 @@ export default async function AdminQuestionsPage() {
     }),
   ])
 
-  const coursList = coursRaw.map((c) => ({
-    id: c.id,
-    titre: c.titre,
-    moduleNom: c.sousModule?.module?.nom,
-    count: c._count.questionsQcm + c._count.questionsRedaction,
+  const hierarchy = semestresHierarchy.map((s) => ({
+    id: s.id,
+    nom: s.nom,
+    modules: s.modules.map((m) => ({
+      id: m.id,
+      nom: m.nom,
+      sousModules: m.sousModules.map((sm) => ({
+        id: sm.id,
+        nom: sm.nom,
+        cours: sm.cours.map((c) => ({
+          id: c.id,
+          titre: c.titre,
+          count: c._count.questionsQcm + c._count.questionsRedaction,
+        })),
+      })),
+    })),
   }))
+
+  const allCoursFlat = semestresHierarchy.flatMap((s) =>
+    s.modules.flatMap((m) =>
+      m.sousModules.flatMap((sm) =>
+        sm.cours.map((c) => ({
+          id: c.id,
+          titre: c.titre,
+          moduleNom: m.nom,
+        }))
+      )
+    )
+  )
 
   async function addQcm(formData: FormData) {
     'use server'
@@ -130,10 +165,10 @@ export default async function AdminQuestionsPage() {
         </div>
       </div>
 
-      {/* Gestionnaire Interactif des questions existantes */}
+      {/* Gestionnaire Interactif des questions existantes avec filtres hiérarchiques */}
       <QuestionsManagerClient
         initialQuestions={formattedQuestions}
-        coursList={coursList}
+        hierarchy={hierarchy}
       />
 
       {/* Formulaire Ajouter Manuellement */}
@@ -153,7 +188,7 @@ export default async function AdminQuestionsPage() {
                 className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs"
               >
                 <option value="">Sélectionner un cours...</option>
-                {coursList.map((c) => (
+                {allCoursFlat.map((c) => (
                   <option key={c.id} value={c.id}>
                     {c.moduleNom ? `[${c.moduleNom}] ` : ''}
                     {c.titre}
