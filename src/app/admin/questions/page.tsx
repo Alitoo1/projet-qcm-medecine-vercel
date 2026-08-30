@@ -1,25 +1,58 @@
 import { prisma } from '@/lib/prisma'
 import { requireAdmin } from '@/lib/auth-utils'
 import { revalidatePath } from 'next/cache'
+import { QuestionsManagerClient } from '@/components/admin/QuestionsManagerClient'
+
+export const dynamic = 'force-dynamic'
 
 export default async function AdminQuestionsPage() {
   await requireAdmin()
 
-  const [coursList, partiesList, qcms] = await Promise.all([
+  const [coursRaw, partiesList, allQcms] = await Promise.all([
     prisma.cours.findMany({
-      orderBy: { titre: 'asc' },
-      select: { id: true, titre: true },
+      orderBy: [{ sousModule: { module: { nom: 'asc' } } }, { ordre: 'asc' }, { titre: 'asc' }],
+      include: {
+        sousModule: {
+          include: {
+            module: {
+              select: { nom: true },
+            },
+          },
+        },
+        _count: {
+          select: { questionsQcm: true, questionsRedaction: true },
+        },
+      },
     }),
     prisma.examenPartie.findMany({
       orderBy: { id: 'asc' },
       include: { examen: true },
     }),
     prisma.questionQcm.findMany({
-      take: 50,
-      orderBy: { createdAt: 'desc' },
-      include: { cours: true, partie: { include: { examen: true } } },
+      orderBy: [{ coursId: 'asc' }, { id: 'asc' }],
+      include: {
+        cours: {
+          include: {
+            sousModule: {
+              include: {
+                module: {
+                  select: { nom: true },
+                },
+              },
+            },
+          },
+        },
+        partie: { include: { examen: true } },
+      },
     }),
   ])
+
+  const coursList = coursRaw.map((c) => ({
+    id: c.id,
+    titre: c.titre,
+    moduleNom: c.sousModule?.module?.nom,
+    count: c._count.questionsQcm + c._count.questionsRedaction,
+  }))
 
   async function addQcm(formData: FormData) {
     'use server'
@@ -70,28 +103,43 @@ export default async function AdminQuestionsPage() {
     revalidatePath('/admin/questions')
   }
 
-  async function deleteQcm(id: number) {
-    'use server'
-    await requireAdmin()
-    await prisma.questionQcm.delete({ where: { id } })
-    revalidatePath('/admin/questions')
-  }
+  const formattedQuestions = allQcms.map((q) => ({
+    id: q.id,
+    type: q.type,
+    enonce: q.enonce,
+    propositions: (Array.isArray(q.propositions) ? q.propositions : []) as {
+      i: number
+      t: string
+      c: boolean
+    }[],
+    explication: q.explication,
+    coursId: q.coursId,
+    cours: q.cours,
+  }))
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
-          Gestion des Questions
-        </h1>
-        <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-          Ajoutez, modifiez ou supprimez des questions manuellement
-        </p>
+    <div className="space-y-8 animate-fade-in">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <span>📝</span> Gestion & Édition des Questions ({allQcms.length})
+          </h1>
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Cochez les bonnes réponses, ajustez les justifications médicales ou ajoutez de nouvelles questions
+          </p>
+        </div>
       </div>
 
-      {/* Formulaire Nouvelle Question */}
+      {/* Gestionnaire Interactif des questions existantes */}
+      <QuestionsManagerClient
+        initialQuestions={formattedQuestions}
+        coursList={coursList}
+      />
+
+      {/* Formulaire Ajouter Manuellement */}
       <div className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
-        <h2 className="text-base font-bold text-slate-900 dark:text-white">
-          ➕ Ajouter une nouvelle question QCM/QCU
+        <h2 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+          <span>➕</span> Ajouter une nouvelle question QCM/QCU manuelle
         </h2>
 
         <form action={addQcm} className="space-y-4">
@@ -107,6 +155,7 @@ export default async function AdminQuestionsPage() {
                 <option value="">Sélectionner un cours...</option>
                 {coursList.map((c) => (
                   <option key={c.id} value={c.id}>
+                    {c.moduleNom ? `[${c.moduleNom}] ` : ''}
                     {c.titre}
                   </option>
                 ))}
@@ -221,40 +270,6 @@ export default async function AdminQuestionsPage() {
             Enregistrer la question
           </button>
         </form>
-      </div>
-
-      {/* Liste des questions récentes */}
-      <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm space-y-4">
-        <h2 className="text-base font-bold text-slate-900 dark:text-white">
-          Questions récentes ({qcms.length})
-        </h2>
-
-        <div className="space-y-3">
-          {qcms.map((q) => (
-            <div
-              key={q.id}
-              className="p-4 rounded-xl border border-slate-100 dark:border-slate-800 space-y-2 flex items-start justify-between gap-4"
-            >
-              <div className="space-y-1">
-                <div className="text-[11px] text-teal-600 font-semibold">
-                  {q.cours?.titre || q.partie?.examen?.titre || 'Général'} • {q.type}
-                </div>
-                <div className="text-xs font-medium text-slate-900 dark:text-white line-clamp-2">
-                  {q.enonce}
-                </div>
-              </div>
-
-              <form action={deleteQcm.bind(null, q.id)}>
-                <button
-                  type="submit"
-                  className="px-2.5 py-1 rounded bg-red-50 hover:bg-red-100 text-red-600 font-semibold text-xs cursor-pointer"
-                >
-                  Supprimer
-                </button>
-              </form>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   )
