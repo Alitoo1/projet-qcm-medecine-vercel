@@ -1,126 +1,44 @@
-'use client'
+import { prisma } from '@/lib/prisma'
+import { requireAdmin } from '@/lib/auth-utils'
+import { AdminImportClient } from '@/components/admin/AdminImportClient'
 
-import { useState } from 'react'
+export const dynamic = 'force-dynamic'
 
-export default function AdminImportPage() {
-  const [jsonText, setJsonText] = useState('')
-  const [loading, setLoading] = useState(false)
-  const [result, setResult] = useState<{ count?: number; error?: string } | null>(null)
+export default async function AdminImportPage() {
+  await requireAdmin()
 
-  const handleImport = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setLoading(true)
-    setResult(null)
+  const semestres = await prisma.semestre.findMany({
+    orderBy: { ordre: 'asc' },
+    include: {
+      modules: {
+        orderBy: { ordre: 'asc' },
+        include: {
+          sousModules: {
+            orderBy: { ordre: 'asc' },
+            include: {
+              cours: {
+                orderBy: { ordre: 'asc' },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
 
-    try {
-      let parsedData: unknown
-      try {
-        parsedData = JSON.parse(jsonText)
-      } catch {
-        setResult({ error: 'Le format JSON est invalide.' })
-        setLoading(false)
-        return
-      }
-
-      const res = await fetch('/api/admin/import', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ data: parsedData }),
-      })
-
-      const resData = await res.json()
-      if (res.ok) {
-        setResult({ count: resData.count })
-        setJsonText('')
-      } else {
-        setResult({ error: resData.error || 'Erreur lors de l&apos;importation.' })
-      }
-    } catch {
-      setResult({ error: 'Erreur réseau lors de l&apos;import.' })
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  return (
-    <div className="max-w-3xl mx-auto space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
-          Import de Questions en Masse (JSON)
-        </h1>
-        <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-          Collez votre fichier JSON structuré pour insérer automatiquement des séries de QCM
-        </p>
-      </div>
-
-      <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4">
-        {result?.count !== undefined && (
-          <div className="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 text-xs font-semibold">
-            ✅ {result.count} question(s) importée(s) avec succès dans la base de données !
-          </div>
-        )}
-
-        {result?.error && (
-          <div className="p-4 rounded-xl bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 text-xs font-semibold">
-            ⚠️ {result.error}
-          </div>
-        )}
-
-        <form onSubmit={handleImport} className="space-y-4">
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300">
-              Contenu JSON des questions
-            </label>
-            <label className="cursor-pointer text-xs font-semibold text-teal-600 hover:text-teal-700 bg-teal-50 dark:bg-teal-950 px-3 py-1 rounded-lg border border-teal-200 dark:border-teal-800">
-              📁 Charger un fichier .json
-              <input
-                type="file"
-                accept=".json,application/json"
-                className="hidden"
-                onChange={(e) => {
-                  const file = e.target.files?.[0]
-                  if (file) {
-                    const reader = new FileReader()
-                    reader.onload = (event) => {
-                      setJsonText((event.target?.result as string) || '')
-                    }
-                    reader.readAsText(file)
-                  }
-                }}
-              />
-            </label>
-          </div>
-          <div>
-            <textarea
-              required
-              rows={14}
-              value={jsonText}
-              onChange={(e) => setJsonText(e.target.value)}
-              placeholder={`[
-  {
-    "cours_id": 1,
-    "type": "QCU",
-    "enonce": "Quelle est la principale artère du bras ?",
-    "propositions": [
-      { "t": "Artère brachiale", "c": true },
-      { "t": "Artère fémorale", "c": false }
-    ],
-    "explication": "L'artère brachiale fait suite à l'artère axillaire."
-  }
-]`}
-              className="w-full font-mono text-xs p-3.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-slate-900 dark:text-white focus:ring-2 focus:ring-teal-500 focus:outline-none"
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={loading || !jsonText.trim()}
-            className="w-full py-3.5 rounded-xl bg-teal-600 hover:bg-teal-700 disabled:opacity-50 text-white font-bold text-sm shadow-xs transition cursor-pointer"
-          >
-            {loading ? 'Importation en cours...' : 'Lancer l&apos;importation des questions'}
-          </button>
-        </form>
-      </div>
-    </div>
+  const coursesFlat = semestres.flatMap((s) =>
+    s.modules.flatMap((m) =>
+      m.sousModules.flatMap((sm) =>
+        sm.cours.map((c) => ({
+          id: c.id,
+          titre: c.titre,
+          sousModuleNom: sm.nom,
+          moduleNom: m.nom,
+          semestreNom: s.nom,
+        }))
+      )
+    )
   )
+
+  return <AdminImportClient courses={coursesFlat} />
 }
