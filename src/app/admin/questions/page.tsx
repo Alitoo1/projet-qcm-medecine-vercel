@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic'
 export default async function AdminQuestionsPage() {
   await requireAdmin()
 
-  const [semestresHierarchy, partiesList, allQcms] = await Promise.all([
+  const [semestresHierarchy, partiesList, allQcms, allRedactions] = await Promise.all([
     prisma.semestre.findMany({
       orderBy: { ordre: 'asc' },
       include: {
@@ -37,6 +37,27 @@ export default async function AdminQuestionsPage() {
       include: { examen: true },
     }),
     prisma.questionQcm.findMany({
+      orderBy: [{ coursId: 'asc' }, { id: 'asc' }],
+      include: {
+        cours: {
+          include: {
+            sousModule: {
+              include: {
+                module: {
+                  include: {
+                    semestre: {
+                      select: { id: true, nom: true },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+        partie: { include: { examen: true } },
+      },
+    }),
+    prisma.questionRedactionnelle.findMany({
       orderBy: [{ coursId: 'asc' }, { id: 'asc' }],
       include: {
         cours: {
@@ -89,6 +110,42 @@ export default async function AdminQuestionsPage() {
     )
   )
 
+  const formattedQcms = allQcms.map((q) => ({
+    id: q.id,
+    questionType: 'qcm' as const,
+    type: q.type,
+    enonce: q.enonce,
+    propositions: (Array.isArray(q.propositions) ? q.propositions : []) as {
+      i: number
+      t: string
+      c: boolean
+    }[],
+    reponseModele: null,
+    motsCles: [],
+    explication: q.explication,
+    images: (Array.isArray(q.images) ? (q.images as string[]) : []) as string[],
+    coursId: q.coursId,
+    cours: q.cours,
+  }))
+
+  const formattedRedactions = allRedactions.map((r) => ({
+    id: r.id,
+    questionType: 'redaction' as const,
+    type: 'Rédactionnelle',
+    enonce: r.enonce,
+    propositions: [],
+    reponseModele: r.reponseModele,
+    motsCles: (Array.isArray(r.motsCles) ? (r.motsCles as string[]) : []) as string[],
+    explication: null,
+    images: (Array.isArray(r.images) ? (r.images as string[]) : []) as string[],
+    coursId: r.coursId,
+    cours: r.cours,
+  }))
+
+  const formattedQuestions = [...formattedQcms, ...formattedRedactions]
+
+  const totalAllQuestions = allQcms.length + allRedactions.length
+
   async function addQcm(formData: FormData) {
     'use server'
     await requireAdmin()
@@ -138,30 +195,15 @@ export default async function AdminQuestionsPage() {
     revalidatePath('/admin/questions')
   }
 
-  const formattedQuestions = allQcms.map((q) => ({
-    id: q.id,
-    type: q.type,
-    enonce: q.enonce,
-    propositions: (Array.isArray(q.propositions) ? q.propositions : []) as {
-      i: number
-      t: string
-      c: boolean
-    }[],
-    explication: q.explication,
-    images: (Array.isArray(q.images) ? (q.images as string[]) : []) as string[],
-    coursId: q.coursId,
-    cours: q.cours,
-  }))
-
   return (
     <div className="space-y-8 animate-fade-in">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <span>📝</span> Gestion & Édition des Questions ({allQcms.length})
+            <span>📝</span> Gestion & Édition des Questions ({totalAllQuestions})
           </h1>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Cochez les bonnes réponses, ajustez les justifications médicales ou ajoutez de nouvelles questions
+            Gérez et corrigez les QCM, QCU et Questions Rédactionnelles (QR)
           </p>
         </div>
       </div>

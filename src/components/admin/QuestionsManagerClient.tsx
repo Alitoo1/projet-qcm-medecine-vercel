@@ -10,10 +10,13 @@ interface Proposition {
 
 export interface QuestionItem {
   id: number
-  type: string
+  questionType: 'qcm' | 'redaction'
+  type: string // 'QCU' | 'QCM' | 'Rédactionnelle'
   enonce: string
-  propositions: Proposition[]
-  explication: string | null
+  propositions?: Proposition[]
+  reponseModele?: string | null
+  motsCles?: string[] | null
+  explication?: string | null
   images?: string[] | null
   coursId: number | null
   cours?: {
@@ -64,21 +67,26 @@ export function QuestionsManagerClient({
 }) {
   const [questions, setQuestions] = useState<QuestionItem[]>(initialQuestions)
 
-  // Filtres hiérarchiques
+  // Filtres
+  const [formatFilter, setFormatFilter] = useState<'all' | 'qcm' | 'redaction'>('all')
   const [selectedSemestreId, setSelectedSemestreId] = useState<number | 'all'>('all')
   const [selectedModuleId, setSelectedModuleId] = useState<number | 'all'>('all')
   const [selectedSousModuleId, setSelectedSousModuleId] = useState<number | 'all'>('all')
   const [selectedCoursId, setSelectedCoursId] = useState<number | 'all'>('all')
   const [searchQuery, setSearchQuery] = useState('')
 
-  // État édition
+  // État d'édition
   const [editingId, setEditingId] = useState<number | null>(null)
+  const [editingType, setEditingType] = useState<'qcm' | 'redaction'>('qcm')
   const [editData, setEditData] = useState<{
     enonce: string
     propositions: Proposition[]
+    reponseModele: string
+    motsClesText: string
     explication: string
     images: string[]
   } | null>(null)
+
   const [newImageUrl, setNewImageUrl] = useState('')
   const [uploadingImage, setUploadingImage] = useState(false)
   const [saving, setSaving] = useState(false)
@@ -86,34 +94,32 @@ export function QuestionsManagerClient({
 
   const fileInputRef = useRef<HTMLInputElement>(null)
 
-  // Modules disponibles selon le semestre sélectionné
+  // Modules disponibles
   const availableModules = useMemo(() => {
-    if (selectedSemestreId === 'all') {
-      return hierarchy.flatMap((s) => s.modules)
-    }
+    if (selectedSemestreId === 'all') return hierarchy.flatMap((s) => s.modules)
     const sem = hierarchy.find((s) => s.id === selectedSemestreId)
     return sem ? sem.modules : []
   }, [hierarchy, selectedSemestreId])
 
-  // Sous-modules disponibles selon le module sélectionné
+  // Sous-modules disponibles
   const availableSousModules = useMemo(() => {
-    if (selectedModuleId === 'all') {
-      return availableModules.flatMap((m) => m.sousModules)
-    }
+    if (selectedModuleId === 'all') return availableModules.flatMap((m) => m.sousModules)
     const mod = availableModules.find((m) => m.id === selectedModuleId)
     return mod ? mod.sousModules : []
   }, [availableModules, selectedModuleId])
 
-  // Cours disponibles selon le sous-module sélectionné
+  // Cours disponibles
   const availableCours = useMemo(() => {
-    if (selectedSousModuleId === 'all') {
-      return availableSousModules.flatMap((sm) => sm.cours)
-    }
+    if (selectedSousModuleId === 'all') return availableSousModules.flatMap((sm) => sm.cours)
     const sm = availableSousModules.find((s) => s.id === selectedSousModuleId)
     return sm ? sm.cours : []
   }, [availableSousModules, selectedSousModuleId])
 
-  // Handlers avec cascade
+  // Compteurs globaux
+  const qcmCount = useMemo(() => questions.filter((q) => q.questionType === 'qcm').length, [questions])
+  const redactionCount = useMemo(() => questions.filter((q) => q.questionType === 'redaction').length, [questions])
+
+  // Handlers en cascade
   const handleSemestreChange = (semId: number | 'all') => {
     setSelectedSemestreId(semId)
     setSelectedModuleId('all')
@@ -133,6 +139,7 @@ export function QuestionsManagerClient({
   }
 
   const handleResetFilters = () => {
+    setFormatFilter('all')
     setSelectedSemestreId('all')
     setSelectedModuleId('all')
     setSelectedSousModuleId('all')
@@ -140,62 +147,67 @@ export function QuestionsManagerClient({
     setSearchQuery('')
   }
 
-  // Filtrage des questions
+  // Filtrage et Tri naturel
   const filteredQuestions = useMemo(() => {
-    return questions.filter((q) => {
-      const coursObj = q.cours
-      const sousModObj = coursObj?.sousModule
-      const modObj = sousModObj?.module
-      const semObj = modObj?.semestre
+    return questions
+      .filter((q) => {
+        if (formatFilter !== 'all' && q.questionType !== formatFilter) return false
 
-      if (selectedSemestreId !== 'all' && semObj?.id !== selectedSemestreId) return false
-      if (selectedModuleId !== 'all' && modObj?.id !== selectedModuleId) return false
-      if (selectedSousModuleId !== 'all' && sousModObj?.id !== selectedSousModuleId) return false
-      if (selectedCoursId !== 'all' && coursObj?.id !== selectedCoursId) return false
+        const coursObj = q.cours
+        const sousModObj = coursObj?.sousModule
+        const modObj = sousModObj?.module
+        const semObj = modObj?.semestre
 
-      if (searchQuery.trim()) {
-        const qText = searchQuery.toLowerCase().trim()
-        const matchEnonce = q.enonce.toLowerCase().includes(qText)
-        const matchCours = coursObj?.titre.toLowerCase().includes(qText)
-        if (!matchEnonce && !matchCours) return false
-      }
+        if (selectedSemestreId !== 'all' && semObj?.id !== selectedSemestreId) return false
+        if (selectedModuleId !== 'all' && modObj?.id !== selectedModuleId) return false
+        if (selectedSousModuleId !== 'all' && sousModObj?.id !== selectedSousModuleId) return false
+        if (selectedCoursId !== 'all' && coursObj?.id !== selectedCoursId) return false
 
-      return true
-    }).sort((a, b) => {
-      // 1. D'abord par cours si sélection globale
-      if (a.coursId !== b.coursId) {
-        return (a.coursId || 0) - (b.coursId || 0)
-      }
+        if (searchQuery.trim()) {
+          const qText = searchQuery.toLowerCase().trim()
+          const matchEnonce = q.enonce.toLowerCase().includes(qText)
+          const matchCours = coursObj?.titre.toLowerCase().includes(qText)
+          if (!matchEnonce && !matchCours) return false
+        }
 
-      // 2. Extraire le numéro de question (ex: "1-", "12-", "QR 1 :")
-      const matchNumA = a.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
-      const numA = matchNumA ? parseInt(matchNumA[1] || matchNumA[2], 10) : 99999
+        return true
+      })
+      .sort((a, b) => {
+        if (a.coursId !== b.coursId) {
+          return (a.coursId || 0) - (b.coursId || 0)
+        }
 
-      const matchNumB = b.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
-      const numB = matchNumB ? parseInt(matchNumB[1] || matchNumB[2], 10) : 99999
+        // QCM avant rédactionnelles ou groupé
+        const matchNumA = a.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
+        const numA = matchNumA ? parseInt(matchNumA[1] || matchNumA[2], 10) : 99999
 
-      if (numA !== numB) return numA - numB
+        const matchNumB = b.enonce.match(/(?:^|\s)(\d+)[-.\s]|(?:QR\s*(\d+))/i)
+        const numB = matchNumB ? parseInt(matchNumB[1] || matchNumB[2], 10) : 99999
 
-      // 3. Extraire le numéro de bloc (ex: "(bloc 1/3)" -> 1)
-      const matchBlockA = a.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
-      const blockA = matchBlockA ? parseInt(matchBlockA[1], 10) : 0
+        if (numA !== numB) return numA - numB
 
-      const matchBlockB = b.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
-      const blockB = matchBlockB ? parseInt(matchBlockB[1], 10) : 0
+        const matchBlockA = a.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
+        const blockA = matchBlockA ? parseInt(matchBlockA[1], 10) : 0
 
-      if (blockA !== blockB) return blockA - blockB
+        const matchBlockB = b.enonce.match(/\(bloc\s*(\d+)\/\d+\)/i)
+        const blockB = matchBlockB ? parseInt(matchBlockB[1], 10) : 0
 
-      return a.id - b.id
-    })
-  }, [questions, selectedSemestreId, selectedModuleId, selectedSousModuleId, selectedCoursId, searchQuery])
+        if (blockA !== blockB) return blockA - blockB
+
+        return a.id - b.id
+      })
+  }, [questions, formatFilter, selectedSemestreId, selectedModuleId, selectedSousModuleId, selectedCoursId, searchQuery])
 
   const startEditing = (q: QuestionItem) => {
     setEditingId(q.id)
+    setEditingType(q.questionType)
     setEditData({
       enonce: q.enonce,
       propositions: Array.isArray(q.propositions)
         ? q.propositions.map((p, idx) => ({ i: idx, t: p.t, c: !!p.c }))
         : [],
+      reponseModele: q.reponseModele || '',
+      motsClesText: Array.isArray(q.motsCles) ? q.motsCles.join(', ') : '',
       explication: q.explication || '',
       images: Array.isArray(q.images) ? [...q.images] : [],
     })
@@ -280,14 +292,21 @@ export function QuestionsManagerClient({
     setSaving(true)
 
     try {
+      const motsClesArray = editData.motsClesText
+        .split(',')
+        .map((k) => k.trim())
+        .filter(Boolean)
+
       const res = await fetch('/api/admin/questions/update', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           id,
-          questionType: 'qcm',
+          questionType: editingType,
           enonce: editData.enonce,
           propositions: editData.propositions,
+          reponseModele: editData.reponseModele,
+          motsCles: motsClesArray,
           explication: editData.explication,
           images: editData.images,
         }),
@@ -296,18 +315,21 @@ export function QuestionsManagerClient({
       if (res.ok) {
         const result = await res.json()
         setQuestions((prev) =>
-          prev.map((item) =>
-            item.id === id
-              ? {
-                  ...item,
-                  enonce: editData.enonce,
-                  propositions: editData.propositions,
-                  explication: editData.explication,
-                  images: editData.images,
-                  type: result.question.type,
-                }
-              : item
-          )
+          prev.map((item) => {
+            if (item.id === id && item.questionType === editingType) {
+              return {
+                ...item,
+                enonce: editData.enonce,
+                propositions: editData.propositions,
+                reponseModele: editData.reponseModele,
+                motsCles: motsClesArray,
+                explication: editData.explication,
+                images: editData.images,
+                type: result.question.type || item.type,
+              }
+            }
+            return item
+          })
         )
         setSaveSuccess(id)
         setEditingId(null)
@@ -324,6 +346,7 @@ export function QuestionsManagerClient({
   }
 
   const hasActiveFilters =
+    formatFilter !== 'all' ||
     selectedSemestreId !== 'all' ||
     selectedModuleId !== 'all' ||
     selectedSousModuleId !== 'all' ||
@@ -334,28 +357,54 @@ export function QuestionsManagerClient({
     <div className="space-y-6">
       {/* Panneau de Filtrage Hiérarchique Moderne */}
       <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm space-y-5">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-slate-100 dark:border-slate-800">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-100 dark:border-slate-800">
           <div className="flex items-center gap-2">
             <span className="p-2 rounded-xl bg-teal-50 dark:bg-teal-950 text-teal-600 text-sm">🎯</span>
             <div>
               <h2 className="text-sm font-bold text-slate-900 dark:text-white">
-                Filtre Hiérarchique de l&apos;Arborescence
+                Filtre & Gestion des Questions
               </h2>
               <p className="text-[11px] text-slate-500">
-                Sélectionnez pas à pas le Semestre, Module, Sous-Module puis Cours
+                Gérez à la fois les QCM / QCU et les Questions Rédactionnelles (QR)
               </p>
             </div>
           </div>
 
-          {hasActiveFilters && (
+          {/* Onglets de Format : Tous | QCM | Rédactionnelles */}
+          <div className="flex items-center gap-1.5 p-1 bg-slate-100 dark:bg-slate-950 rounded-2xl border border-slate-200 dark:border-slate-800 self-start sm:self-auto">
             <button
-              onClick={handleResetFilters}
-              className="text-xs text-rose-600 hover:text-rose-700 dark:text-rose-400 font-bold flex items-center gap-1 hover:underline cursor-pointer self-start sm:self-auto"
+              onClick={() => setFormatFilter('all')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
+                formatFilter === 'all'
+                  ? 'bg-white dark:bg-slate-800 text-slate-900 dark:text-white shadow-xs'
+                  : 'text-slate-500 hover:text-slate-900 dark:hover:text-white'
+              }`}
             >
-              <span>↺</span>
-              <span>Réinitialiser les filtres</span>
+              Tous ({questions.length})
             </button>
-          )}
+            <button
+              onClick={() => setFormatFilter('qcm')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1 ${
+                formatFilter === 'qcm'
+                  ? 'bg-teal-600 text-white shadow-xs'
+                  : 'text-slate-500 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              <span>📋</span>
+              <span>QCM / QCU ({qcmCount})</span>
+            </button>
+            <button
+              onClick={() => setFormatFilter('redaction')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1 ${
+                formatFilter === 'redaction'
+                  ? 'bg-purple-600 text-white shadow-xs'
+                  : 'text-slate-500 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              <span>✍️</span>
+              <span>Rédactionnelles ({redactionCount})</span>
+            </button>
+          </div>
         </div>
 
         {/* Grille des 4 sélecteurs en cascade */}
@@ -446,23 +495,33 @@ export function QuestionsManagerClient({
         </div>
 
         {/* Barre de Recherche Texte Complémentaire */}
-        <div className="pt-2">
-          <div className="relative">
+        <div className="flex items-center gap-3 pt-1">
+          <div className="relative flex-1">
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Recherche par mot-clé (ex: macule, érythème, mélanonychie, bulle...)"
+              placeholder="Recherche par mot-clé dans les énoncés..."
               className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-teal-500 focus:outline-none"
             />
             <span className="absolute left-3.5 top-2.5 text-xs text-slate-400">🔍</span>
           </div>
+
+          {hasActiveFilters && (
+            <button
+              onClick={handleResetFilters}
+              className="px-3 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 text-xs text-rose-600 dark:text-rose-400 font-bold flex items-center gap-1 transition cursor-pointer shrink-0"
+            >
+              <span>↺</span>
+              <span>Effacer filtres</span>
+            </button>
+          )}
         </div>
 
         {saveSuccess && (
           <div className="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center gap-2">
             <span>✅</span>
-            <span>La question et ses images ont été enregistrées avec succès !</span>
+            <span>La question a été enregistrée avec succès !</span>
           </div>
         )}
       </div>
@@ -473,7 +532,7 @@ export function QuestionsManagerClient({
           Affichage de <strong className="text-teal-600 dark:text-teal-400">{filteredQuestions.length}</strong> question(s)
           {hasActiveFilters && ' selon vos critères'}
         </span>
-        <span>Cliquez sur « Modifier » pour cocher les bonnes réponses ou ajouter des images</span>
+        <span>Cliquez sur « Modifier » pour éditer les réponses, corrigés ou images</span>
       </div>
 
       {/* Liste des questions */}
@@ -493,7 +552,8 @@ export function QuestionsManagerClient({
           </div>
         ) : (
           filteredQuestions.map((q) => {
-            const isEditing = editingId === q.id
+            const isEditing = editingId === q.id && editingType === q.questionType
+            const isRedaction = q.questionType === 'redaction'
             const correctPropsCount = Array.isArray(q.propositions)
               ? q.propositions.filter((p) => p.c).length
               : 0
@@ -505,10 +565,12 @@ export function QuestionsManagerClient({
 
             return (
               <div
-                key={q.id}
+                key={`${q.questionType}-${q.id}`}
                 className={`p-5 rounded-2xl border transition shadow-xs ${
                   isEditing
-                    ? 'bg-teal-50/20 dark:bg-teal-950/20 border-teal-500 ring-1 ring-teal-500'
+                    ? isRedaction
+                      ? 'bg-purple-50/20 dark:bg-purple-950/20 border-purple-500 ring-1 ring-purple-500'
+                      : 'bg-teal-50/20 dark:bg-teal-950/20 border-teal-500 ring-1 ring-teal-500'
                     : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800'
                 }`}
               >
@@ -536,21 +598,44 @@ export function QuestionsManagerClient({
                           📄 {q.cours.titre}
                         </span>
                       )}
-                      <span className="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold">
-                        {q.type}
-                      </span>
+
+                      {/* Badge Type de question */}
+                      {isRedaction ? (
+                        <span className="px-2.5 py-0.5 rounded-md bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300 font-bold flex items-center gap-1 border border-purple-200/60 dark:border-purple-800">
+                          <span>✍️</span>
+                          <span>Rédactionnelle / QROC</span>
+                        </span>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold">
+                          {q.type}
+                        </span>
+                      )}
+
                       {hasImages && (
                         <span className="px-2 py-0.5 rounded-md bg-purple-50 dark:bg-purple-950 text-purple-700 dark:text-purple-300 font-bold text-[10px] border border-purple-200/50 flex items-center gap-1">
                           <span>🖼️</span> {q.images!.length} image(s)
                         </span>
                       )}
-                      {correctPropsCount === 0 ? (
+
+                      {!isRedaction && correctPropsCount === 0 && (
                         <span className="px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950 text-amber-700 dark:text-amber-300 font-semibold text-[10px] border border-amber-200/50">
                           ⚠️ 0 réponse cochée
                         </span>
-                      ) : (
+                      )}
+                      {!isRedaction && correctPropsCount > 0 && (
                         <span className="px-2 py-0.5 rounded-md bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-semibold text-[10px] border border-emerald-200/50">
                           ✅ {correctPropsCount} réponse(s) cochée(s)
+                        </span>
+                      )}
+
+                      {isRedaction && !q.reponseModele && (
+                        <span className="px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950 text-amber-700 dark:text-amber-300 font-semibold text-[10px] border border-amber-200/50">
+                          ⚠️ Corrigé type non renseigné
+                        </span>
+                      )}
+                      {isRedaction && q.reponseModele && (
+                        <span className="px-2 py-0.5 rounded-md bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-semibold text-[10px] border border-emerald-200/50">
+                          ✅ Corrigé type disponible
                         </span>
                       )}
                     </div>
@@ -559,7 +644,11 @@ export function QuestionsManagerClient({
                   {!isEditing && (
                     <button
                       onClick={() => startEditing(q)}
-                      className="px-3 py-1.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs transition cursor-pointer shadow-xs shrink-0 flex items-center gap-1"
+                      className={`px-3 py-1.5 rounded-xl font-bold text-xs transition cursor-pointer shadow-xs shrink-0 flex items-center gap-1 ${
+                        isRedaction
+                          ? 'bg-purple-600 hover:bg-purple-700 text-white'
+                          : 'bg-teal-600 hover:bg-teal-700 text-white'
+                      }`}
                     >
                       <span>✏️</span>
                       <span>Modifier</span>
@@ -574,7 +663,7 @@ export function QuestionsManagerClient({
                       {q.enonce}
                     </p>
 
-                    {/* Images attachées si existantes */}
+                    {/* Images attachées */}
                     {hasImages && (
                       <div className="flex flex-wrap gap-3 py-2">
                         {q.images!.map((imgUrl, iIdx) => (
@@ -588,7 +677,7 @@ export function QuestionsManagerClient({
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
                               src={imgUrl}
-                              alt="Illustration question"
+                              alt="Illustration"
                               className="object-cover w-full h-full group-hover:scale-105 transition"
                             />
                             <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-[10px] font-bold transition">
@@ -599,32 +688,64 @@ export function QuestionsManagerClient({
                       </div>
                     )}
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
-                      {Array.isArray(q.propositions) &&
-                        q.propositions.map((p, idx) => (
-                          <div
-                            key={idx}
-                            className={`p-2.5 rounded-xl text-xs flex items-start gap-2 border ${
-                              p.c
-                                ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-400 text-emerald-900 dark:text-emerald-200 font-semibold'
-                                : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700/60 text-slate-700 dark:text-slate-300'
-                            }`}
-                          >
-                            <span
-                              className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[10px] shrink-0 ${
+                    {/* Affichage des Propositions (si QCM) */}
+                    {!isRedaction && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
+                        {Array.isArray(q.propositions) &&
+                          q.propositions.map((p, idx) => (
+                            <div
+                              key={idx}
+                              className={`p-2.5 rounded-xl text-xs flex items-start gap-2 border ${
                                 p.c
-                                  ? 'bg-emerald-600 text-white'
-                                  : 'bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300'
+                                  ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-400 text-emerald-900 dark:text-emerald-200 font-semibold'
+                                  : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700/60 text-slate-700 dark:text-slate-300'
                               }`}
                             >
-                              {p.c ? '✓' : String.fromCharCode(65 + idx)}
-                            </span>
-                            <span className="leading-snug">{p.t}</span>
-                          </div>
-                        ))}
-                    </div>
+                              <span
+                                className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[10px] shrink-0 ${
+                                  p.c
+                                    ? 'bg-emerald-600 text-white'
+                                    : 'bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300'
+                                }`}
+                              >
+                                {p.c ? '✓' : String.fromCharCode(65 + idx)}
+                              </span>
+                              <span className="leading-snug">{p.t}</span>
+                            </div>
+                          ))}
+                      </div>
+                    )}
 
-                    {q.explication && (
+                    {/* Affichage Réponse Modèle / Corrigé (si Rédactionnelle) */}
+                    {isRedaction && q.reponseModele && (
+                      <div className="p-4 rounded-2xl bg-purple-50/70 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-900/60 text-xs text-purple-950 dark:text-purple-200 space-y-2">
+                        <div className="font-bold flex items-center gap-1.5">
+                          <span>📝</span>
+                          <span>Corrigé type & Éléments de réponse attendus :</span>
+                        </div>
+                        <p className="whitespace-pre-line text-slate-800 dark:text-slate-200 leading-relaxed">
+                          {q.reponseModele}
+                        </p>
+                        {Array.isArray(q.motsCles) && q.motsCles.length > 0 && (
+                          <div className="pt-2 border-t border-purple-200/50 dark:border-purple-900/50 flex items-center gap-1.5 flex-wrap">
+                            <span className="font-bold text-[11px] text-purple-800 dark:text-purple-300">
+                              🔑 Mots-clés :
+                            </span>
+                            {q.motsCles.map((kw, kwIdx) => (
+                              <span
+                                key={kwIdx}
+                                className="px-2 py-0.5 rounded-md bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-[10px] font-semibold"
+                              >
+                                {kw}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Justification QCM */}
+                    {!isRedaction && q.explication && (
                       <div className="p-3 rounded-xl bg-amber-50/60 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 text-xs text-amber-900 dark:text-amber-200 space-y-1">
                         <div className="font-bold flex items-center gap-1">
                           <span>💡</span> Justification médicale :
@@ -647,14 +768,12 @@ export function QuestionsManagerClient({
                       <textarea
                         rows={2}
                         value={editData.enonce}
-                        onChange={(e) =>
-                          setEditData({ ...editData, enonce: e.target.value })
-                        }
+                        onChange={(e) => setEditData({ ...editData, enonce: e.target.value })}
                         className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs font-semibold text-slate-900 dark:text-white focus:ring-2 focus:ring-teal-500 focus:outline-none"
                       />
                     </div>
 
-                    {/* Section Images / Illustrations */}
+                    {/* Section Images */}
                     <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
                         <label className="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
@@ -663,7 +782,6 @@ export function QuestionsManagerClient({
                         </label>
                       </div>
 
-                      {/* Galerie des images attachées */}
                       {editData.images.length > 0 && (
                         <div className="flex flex-wrap gap-3">
                           {editData.images.map((imgUrl, idx) => (
@@ -672,16 +790,11 @@ export function QuestionsManagerClient({
                               className="relative group rounded-xl overflow-hidden border border-slate-300 dark:border-slate-700 w-28 h-24 bg-white dark:bg-slate-900"
                             >
                               {/* eslint-disable-next-line @next/next/no-img-element */}
-                              <img
-                                src={imgUrl}
-                                alt="Miniature"
-                                className="w-full h-full object-cover"
-                              />
+                              <img src={imgUrl} alt="Miniature" className="w-full h-full object-cover" />
                               <button
                                 type="button"
                                 onClick={() => handleRemoveImage(idx)}
                                 className="absolute top-1 right-1 p-1 bg-red-600 hover:bg-red-700 text-white rounded-lg text-[10px] font-bold shadow-md cursor-pointer transition"
-                                title="Supprimer l'image"
                               >
                                 ✕
                               </button>
@@ -690,9 +803,7 @@ export function QuestionsManagerClient({
                         </div>
                       )}
 
-                      {/* Contrôles pour ajouter une image */}
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-                        {/* Option A : Téléversement Fichier */}
                         <div className="space-y-1">
                           <span className="text-[11px] font-semibold text-slate-600 dark:text-slate-400">
                             📤 Téléverser depuis l&apos;ordinateur :
@@ -705,17 +816,11 @@ export function QuestionsManagerClient({
                             disabled={uploadingImage}
                             className="w-full text-xs text-slate-500 file:mr-2 file:py-1.5 file:px-3 file:rounded-xl file:border-0 file:text-xs file:font-semibold file:bg-teal-50 file:text-teal-700 hover:file:bg-teal-100 cursor-pointer"
                           />
-                          {uploadingImage && (
-                            <p className="text-[10px] text-teal-600 font-bold animate-pulse">
-                              Téléversement en cours...
-                            </p>
-                          )}
                         </div>
 
-                        {/* Option B : Par URL externe */}
                         <div className="space-y-1">
                           <span className="text-[11px] font-semibold text-slate-600 dark:text-slate-400">
-                            🔗 Ou coller un lien URL d&apos;image :
+                            🔗 Ou coller un lien URL :
                           </span>
                           <div className="flex gap-1.5">
                             <input
@@ -738,70 +843,101 @@ export function QuestionsManagerClient({
                       </div>
                     </div>
 
-                    {/* Propositions avec coche directe */}
-                    <div className="space-y-2">
-                      <label className="block text-xs font-bold text-slate-700 dark:text-slate-300">
-                        Propositions (Cochez les bonnes réponses) :
-                      </label>
-
+                    {/* Édition Spécifique QCM : Propositions */}
+                    {!isRedaction && (
                       <div className="space-y-2">
-                        {editData.propositions.map((p, idx) => (
-                          <div
-                            key={idx}
-                            className={`flex items-start gap-2.5 p-2.5 rounded-xl border transition ${
-                              p.c
-                                ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-400'
-                                : 'bg-white dark:bg-slate-950 border-slate-200 dark:border-slate-800'
-                            }`}
-                          >
-                            <label className="flex items-center gap-1.5 cursor-pointer shrink-0 mt-1 select-none">
+                        <label className="block text-xs font-bold text-slate-700 dark:text-slate-300">
+                          Propositions (Cochez les bonnes réponses) :
+                        </label>
+
+                        <div className="space-y-2">
+                          {editData.propositions.map((p, idx) => (
+                            <div
+                              key={idx}
+                              className={`flex items-start gap-2.5 p-2.5 rounded-xl border transition ${
+                                p.c
+                                  ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-400'
+                                  : 'bg-white dark:bg-slate-950 border-slate-200 dark:border-slate-800'
+                              }`}
+                            >
+                              <label className="flex items-center gap-1.5 cursor-pointer shrink-0 mt-1 select-none">
+                                <input
+                                  type="checkbox"
+                                  checked={p.c}
+                                  onChange={() => togglePropositionCorrect(idx)}
+                                  className="h-4 w-4 text-emerald-600 rounded border-slate-300 focus:ring-emerald-500 cursor-pointer"
+                                />
+                                <span
+                                  className={`text-xs font-bold px-1.5 py-0.5 rounded ${
+                                    p.c
+                                      ? 'bg-emerald-600 text-white'
+                                      : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
+                                  }`}
+                                >
+                                  {String.fromCharCode(65 + idx)}
+                                </span>
+                              </label>
+
                               <input
-                                type="checkbox"
-                                checked={p.c}
-                                onChange={() => togglePropositionCorrect(idx)}
-                                className="h-4 w-4 text-emerald-600 rounded border-slate-300 focus:ring-emerald-500 cursor-pointer"
+                                type="text"
+                                value={p.t}
+                                onChange={(e) => updatePropositionText(idx, e.target.value)}
+                                className="flex-1 p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-transparent text-xs text-slate-900 dark:text-white"
                               />
-                              <span
-                                className={`text-xs font-bold px-1.5 py-0.5 rounded ${
-                                  p.c
-                                    ? 'bg-emerald-600 text-white'
-                                    : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
-                                }`}
-                              >
-                                {String.fromCharCode(65 + idx)}
-                              </span>
-                            </label>
-
-                            <input
-                              type="text"
-                              value={p.t}
-                              onChange={(e) =>
-                                updatePropositionText(idx, e.target.value)
-                              }
-                              className="flex-1 p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-transparent text-xs text-slate-900 dark:text-white"
-                            />
-                          </div>
-                        ))}
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    )}
 
-                    {/* Justification Médicale */}
-                    <div>
-                      <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">
-                        💡 Explication / Justification du corrigé :
-                      </label>
-                      <textarea
-                        rows={3}
-                        value={editData.explication}
-                        onChange={(e) =>
-                          setEditData({ ...editData, explication: e.target.value })
-                        }
-                        placeholder="Indiquez ici la justification médicale, les pièges à éviter ou les rappels de cours..."
-                        className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-                      />
-                    </div>
+                    {/* Édition Spécifique Rédactionnelle : Corrigé modèle & Mots-clés */}
+                    {isRedaction && (
+                      <div className="space-y-3">
+                        <div>
+                          <label className="block text-xs font-bold text-purple-900 dark:text-purple-300 mb-1">
+                            📝 Réponse Modèle / Corrigé Type :
+                          </label>
+                          <textarea
+                            rows={4}
+                            value={editData.reponseModele}
+                            onChange={(e) => setEditData({ ...editData, reponseModele: e.target.value })}
+                            placeholder="Rédigez ici la réponse type officielle qui sera présentée à l'étudiant après sa rédaction..."
+                            className="w-full p-2.5 rounded-xl border border-purple-300 dark:border-purple-800 bg-white dark:bg-slate-950 text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+                          />
+                        </div>
 
-                    {/* Boutons d'action Enregistrer / Annuler */}
+                        <div>
+                          <label className="block text-xs font-bold text-purple-900 dark:text-purple-300 mb-1">
+                            🔑 Mots-clés indispensables (séparés par des virgules) :
+                          </label>
+                          <input
+                            type="text"
+                            value={editData.motsClesText}
+                            onChange={(e) => setEditData({ ...editData, motsClesText: e.target.value })}
+                            placeholder="Ex: fièvre, prurit, érythrodermie, biopsie..."
+                            className="w-full p-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs text-slate-900 dark:text-white"
+                          />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Justification Médicale pour QCM */}
+                    {!isRedaction && (
+                      <div>
+                        <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">
+                          💡 Explication / Justification du corrigé :
+                        </label>
+                        <textarea
+                          rows={3}
+                          value={editData.explication}
+                          onChange={(e) => setEditData({ ...editData, explication: e.target.value })}
+                          placeholder="Justification médicale ou rappels de cours..."
+                          className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-teal-500 focus:outline-none"
+                        />
+                      </div>
+                    )}
+
+                    {/* Boutons d'action */}
                     <div className="flex items-center justify-end gap-2 pt-2">
                       <button
                         onClick={cancelEditing}
@@ -813,7 +949,11 @@ export function QuestionsManagerClient({
                       <button
                         onClick={() => handleSave(q.id)}
                         disabled={saving || uploadingImage}
-                        className="px-5 py-2 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-xs transition flex items-center gap-1.5 shadow-sm cursor-pointer"
+                        className={`px-5 py-2 rounded-xl text-white font-bold text-xs transition flex items-center gap-1.5 shadow-sm cursor-pointer ${
+                          isRedaction
+                            ? 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700'
+                            : 'bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700'
+                        }`}
                       >
                         {saving ? 'Enregistrement...' : '💾 Sauvegarder la question'}
                       </button>

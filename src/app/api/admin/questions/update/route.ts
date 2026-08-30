@@ -1,4 +1,4 @@
-﻿import { NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { prisma } from '@/lib/prisma'
 import { apiRequireAdmin } from '@/lib/auth-utils'
@@ -21,6 +21,7 @@ const updateRedactionSchema = z.object({
   id: z.number().int(),
   enonce: z.string().min(1),
   reponseModele: z.string().optional(),
+  motsCles: z.array(z.string()).optional(),
   images: z.array(z.string()).optional(),
 })
 
@@ -60,13 +61,14 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: 'Données invalides', details: parsed.error.issues }, { status: 400 })
       }
 
-      const { id, enonce, reponseModele, images } = parsed.data
+      const { id, enonce, reponseModele, motsCles, images } = parsed.data
 
       const updated = await prisma.questionRedactionnelle.update({
         where: { id },
         data: {
           enonce: enonce.trim(),
           reponseModele: reponseModele ? reponseModele.trim() : '',
+          motsCles: motsCles ?? [],
           images: images ?? [],
         },
       })
