@@ -7,6 +7,8 @@ import { NoteWidget } from '../widgets/NoteWidget'
 import { ReportWidget } from '../widgets/ReportWidget'
 import type { QuestionQcmClient, CheckAnswerResult } from '@/types'
 
+import { ClinicalCaseFormatter } from './ClinicalCaseFormatter'
+
 interface QuestionCardProps {
   question: QuestionQcmClient
   selectedAnswers: number[]
@@ -60,9 +62,7 @@ export function QuestionCard({
       </div>
 
       {/* Énoncé */}
-      <div className="text-base sm:text-lg font-medium text-slate-900 dark:text-white leading-relaxed whitespace-pre-line">
-        {question.enonce}
-      </div>
+      <ClinicalCaseFormatter text={question.enonce} />
 
       {/* Images attachées */}
       {question.images && question.images.length > 0 && (

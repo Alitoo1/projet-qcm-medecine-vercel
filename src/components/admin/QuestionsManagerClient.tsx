@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo, useRef } from 'react'
+import { ClinicalCaseFormatter } from '@/components/quiz/ClinicalCaseFormatter'
 
 interface Proposition {
   i: number
@@ -659,9 +660,7 @@ export function QuestionsManagerClient({
                 {/* Mode Affichage Normal */}
                 {!isEditing && (
                   <div className="space-y-3">
-                    <p className="text-sm font-bold text-slate-900 dark:text-white leading-relaxed">
-                      {q.enonce}
-                    </p>
+                    <ClinicalCaseFormatter text={q.enonce} />
 
                     {/* Images attachées */}
                     {hasImages && (
