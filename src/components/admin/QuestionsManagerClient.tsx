@@ -1,6 +1,6 @@
-﻿'use client'
+'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef } from 'react'
 
 interface Proposition {
   i: number
@@ -14,6 +14,7 @@ export interface QuestionItem {
   enonce: string
   propositions: Proposition[]
   explication: string | null
+  images?: string[] | null
   coursId: number | null
   cours?: {
     id: number
@@ -76,9 +77,14 @@ export function QuestionsManagerClient({
     enonce: string
     propositions: Proposition[]
     explication: string
+    images: string[]
   } | null>(null)
+  const [newImageUrl, setNewImageUrl] = useState('')
+  const [uploadingImage, setUploadingImage] = useState(false)
   const [saving, setSaving] = useState(false)
   const [saveSuccess, setSaveSuccess] = useState<number | null>(null)
+
+  const fileInputRef = useRef<HTMLInputElement>(null)
 
   // Modules disponibles selon le semestre sélectionné
   const availableModules = useMemo(() => {
@@ -166,13 +172,16 @@ export function QuestionsManagerClient({
         ? q.propositions.map((p, idx) => ({ i: idx, t: p.t, c: !!p.c }))
         : [],
       explication: q.explication || '',
+      images: Array.isArray(q.images) ? [...q.images] : [],
     })
+    setNewImageUrl('')
     setSaveSuccess(null)
   }
 
   const cancelEditing = () => {
     setEditingId(null)
     setEditData(null)
+    setNewImageUrl('')
   }
 
   const togglePropositionCorrect = (propIndex: number) => {
@@ -191,6 +200,56 @@ export function QuestionsManagerClient({
     setEditData({ ...editData, propositions: updated })
   }
 
+  const handleAddImageUrl = () => {
+    if (!editData || !newImageUrl.trim()) return
+    setEditData({
+      ...editData,
+      images: [...editData.images, newImageUrl.trim()],
+    })
+    setNewImageUrl('')
+  }
+
+  const handleRemoveImage = (indexToRemove: number) => {
+    if (!editData) return
+    setEditData({
+      ...editData,
+      images: editData.images.filter((_, idx) => idx !== indexToRemove),
+    })
+  }
+
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (!file || !editData) return
+
+    setUploadingImage(true)
+    try {
+      const formData = new FormData()
+      formData.append('file', file)
+
+      const res = await fetch('/api/admin/upload', {
+        method: 'POST',
+        body: formData,
+      })
+
+      if (res.ok) {
+        const data = await res.json()
+        if (data.url) {
+          setEditData({
+            ...editData,
+            images: [...editData.images, data.url],
+          })
+        }
+      } else {
+        alert("Erreur lors du téléversement de l'image.")
+      }
+    } catch {
+      alert("Erreur réseau lors de l'envoi de l'image.")
+    } finally {
+      setUploadingImage(false)
+      if (fileInputRef.current) fileInputRef.current.value = ''
+    }
+  }
+
   const handleSave = async (id: number) => {
     if (!editData) return
     setSaving(true)
@@ -205,6 +264,7 @@ export function QuestionsManagerClient({
           enonce: editData.enonce,
           propositions: editData.propositions,
           explication: editData.explication,
+          images: editData.images,
         }),
       })
 
@@ -218,6 +278,7 @@ export function QuestionsManagerClient({
                   enonce: editData.enonce,
                   propositions: editData.propositions,
                   explication: editData.explication,
+                  images: editData.images,
                   type: result.question.type,
                 }
               : item
@@ -376,7 +437,7 @@ export function QuestionsManagerClient({
         {saveSuccess && (
           <div className="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 text-emerald-800 dark:text-emerald-200 text-xs font-bold flex items-center gap-2">
             <span>✅</span>
-            <span>La question a été enregistrée avec succès ! Les bonnes réponses et justifications sont à jour.</span>
+            <span>La question et ses images ont été enregistrées avec succès !</span>
           </div>
         )}
       </div>
@@ -387,7 +448,7 @@ export function QuestionsManagerClient({
           Affichage de <strong className="text-teal-600 dark:text-teal-400">{filteredQuestions.length}</strong> question(s)
           {hasActiveFilters && ' selon vos critères'}
         </span>
-        <span>Cliquez sur « Modifier » pour cocher les bonnes réponses</span>
+        <span>Cliquez sur « Modifier » pour cocher les bonnes réponses ou ajouter des images</span>
       </div>
 
       {/* Liste des questions */}
@@ -412,6 +473,7 @@ export function QuestionsManagerClient({
               ? q.propositions.filter((p) => p.c).length
               : 0
 
+            const hasImages = Array.isArray(q.images) && q.images.length > 0
             const sousModNom = q.cours?.sousModule?.nom
             const modNom = q.cours?.sousModule?.module?.nom
             const semNom = q.cours?.sousModule?.module?.semestre?.nom
@@ -452,6 +514,11 @@ export function QuestionsManagerClient({
                       <span className="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold">
                         {q.type}
                       </span>
+                      {hasImages && (
+                        <span className="px-2 py-0.5 rounded-md bg-purple-50 dark:bg-purple-950 text-purple-700 dark:text-purple-300 font-bold text-[10px] border border-purple-200/50 flex items-center gap-1">
+                          <span>🖼️</span> {q.images!.length} image(s)
+                        </span>
+                      )}
                       {correctPropsCount === 0 ? (
                         <span className="px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950 text-amber-700 dark:text-amber-300 font-semibold text-[10px] border border-amber-200/50">
                           ⚠️ 0 réponse cochée
@@ -481,6 +548,31 @@ export function QuestionsManagerClient({
                     <p className="text-sm font-bold text-slate-900 dark:text-white leading-relaxed">
                       {q.enonce}
                     </p>
+
+                    {/* Images attachées si existantes */}
+                    {hasImages && (
+                      <div className="flex flex-wrap gap-3 py-2">
+                        {q.images!.map((imgUrl, iIdx) => (
+                          <a
+                            key={iIdx}
+                            href={imgUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block relative rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 max-w-[200px] max-h-[160px] group shadow-xs"
+                          >
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={imgUrl}
+                              alt="Illustration question"
+                              className="object-cover w-full h-full group-hover:scale-105 transition"
+                            />
+                            <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-[10px] font-bold transition">
+                              🔍 Agrandir
+                            </div>
+                          </a>
+                        ))}
+                      </div>
+                    )}
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
                       {Array.isArray(q.propositions) &&
@@ -535,6 +627,90 @@ export function QuestionsManagerClient({
                         }
                         className="w-full p-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 text-xs font-semibold text-slate-900 dark:text-white focus:ring-2 focus:ring-teal-500 focus:outline-none"
                       />
+                    </div>
+
+                    {/* Section Images / Illustrations */}
+                    <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800 space-y-3">
+                      <div className="flex items-center justify-between">
+                        <label className="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+                          <span>🖼️</span>
+                          <span>Images et schémas associés ({editData.images.length})</span>
+                        </label>
+                      </div>
+
+                      {/* Galerie des images attachées */}
+                      {editData.images.length > 0 && (
+                        <div className="flex flex-wrap gap-3">
+                          {editData.images.map((imgUrl, idx) => (
+                            <div
+                              key={idx}
+                              className="relative group rounded-xl overflow-hidden border border-slate-300 dark:border-slate-700 w-28 h-24 bg-white dark:bg-slate-900"
+                            >
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img
+                                src={imgUrl}
+                                alt="Miniature"
+                                className="w-full h-full object-cover"
+                              />
+                              <button
+                                type="button"
+                                onClick={() => handleRemoveImage(idx)}
+                                className="absolute top-1 right-1 p-1 bg-red-600 hover:bg-red-700 text-white rounded-lg text-[10px] font-bold shadow-md cursor-pointer transition"
+                                title="Supprimer l'image"
+                              >
+                                ✕
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Contrôles pour ajouter une image */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                        {/* Option A : Téléversement Fichier */}
+                        <div className="space-y-1">
+                          <span className="text-[11px] font-semibold text-slate-600 dark:text-slate-400">
+                            📤 Téléverser depuis l&apos;ordinateur :
+                          </span>
+                          <input
+                            type="file"
+                            ref={fileInputRef}
+                            accept="image/*"
+                            onChange={handleFileUpload}
+                            disabled={uploadingImage}
+                            className="w-full text-xs text-slate-500 file:mr-2 file:py-1.5 file:px-3 file:rounded-xl file:border-0 file:text-xs file:font-semibold file:bg-teal-50 file:text-teal-700 hover:file:bg-teal-100 cursor-pointer"
+                          />
+                          {uploadingImage && (
+                            <p className="text-[10px] text-teal-600 font-bold animate-pulse">
+                              Téléversement en cours...
+                            </p>
+                          )}
+                        </div>
+
+                        {/* Option B : Par URL externe */}
+                        <div className="space-y-1">
+                          <span className="text-[11px] font-semibold text-slate-600 dark:text-slate-400">
+                            🔗 Ou coller un lien URL d&apos;image :
+                          </span>
+                          <div className="flex gap-1.5">
+                            <input
+                              type="url"
+                              value={newImageUrl}
+                              onChange={(e) => setNewImageUrl(e.target.value)}
+                              placeholder="https://exemple.com/image.jpg"
+                              className="flex-1 p-1.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-xs text-slate-900 dark:text-white"
+                            />
+                            <button
+                              type="button"
+                              onClick={handleAddImageUrl}
+                              disabled={!newImageUrl.trim()}
+                              className="px-3 py-1.5 rounded-xl bg-teal-600 hover:bg-teal-700 disabled:opacity-50 text-white font-bold text-xs transition cursor-pointer"
+                            >
+                              Ajouter
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
 
                     {/* Propositions avec coche directe */}
@@ -611,7 +787,7 @@ export function QuestionsManagerClient({
                       </button>
                       <button
                         onClick={() => handleSave(q.id)}
-                        disabled={saving}
+                        disabled={saving || uploadingImage}
                         className="px-5 py-2 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-xs transition flex items-center gap-1.5 shadow-sm cursor-pointer"
                       >
                         {saving ? 'Enregistrement...' : '💾 Sauvegarder la question'}

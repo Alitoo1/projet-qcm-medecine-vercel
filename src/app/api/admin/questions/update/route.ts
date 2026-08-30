@@ -14,12 +14,14 @@ const updateQcmSchema = z.object({
     })
   ),
   explication: z.string().nullable().optional(),
+  images: z.array(z.string()).optional(),
 })
 
 const updateRedactionSchema = z.object({
   id: z.number().int(),
   enonce: z.string().min(1),
   reponseModele: z.string().optional(),
+  images: z.array(z.string()).optional(),
 })
 
 export async function POST(req: Request) {
@@ -36,7 +38,7 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: 'Données invalides', details: parsed.error.issues }, { status: 400 })
       }
 
-      const { id, enonce, propositions, explication } = parsed.data
+      const { id, enonce, propositions, explication, images } = parsed.data
       const correctCount = propositions.filter((p) => p.c).length
       const type = correctCount > 1 ? 'QCM' : 'QCU'
 
@@ -47,6 +49,7 @@ export async function POST(req: Request) {
           propositions,
           type,
           explication: explication ? explication.trim() : null,
+          images: images ?? [],
         },
       })
 
@@ -57,13 +60,14 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: 'Données invalides', details: parsed.error.issues }, { status: 400 })
       }
 
-      const { id, enonce, reponseModele } = parsed.data
+      const { id, enonce, reponseModele, images } = parsed.data
 
       const updated = await prisma.questionRedactionnelle.update({
         where: { id },
         data: {
           enonce: enonce.trim(),
           reponseModele: reponseModele ? reponseModele.trim() : '',
+          images: images ?? [],
         },
       })
 

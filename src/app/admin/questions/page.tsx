@@ -148,6 +148,7 @@ export default async function AdminQuestionsPage() {
       c: boolean
     }[],
     explication: q.explication,
+    images: (Array.isArray(q.images) ? (q.images as string[]) : []) as string[],
     coursId: q.coursId,
     cours: q.cours,
   }))
