@@ -1,4 +1,4 @@
-﻿import type { QuestionQcmClient } from '@/types'
+import type { QuestionQcmClient } from '@/types'
 import type { ClinicalCaseGroup, ParsedCaseQuestion } from '@/components/quiz/ClinicalCaseCard'
 
 function cleanMarkdown(str: string): string {
@@ -25,7 +25,7 @@ export function parseQuestionCaseInfo(q: QuestionQcmClient): {
   questionText: string
 } {
   const text = q.enonce || ''
-  if (!text.includes('🏥') && !text.toLowerCase().includes('cas clinique')) {
+  if (!text.includes('🏥') && !text.toLowerCase().includes('cas clinique') && !text.toLowerCase().includes('ecg ')) {
     return {
       isCase: false,
       caseTitle: '',
@@ -40,50 +40,60 @@ export function parseQuestionCaseInfo(q: QuestionQcmClient): {
   let initialObs = ''
   const intermediateNotes: string[] = []
   const questionLines: string[] = []
+  let foundQuestionLine = false
 
-  for (const line of lines) {
-    // Title
-    const titleMatch = line.match(/(?:🏥\s*)?(?:\*\*)?(Cas clinique\s*\d+.*?)(?:\*\*)?$/i)
-    if (titleMatch) {
-      caseTitle = cleanMarkdown(titleMatch[1])
+  for (let i = 0; i < lines.length; i++) {
+    const rawLine = lines[i]
+    const line = cleanMarkdown(rawLine)
+
+    // Title on first line
+    const titleMatch = rawLine.match(/^(?:🏥\s*)?(?:\*\*)?(Cas clinique\s*\d+.*?|ECG\s*\d+.*?)(?:\*\*)?$/i)
+    if (titleMatch && i === 0) {
+      caseTitle = cleanMarkdown(titleMatch[1].replace(/:$/, ''))
       continue
     }
 
-    // Initial obs (> *...*)
-    if (line.startsWith('>') && !line.includes('ℹ️') && !line.includes('🏥')) {
-      const cleaned = cleanMarkdown(line)
-      if (cleaned) {
-        initialObs = initialObs ? `${initialObs} ${cleaned}` : cleaned
-      }
+    // Legacy Intermediate note with ℹ️
+    if (rawLine.includes('ℹ️')) {
+      if (line) intermediateNotes.push(line)
       continue
     }
 
-    // Intermediate note (> ℹ️ *...*)
-    if (line.includes('ℹ️')) {
-      const cleaned = cleanMarkdown(line)
-      if (cleaned) {
-        intermediateNotes.push(cleaned)
-      }
-      continue
+    // Question start line detection: starts with "1-", "1.", "QR 1 :", etc.
+    const isQuestionStart = rawLine.match(/^(\d+\s*[\-\.]\s+|QR\s*\d+\s*:)/i)
+    if (isQuestionStart) {
+      foundQuestionLine = true
     }
 
-    // Question line
-    if (!line.startsWith('>')) {
-      const cleaned = cleanMarkdown(line)
-      if (cleaned) {
-        questionLines.push(cleaned)
+    if (foundQuestionLine) {
+      questionLines.push(line)
+    } else {
+      // Belongs to initial observation
+      if (initialObs) {
+        initialObs += '\n' + line
+      } else {
+        initialObs = line
       }
     }
   }
 
-  const questionText = questionLines.join('\n') || cleanMarkdown(text)
+  // Fallback if no question start detected
+  let finalQuestionText = questionLines.join('\n')
+  if (!finalQuestionText) {
+    if (initialObs) {
+      finalQuestionText = initialObs
+      initialObs = ''
+    } else {
+      finalQuestionText = cleanMarkdown(text)
+    }
+  }
 
   return {
     isCase: true,
     caseTitle: cleanMarkdown(caseTitle),
     initialObservation: cleanMarkdown(initialObs),
     intermediateNotes: intermediateNotes.map(cleanMarkdown),
-    questionText: cleanMarkdown(questionText),
+    questionText: cleanMarkdown(finalQuestionText),
   }
 }
 
