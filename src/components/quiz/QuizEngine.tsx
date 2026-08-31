@@ -4,10 +4,11 @@ import { useState, useEffect, useCallback, useMemo } from 'react'
 import { ProgressBar } from './ProgressBar'
 import { QuestionCard } from './QuestionCard'
 import { RedactionCard } from './RedactionCard'
+import { RedactionClinicalCaseCard } from './RedactionClinicalCaseCard'
 import { ClinicalCaseCard } from './ClinicalCaseCard'
 import { ResultScreen } from './ResultScreen'
 import { useTimer } from '@/hooks/use-timer'
-import { groupQuestionsIntoSteps, type QuizStep } from '@/lib/quiz-steps'
+import { groupQuestionsIntoSteps, groupRedactionQuestionsIntoSteps, type QuizStep, type RedactionQuizStep } from '@/lib/quiz-steps'
 import type { QuestionQcmClient, QuestionRedactionClient, QuizResult, CheckAnswerResult, ExamItem } from '@/types'
 
 interface QuizEngineProps {
@@ -52,6 +53,11 @@ export function QuizEngine({
   const steps: QuizStep[] = useMemo(() => {
     return groupQuestionsIntoSteps(questions)
   }, [questions])
+
+  // Étapes groupées Rédactionnelles (Cas cliniques groupés sur la même page)
+  const redactionSteps: RedactionQuizStep[] = useMemo(() => {
+    return groupRedactionQuestionsIntoSteps(redactionQuestions)
+  }, [redactionQuestions])
 
   // Soumission finale du quiz
   const handleSubmitQuiz = useCallback(async () => {
@@ -382,7 +388,7 @@ export function QuizEngine({
 
   // Rendu spécifique : Mode Questions Rédactionnelles
   if (questionType === 'redaction' && redactionQuestions.length > 0) {
-    const currentRedaction = redactionQuestions[currentStepIndex]
+    const currentRedactionStep = redactionSteps[currentStepIndex]
 
     return (
       <div className="max-w-3xl mx-auto px-4 py-8 space-y-6">
@@ -395,7 +401,7 @@ export function QuizEngine({
               </span>
               <span className="text-xs text-slate-400">•</span>
               <span className="text-xs font-semibold text-slate-600 dark:text-slate-300">
-                Question {currentStepIndex + 1} sur {redactionQuestions.length}
+                Étape {currentStepIndex + 1} sur {redactionSteps.length} ({redactionQuestions.length} questions au total)
               </span>
             </div>
 
@@ -407,14 +413,22 @@ export function QuizEngine({
             )}
           </div>
 
-          <ProgressBar current={currentStepIndex + 1} total={redactionQuestions.length} />
+          <ProgressBar current={currentStepIndex + 1} total={redactionSteps.length} />
         </div>
 
-        {/* Carte rédactionnelle */}
-        {currentRedaction && (
+        {/* Carte rédactionnelle : Cas Clinique Groupé OU Question Simple */}
+        {currentRedactionStep && currentRedactionStep.type === 'case' && (
+          <RedactionClinicalCaseCard
+            key={`redcase-${currentRedactionStep.caseGroup.caseTitle}-${currentStepIndex}`}
+            caseGroup={currentRedactionStep.caseGroup}
+            isExamMode={mode === 'examen'}
+          />
+        )}
+
+        {currentRedactionStep && currentRedactionStep.type === 'single' && (
           <RedactionCard
-            key={`red-${currentRedaction.id}`}
-            question={currentRedaction}
+            key={`redsingle-${currentRedactionStep.question.id}`}
+            question={currentRedactionStep.question}
             isExamMode={mode === 'examen'}
           />
         )}
@@ -427,18 +441,18 @@ export function QuizEngine({
             disabled={currentStepIndex === 0}
             className="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 disabled:opacity-30 text-slate-700 dark:text-slate-300 font-semibold text-xs transition cursor-pointer"
           >
-            ← Question précédente
+            ← Étape précédente
           </button>
 
-          {currentStepIndex < redactionQuestions.length - 1 ? (
+          {currentStepIndex < redactionSteps.length - 1 ? (
             <button
               type="button"
               onClick={() =>
-                setCurrentStepIndex((prev) => Math.min(prev + 1, redactionQuestions.length - 1))
+                setCurrentStepIndex((prev) => Math.min(prev + 1, redactionSteps.length - 1))
               }
               className="px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition cursor-pointer shadow-xs"
             >
-              Question suivante →
+              Étape suivante →
             </button>
           ) : (
             <button

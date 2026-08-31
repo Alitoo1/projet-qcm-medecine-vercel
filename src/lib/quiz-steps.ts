@@ -1,4 +1,4 @@
-import type { QuestionQcmClient } from '@/types'
+import type { QuestionQcmClient, QuestionRedactionClient } from '@/types'
 import type { ClinicalCaseGroup, ParsedCaseQuestion } from '@/components/quiz/ClinicalCaseCard'
 
 function cleanMarkdown(str: string): string {
@@ -17,7 +17,24 @@ export type QuizStep =
   | { type: 'single'; question: QuestionQcmClient }
   | { type: 'case'; caseGroup: ClinicalCaseGroup }
 
-export function parseQuestionCaseInfo(q: QuestionQcmClient): {
+export interface ParsedRedactionCaseQuestion {
+  question: QuestionRedactionClient
+  questionNum: string
+  questionText: string
+  intermediateNotes: string[]
+}
+
+export interface RedactionCaseGroup {
+  caseTitle: string
+  initialObservation: string
+  subQuestions: ParsedRedactionCaseQuestion[]
+}
+
+export type RedactionQuizStep =
+  | { type: 'single'; question: QuestionRedactionClient }
+  | { type: 'case'; caseGroup: RedactionCaseGroup }
+
+export function parseQuestionCaseInfo(q: { enonce: string }): {
   isCase: boolean
   caseTitle: string
   initialObservation: string
@@ -115,6 +132,55 @@ export function groupQuestionsIntoSteps(questions: QuestionQcmClient[]): QuizSte
     const currentCaseTitle = info.caseTitle
     const initialObservation = info.initialObservation
     const subQuestions: ParsedCaseQuestion[] = []
+
+    while (i < questions.length) {
+      const nextQ = questions[i]
+      const nextInfo = parseQuestionCaseInfo(nextQ)
+
+      if (nextInfo.isCase && nextInfo.caseTitle.toLowerCase() === currentCaseTitle.toLowerCase()) {
+        subQuestions.push({
+          question: nextQ,
+          questionNum: String(subQuestions.length + 1),
+          questionText: nextInfo.questionText,
+          intermediateNotes: nextInfo.intermediateNotes,
+        })
+        i++
+      } else {
+        break
+      }
+    }
+
+    steps.push({
+      type: 'case',
+      caseGroup: {
+        caseTitle: currentCaseTitle,
+        initialObservation,
+        subQuestions,
+      },
+    })
+  }
+
+  return steps
+}
+
+export function groupRedactionQuestionsIntoSteps(questions: QuestionRedactionClient[]): RedactionQuizStep[] {
+  const steps: RedactionQuizStep[] = []
+  let i = 0
+
+  while (i < questions.length) {
+    const q = questions[i]
+    const info = parseQuestionCaseInfo(q)
+
+    if (!info.isCase) {
+      steps.push({ type: 'single', question: q })
+      i++
+      continue
+    }
+
+    // Group all consecutive questions with the same caseTitle
+    const currentCaseTitle = info.caseTitle
+    const initialObservation = info.initialObservation
+    const subQuestions: ParsedRedactionCaseQuestion[] = []
 
     while (i < questions.length) {
       const nextQ = questions[i]
