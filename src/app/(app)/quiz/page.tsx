@@ -6,6 +6,7 @@ interface PageProps {
     module?: string
     officiel?: string
     revision?: string
+    type?: 'qcm' | 'redaction' | 'all'
   }>
 }
 
@@ -16,6 +17,7 @@ export default async function QuizPage({ searchParams }: PageProps) {
   const moduleId = params.module ? parseInt(params.module, 10) : undefined
   const officielId = params.officiel ? parseInt(params.officiel, 10) : undefined
   const revisionScoreId = params.revision ? parseInt(params.revision, 10) : undefined
+  const questionType = params.type || (coursId ? undefined : 'qcm')
 
   return (
     <QuizEngine
@@ -23,6 +25,7 @@ export default async function QuizPage({ searchParams }: PageProps) {
       moduleId={moduleId}
       officielId={officielId}
       revisionScoreId={revisionScoreId}
+      initialQuestionType={questionType}
     />
   )
 }

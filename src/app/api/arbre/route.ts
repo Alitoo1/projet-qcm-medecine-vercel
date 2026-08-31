@@ -57,6 +57,8 @@ export async function GET() {
                 titre: c.titre,
                 description: c.description,
                 nbQuestions: c._count.questionsQcm + c._count.questionsRedaction,
+                nbQcm: c._count.questionsQcm,
+                nbRedaction: c._count.questionsRedaction,
                 masque: !c.estPublie,
               })),
             })),

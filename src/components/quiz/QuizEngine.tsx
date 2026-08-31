@@ -1,13 +1,14 @@
-﻿'use client'
+'use client'
 
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { ProgressBar } from './ProgressBar'
 import { QuestionCard } from './QuestionCard'
+import { RedactionCard } from './RedactionCard'
 import { ClinicalCaseCard } from './ClinicalCaseCard'
 import { ResultScreen } from './ResultScreen'
 import { useTimer } from '@/hooks/use-timer'
 import { groupQuestionsIntoSteps, type QuizStep } from '@/lib/quiz-steps'
-import type { QuestionQcmClient, QuizResult, CheckAnswerResult, ExamItem } from '@/types'
+import type { QuestionQcmClient, QuestionRedactionClient, QuizResult, CheckAnswerResult, ExamItem } from '@/types'
 
 interface QuizEngineProps {
   coursId?: number
@@ -15,6 +16,7 @@ interface QuizEngineProps {
   officielId?: number
   revisionScoreId?: number
   initialMode?: 'entrainement' | 'examen'
+  initialQuestionType?: 'qcm' | 'redaction' | 'all'
 }
 
 export function QuizEngine({
@@ -23,17 +25,22 @@ export function QuizEngine({
   officielId,
   revisionScoreId,
   initialMode = 'entrainement',
+  initialQuestionType,
 }: QuizEngineProps) {
   // Configuration
   const [started, setStarted] = useState(false)
   const [mode, setMode] = useState<'entrainement' | 'examen'>(initialMode)
+  const [questionType, setQuestionType] = useState<'qcm' | 'redaction'>(
+    initialQuestionType === 'redaction' ? 'redaction' : 'qcm'
+  )
   const [durationMin, setDurationMin] = useState(30)
   const [shuffleProps, setShuffleProps] = useState(false)
   const [shuffleQuestions, setShuffleQuestions] = useState(false)
 
-  // État du quiz
+  // État du quiz QCM
   const [loading, setLoading] = useState(false)
   const [questions, setQuestions] = useState<QuestionQcmClient[]>([])
+  const [redactionQuestions, setRedactionQuestions] = useState<QuestionRedactionClient[]>([])
   const [examToken, setExamToken] = useState<string | null>(null)
   const [currentStepIndex, setCurrentStepIndex] = useState(0)
   const [reponses, setReponses] = useState<Record<string, number[]>>({})
@@ -41,7 +48,7 @@ export function QuizEngine({
   const [result, setResult] = useState<QuizResult | null>(null)
   const [error, setError] = useState<string | null>(null)
 
-  // Étapes groupées (Cas cliniques groupés sur la même page)
+  // Étapes groupées QCM (Cas cliniques groupés sur la même page)
   const steps: QuizStep[] = useMemo(() => {
     return groupQuestionsIntoSteps(questions)
   }, [questions])
@@ -92,7 +99,13 @@ export function QuizEngine({
   const timer = useTimer({
     initialSeconds: durationMin * 60,
     autoStart: false,
-    onExpire: () => handleSubmitQuiz(),
+    onExpire: () => {
+      if (questionType === 'qcm') {
+        handleSubmitQuiz()
+      } else {
+        setStarted(false)
+      }
+    },
   })
 
   // Charger les questions
@@ -109,7 +122,7 @@ export function QuizEngine({
       } else if (revisionScoreId) {
         endpoint = `/api/questions?revision=${revisionScoreId}&shuffle_props=${shuffleProps ? 1 : 0}`
       } else if (coursId) {
-        endpoint = `/api/questions?cours=${coursId}&type=qcm&shuffle_props=${shuffleProps ? 1 : 0}`
+        endpoint = `/api/questions?cours=${coursId}&type=${questionType}&shuffle_props=${shuffleProps ? 1 : 0}`
       }
 
       const res = await fetch(endpoint)
@@ -130,8 +143,22 @@ export function QuizEngine({
       } else if (moduleId) {
         setExamToken(data.exam_token)
         setQuestions(data.qcm || [])
+      } else if (questionType === 'redaction') {
+        const reds = data.redaction || []
+        if (reds.length === 0) {
+          setError('Aucune question rédactionnelle trouvée pour ce cours.')
+          setLoading(false)
+          return
+        }
+        setRedactionQuestions(reds)
       } else {
-        setQuestions(data.qcm || [])
+        const qcms = data.qcm || []
+        if (qcms.length === 0) {
+          setError('Aucun QCM trouvé pour ce cours.')
+          setLoading(false)
+          return
+        }
+        setQuestions(qcms)
       }
 
       setStarted(true)
@@ -205,6 +232,42 @@ export function QuizEngine({
           )}
 
           <div className="space-y-4">
+            {/* Choix Format de question (QCM vs Rédactionnelle) */}
+            {coursId && !officielId && !moduleId && !revisionScoreId && (
+              <div>
+                <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                  Format de questions
+                </label>
+                <div className="grid grid-cols-2 gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setQuestionType('qcm')}
+                    className={`p-3.5 rounded-xl border text-left transition cursor-pointer ${
+                      questionType === 'qcm'
+                        ? 'border-teal-600 bg-teal-50 dark:bg-teal-950/60 text-teal-900 dark:text-teal-200 font-semibold'
+                        : 'border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div className="text-sm">🎯 Mode QCM</div>
+                    <div className="text-xs opacity-75 mt-0.5">Choix multiples</div>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setQuestionType('redaction')}
+                    className={`p-3.5 rounded-xl border text-left transition cursor-pointer ${
+                      questionType === 'redaction'
+                        ? 'border-amber-600 bg-amber-50 dark:bg-amber-950/60 text-amber-900 dark:text-amber-200 font-semibold'
+                        : 'border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div className="text-sm">✍️ Rédactionnel</div>
+                    <div className="text-xs opacity-75 mt-0.5">QROC & Cas ouverts</div>
+                  </button>
+                </div>
+              </div>
+            )}
+
             {/* Choix du mode */}
             {!officielId && !moduleId && (
               <div>
@@ -261,30 +324,32 @@ export function QuizEngine({
               </div>
             )}
 
-            {/* Options de mélange */}
-            <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800">
-              <label className="flex items-center gap-2.5 text-xs text-slate-700 dark:text-slate-300 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={shuffleProps}
-                  onChange={(e) => setShuffleProps(e.target.checked)}
-                  className="rounded border-slate-300 text-teal-600 focus:ring-teal-500"
-                />
-                <span>Mélanger l&apos;ordre des propositions de réponse</span>
-              </label>
-
-              {officielId && (
+            {/* Options de mélange pour QCM */}
+            {questionType === 'qcm' && (
+              <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800">
                 <label className="flex items-center gap-2.5 text-xs text-slate-700 dark:text-slate-300 cursor-pointer">
                   <input
                     type="checkbox"
-                    checked={shuffleQuestions}
-                    onChange={(e) => setShuffleQuestions(e.target.checked)}
+                    checked={shuffleProps}
+                    onChange={(e) => setShuffleProps(e.target.checked)}
                     className="rounded border-slate-300 text-teal-600 focus:ring-teal-500"
                   />
-                  <span>Mélanger l&apos;ordre des questions dans chaque partie</span>
+                  <span>Mélanger l&apos;ordre des propositions de réponse</span>
                 </label>
-              )}
-            </div>
+
+                {officielId && (
+                  <label className="flex items-center gap-2.5 text-xs text-slate-700 dark:text-slate-300 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={shuffleQuestions}
+                      onChange={(e) => setShuffleQuestions(e.target.checked)}
+                      className="rounded border-slate-300 text-teal-600 focus:ring-teal-500"
+                    />
+                    <span>Mélanger l&apos;ordre des questions dans chaque partie</span>
+                  </label>
+                )}
+              </div>
+            )}
           </div>
 
           <button
@@ -293,14 +358,14 @@ export function QuizEngine({
             disabled={loading}
             className="w-full py-3.5 rounded-xl bg-teal-600 hover:bg-teal-700 disabled:opacity-50 text-white font-bold text-sm shadow-xs transition cursor-pointer"
           >
-            {loading ? 'Chargement des questions...' : 'Démarrer le quiz →'}
+            {loading ? 'Chargement des questions...' : 'Démarrer la session →'}
           </button>
         </div>
       </div>
     )
   }
 
-  // Écran de résultats
+  // Écran de résultats (QCM)
   if (result) {
     return (
       <ResultScreen
@@ -315,9 +380,85 @@ export function QuizEngine({
     )
   }
 
-  const currentStep = steps[currentStepIndex]
+  // Rendu spécifique : Mode Questions Rédactionnelles
+  if (questionType === 'redaction' && redactionQuestions.length > 0) {
+    const currentRedaction = redactionQuestions[currentStepIndex]
 
-  // Calcul du nombre de questions répondues au total
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-8 space-y-6">
+        {/* Barre d'état */}
+        <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm space-y-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">
+                ✍️ Mode Rédactionnel (QROC)
+              </span>
+              <span className="text-xs text-slate-400">•</span>
+              <span className="text-xs font-semibold text-slate-600 dark:text-slate-300">
+                Question {currentStepIndex + 1} sur {redactionQuestions.length}
+              </span>
+            </div>
+
+            {mode === 'examen' && (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-red-50 dark:bg-red-950/50 text-red-700 dark:text-red-300 font-mono font-bold text-sm">
+                <span>⏱</span>
+                <span>{timer.formatted}</span>
+              </div>
+            )}
+          </div>
+
+          <ProgressBar current={currentStepIndex + 1} total={redactionQuestions.length} />
+        </div>
+
+        {/* Carte rédactionnelle */}
+        {currentRedaction && (
+          <RedactionCard
+            key={`red-${currentRedaction.id}`}
+            question={currentRedaction}
+            isExamMode={mode === 'examen'}
+          />
+        )}
+
+        {/* Navigation */}
+        <div className="flex items-center justify-between pt-2">
+          <button
+            type="button"
+            onClick={() => setCurrentStepIndex((prev) => Math.max(prev - 1, 0))}
+            disabled={currentStepIndex === 0}
+            className="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 disabled:opacity-30 text-slate-700 dark:text-slate-300 font-semibold text-xs transition cursor-pointer"
+          >
+            ← Question précédente
+          </button>
+
+          {currentStepIndex < redactionQuestions.length - 1 ? (
+            <button
+              type="button"
+              onClick={() =>
+                setCurrentStepIndex((prev) => Math.min(prev + 1, redactionQuestions.length - 1))
+              }
+              className="px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition cursor-pointer shadow-xs"
+            >
+              Question suivante →
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={() => {
+                setStarted(false)
+                setCurrentStepIndex(0)
+              }}
+              className="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
+            >
+              Terminer la session ✅
+            </button>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  // Rendu standard : Mode QCM
+  const currentStep = steps[currentStepIndex]
   const answeredQuestionsCount = Object.keys(reponses).filter(
     (k) => (reponses[k] || []).length > 0
   ).length

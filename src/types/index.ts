@@ -26,6 +26,8 @@ export interface TreeCours {
   titre: string
   description: string | null
   nbQuestions: number
+  nbQcm: number
+  nbRedaction: number
   masque: boolean
 }
 
