@@ -1,0 +1,2518 @@
+Pneumologie - Chirurgie thoracique
+Questions cours par cours
+Remarques
+- Ce document contient toutes les questions d’anciens examens de Pneumologie - Chirurgie
+Thoracique;
+- ( 2003 - 2025 : 1ère et 2ème sessions ) - disponibles dans le Cahier d’Exams.
+- Les 499 questions. sont réparties cours par cours
+- Les QR. sont des questions rédactionnelles qui regroupent les QROC’s aussi
+Sommaire :
+Pneumologie.............................................................................................................................................. 161
+1. Infections Respiratoires Aiguës Basses Communautaires : ( 34 questions ).................................... 161
+2. Tuberculose : ( 58 questions )........................................................................................................... 164
+3. CAT devant une hémoptysie : ( 49 questions ).................................................................................. 169
+4. Asthme : ( 38 questions )................................................................................................................... 176
+5. Pneumopathies Infiltratives Diffuses « PID » : ( 4 questions )........................................................... 179
+6. Cancer Broncho-pulmonaire CBP : ( 13 questions )..........................................................................179
+7. Dilatation de bronches DDB ou Bronchectasie : ( 9 questions )........................................................ 180
+8. Pleurésies à liquide clair : ( 28 questions )........................................................................................ 181
+9. Pneumothorax : ( 8 questions )..........................................................................................................185
+10. Tabagisme : ( 4 questions )..............................................................................................................186
+11. Broncho-pneumopathie chronique obstructive BPCO : ( 36 questions )..........................................186
+12. Syndrome d’apnées obstructives du sommeil SAOS : ( 11 questions )...........................................188
+13. Syndrome d’Obésité et Hypoventilation (SOH)................................................................................188
+14. Dyspnée Aiguës : ( 18 questions )................................................................................................... 189
+15. Dyspnée chronique : ( 49 questions ).............................................................................................. 191
+16. Spirométrie : ( 15 questions )...........................................................................................................199
+17. Cas cliniques généraux : ( 97 questions )........................................................................................203
+18. Questions Générales : ( 3 questions )............................................................................................. 214
+Chirurgie thoracique................................................................................................................................. 216
+1. Drainage thoracique : ( 3 questions ).................................................................................................216
+2. Kyste hydatique du poumon : ( 4 questions ).....................................................................................216
+3. Plaies thoraco-abdominales : ( 2 questions ).....................................................................................216
+4. Traumatismes thoraciques fermés : ( 8 questions )...........................................................................216
+5. Tumeurs médiastinales : ( 8 questions )............................................................................................ 217
+Page 160:
+Ataraxie
+
+-- 1 of 58 --
+
+Pneumologie
+1. Infections Respiratoires Aiguës Basses Communautaires : ( 34 questions )
+QR 1 :
+1- Quels sont les éléments cliniques orientant vers une pneumonie ?
+QR 2 :
+2- Les infections respiratoires aiguës basses communautaires :
+a. Place de la radiographie thoracique (Indications et résultats).
+b. Selon quels critères vous vous basez pour indiquer le traitement en hospitalier ou en ambulatoire ?
+QR 3 :
+3- Quel est le schéma thérapeutique pour une pneumonie aiguë communautaire PAC non hospitalière ?
+QR 4 :
+4- Infections respiratoires aiguës basses communautaires :
+a. Traitement des bronchites aiguës
+b. Traitement préventif des IRA BC
+QR 5 :
+5- Quels sont les germes les plus fréquemment rencontrés au cours des pneumonies aiguës
+communautaires non graves ? (01 point)
+- Les 3 germes au cour des pneumonies aiguës communautaires
+QR 6 :
+6- Quels sont les aspects les plus typiques, des Infections respiratoires Aiguës Basses Communautaires, à
+la Radiographie thoracique ? (1.5 point)
+QR 7 :
+7- Radiologie des IRABC: Indications et aspects radiographiques
+QR 8 :
+8- Indications initiales et ultérieures de la Radiographie thoracique au cours des IRABC
+QR 9 :
+9- Quels sont les facteurs de risque de mortalité et les signes gravité, des infections respiratoires aiguës
+basses communautaires (2 points)
+QR 10 :
+10- Quel est le bilan initial à proposer pour les pneumonies aiguës communautaires prises en charge à
+l'hôpital ? (01,5 point)
+QR 11 :
+11- Le traitement de la Bronchite aiguë (1 point) Bonus 1,5 point
+Cas clinique 1:
+Une femme de 38 ans est admise aux urgences. Elle se plaint d'une toux non productive et d'une douleur
+en point de côté axillaire droit apparu le matin même, en même temps que la fièvre. Dans ses antécédents,
+il va notion de splénectomie à la suite d'un accident de la voie publique survenu il y a 2 ans, de même
+qu'un diabète sucré non équilibré.
+A l'examen on note une fréquence respiratoire à 22 /min, une pression artérielle à 120/80, une fréquence
+cardiaque à 100 bpm, une Température à 39 °C, il n'y a pas de confusion mentale et pas de déficit
+sensitivomoteur. L’auscultation retrouve un foyer de râles crépitants au niveau au creux axillaire droit. Le
+reste de l'examen est sans particularité hormis la mise en évidence d'une dentition en mauvais état. Une
+radiographie thoracique a été réalisée (voir diapo A)
+Page 161:
+Ataraxie
+
+-- 2 of 58 --
+
+12- Comment appelle-t-on le tableau clinico-radiologique que présente cette patiente ? (justifiez)
+Le médecin de garde a indiqué son hospitalisation, a demandé une hémoculture, un examen cyto
+bactériologique des expectorations et des D-dimères, puis a prescrit une Amoxicilline par voie injectable à
+raison de 3 g/j.
+13- Commentez cette prescription, et quelle est la prise en charge que vous proposez ? (justifiez)
+Elle quitte l'hôpital contre avis médical et revient 8 jours plus tard, avec une douleur thoracique qui est
+réapparue, une dyspnée et une hyperthermie à 38°C. Elle dit avoir pris pendant 05 jours de l'amoxicilline
+2g/j (délivrée car le pharmacien) avec une amélioration clinique les premiers jours. Une radiographie
+thoracique de contrôle a été réalisée (diapo B)
+14- Quelles hypothèses diagnostiques faites-vous à ce stade ?
+15- Comment expliquez-vous l’évolution défavorable ?
+16- Quel est le principal geste thérapeutique qu'il faut faire ? (geste à décrire de façon brève)
+17- (QCM) Quel(s) traitement(s) associés proposez vous ?
+A- Vaccination anti pneumococcique
+B- kinésithérapie respiratoire avec mobilisation diaphragmatique
+C- Adaptation de l'antibiothérapie aux résultats bactériologiques
+D- Diurétiques de l'anse
+E- Traitements des foyers infectieux associés (dentaires)
+Cas clinique 2:
+Mr A.B âgé de 18 ans, se présente aux urgences pour Sd infectieux (fièvre à 38,5°C), toux et
+expectorations purulentes. L’examen physique montre un syndrome de condensation basal droit. Le
+diagnostic de pneumonie aiguë communautaire a été retenu.
+Il est sans ATCD pathologiques notables, F.R. à 22c/mn, pouls à 100batt/mn, ailleurs RAS
+18- Quelle est votre conduite à tenir ?
+Le patient s’est nettement amélioré, déclaré guéri. Un mois plus tard, il refait un tableau de pneumonie.
+19- Quelles sont vos hypothèses diagnostiques ?
+20- Et quelle est votre conduite à tenir ?
+Cas clinique 3:
+Une patiente âgée de 35 ans, non tabagique, sans ATC pathologiques notables. Elle présente depuis 03
+jours un Sd grippal associé à une toux sèche très gênante, brûlures rétrosternales, rhinopharyngite.
+L’examen physique retrouve une patiente consciente en bon état général, θ à 37°8C, la Fréquence
+Respiratoire est à 20 c/min, le pouls à 80 b/min, TA ; 120/60. L’auscultation normale.
+21- Devant ce tableau clinique, le diagnostic le plus probable est ……………………….
+22- Ma conduite à tenir est la suivante (entourez la réponse juste) :
+Page 162:
+Ataraxie
+
+-- 3 of 58 --
+
+Le traitement se fera en (ambulatoire) / (hospitalier) : je demande une Radiographie thoracique de face
+(oui, non), NFS (oui, non), une CRP (oui, non), un ionogramme (oui, non), des D dimères (oui, non), un
+examen cyto bactériologique des expectorations ECBE (oui, non), et un examen ORL (oui, non).
+23- Je vais prescrire l’ordonnance suivante :
+24- La patiente revient après une semaine, elle vous rapporte qu'elle s’est nettement améliorée, mais
+elle garde une toux persistante (moins gênante). Qu’est ce que vous lui proposez ?
+Cas clinique 4:
+Mr. Abdallah, patient âgé de 42 ans, consulte aux urgences, pour toux, expectorations purulentes et
+douleurs thoraciques droites en point de côté, dans un contexte de fièvre 38,5 -39°C, depuis 5 jours.
+L’anamnèse est sans particularités en dehors d’un tabagisme à 1 paquet/j pendant 08 ans sevré il y a 5
+ans. L’examen physique retrouve un herpès naso-labial et une submatité apicale droite.
+25- Devant ce tableau clinique, le diagnostic le plus probable est …………………………
+Une radiographie thoracique de face a été réalisée : voir cliché A
+26- Veuillez interpréter ce cliché :
+27- Votre conduite à tenir est la suivante (entourez la réponse juste) :
+Le traitement de ce patient se fera en (ambulatoire) / (hospitalier) ; je vais demander le bilan suivant une
+NFS (oui, non), une CRP (oui, non), un ionogramme (oui, non), des D dimères (oui, non), un examen cyto
+bactériologique des expectorations ECBE (oui, non), et un ECG (oui, non).
+28- Je vais prescrire le traitement par voie (orale) / (injectable) pendant.................jours. L’ordonnance
+est comme suit…………………………………………………………….
+Le patient revient vous voir au bout d’un mois ; il dit qu’il s’est amélioré mais garde des sensations fébriles,
+et depuis quelques jours réapparition des expectorations purulentes, un épisode d’hémoptysie et un
+amaigrissement non chiffré
+29- Quels seraient à votre avis les causes de cette évolution ?
+a- 	b- 	c- 	d- 	e- 	f- 	g- 	h-
+Une radiographie thoracique de face a été réalisée : voir cliché B
+30- Quelles sont vos hypothèses diagnostics ?
+31- Quels sont les principaux examens complémentaires et les résultats attendus ?
+Cas clinique 5:
+Un patient âgé de 22 ans, non tabagique, ayant des ATC de splénectomie (secondaire à un accident de la
+voie publique), se présente à votre consultation dans un tableau de fièvre, frissons, toux avec
+expectorations purulentes, douleurs thoraciques en point de côté. L’examen physique retrouve un patient
+conscient en bon état général, fébrile à 39°C, la fréquence respiratoire est à 24 c/min; le pouls à 110-b/min,
+TA : 120/60. L’auscultation retrouve des râles crépitants à droite.
+Radiographie thoracique montre une opacité systématisée du lobe supérieur droit, avec bronchogramme
+aérien
+Page 163:
+Ataraxie
+
+-- 4 of 58 --
+
+32- Analyse de l’observation et conduite à tenir.
+Après 3 jours de traitement, persistance de la fièvre et apparition d’une dyspnée
+33- votre conduite à tenir
+Cas clinique 6:
+Un patient âgé de 50 ans. se présente à votre consultation pour un Sd infectieux, vous avez retenu le
+diagnostic d'une pneumonie aiguë. L'interrogatoire retrouve la notion d'hospitalisation. Il y a 2 mois, pour
+pneumonie ayant guéri sous traitement antibiotique.
+34- Quelle est votre conduite à tenir ?
+2. Tuberculose : ( 58 questions )
+QR 1 :
+1- Le diagnostic positif de la tuberculose ?
+QR 2 :
+2- Les antibacillaires: posologies, posologies moyennes, doses maximales / jour, présentations des
+médicaments en association
+QR 3 :
+3- La tuberculose :
+a. Classification des anti bacillaires : - Majeurs: - Mineurs: - Essentiels: - Exclusifs :
+b. Les règles dû traitement :
+c. Les régimes thérapeutiques :
+- Catégorie I : 	- Catégorie II : 	- Catégorie III : 	- Catégorie IV :
+- Schéma : 	- Schéma : 	- Schéma : 	- Schéma :
+QR 4 :
+4- Quels sont les facteurs de risque pour l'infection et la maladie tuberculeuse ? (01 point)
+QR 5 :
+5- Quels sont les aspects les plus typiques de la tuberculose pulmonaire commune à la radiographie
+thoracique ? (1,5 point) Bonus +1
+QR 6 :
+6- Le traitement adjuvant au cours de la prise en charge de la tuberculose (1 point)
+QR 7 :
+7- Quel est le bilan initial à demander chez un tuberculeux ? (01 point)
+QR 8 :
+8- Régimes thérapeutiques de la tuberculose (2,5 points)
+Type de Tuberculose 	Régime thérapeutique
+QR 9 :
+9- Effets secondaires des antibacillaires
+Page 164:
+Ataraxie
+
+-- 5 of 58 --
+
+QR 10 :
+10- Dépistage chez les consultants suspects au niveau du Centre de Santé présentant une toux depuis
+plus de 15 jours (arbre décisionnel)
+Cas clinique 1:
+Une patiente âgée de 22 ans enceinte de 6 mois, ayant un poids de 55 kg, et présentant une TPM+
+11- Quel schéma thérapeutique proposez-vous ? ( schéma et ordonnance )
+Cas clinique 2:
+Mme Fatima ; âgée de 31 ans, mariée, mère d’un enfant de 05 ans présente une Tuberculose pulmonaire
+bactériologiquement confirmée.
+12- Décrivez la prise en charge thérapeutique. Sachant que son poids est de 52 kg
+Cas clinique 3:
+13- Prescrire une ordonnance chez un patient âgé de 20 ans qui présente une tuberculose
+bactériologiquement positive, nouveau cas, sans terrain particulier, poids 60 kg :
+Cas clinique 4:
+Patient âgé de 21 ans, connu cardiaque sous Anti vit K (AVK). Présente depuis 2 semaines une asthénie
+avec amaigrissement de 3 kg et une douleur thoracique gauche en point de côté qui augmente à
+l’inspiration et à la toux, et elle est modifiée par le changement de position.
+14- Il s’agit d’une douleur de type…………………………………………..
+L’examen physique retrouve au niveau de la base thoracique droite, une matité à la percussion, une
+diminution des vibrations vocales et une diminution du murmure vésiculaire
+15- Il s’agit du syndrome de……………………………………………………………………
+La radiographie thoracique est la suivante (cliché),
+16- Veuillez interpréter ce cliché :
+17- Au total, il s’agit de ………………………….
+18- L’examen qui doit être réalisé est………………………………………..
+Le diagnostic de tuberculose a été retenu.
+19- Sachant que c’est un patient que c’est un nouveau cas, le schéma thérapeutique selon le
+programme national de LAT est le suivant :
+20- Le traitement est réalisé en (ambulatoire) / (hospitalier) car…………………………………….
+21- L’ordonnance est la suivante (poids 57 kg).......................................................................... …
+22- Le patient vous demande quand est ce qu’il peut retourner à son lycée et est ce qu’il y a des
+précautions particulières vis-à-vis de ses proches. Qu’est ce que vous lui conseillez ?
+Page 165:
+Ataraxie
+
+-- 6 of 58 --
+
+Cas clinique 5:
+Patiente âgée de 42 ans, divorcée, non tabagique, suivie pour un diabète sous antidiabétiques oraux, se
+présente aux urgences pour des douleurs abdominales. L’anamnèse retrouve une altération progressive de
+l'état général depuis quelques semaines avec amaigrissement, toux et expectorations mucopurulentes.
+L'examen physique retrouve un fébricule à 38°C. L’abdomen est distendu avec déplissement de l'ombilic.
+La palpation abdominale retrouve le signe du flot. La percussion retrouve une matité déclive des flancs,
+mobile aux changements de position.
+Le diagnostic de Tuberculose est suspecté.
+23- Quels sont les principaux examens complémentaires qui vont permettre de retenir ce diagnostic et
+quels sont les résultats attendus.
+Le Diagnostic de Tuberculose multifocale a été retenu
+24- Quelle est la prise en charge thérapeutique que vous lui proposez ? sachant que le poids de la
+patiente est de 60 kg
+25- Quels sont les messages éducatifs sur lesquels vous allez insister ?
+Cas clinique 6:
+Un homme âgé de 30 ans, viens vous voir à la consultation au centre de santé, pour altération de l'état
+général. Il vous dit qu'il a maigri de plus de 10 kg au cours des 3 derniers mois, et se plaint de sueurs
+nocturnes. Il tousse depuis 3 mois, et crache parfois du sang. Il fume près d'un paquet par jour depuis l'âge
+de 20 ans. Il n'a pas de travail régulier, n'a pas de famille et actuellement il loue avec 4 copains une
+chambre dans un bidonville. Il n'a pas de couverture sociale. A l'examen clinique vous notez une FR à 18
+c/min, une TA à 140/70 et un poids de 45 kg pour une taille de 1m70, sa température est de 37,8°C.
+Pendant que vous l'examinez, il émet à 2 reprises des expectorations striées de sang. Une radiographie
+thoracique a été réalisée (voir cliché)
+26- Quelles sont les principales hypothèses diagnostiques (au moins 2), et laquelle vous paraît la plus
+probable ? justifiez
+27- Quel traitement vous lui proposez dans l'immédiat ?
+28- Quel examen paraclinique de première intention a-t-il le plus de chance de confirmer votre
+principale hypothèse diagnostique ?
+Votre principale hypothèse diagnostique a été confirmée.
+29- Quel est la prise en charge thérapeutique que vous lui proposez ?
+30- Quels sont les messages éducatifs sur lesquels vous allez insister ?
+Page 166:
+Ataraxie
+
+-- 7 of 58 --
+
+Cas clinique 7:
+Patiente âgée de 32 ans, mariée, mère d'un enfant de 4 ans, diabétique sous anti-diabétiques oraux. Elle
+se présente aux urgences pour des hémoptysies de faible abondance. L'anamnèse retrouve une altération
+progressive de l'état général depuis quelques semaines avec amaigrissement, toux et expectorations
+mucopurulentes.
+31- Quels sont les principaux diagnostics évoquer ? (0,5 point)
+a…….. b…….. c…….. d…….. e…….. f……..
+32- Une radiographie thoracique a été réalisée (cliché A), veuillez l'interpréter (0,5 point)
+Le Diagnostic de Tuberculose est suspecté.
+33- Quels sont les examens complémentaires que vous allez demander pour confirmer votre diagnostic
+? (0,5 point)
+a…….. b…….. c……..
+Le Diagnostic de Tuberculose pulmonaire a été confirmé.
+34- Quel est le bilan initial que vous allez demander ? (0,5 point)
+a…….. b…….. c……..
+35- Sachant que son poids est de 65 kg, quel est le schéma thérapeutique (avec ordonnance), que
+vous allez proposer ? (1,5 point)
+Cas clinique 8:
+Mme S, âgée de 32 ans, diabétique sous antidiabétiques oraux, se plaint depuis 2 mois de douleurs
+thoraciques basales droits associée à une toux sèche. Son examen clinique trouve un syndrome
+d'épanchement liquidien droit
+36- Détaillez les éléments sémiologiques du sd d'épanchement liquidien.
+37- Décrivez l'image radiologique de pleurésie de moyenne abondance.
+38- 	Quel examen demandez-vous? Et quels sont les résultats que vous attendez ?
+Le diagnostic de tuberculose pleurale a été retenu. Vous décidez de traiter votre patiente. Sachant
+qu'elle pèse 62 kgs.
+39- Décrivez de façon détaillée votre prise en charge
+Au 15 eme jour, la patiente a présenté des nausées, vomissements et prurit ne cédant pas sous traitement
+symptomatique.
+40- Quelle est votre attitude ?
+Cas clinique 9:
+Patiente âgée de 22 ans, mariée sans enfants, non tabagique, suivie pour une cardiopathie sous
+anti-vitamine K, se présente aux urgences pour des céphalées avec vomissements depuis quelques jours.
+L’anamnèse retrouve une altération progressive de l'état général depuis quelques semaines avec
+amaigrissement toux et expectorations mucopurulentes. L’examen physique retrouve une photophobie
+avec légère raideur de la nuque et un fébricule à 38°C.
+Le diagnostic de Tuberculose est suspecté.
+41- Quels sont les principaux examens complémentaires qui vont permettre de retenir ce diagnostic et
+quels sont les résultats attendus.
+Page 167:
+Ataraxie
+
+-- 8 of 58 --
+
+Le Diagnostic de Tuberculose multifocale a été retenu
+42- Quelle est votre conduite à tenir, sachant que le poids de la patiente est de 60 kg
+Cas clinique 10:
+Une patiente âgée de 26 ans mariée, mère d’un enfant de 3 ans, se présente à votre consultation au centre
+de santé pour une symptomatologie survenue il y a 4 semaines faite de toux, expectorations purulentes et
+amaigrissement de 6 kg
+43- Quelle est votre démarche diagnostique ?
+Le diagnostic de TPM+ a été retenu.
+44- Décrivez de façon détaillée votre prise en charge thérapeutique, sachant que son poids = 60 kg, et
+que c’est une patiente suivie pour une cardiopathie sous Anti Vitamines K (AVK).
+Après 15 jours de traitement, la patiente est venue vous voir pour un ictère apparu la veille.
+45- Décrivez de façon précise votre conduite à tenir
+Cas clinique 11:
+Patiente de 25 ans mariée mère d'un enfant de 3 ans, suivie pour problème cardiaque sous anti vitamine k
+et qui présente une Tuberculose Pulmonaire à Microscopie positive (TPM+)
+46- Décrire de façon détaillée votre prise en charge (catégorie, schéma thérapeutique, ordonnance,
+dépistage ...), sachant que ie poids de la patiente est de 60 kg
+47- Quels sont les messages éducatifs que vous allez lui proposer concernant les aspects
+thérapeutiques ?
+Cas clinique 12:
+Un patient âgé de 22 ans, non tabagique, suivi pour diabète sous antidiabétiques oraux, se présente à
+votre consultation pour douleurs thoraciques en point de côté, augmentant à la toux et modifiées par le
+changement de position. Évoluant dans un contexte d’amaigrissement. L’examen physique retrouve un
+syndrome d’épanchement liquidien, avec un fébricule à 38°C.
+La radiographie thoracique montre un aspect de pleurésie droite.
+48- Quelles sont les autres données à rechercher sur la radiographie thoracique
+49- Quels sont les principaux: examens complémentaires qui vont permettre de confirmer la pleurésie et
+son étiologie
+Le diagnostic de Tuberculose a été retenu.
+50- Quelle est votre conduite à tenir initiale, sachant que le poids du patient est de 60 kg
+51- Quels sont les principaux messages éducatifs ?
+Cas clinique 13:
+Une patiente âgée de 32 ans mariée, mère d’un enfant de 3 ans, se présente à votre consultation au centre
+de santé pour une symptomatologie survenue il y a 3 semaines faite de toux, expectorations purulentes et
+amaigrissement de 4 kg.
+52- Quelle est votre démarche diagnostique ?
+Le diagnostic de TPM avec lésions étendues a été retenu.
+53- Décrivez, de façon détaillée votre prise en charge thérapeutique, sachant que son poids =56 kg
+Après 15 jours de traitement, la patiente est venue vous voir pour un ictère apparu la veille.
+54- Décrivez de façon précise votre conduite à tenir.
+Cas clinique 14:
+Patiente âgée de 22 ans, mariée sans enfants, non tabagique, suivie pour une cardiopathie sous
+anti-vitamine K, se présente aux urgences pour des céphalées avec vomissements depuis quelques jours.
+L’anamnèse retrouve une altération progressive de l’état général depuis quelques semaines avec
+amaigrissement toux et expectorations mucopurulentes. L’examen physique retrouve une photophobie
+avec légère raideur de la nuque et un fébricule à 38°C.
+Le diagnostic de Tuberculose est suspecté.
+Page 168:
+Ataraxie
+
+-- 9 of 58 --
+
+55- Quels sont les principaux examens complémentaires qui vont permettre de retenir ce diagnostic et
+quels sont les résultats attendus.
+Le Diagnostic de Tuberculose multifocale a été retenu
+56- Quelle est votre conduite à tenir, sachant que le poids de la patiente est de 60 kg
+Cas clinique 15:
+Patiente âgée de 42 ans, divorcée, mère d’un enfant de 4 ans, tabagique, diabètique sous antidiabétiques
+oraux. Elle se présente aux urgences pour des douleurs abdominales. L’anamnèse retrouve une altération
+progressive de l’état général depuis quelques semaines avec amaigrissement, toux et expectorations muco
+purulentes.
+L’examen physique retrouve un fébricule à 38°C. L’abdomen est distendu avec déplissement de l’ombilic.
+La palpation abdominale retrouve le signe du flot. La percussion retrouve une matité déclive des flancs,
+mobile aux changements de position.
+Le diagnostic de tuberculose est suspecté.
+57- Quels sont les principaux examens complémentaires qui vont permettre de retenir ce diagnostic et
+quels sont les résultats attendus?
+Le diagnostic de tuberculose multifocale a été retenu
+58- Quelle est la prise en charge thérapeutique initiale que vous lui proposez? Sachant que le poids de
+la patiente est de 53 kg
+3. CAT devant une hémoptysie : ( 49 questions )
+1- Devant une SUSPICION D'HÉMOPTYSIE, LES PREMIERS ÉLÉMENTS À RECHERCHER sont
+A. Antécédents de tuberculose traitée
+B. La notion d'épistaxis
+C. La notion de tabagisme
+D. Si le sang est mélangé à des débris alimentaires
+E. La survenue ou non dans un effort de toux
+2- Quels sont les diagnostiques à évoquer devant une hémoptysie avec DOULEURS THORACIQUES
+AIGUËS?
+A. Un Cancer bronchique primitif
+B. Une bronchectasie localisée
+C. Une embolie pulmonaire
+D. Un kyste hydatique
+E. Une pleurésie tuberculeuse
+3- Quels sont les éléments à rechercher devant une HÉMOPTYSIE A REPETITION depuis plusieurs
+années?
+A. Tabagisme actif
+B. Bronchorrhée matinale
+C. Atopie familiale
+D. Alitement prolongé
+E. Antécédents de tuberculose
+4- Les aspects radiologiques attendus au cours d'une hémoptysie sont :
+A. Radiographie thoracique normale
+B. Opacités réticulaires diffuses
+C. Opacité excavée apicale
+D. Opacité ronde
+E. Distension thoracique globale
+Cas clinique 1:
+5- Devant une hémoptysie récente, les principales hypothèses diagnostiques sont :
+A : Un aspergillome
+B: Des séquelles de tuberculose pulmonaire
+Page 169:
+Ataraxie
+
+-- 10 of 58 --
+
+C : Un cancer bronchique primitif
+D : Une dilatation de bronches localisée
+E : pneumonie récidivantes
+6- Une hémoptysie répétée, depuis plusieurs années, doit faire évoquer
+A : Une aspergillose invasive
+B : Des séquelles de tuberculose pulmonaire
+C : Un cancer bronchique primitif
+D : Une dilatation de bronches localisée
+E : Pneumonies récidivantes
+7- Devant une hémoptysie, la présence de dyspnée aiguë doit faire évoquer
+A : Une embolie pulmonaire
+B : Une exacerbation de BPCO
+C : Un rétrécissement mitral serré
+D : Une tuberculose pulmonaire de l'apex droit
+E : Un kyste hydatique-du poumon
+8- Devant une hémoptysie, la présence de fièvre doit évoquer
+A : Séquelles de tuberculose
+B : Pneumonie obstructive
+C : Bronchectasie
+D : Embolie pulmonaire
+E : Rechute tuberculeuse
+9- Un patient âgé de 25 ans, jamais traité pour tuberculose, présente une hémoptysie depuis 2 mois
+évoluant dans un contexte de conservation de l’état général. Quelles sont les étiologies les plus
+probables
+A : Aspergillome pulmonaire
+B : Cancer bronchique primitif
+C : Kyste hydatique du poumon
+D : Bronchectasie
+E : Tuberculose active
+10- Chez ce patient, quels sont les aspects radiologiques attendus
+A : Opacité ronde en boulet de canon
+B : Radiographie thoracique normale
+C : Image cavitaire avec lésion en grelot
+D : Opacité hilaire à limites spiculées en patte de crabe
+E : images kystiques des bases pulmonaires
+Cas clinique 2:
+Mme K.A. âgée de 32 ans, vient vous voir en consultation ce jour, pour des hémoptysies de faible
+abondance depuis 24h
+11- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A : Embolie pulmonaire
+B : kyste hydatique pulmonaire
+C : Cancer bronchique primitif
+D : Aspergillose invasive
+E : Pneumopathies d’hypersensibilité
+12- L'anamnèse doit rechercher les antécédents et facteurs de risque suivants.
+A : Tabagisme
+B : Notion de contact avec les chiens
+C : Notion de contact avec le foin moisi
+D : Antécédent de traitement anti bacillaire
+E : Elevage de volailles
+Page 170:
+Ataraxie
+
+-- 11 of 58 --
+
+13- L’anamnèse doit aussi rechercher les éléments suivants.
+A : Notion d'exposition aux fumées domestiques (four)
+B : Névralgies cervico-brachiales
+C : Amaigrissement
+D : Alitement prolongé
+E : Prise de contraceptifs
+14- L'anamnèse retrouve des antécédents d'hémoptysies à répétition depuis quelques années ; dans ce
+cas les hypothèses diagnostiques les plus probables sont
+A : Pneumopathies d’hypersensibilité
+B : Bronchectasie
+C : Cancer bronchique primitif
+D : Aspergillome pulmonaire
+E : Séquelles de tuberculose
+15- L'examen physique, dans ce cas, doit rechercher les éléments suivants.
+A : Un Sd de condensation
+B : Un Sd cave supérieur
+C : Râles ronflants diffus
+D : Râles crépitants diffus
+E : Douleur à la dorsiflexion du pied
+16- La Radiographie thoracique a été réalisée. Quelles sont le ou les aspects radiologiques attendus
+pour cette patiente ?
+A : Opacités réticulaires diffuses
+B : Opacité systématisée rétractile (atélectasie)
+C : Images aréolaires des bases
+D : Image cavitaire en grelot
+E : Radiographie thoracique normale
+Cas clinique 3:
+Mr K.A. 32 ans, agriculteur, consulte ce jour, pour des hémoptysies répétées depuis 10 ans.
+17- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A : Bronchectasies
+B : Séquelles de Tuberculose
+C : Cancer bronchique primitif
+D : Aspergillose invasive
+E : Pneumopathies d’hypersensibilité
+18- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A : Bronchopneumopathies chroniques obstructives BPCO
+B : Tuberculose pulmonaire active
+C : Aspergillome pulmonaire
+D : Kyste hydatique pulmonaire
+E : Embolie pulmonaire massive
+19- L’anamnèse doit rechercher les éléments suivants
+A : Notion d’exposition aux fumées domestiques (four)
+B : Tabagisme
+C : Chirurgie récente
+D : Alitement prolongé
+E : Antécédent de traitement anti bacillaire
+20- L’anamnèse doit rechercher les éléments suivants (SUITE)
+A : Sifflements thoraciques
+B : Épisodes de dyspnée saisonnière
+C : Douleurs thoraciques en point de côté
+Page 171:
+Ataraxie
+
+-- 12 of 58 --
+
+D : Bronchorrhée matinale
+E : Névralgies cervico-brachiales
+21- L’examen physique, dans ce cas, doit rechercher les éléments suivants.
+A : Un Sd de condensation
+B : Un Sd cave supérieur
+C : Râles ronflants diffus
+D : Râles sibilants diffus
+E : Douleur à la dorsiflexion du pied
+22- La Radiographie thoracique a été réalisée. Quelles sont le ou les aspects radiologiques attendus
+pour cette patiente ?
+A : Opacité hilaire à limites spiculées en patte de crabe
+B : Thorax distendu avec aplatissement des coupoles, et horizontalisation des côtes
+C : Images aréolaires des bases
+D : Image cavitaire en grelot
+E : Radiographie thoracique normale
+Cas clinique 4:
+Mme SAMIRA, 36 ans se présente aux urgences pour des hémoptysies. Elle n'a jamais été traité pour
+tuberculose, mais se rappelle avoir été très malade à l'âge de 10 ans. Elle a toujours eu des expectorations
+fréquentes mais elles sont plus abondantes que d'habitude, et c'est la première fois qu'elle fait des
+hémoptysies. Elle se sent fébrile depuis quelques jours et est également essoufflée depuis 2 semaines. A
+l'examen, elle est polypneique 26 cycles/min, saturation en oxygène 90%, tachycarde 120 b/min, fébrile
+38°6; présence de râles ronflants bilatéraux, et des œdèmes des membres inférieurs.
+23- Quelle est votre conduite à tenir en urgence ?
+A. Vous l'adressez chez le cardiologue pour avis
+B. Vous demandez une radiographie thoracique
+C. Vous mettez la patiente sous oxygène
+D. Vous demandez une NFS
+E. Vous lui donnez une ordonnance avec des antibiotiques
+24- Quels sont les éléments en faveur d'une dilatation de bronches chez cette patiente
+A. La présence de crachats depuis l'enfance
+B. La présence d'œdème des membres inférieurs
+C. La notion d'infection à l'âge de 10 ans
+D. La désaturation à l'examen clinique
+E. La présence de râles ronflants bilatéraux
+25- Le bilan montre une hyperleucocytose à 14.000 à prédominance PNN, avec Hb 11 et CRP 120. La
+radiographie thoracique montre une opacité alvéolaire lobaire inférieure droite avec des lésions
+kystiques au niveau du poumon gauche. Quel est LE diagnostic que vous retenez ?
+A. Une pneumonie lobaire inférieure droite
+B. Un cancer bronchopulmonaire
+C. Une dilatation de bronches bilatérale kystique compliquée d'une pneumonie
+D. Une bronchopneumopathie chronique obstructive
+E. Une tuberculose pulmonaire
+26- Quelle est votre conduite à tenir chez cette patiente ?
+A. Vous demandez un ECBC
+B. Vous débutez une antibiothérapie
+C. Vous l'adressez pour débuter un traitement antibacillaire
+D. Vous demandez un scanner thoracique avant de décider de la conduite thérapeutique
+E. vous commencez une kinésithérapie de drainage bronchique
+Page 172:
+Ataraxie
+
+-- 13 of 58 --
+
+27- vous revoyez Mme Samira après 2 sem, elle ne présente plus d'hémoptysie. Son examen trouve
+une patiente qui sature 95% et son auscultation trouve quelques râles ronflants. Que lui proposez vous
+?
+A. Spirométrie
+B. Continuer les antibiotiques
+C. Vaccination anti pneumococcique
+D. Echographie cardiaque
+E. Un angioscanner thoracique
+Cas clinique 5:
+Patient âgé de 50 ans, vétérinaire, présente une hémoptysie de faible abondance depuis quelques jours
+28- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques les plus probables ?
+A. Pneumopathies Infiltrantes Diffuses (PID)
+B. Broncho-Pneumopathies Chroniques Obstructives (BPCO)
+C. Kyste hydatique du poumon
+D. Bronchectasie localisée
+E. Cancer bronchique primitif
+29- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques les plus probables ?
+A. Rétrécissement mitral
+B. Métastases pulmonaires
+C. Aspergillome pulmonaire
+D. Sd Obésité hypo ventilation (SOH)
+E. Tuberculose pulmonaire active
+30- L’anamnèse doit rechercher les éléments suivants (Antécédents et facteurs de risque) :
+A. Tabagisme actif
+B. Exposition professionnelle aux substances minérales
+C. Contage tuberculeux récent
+D. Atopie familiale
+E. Exposition aux fumées de four
+31- L’anamnèse doit rechercher les éléments suivants (suite)
+A. Prise médicamenteuse au long cours
+B. Exposition professionnelle au foin moisi
+C. Notion de contact avec les chiens
+D. Elevage de volailles
+E. Exposition aux acariens de poussière de maison et aux blattes
+32- L’anamnèse doit rechercher les éléments suivants (suite)
+A. Bronchite chronique
+B. Dysphonie
+C. Dysphagie
+D. Orthopnée
+E. Névralgies cervico-brachiales
+33- Chez ce patient, en plus de l’hémoptysie, l’anamnèse retrouve une altération de l’état général avec
+amaigrissement. Dans ce cas, les hypothèses diagnostiques les plus probables sont :
+a)............ 	b)............ 	c)............ 	d)............
+Dans ce cas, l’examen physique doit rechercher ……
+34- Chez ce patient, Les aspects radiologiques les plus attendus, sont les suivants :
+A. Radiographie thoracique normale
+B. Opacités réticulaires diffuses
+C. Opacité excavée apicale
+D. Hyperclarté avasculaire périphérique, limitée en dedans par un fin liseré
+E. Distension thoracique globale
+Page 173:
+Ataraxie
+
+-- 14 of 58 --
+
+Chez ce patient, la radiographie thoracique suivante a été réalisée (voir cliché 1). Elle montre:……
+le cliché n’existe pas (2023 SN)
+35- En tenant compte du tableau radio-clinique, quel est LE DIAGNOSTIC que vous retenez
+A. Embolie pulmonaire
+B. Tuberculose active
+C. Aspergillome pulmonaire
+D. BPCO sévère
+E. Cancer bronchique primitif
+Dans ce cas, quelle est votre conduite à tenir:……
+Cas clinique 6:
+Mme Fatima âgée de 40 ans, vit en milieu rural, femme au foyer. Elle vient vous voir en consultation, car
+elle présente, depuis plus de 4 ans, plusieurs épisodes d’hémoptysie.
+36- Quels sont les principaux diagnostics suspectés ? (au moins 3)
+a-.............. b-.............. c-.............. d-.............. e-.............. f-..............
+37- Démarche de diagnostic
+A. Mari tabagique 	B. Tabagisme actif 	C. Contage tuberculeux récent
+D. Déjà traitée pour tuberculose 	E. Père asthmatique 	F. Angines à répétition
+G. Cuisson au four traditionnel 	H. Elevage des volailles 	I. contact avec les chiens
+J. Sifflements thoraciques 	K. Orthopnée 	L. bronchorrhée matinale
+M. dysphagie 	N. dysphonie O. Alitement prolongé 	P. conservation de l’état général
+Q. Altération de l’état général 	R. Râles crépitants 	S. Râles ronflants
+T. Adénopathies périphériques 	U. Sd cave supérieur 	V. Œdème des membres inférieurs
+W. Sd d’épanchement liquidien 	X. Vomique hydatique 	Y. obésité IMC = 35
+Z. Ronflements nocturnes
+Choisir parmi les éléments cités ci-dessus, ceux qui correspondent le plus aux diagnostics suspectés
+Diagnostic suspecté 	Élément compatibles (ex : a, g, k, q, s, x ….)
+38- Quelles sont les anomalies radiologiques (Radiographie thoracique) attendues pour les diagnostics
+suspectés :
+a -.............. b -.............. c -.............. d -.............. e -.............
+Cas clinique 7:
+Mme Fatima, patiente âgée de 40 ans, vient consulter le matin aux urgences. Elle vous dit qu’elle a craché
+du sang à 4 reprises, depuis deux jours.
+39- Vous avez suspecté des hémoptysies Quels sont les éléments de l'interrogatoire que vous devez
+rechercher pour confirmer cette hypothèse.
+a -.............. b -.............. c -.............. d -.............. e -............. f-............ g-............. h-.............
+Page 174:
+Ataraxie
+
+-- 15 of 58 --
+
+40- Effectivement il s’agit d' hémoptysies de faible abondance Quels sont les principaux diagnostics
+suspectés ? (au moins 5)
+a -.............. b -.............. c -.............. d -.............. e -............. f-............. g-............. h-.............
+41- Démarche du diagnostic étiologique
+Choisir parmi les éléments cités ci-dessus, ceux qui correspondent le plus aux diagnostics suspectés
+Diagnostic suspecté 	Élément compatibles (ex : a, g, k, q, s, x ….)
+42- Quelles sont les principales anomalies radiologiques (Radiographie thoracique) attendues
+a -.............. b -.............. c -.............. d -.............. e -.............
+Cas clinique 8:
+Patient de 48 ans, sans ATCDS pathologiques particuliers, Agriculteur, ancien tabagique à raison d'un
+paquet/j pendant 10 ans sevré depuis 10 ans. Il se présente à votre consultation pour des épisodes
+d’hémoptysie de faible abondance depuis plusieurs semaines, évoluant dans un contexte de conservation
+de l’état général.
+43- Quelles sont vos principales hypothèses diagnostiques (au moins 3) ? (justifiez votre réponse)
+44- Quels sont les principales données cliniques (interrogatoire et examen physique) à préciser pour
+mieux orienter votre diagnostic ?
+Une Radiographie thoracique a été réalisée (voir cliché) le cliché n’existe pas (2016 SN)
+45- Quel est le diagnostic le plus probable ? (justifiez votre réponse)
+46- Quelles sont les examens complémentaires que vous allez proposer pour confirmer votre
+diagnostic, et quels sont les résultats attendus ?
+Cas clinique 9:
+Page 175:
+Ataraxie
+
+-- 16 of 58 --
+
+Patient de 52 ans tabagique chronique depuis 20 ans non sevré, consulte pour les épisodes répétés
+d’hémoptysie de faible abondance depuis 2 mois. Examen clinique est normal.
+47- Quels sont vos hypothèses diagnostics en précisant le diagnostic principal ? Justifier votre réponse.
+48- Quel est le premier examen complémentaire que vous demandez pour orienter votre diagnostic
+principal ? quelles sont les anomalies attendues ?
+49- Quels sont les moyens dont vous disposez pour confirmer votre diagnostic ?
+4. Asthme : ( 38 questions )
+1- L’asthme est défini comme suit
+A. C’est une maladie homogène caractérisée par une inflammation chronique
+B. C’est une maladie hétérogène caractérisée par une obstruction chronique
+C. Elle est associée à un trouble ventilatoire obstructif
+D. Elle est associé à une hyperréactivité bronchique
+E. Le trouble ventilatoire obstructif est variable, le plus souvent réversible
+2- Dans l’asthme, la spirométrie montre
+A. Le trouble ventilatoire obstructif est variable dans le temps
+B. Le trouble ventilatoire peut être restrictif
+C. Le trouble ventilatoire obstructif est le plus souvent réversible
+D. Une spirométrie normale élimine le diagnostic d’asthme
+E. La revrsibilité est évaluée par une augmentation du VEMS de 12 % ou de plus 200 ml
+3- Le bilan initial de l’asthme comprend
+A. La radiographie thoracique
+B. La TDM thorax est nécessaire pour le diagnostic différentiel
+C. La Numération formule sanguine (éosinophiles)
+D. L’ionogramme sanguin (fonction rénale)
+E. Les Pricks tests (tests cutanés)
+QR 1 :
+4- Définition de l'asthme (1 point)
+QR 2 :
+5- Quel est l’intérêt de la spirométrie dans l’asthme
+- Diagnostic positif de l'asthme à la spirométrie
+- Quels sont les résultats de la spirométrie au cours de l'asthme? (1 point)
+QR 3 :
+6- Diagnostic positif de l'asthme
+QR 4 :
+7- Définition de l’atopie et les principales maladie atopiques
+QR 5 :
+8- Citez les critères de contrôle de l’asthme, avec les différents niveaux de contrôle
+QR 6 :
+9- Définissez le trouble ventilatoire obstructif réversible sous B2 Mimétiques ?
+QR 7 :
+10- Stadification de la maladie asthmatique
+QR 8 :
+11- Quelle est votre Conduite à tenir en cas d'asthme non contrôlé
+QR 9 :
+12- Précisez les différents paliers thérapeutiques de l’asthme
+Page 176:
+Ataraxie
+
+-- 17 of 58 --
+
+QR 10 :
+13- Les éléments du suivi thérapeutique du malade asthmatique
+QR 11 :
+14- Prescrire une ordonnance pour un asthme palier 3 :
+QR 12 :
+15- L'asthme :
+a. Béta 2 mimétiques : Mode d’action, effets secondaires, présentations, rôle thérapeutique
+b. Critères de l’évaluation de la gravité
+c. Schéma de la prise en charge de l’exacerbation à l’hôpital
+QR 13 :
+16- Quels sont les éléments de l'anamnèse qui orientent vers un asthme ? (03 points)
+QR 14 :
+17- Quel est le bilan à demander en cas d'asthme confirmé ? (01 point)
+- Le bilan initial de l'asthme comprend (0,5 point)
+QR 15 :
+18- Principaux diagnostics différentiels de l’asthme de l’adulte
+Cas clinique 1:
+Mme Z.N âgée de 25 ans, connue asthmatique depuis quelques années, sous traitement à base
+Salbutamol spray à la demande. Se présente ce jour à votre consultation pour des gènes respiratoires
+depuis 2 mois, faites de toux et dyspnée nocturne à raison de 3 à 4 fois par semaine, avec parfois la
+dyspnée lors de certaines tâches ménagères. Actuellement elle est asymptomatique, l'auscultation
+pulmonaire normale.
+19- Quelle est votre conduite à tenir
+Cas clinique 2:
+Mme Z.N âgée de 25 ans, connue asthmatique, sous traitement de fond à base d’une association de
+fluticasone 500μg/j et salmétérol 100μg/j, depuis plus de 3 mois. A l’interrogatoire la patiente est
+asymptomatique depuis plusieurs semaines.
+20- Quelle est votre conduite à tenir ?
+Cas clinique 3:
+Mr Ahmed, âgé de 40 ans, admis aux urgences pour exacerbation modérée de son asthme,
+21- Quelle est votre conduite à tenir ?
+22- Après avoir traité son exacerbation, vous avez jugé que son asthme, sous traitement palier 2 depuis
+un an est jugé non contrôlé, quelle est votre conduite à tenir ?
+Cas clinique 4:
+Patiente âgée de 32 ans suivie pour asthme et une rhinite allergique, sous traitement de fond à base de
+béclométhasone à la dose de 250μg/j depuis 6 mois.
+Malgré ce traitement, elle présente des gènes respiratoires nocturnes quotidiennes avec perturbation de
+l’activité physique et utilisation de béta2mimétiques courte durée d’action plusieurs fois/ sem.
+23- Analysez cette observation
+24- A partir de ces données, quelle est votre conduite à tenir détaillée ?
+Cas clinique 5:
+Patiente de 17 ans qui présente depuis 10 ans une rhinite allergique saisonnière, suivie pour asthme
+depuis 3 ans actuellement sous association fluticasone/Salmétérol 50 ug en spray à raison de 2Bx2/j
+depuis 6 mois, elle rapporte qu'elle est stable depuis plusieurs mois. Depuis début Mars (2 mois), elle
+rapporte une aggravation de sa rhinite et de ses symptômes respiratoires, elle a besoin d'utiliser son spray
+Page 177:
+Ataraxie
+
+-- 18 of 58 --
+
+salbutamol de façon quotidienne avec réveils nocturnes plusieurs fois/sem et une gêne lors de ses activités
+domestiques habituelles
+25- Analysez cette observation
+Cas clinique 6:
+Patiente de 26 ans, non tabagique ATCD familiaux père et soeur asthmatique. Elle consulte pour une gêne
+respiratoire avec sifflements thoraciques, évoluant de façon intermittente depuis une année. L'examen
+clinique est normal. Vous suspectez le diagnostic d'asthme.
+26- Quelles sont les données de cette observation en faveur de ce diagnostic ?
+27- Quelles sont les autres données à rechercher ?
+28- Quel est l’examen qui va vous permettre de retenir ce diagnostic et quels sont les résultats attendus
+?
+29- Y a t il une indication à la radiographie thoracique ? si oui, argumentez votre réponse
+La patiente rapporte que ces gènes respiratoires la réveillent plus de 3 fois/sem avec perturbation de
+l'activité physique. DEP est à 50% de la théorique
+30- Quel traitement vous allez prescrire “justifiez votre réponse"
+Cas clinique 7:
+Patient âgé de 34 ans qui présente une rhinite allergique et un asthme depuis 2 ans ; sous traitement de
+fond d'asthme à base de clenil forte* (béclométhasone) 500 μg/j depuis 3 mois. Mais il présente toujours
+une gène respiratoire nocturne à raison de 2 fois/sem, avec recours à la ventoline* (salbutamol) de façon
+quotidienne.
+31- Analysez l'observation (précisez le palier thérapeutique, évaluez le contrôle...)
+32- Précisez votre conduite à tenir de façon détaillée, et quel traitement vous allez prescrire ?
+Cas clinique 8:
+Une patiente âgée de 32 ans, suivie pour asthme confirmé depuis 2 ans, sous traitement à base de béta2
+mimétiques à la demande. Elle présente une symptomatologie faite de toux et sifflements thoraciques
+diurnes quotidiens avec activité physique parfois perturbée.
+33- Analyse de l’observation, et conduite à tenir thérapeutique ?
+34- Lors de la prochaine consultation, quels sont les critères de contrôle de la maladie, et quelles sont
+les choses à vérifier ?
+Cas clinique 9:
+Patiente de 37 ans qui présente depuis 10 ans une rhinite allergique avec des épisodes récurrents de
+sifflement thoracique de façon très intermittente soulagée par les Béta2mimétiques ; mais depuis 3 mois
+elle présente des réveils nocturnes 3 fois par semaines, des gènes diurnes plus de 2 fois/semaines.
+35- Quelle est votre conduite à tenir pour confirmer le diagnostic d’asthme ? Une fois le diagnostic
+d’asthme confirmé, quelle sera votre attitude ?
+Cas clinique 10:
+Patiente âgée de 26 ans ; connue asthmatique depuis plusieurs années à base de salbutamol (Ventoline*)
+spray en automédication. Depuis plusieurs mois, sa symptomatologie s’est aggravée avec des réveils
+nocturnes fréquents (plusieurs fois par semaine) et une activité physique très perturbée. Son médecin
+traitant lui a prescrit une corticothérapie inhalée à faible dose.
+Elle vient vous voir en consultation pour non amélioration de ses symptômes.
+36- Quelle est votre conduite à tenir ?
+- D'abord avant de commencer le traitement je dois vérifier ce qui suit :
+- Puis je vais traiter comme un palier ……………… Selon le schéma thérapeutique suivant :
+- Mon ordonnance est la suivante :
+- Les principaux messages éducatifs sur lesquels je vais insister sont les suivants :
+Page 178:
+Ataraxie
+
+-- 19 of 58 --
+
+Cas clinique 11:
+Mme A . Z âgée de 50 ans, est suivie pour asthme confirmé par spirométrie, sous traitement de fond palier
+2. Elle s’est présentée aux urgences devant l’apparition depuis 4j, d’une gêne respiratoire faite de
+sifflements thoraciques ne s’améliorant pas sous béta2mitiques de courte durée d’action avec une toux
+productive rarement des expectorations purulentes des douleurs basithoraciques droites en point de côté .
+L'examen clinique trouve une patiente fébrile à 39° saturant à 90%, FC à 110 bat/min, FR à 26 c/min.
+Examen PP: sibilants diffus avec râles crépitants à droite.
+37- Quelle est votre conduite à tenir ? (Diagnostic, lieu de prise en charge, bilan, traitement)
+Cas clinique 12:
+Patiente de 20 ans suivi pour asthme confirmé, elle présente des réveils nocturnes fréquents avec recours
+aux béta2mimétiques courte durée d’action malgré qu’elle est sous traitement pallier 3 depuis 3 mois.
+38- Quelle est votre CAT ?
+5. Pneumopathies Infiltratives Diffuses « PID » : ( 4 questions )
+QR 1 :
+1- Quelles sont les circonstances de découverte d'une pneumopathie interstitielle diffuse ?
+QR 2 :
+2- Citez 6 étiologies des PID chroniques d’origine connue ?
+QR 3 :
+3- Citez les principaux groupes étiologiques des pneumopathies infiltratives diffuses ?
+QR 4 :
+5- Quelles sont les anomalies retrouvées au bilan fonctionnel (EFR) en cas de Pneumopathie Interstitielle
+Diffuse PID (01 point)
+QR 5 :
+4- Sarcoïdose :
+a. L’atteinte médiastino pulmonaire : les types radio-cliniques
+b. Bilan initial
+c. Indications formelles du traitement corticoïde
+6. Cancer Broncho-pulmonaire CBP : ( 13 questions )
+QR 1 :
+1- Diagnostic histologique du Cancer bronchique primitif
+QR 2 :
+2- Diagnostic clinique du cancer bronchique primitif
+QR 3 :
+3- Quels sont les différents examens qui permettent le diagnostic positif (histologique) du cancer
+broncho-pulmonaire ?
+QR 4 :
+4- Quels sont les signes cliniques directement en rapport avec un cancer bronchique primitif, et ceux en
+rapport avec son extension locorégionale?
+QR 5 :
+5- Décrivez les aspects radiologiques du cancer bronchique primitif
+- Les principales anomalies de la radiographie thoracique devant évoquer le cancer bronchique primitif
+(opacités suspectes, opacités trompeuses)
+Page 179:
+Ataraxie
+
+-- 20 of 58 --
+
+- Quels sont les aspects les plus typiques, du Cancer Bronchique Primitif, à la Radiographie thoracique ? (2
+points)
+QR 6 :
+6- Quel est le bilan à réaliser après la confirmation d'un cancer du poumon ? détaillez.
+QR 7 :
+7- Bilan Préthérapeutique de Cancer BP
+QR 8 : :
+8- Cancer bronchique primitif
+a. Aspects radiologiques
+b. Quels sont les examens qui vont permettre de confirmer le type histologique du cancer
+QR 9 :
+9- diagnostic précoce du cancer bronchique primitif
+Cas clinique 1:
+Mr driss, 67 ans, mécanicien de profession consulte aux urgences pour des difficultés respiratoires. Il a
+fumé pendant plus de 30 ans, et est sevré depuis 3 ans. Il rapporte une perte du poids. A l’examen il a un
+hippocratisme digital ainsi qu’un wheezing, on retrouve aussi une adénopathie jugulocarotidienne basse
+dure de 2 cm. Il a bénéficié d’une radiographie thoracique de face et d’un scanner thoracique (Cliché 2)
+10- Quels sont les autres éléments cliniques à rechercher (à l’anamnèse et à l’examen physique) ?
+11- A quoi correspond l’hippocratisme digital ?
+12- Comment expliquez vous le wheezing ?
+13- Quels sont les procédures possibles pour confirmer le diagnostic pour ce patient ?
+7. Dilatation de bronches DDB ou Bronchectasie : ( 9 questions )
+QR 1 :
+1- Décrire la physiopathologie de la DDB, schématiser le cercle vicieux de COLE
+QR 2 :
+2- Classification DDB en décrivant chaque classe
+QR 3 :
+3- Etiologies des Dilatations de Bronches
+QR 4 :
+4- Dilatations des bronches (DDB) :
+a. Place de la radiologie
+b. Etiologies des DDS localisées
+QR 5 :
+5- Quelles sont les complications de la dilatation de bronches ?
+Page 180:
+Ataraxie
+
+-- 21 of 58 --
+
+Cas clinique 1:
+Mme SAMIRA, 36 ans, se présente aux urgences car elle crache du sang. Elle n'a jamais été traitée pour
+tuberculose mais se rappelle avoir été très malade à l'âge de 10 ans. Elle a toujours eu des crachats mais
+c'est la première fois qu'elle a des crachats sanglants et plus abondants que d'habitude. Elle se sent fébrile
+depuis quelques jours et est également essoufflée depuis 2 semaines. A l'examen, elle est polypnéique 26
+cycles/min, saturation en oxygène 90% tachycardie 120 battements par minute, fébrile 38°6
+Présence de râles ronflants bilatéraux, elle a aussi des œdèmes des membres inférieurs.
+6- Que faites-vous en urgence ?
+A. Vous l'adressez chez le cardiologue pour avis
+B. Vous demandez une radiographie thoracique
+C. Vous mettez la patiente sous oxygène
+D. Vous demandez une NFS
+E. Vous lui donnez une ordonnance avec des antibiotiques
+7- Quels sont les éléments en faveur d'une dilatation de bronches chez cette patiente
+A. La présence de crachats depuis l'enfance
+B. La présence d'œdème des membres inférieurs
+C. La notion d'infection à l'âge de 10 ans
+D. La désaturation à l'examen clinique
+E. La présence de råles ronflants bilatéraux
+8- Le bilan biologique révèle une hyperleucocytose à 14000 à prédominance PNN avec Hb 11, CRP 120.
+La Rx thoracique montre une opacité alvéolaire lobaire inférieure droite avec des lésions kystiques avec
+niveau hydro aérique au niveau du poumon gauche. Quelle est votre conduite à tenir ?
+A. Vous demandez un ECBC
+B. Vous débutez une antibiothérapie
+C. Vous l'adressez pour débuter un traitement antibacillaire
+D. Vous demandez un scanner thoracique avant de décider la conduite thérapeutique
+E. vous commencez une kinésithérapie de drainage bronchique
+9- Vous revoyez Mme Samira après 2 semaines, elle ne présente plus d'hémoptysie. Son examen trouve
+une patiente qui sature à 95% et son auscultation trouve quelques râles ronflants. Que lui proposez
+vous?
+A. Spirométrie
+B. Continuer les antibiotiques
+C. Vaccination anti pneumococcique
+D. Echographie cardiaque
+E. Un angioscanner thoracique
+8. Pleurésies à liquide clair : ( 28 questions )
+QR 1 :
+1- Quels sont les éléments qui vous permettent de distinguer entre une pleurésie transsudative et une
+pleurésie exsudative ?
+QR 2 :
+2- Définissez un exsudat et un transsudat ? quelle est votre attitude (examens complémentaires) devant
+chaque type d'épanchement pleural ?
+QR 3 :
+3- Définissez une pleurésie exsudative. Quelles en sont les principales étiologies ?
+QR 4 :
+4- Citez les principales étiologies des pleurésies transsudatives et celles des pleurésies exsudatives?
+Page 181:
+Ataraxie
+
+-- 22 of 58 --
+
+QR 5 :
+5- Pleurésies transudatives et exsudatives: distinction et principales étiologies
+QR 6 :
+6- Principales étiologies des pleurésies transudatives
+QR 7 :
+7- Intérêt de la radiographie thoracique dans les pleurésies.
+QR 8 :
+8- Description radio-clinique d'une pleurésie de moyenne abondance ?
+QR 9 :
+9- A propos des pleurésies : Vous disposez des examens cyto-chimiques de liquides de ponction pleurale
+suivants, veuillez les interpréter :
+Prélèvement 1 	• Liquide jaune citrin
+• Protéines : 56 g/l
+• GB=1400. Lymphocytes= 80%,Polynucléaires neutrophiles = 20%
+• GR=620/mm3
+Au total il s’agit de ……
+Prélèvement 2 	• Liquide jaune citrin
+• Protéines pleurales : 25 g/l
+• GB=120. Lymphocytes= 70%,Polynucléaires neutrophiles = 30%
+• Protidémie=62 g/L
+Au total il s’agit de ……
+Prélèvement 3 	• Liquide séro-hématique
+• Protéines pleurales:48 g/L
+• GB=1800. Lymphocytes= 90%,Polynucléaires neutrophiles = 10%
+• GR=1500
+Au total il s’agit de ……
+Prélèvement 4 	• Liquide jaune citrin
+• Protéines pleurales: 52 g/l
+• GB=2400. Lymphocytes= 35%,Polynucléaires neutrophiles = 65%
+• GR=150
+Au total il s’agit de ……
+Page 182:
+Ataraxie
+
+-- 23 of 58 --
+
+QR 10 :
+10- TABLEAU COMPARATIF : Pleurésies Transudatives / Exsudatives (03 points)
+Pleurésies Transudatives 	Pleurésies Exsudatives
+Uni ou bilatéral
+Abondance
+Récidivant (oui/non)
+Aspect du liquide pleural
+Cellularité (riche / pauvre en cellules)
+Taux de protides.
+Taux de protides pleurale / sanguin
+Rivalta (positif / négatif)
+Biopsie pleurale (indiquée ou non)
+Thoracoscopie (indiquée ou non)
+Principales étiologies (au moins 3)
+Cas clinique 1:
+Madame LEILA, 52 ans se présente à votre consultation pour toux sèche depuis 6 semaines compliqué par
+une dyspnée d’effort depuis 15 jours. Elle est sous anti diabétique oraux depuis quelques mois pour un
+diabète de découverte récente.
+La radiographie thoracique est la suivante (Cliché 3)
+11- De quel syndrome radiologique s’agit-il ?
+12- Qu’allez vous retrouver à l’examen clinique ?
+13- Quels sont les éléments sémiologiques radiologiques qui vous renseignent sur la gravité de cette
+anomalie ?
+14- Quel examen allez vous réaliser en premier ? et quels sont les résultats attendus ? (+1 point
+bonus)
+Page 183:
+Ataraxie
+
+-- 24 of 58 --
+
+Cas clinique 2:
+Vous recevez dans votre cabinet un patient de 65 ans, tabagique chronique depuis 45 ans non sevré, suivi
+pour cardiopathie ischémique sous traitement. Il se plaint de douleurs thoraciques depuis quelques jours
+avec un essoufflement quand il marche en pente. Il tousse parfois. Il dit avoir remarqué un filet de sang
+dans ses crachats. Son examen clinique trouve un syndrome d'épanchement liquidien droit.
+15- Quels sont les diagnostics que vous évoquez? (au moins 2) (0,5 point)
+16- Vous réalisez une radiographie thoracique (Cliché B); veuillez l'interpréter (0,5 point)
+Vous réalisez une ponction pleurale, les résultats sont les suivants: liquide sérohématique, Taux de protides
+= 45g/1, Cellularité: GR 2000. Globules blancs 1500. PNN 25% Lymphocytes 75%.
+17- Interprétez ces résultats, quelle est votre conduite à tenir ? (1 point)
+18- Après évacuation du liquide pleural, vous réalisez une radiographie thorax de contrôle (Cliché C),
+veuillez l'interpréter (0,5 point)
+19- Quel diagnostic vous évoquez ? quelle est votre conduite à tenir (1,5 point)
+Exercice appariement 1:
+Soit les analyses cytochimiques de liquide pleural suivant :
+Prélèvement A
+- Aspect: Très clair
+- Protéines: 15 g/L (Protidémie: 70 g/L), LDH: 80 UI/L (LDH sériques : 250 UI/L)
+- Cellules: 150/mm³, lymphocytes 80%, polynucléaires neutrophiles (PNN) 5%
+Prélèvement B
+- Aspect : Trouble
+- Protéines: 45 g/L (Protidémie: 65 g/L), LDH: 500 UI/L (LDH sériques: 280 UI/L), pH: 7.10
+- Cellules: 8000/mm³, polynucléaires neutrophiles (PNN) 85%, lymphocytes 10%, macrophages 5%
+Prélèvement C
+- Aspect: hématique
+- Protéines: 50 g/L (Protidémie: 68 g/L), LDH: 300 UI/L (LDH sériques : 260 UI/L)
+- Cellules: 2500/mm³, lymphocytes 50%, hématies 30%, polynucléaires neutrophiles (PNN) 20%
+Soit les profils cliniques suivants (prière d'affecter pour chaque profil clinique le liquide pleural
+correspondant, et répondez brièvement)
+Profil clinique 1 : Patient de 65 ans, ancien tabagique sevré, suivi pour cardiopathie non documentée
+sous traitement, se présentant aux urgences pour aggravation de sa dyspnée devenant au repos avec une
+toux sèche et une douleur thoracique. A l'examen clinique, un Sd d'épanchement liquidien basal droit avec
+des œdèmes des membres inférieurs.
+20- Liquide pleural correspondant: Prélèvement (A,B ou C)
+21- Justifiez votre réponse:
+22- Quelle est votre conduite à tenir ?
+Page 184:
+Ataraxie
+
+-- 25 of 58 --
+
+Profil clinique 2 : Patiente de 45 ans, connue diabétique de type 2 mal équilibré, consulte aux urgences
+pour une douleur thoracique droite d'apparition brutale il y a 48 heures avec une fièvre à 39°C et une toux
+initialement sèche devenue verdâtre.
+23- Liquide pleural correspondant: Prélèvement (A,B ou C)
+24- Justifiez votre réponse:
+25- Quelle est votre conduite à tenir ?
+Profil clinique 3 : Patient de 55 ans, ancien tabagique sevré, suivi pour BPCO sous traitement, se
+présentant aux urgences pour une douleur thoracique type pleural évoluant dans un contexte d'altération
+de l'état général et d'amaigrissement de 5 kg en un mois
+26- Liquide pleural correspondant: Prélèvement (A,B ou C)
+27- Justifiez votre réponse:
+28- Quelle est votre conduite à tenir ?
+9. Pneumothorax : ( 8 questions )
+QR 1 :
+1- Classification et Étiologies du Pneumothorax (2 points)
+QR 2 :
+2- Décrivez les signes fonctionnels, physiques et radiologiques d'un pneumothorax de grande abondance ?
+QR 3 :
+3- Quels sont les signes de gravité d'un pneumothorax ?
+- Quels sont les critères de gravité d'un pneumothorax (cliniques et radiologiques) ?
+QR 4 :
+4- Quels sont les éléments radio cliniques de gravité d'un pneumothorax ?
+Cas clinique 1:
+Patiente âgée de 48 ans, présente une douleur thoracique brutale gauche survenue il y a quelques heures.
+C'est un sujet grand tabagique non servi, il rapporte qu’il vient de faire une séance de plongée sous-marine.
+l’examen physique retrouve une hypersonorité de l’hémithorax gauche , avec abolition des VV et du MV.
+5- Il s’agit de.…………………
+6- La Rx thorax montre …………………………………...
+7- Décrivez de façon détaillée votre conduite à tenir:....
+Page 185:
+Ataraxie
+
+-- 26 of 58 --
+
+Après 1 semaine, il n’y a pas d’amélioration radio-clinique,
+8- quelle est votre conduite à tenir:
+10. Tabagisme : ( 4 questions )
+QR 1 :
+1- Précisez les différentes étapes du Conseil minimal à l’arrêt du tabagisme ; (modèle des 5 A's ou modèle
+AAR)
+QR 2 :
+2- Quels sont les types de dépendance tabagique ?
+QR 3 :
+3- Listez les étapes d'aide au sevrage tabagique (3 pt)
+QR 4 :
+4- Précisez les méfaits majeurs du tabagisme actif et passif (1 pt)
+11. Broncho-pneumopathie chronique obstructive BPCO : ( 36 questions )
+QR 1 :
+1- BPCO: Définition et Facteurs de risque
+QR 2 :
+2- Représentez par un schéma l'histoire naturelle de la BPCO
+QR 3 :
+3- Quels sont les éléments de l'anamnèse (Antécédents et signes fonctionnels) qui orientent vers une
+BPCO ? (03 points)
+QR 4 :
+4- Quel est le bilan à demander pour orienter et confirmer une BPCO (avec résultats attendus) ? (03
+points)
+QR 5 :
+5- Quels sont les critères des stade 1 et stade 2 selon l'échelle mMRC
+QR 6 :
+6- Quels sont Les Critères spirométriques pour le Diagnostic de "BPCO”
+QR 7 :
+7- Les broncho-pneumopathies chroniques obstructives « BPCO » sont définies comme étant un état
+pathologique caractérisé par un trouble ventilatoire obstructif « TVO » le plus souvent réversible (....).
+8- Le TVO est habituellement progressif (....), et souvent associé à une hyperréactivité bronchique
+vis-à-vis de stimuli divers (....).
+9- Ils incluent la bronchite chronique, l'emphysème et l'asthme (....).
+10- Dans le cadre du diagnostic positif, la spirométrie est très intéressante en mettant en évidence le
+TVO et surtout en permettant la classification de la sévérité de la maladie (....).
+11- Ainsi, un rapport de Tiffeneau à 62% et un VEMS à 45% classe le patient au stade II A (....).
+12- Sur le plan du traitement préventif, l'arrêt du tabac est le moyen le plus efficace, le moins
+coûteux, pour réduire le risque de développer une BPCO, et d'arrêter sa progression (....).
+13- Concernant les médicaments, seuls les corticoïdes inhalés peuvent prétendre de modifier
+l'évolution globale de la maladie(....).
+14- Les B2-mimétiques et les anticholinergiques sont les médicaments de choix pour le contrôle des
+symptômes et sont indiqués au cours des BPCO réversibles ! Expliquer cette proposition:
+15- Le traitement du stade II est basé sur :
+Page 186:
+Ataraxie
+
+-- 27 of 58 --
+
+16- Un patient suivi pour bronchite chronique obstructive, consulte pour une exacerbation,
+l'anamnèse retrouve des signes d'infection des voies aériennes supérieures, avec aggravation de la
+dyspnée et augmentation du volume de l'expectoration ; l'origine infectieuse est très probable (....),
+l'antibiothérapie que je propose est la suivante (ordonnance).
+Cas clinique 1:
+Mr Ali âgé de 50 ans, ouvrier dans une usine, fumeur à 1 paq/j, jamais traité pour tuberculose, présentant
+une rhinite d’allure allergique. Il présente depuis une année une toux épisodique souvent matinale avec des
+expectorations et une dyspnée, dont les caractéristiques sont difficiles à préciser « je me sens essoufflé
+après une marche rapide à plat. Je ne me repose que le soir lorsque je m’allonge au lit ». L'examen
+clinique trouve un patient eupnéique, en bon état général, avec quelques râles sibilants diffus. Le reste de
+l'examen est sans particularité.
+17- La dyspnée est classée selon l'échelle mMRC : (entourer la bonne réponse)
+Stade 1 	Stade 2 	Stade 3 	Stade 4
+18- Quels sont les diagnostics les plus probables ? (au moins 3)
+a............................ b............................ c............................... d...............................
+Une spirométrie a pu être réalisée: Avant Béta 2 mimétiques : VEMS = 2,10 litres (soit 60% de la valeur
+théorique); VEMS/CVF= 0,64. Après Béta 2 mimétiques : VEMS = 2,20 litres (soit 62% de la valeur
+théorique)
+19- Le patient présente donc un trouble ………………….. car le …………………………est inférieur à
+……… et il existe une amélioration du VEMS sous B2 mimétiques de………………………. ml et donc
+inférieure à …………… ml. Pour confirmer la BPCO, il faut en plus que ………. reste inférieur à
+……..après b2 mimétiques. Le trouble ventilatoire est (la sévérité) …………. car…………………………
+Le diagnostic de BPCO est confirmé.
+Son médecin l’avait mis sous corticoïdes inhalés (budésonide 200 une bouffée x 2/j) depuis 3 mois.
+20- Êtes-vous d’accord avec cette prescription ? (oui / non) ………………………
+21- Argumentez ? .............................................................................................................
+22- Citer les 2 principaux mécanismes étio pathogéniques expliquant la BPCO ? a.......... b..........
+Cas clinique 2:
+Mr Saïd âgé de 47 ans, fellah, fumeur à 1 paq/j depuis 3 ans, jamais traité pour tuberculose, présentant
+une rhinite d'allure allergique. Adressé par un médecin oui dit avoir vu le malade en exacerbation. Il
+présente depuis une année une toux épisodique souvent matinale avec des expectorations et une dyspnée
+«je me sens essoufflé après 100m de marche et je dois faire des pauses. Je me repose le soir lorsque je
+m'allonge au lit ».
+23- Quelles sont les principales hypothèses diagnostiques (au moins 4)
+L'examen clinique trouve un patient eupnéique, en bon état général, avec quelques râles sibilants diffus et
+un hyper tympanisme diffus. La radiographie thoracique est normale. Une spirométrie a été réalisée : Avant
+Béta 2 mimétiques : VEMS = 2,45 litres (73%) ; VEMS/CV= 0,52. Après Béta 2 mimétiques : VEMS = 2.50
+litres (77%)
+24- Interpréter ces résultats
+25- Quel est le diagnostic que vous retenez ? évaluer sa sévérité (argumentez) ?
+Cas clinique 3:
+Patient âgé de 65 ans, tabagique à 20 paquets-année qui présente depuis 20 ans une dyspnée l’obligeant
+à faire des pauses avec une consultation aux urgences l’année précédente. Le médecin avait retenu le
+diagnostic de BPCO et avait mis sous salbutamol 2 bouffées/j en continu.
+26- Donnez parmi les éléments cités ceux en faveur ou contre ce diagnostic.
+27- Quelles sont les principales données de l'examen clinique à préciser pour appuyer ce diagnostic
+28- Classification de la dyspnée selon mMRC.
+29- La spirométrie trouve VEMS/CVF= 0,65 avec un VEMS à 65% de la théorique. Après 4 bouffées de
+salbutamol, ce rapport est à 0,65. Interpréter ce résultat.
+Page 187:
+Ataraxie
+
+-- 28 of 58 --
+
+30- Êtes-vous d’accord pour le traitement prescrit par le médecin ?justifiez.
+Cas clinique 4:
+Mr Said, âgé de 55 ans, tabagique depuis 30 ans, présente depuis 15 ans des expectorations matinales de
+faible abondance. Depuis 8 ans, il présente une dyspnée stade 2 devenue stade 3 selon mMRC depuis 5
+mois. Il a consulté pour exacerbation 2 fois cette année. L'examen clinique trouve un patient légèrement
+polypnéique, une discrète cyanose des lèvres, SaO2 au repos 88%, IMC=33. Pas de signe d'hypercapnie.
+La radiographie thoracique montre une distension thoracique.
+La spirométrie actuelle montre: Avant Béta 2 mimétiques: VEMS = 2,46 litres; VEMS/CVF= 0,65. Après
+Béta 2 mimétiques: VEMS = 2,61 litres. VEMS/CVF post B2=0,66
+31- Préciser les données qui permettent de classer la dyspnée chronique en stade 2 et stade 3 ?
+32- Quels sont les 3 principaux diagnostics à évoquer ?
+33- Quels sont vos arguments pour chaque diagnostic ?
+34- Interprétez la spirométrie et préciser son intérêt pour confirmer l'un de ces diagnostics ?
+35- Si le diagnostic de BPCO est confirmé, quel serait son stade selon la nouvelle classification ?
+36- Quelle complication chronique présenterait ce patient et comment la confirmer ?
+12. Syndrome d’apnées obstructives du sommeil SAOS : ( 11 questions )
+QR 1 :
+1- Quels sont les critères diagnostiques du syndrome d'apnées obstructives du sommeil
+QR 2 :
+2- Citez 2 pathologies Respiratoires lié à l'obésité
+QR 3 :
+3- Citez les symptômes nocturnes et Diurnes de SAOS typique
+QR 4 :
+4- Quels sont les critères cliniques et paracliniques permettant le diagnostic du syndrome d’apnées
+obstructives du sommeil ?
+Cas clinique 1:
+Mr Ali 50 ans , tabagique , présente depuis 2 ans des céphalées matinales et une fatigue importante la
+journée. Chaque matin, il sent ne pas avoir dormi suffisamment. Il dit avoir une envie irrésistible de dormir
+la journée et que ça lui pose des problèmes dans son travail. L'examen clinique trouve un IMC à 35
+5- Quels sont les symptômes dont se plaint ce patient ?
+6- Le patient a un score d'Epworth a 16. Interprétez ce résultat.
+7- Comment confirmer le diagnostic de SAOS chez ce patient (moyens et critères diagnostiques) ?
+Cas clinique 2:
+Patient âgé de 50 ans, consulte pour des ronflements quotidiens depuis 10 ans avec des arrêts
+respiratoires constatés par sa femme. Le diagnostic de syndrome d’apnées obstructives du sommeil
+(SAOS) est suspecté.
+8- Quels sont les autres éléments de l'interrogatoire à préciser en faveur de ce diagnostic ?
+9- Quelles sont les principales anomalies maxillo-faciales à chercher à l'examen clinique ?
+10- Citer les 2 examens permettant de confirmer ce diagnostic ?
+11- Citer les 2 critères diagnostiques du SAOS ?
+13. Syndrome d’Obésité et Hypoventilation (SOH)
+Pas de questions disponibles
+14. Dyspnée Aiguës : ( 18 questions )
+1- Devant une dyspnée aiguë, la présence d'HÉMOPTYSIE, doit évoquer
+Page 188:
+Ataraxie
+
+-- 29 of 58 --
+
+A. Processus tumoral envahissant la trachée
+B. Embolie pulmonaire
+C. Séquelles diffuses de tuberculose
+D. Rétrécissement mitral serré
+E. Bronchopneumopathie chronique obstructive BPCO
+2- Devant une dyspnée aiguë, la présence de SIFFLEMENTS thoraciques, doit évoquer
+A. Processus tumoral envahissant la trachée
+B. Exacerbation d'asthme
+C. Sd Obésité Hypoventilation
+D. Insuffisance cardiaque gauche
+E. Exacerbation de BPCO
+3- Les ASPECTS RADIOLOGIQUES ATTENDUS au cours d'une DYSPNÉE AIGUË sont
+A. Opacité ronde
+B. Opacités de tonalité hydrique homogène, périhilaires bilatérales, respectant la périphérie
+C. Clarté avasculaire périphérique limitée en dedans par un liseré fin délimitant le moignon pulmonaire
+D. Radiographie thoracique normale
+E. Déformation rachidienne avec scoliose
+Cas clinique 1:
+4- Devant une dyspnée aiguë, les principales hypothèses diagnostiques sont :
+A : Un aspergillome pulmonaire
+B : Exacerbation d'asthme
+C : Un pneumothorax
+D : Une dilatation de bronches localisée
+E : Pneumonie sur poumon pathologique
+5- Une dyspnée aiguë récidivante, depuis plusieurs années, doit faire évoquer :
+A : Une BPCO
+B : Un asthme
+C : Un cancer bronchique primitif avec envahissement de la trachée
+D : Une dilatation de bronches localisée
+E : Une Pneumopathie d’hypersensibilité
+6- Devant une dyspnée aiguë, la présence de douleur thoracique doit faire évoquer
+A : Une embolie pulmonaire
+B : Une exacerbation de BPCO
+C : Un Rétrécissement mitral serré
+D : OEdème aigu du poumon
+E : Un Pneumothorax
+7- Devant une dyspnée aiguë, la présence de fièvre doit faire évoquer
+A : exacerbation d’asthme
+B : Pneumonie aigue communautaire
+C : Bronchectasie diffuse
+D : Embolie pulmonaire
+E : Rechute tuberculeuse
+8- Un patient âgé de 25 ans, jamais traité pour tuberculose, présente une dyspnée aiguë depuis 2 jours
+évoluant dans un contexte de conservation de l’état général. Le patient arrive d'un voyage par avion
+(plus de 6h) Quelles sont les étiologies les plus probables
+A : Pneumothorax spontané primitif
+B : Cancer bronchique primitif avec pleurésie associée.
+C : Kyste hydatique du poumon rompu
+D : Embolie pulmonaire
+E : Cardiopathie décompensée
+Page 189:
+Ataraxie
+
+-- 30 of 58 --
+
+9- Chez ce patient, quels sont les aspects radiologiques attendus (suite question 5)
+A : Clarté avasculaire périphérique
+B : Radiographie thoracique normale
+C : Cardiomégalie
+D : Opacité hilaire à limites spiculées en patte de crabe
+E : Dilatation des artères pulmonaires
+Cas clinique 2:
+Mr Saïd, âgé de 55 ans, consulte ce jour, pour une dyspnée aigüe (1er épisode) depuis quelques heures
+10- L'anamnèse doit rechercher les éléments suivants
+A : Notion de Bronchite chronique
+B : Antécédent de traitement anti bacillaire
+C : Notion d'allergie alimentaire ou médicamenteuse
+D : Notion de contact avec les chiens
+E : notion d’élevage d’oiseaux
+11- L'anamnèse doit rechercher les éléments suivants (suite)
+A : Atopie familiale
+B : Alitement prolongé récent
+C : Bronchorrhée matinale
+D : Exposition aux fumées domestiques
+E : terrain de cardiopathie
+12- L'examen physique doit rechercher les éléments suivants.
+A : OEdème du visage
+B : Signe de Homans
+C : Sd de condensation
+D : Signes cliniques évoquant une myopathie
+E : Râles crépitants diffus
+13- L'examen physique doit rechercher les éléments suivants.
+A : Distension thoracique avec thorax en tonneau
+B : Une circulation veineuse collatérale
+C : Des râles sibilants diffus
+D : Déformation thoracique
+E : Respiration lèvres pincées
+14- Sachant que l’examen pleuro-pulmonaire montre un patient montre un wheezing à l'auscultation
+cervicale, Poids 88 kg, Taille 1,75m. Les hypothèses diagnostiques sont
+A : Exacerbation d’asthme
+B : Processus tumoral médiastino-pulmonaire
+C : Sténose trachéale
+D : Sd Obésité hypoventilation
+E : Exacerbation de BPCO
+15- Quelles sont le ou les aspects radiologiques attendus pour ce patient ?
+A : Opacités réticulaires diffuses
+B : Distension thoracique avec élargissement des espaces intercostaux
+C : Opacité sus hilaire droite à limites spiculées en patte de crabe
+D : Opacité de type alvéolaire systématisée au lobe supérieur droit.
+E : Rx thorax normale
+Cas clinique 3:
+Page 190:
+Ataraxie
+
+-- 31 of 58 --
+
+Mme Fatima ; patiente âgée de 40 ans, vit en milieu rural, aide son mari dans le travail de la ferme. Elle
+vient vous voir en consultation, car elle présente depuis une dizaine d’années plusieurs épisodes de
+dyspnée aiguë.
+16- Quels sont les principaux diagnostics suspectés ? (au moins 3)
+a. ………. 	b. ………. 	c. ………. 	d. ………. 	e. ………. 	f. ……….
+17- Démarche de diagnostic
+Choisir parmi les éléments cités ci-dessus, ceux qui correspondent le plus aux diagnostics suspectés
+Diagnostic suspecté 	Élément compatibles (ex : a, g, k, q, s, x ….)
+18- Quelles sont les anomalies radiologiques (Radiographie thoracique) attendues pour chacun des
+diagnostics suspectés :
+a. ………. 	b. ………. 	c. ………. 	d. ………. 	e. ……….
+15. Dyspnée chronique : ( 49 questions )
+1- Devant une DYSPNÉE CHRONIQUE, la présence de céphalées, sueurs profuses et insomnie, doit
+évoquer
+A. Insuffisance cardiaque gauche
+B. Une Insuffisance respiratoire chronique
+C. Bronchopneumopathie chronique obstructive BPCO
+D. Séquelles diffuses de tuberculose
+E. Justifie la réalisation d'une gazométrie du sang artériel
+2- Quelles sont les éléments de L'INTERROGATOIRE à rechercher devant une DYSPNÉE CHRONIQUE ?
+A. Notion de contact avec les chiens
+B. Notion de séjour récent en réanimation avec intubation
+C. Notion de Cardiopathie connue
+D. Tabagisme
+E. Exposition professionnelle aux substances minérales
+3- Devant une DYSPNÉE CHRONIQUE, L'EXAMEN PHYSIQUE doit rechercher :
+Page 191:
+Ataraxie
+
+-- 32 of 58 --
+
+A. Distension thoracique globale avec respiration en lèvres pincées
+B. Oedème en pèlerine
+C. Sd d'épanchement aérien
+D. Signe de homans positif
+E. Amyotrophie des ceintures scapulaire et pelvienne
+4- L'examen physique d'un patient dyspnéique chronique retrouve des RÂLES CRÉPITANTS DIFFUS,
+quels sont les diagnostics les plus probables:
+A. Pneumopathies infiltrantes diffuses
+B. BPCO
+C. Cancer bronchique primitif
+D. Sd Obésité hypoventilation
+E. Pneumopathie d'hypersensibilité
+5- Les ASPECTS RADIOLOGIQUES ATTENDUS au cours d'une DYSPNÉE CHRONIQUE sont :
+A. Opacités réticulaires et micronodulaires diffuses aux 2 poumons, intéressant la périphérie avec distosion
+de la trachée et un aspect global de petits poumons
+B. Opacités de tonalité hydrique homogène, périhilaires bilatérales, respectant la périphérie
+C. Thorax distendu avec poumons hyperclairs, aplatissement des coupoles, horizontalisation des côtes et
+élargissement des espaces intercostaux
+D. Opacité de tonalité hydrique homogène systématisée au lobe supérieur
+E. Déformation rachidienne avec scoliose
+Cas clinique 1:
+Mr Said, âgée de 55 ans, déjà traité pour tuberculose il y a 20 ans hypertendu sous traitement, vient vous
+voir en consultation ce jour, pour une dyspnée chronique depuis 10 ans :
+6- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A : Pneumopathie Infiltrante diffuse
+B : Tuberculose pulmonaire active
+C : Cancer bronchique primitif
+D : Sd d'apnée obstructive du sommeil
+E : kyste hydatique du poumon
+7- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A : Séquelles de tuberculose
+B : Broncho Pneumopathies Chroniques Obstructives BPCO
+C : Bronchectasie du lobe moyen
+D : Sd Obésité hypoventilation
+E : Cardiopathie hypertensive
+8- L'anamnèse doit rechercher les éléments suivants.
+A : Notion de tabagisme
+B : Notion de contage tuberculeux récent
+C : Bronchite chronique
+D : Notion de contact avec les chiens
+E : Notion d’élevage d’oiseaux
+9- L'examen physique doit rechercher les éléments suivants.
+A : Distension thoracique avec thorax en tonneau
+B : Un Sd cave supérieur
+C : Une orthopnée
+D : Déformation thoracique
+E : Respiration lèvres pincées
+10- Sachant que l’examen pleuro-pulmonaire de ce patient montre des Râles crépitants diffus, un poids
+de 65 kg, Taille 1m70. Quel est LE DIAGNOSTIC LE PLUS PROBABLE ?
+Page 192:
+Ataraxie
+
+-- 33 of 58 --
+
+A : Pneumopathie Infiltrante diffuse
+B : Kyste hydatique pulmonaire
+C : Cancer bronchique primitif
+D : Sd Obésité hypoventilation
+E : BPCO
+11- La Radiographie thoracique a été réalisée. Quelles sont le ou les aspects radiologiques attendus
+pour ce patient ?
+A : Opacités réticulaires diffuses
+B : Distension thoracique avec élargissement des espaces intercostaux
+C : Aspect de poumon « rétracté », avec lésions apicales bilatérales
+D : Calcifications pleurales diffuses
+E : Radiographie thoracique normale
+Cas clinique 2:
+Mr Said, âgé de 55 ans, vient vous voir en consultation ce jour, pour une dyspnée chronique depuis 10 ans
+12- L'anamnèse doit rechercher les éléments suivants
+A : Notion de tabagisme
+B : Notion de contage tuberculeux récent
+C : Bronchite chronique
+D : Notion de contact avec les chiens
+E : Notion d'élevage d’oiseaux
+13- L'anamnèse doit rechercher les éléments suivants
+A : Antécédents de tuberculose
+B : Notion d'alitement prolongé
+C : Névralgies cervico brachiales
+D : Exposition aux fumées domestiques
+E : Terrain de Cardiopathie
+14- L’examen physique doit rechercher les éléments suivants.
+A : Obésité morbide
+B : Signe de hommans
+C : Sd de condensation
+D : Signes cliniques évoquant une myopathie
+E : Râles crépitants diffus
+15- L’examen physique doit rechercher les éléments suivants.
+A : Distension thoracique avec thorax en tonneau
+B : Une circulation veineuse collatérale
+C : Une orthopnée
+D : Déformation thoracique
+E ; Respiration lèvres pincées
+16- Sachant que l’examen pleuro-pulmonaire de ce patient montre un thorax distendu en tonneau avec
+signe de hoover, un poids de 65 kg. Taille 1m70. Quel est LE OU LES DIAGNOSTICS LES PLUS
+PROBABLES ?
+A : Pneumopathie Infiltrante diffuse
+B : Pneumopathie d'hypersensibilité
+C : Emphysème pulmonaire
+D : Sd Obésité hypoventilation
+E : BPCO
+17- La radiographie thoracique a été réalisée. Quelles sont le ou les aspects radiologiques attendus
+pour ce patient ?
+A : Opacités réticulaires diffuses
+Page 193:
+Ataraxie
+
+-- 34 of 58 --
+
+B : Distension thoracique avec élargissement des espaces intercostaux
+C : Aspect de poumon « rétracté », avec lésions apicales bilatérales
+D : Opacité systématisée rétractile (atélectasie)
+E : Bulles d'emphysème
+Cas clinique 3:
+Patiente âgée de 56 ans, habite en milieu rural, présente une dyspnée chronique persistante depuis 5 ans
+18- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A. Pneumopathies Infiltrantes Diffuses (PID)
+B. Broncho-Pneumopathies Chroniques Obstructives (BPCO)
+C. Cancer bronchique primitif
+D. Sd Obésité hypoventilation (SOH)
+E. Tuberculose pulmonaire active
+19- L'interrogatoire doit rechercher les éléments suivants :
+A. tabagisme
+B. bronchite chronique
+C. exposition professionnelle aux substances minérales
+D. contage tuberculeux récent
+E. dysphagie
+F. dysphonie
+G. Exposition aux fumées de four
+H. Notion de contact avec les chiens
+I. Elevage de volailles
+J. Notion de vomique hydatique
+K. Névralgies cervico-brachiales
+20- l'examen physique retrouve un patient eupnéique, SaO2 90%, poids 95kg, Taille 1m60, FR 16c/min,
+l'examen pleuropulmonaire des râles crépitants diffus, quels sont les diagnostics les plus probables :
+A. Pneumopathies infiltrantes diffuses
+B. BPCO
+C. Cancer bronchique primitif
+D. Sd Obésité hypoventilation
+E. Tuberculose pulmonaire active
+21- Dans ce cas, les images radiologiques attendues sont les suivantes :
+A. Radiographie thoracique normale
+B. Opacités réticulaires diffuses
+C. Opacité excavée apicale
+D. Opacité ronde
+E. Distension thoracique globale
+22- Une spirométrie a été demandée chez cette patiente, quels sont les résultats attendus :
+A. Rapport de Tiffeneau < 0,7 ; VEMS diminué ; capacité vitale normale
+B. Trouble ventilatoire d'allure restrictif
+C. Troubles ventilatoire obstructif non réversible
+D. Rapport de Tiffeneau normal ; VEMS diminué ; capacité vitale diminuée *
+E. Une plethÿsmographie est souhaitable pour confirmer le trouble ventilatoire restrictif
+Cas clinique 4:
+Patient de 54 ans, agriculteur, tabagique chronique, suivi pour HTA sous traitement. Il rapporte une
+dyspnée chronique stade III de mMRC depuis 10 ans.
+Page 194:
+Ataraxie
+
+-- 35 of 58 --
+
+23- Parmi les étiologies suivantes, quelles sont celles que vous évoqueriez ?
+A. Cancer broncho-pulmonaire
+B. Kyste hydatique
+C. BPCO
+D. Alvéolite allergique extrinsèque
+E. Cardiopathie gauche
+24- Quelles sont les éléments de l'interrogatoire à rechercher pour conforter vos diagnostics évoqués ?
+A. Bronchite chronique
+B. Hémoptysie
+C. Sifflements thoraciques
+D. Orthopnée
+E. Vomique hydatique
+F. Altération de l'état général
+25- Ci-joint la radiographie thoracique de votre patient, interprétez :.........................................
+26- Quel est le diagnostic le plus probable ?
+A. Cancer broncho-pulmonaire
+B. Kyste hydatique
+C. BPCO
+D. Alvéolite allergique extrinsèque
+E. Cardiopathie gauche
+27- Quel est l'examen complémentaire à demander pour confirmer votre diagnostic ?
+A. Scanner Thoracique
+B. Echographie cardiaque
+C. Pléthysmographie
+D. Spirométrie
+E. ECG
+28- Quels sont les résultats attendus de cet examen ?
+29- 	Citez les principaux éléments du traitement :
+A-...... 	B-...... 	C-...... 	D-...... 	E-......
+Cas clinique 5:
+Patient âgé de 50ans, vétérinaire de profession, présente une dyspnée chronique persistante depuis 5 ans
+30- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques MAJEURS ?
+A. Pneumopathies infiltrantes diffuses (PID)
+B. Bronchopneumopathies chroniques obstructives (BPCO)
+C. Kystes hydatiques du poumon
+D. Sd obésité hypoventilation (SOH)
+E. Séquelles de tuberculose
+31- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques MINEURS ?
+A. Cancer broncho pulmonaire
+B. Bronchectasie
+C. Kyste hydatique du poumon
+D. Sd obésité hypoventilation (SOH)
+E. Séquelles de tuberculose
+32- L’anamnèse doit rechercher les éléments suivants :
+A. Tabagisme actif
+B. Exposition professionnelle aux substances minérales
+C. Contage tuberculeux récent
+D. Atopie familiale
+E. Exposition aux fumées de four
+33- L’anamnèse doit rechercher les éléments suivants (suite)
+Page 195:
+Ataraxie
+
+-- 36 of 58 --
+
+A. Prise médicamenteuse au long cours
+B. Exposition professionnelle au foin moisi
+C. Notion de contact avec les chiens
+D. Elevage de volailles
+E. Exposition aux acariens de poussière de maison et aux blattes
+34- L’anamnèse doit rechercher les éléments suivants (suite)
+A. Bronchite chronique
+B. Dysphonie
+C. Dysphagie
+D. Orthopnée
+E. Névralgies cervico-brachiales
+35- Chez ce patient, en plus de la dyspnée chronique, la présence de sifflements thoraciques doit
+évoquer :
+A. Une pneumopathie d’hypersensibilité
+B. Un asthme
+C. Une sténose trachéale d’origine tumorale
+D. Un oedème de quincke
+E. Une BPCO
+36- Chez ce patient, en plus de la dyspnée chronique, la présence d’arthralgies avec sd sec doit
+évoquer
+A. Une pneumopathie infiltrante diffuse
+B. Une sténose trachéale d’origine tumorale avec métastases
+C. Une maladie de système avec atteinte pulmonaire
+D. Un asthme avec allergies multiples
+E. Des séquelles de tuberculose
+37- Chez ce patient, en plus de la dyspnée chronique, la présence d’hémoptysie à répétition doit
+évoquer
+A. Une bronchectasie diffuse
+B. Une bronchectasie localisée
+C. Une embolie pulmonaire
+D. Un kyste hydatique
+E. Des séquelles de Tuberculose
+38- Chez ce patient, en plus de la dyspnée chronique, la présence de céphalées avec sueurs profuses
+et épisodes de cyanose, doit évoquer
+A. Une BPCO
+B. Une cardiopathie sévère
+C. Une insuffisance respiratoire chronique
+D. Un asthme sévère avec dyspnée continue
+E. Implique la recherche d’une hypoxie et/ou hypercapnie par analyse des gaz du sang artériel
+39- L’examen physique (situation 1) retrouve un patient eupnéique, SaO2 90%, poids 95 kg, taille 1m60,
+16 c/min, l’examen pleuropulmonaire des râles crépitants diffus, quels sont les diagnostics les plus
+probable
+A. Pneumopathies infiltrantes diffuses
+B. BPCO
+C. Cancer bronchique primitif
+D. Sd obésité hypoventilation
+E. Une pneumopathie d'hypersensibilité
+40- L’examen physique (situation 2) retrouve un patient eupnéique, présente une amyotrophie des
+ceintures scapulaire et pelvienne, et des râles sibilants à l’auscultation. Quels sont les diagnostics les
+plus probables:
+A. Une pneumopathie infiltrante diffuse
+Page 196:
+Ataraxie
+
+-- 37 of 58 --
+
+B. Une BPCO
+C. Un oedeme aigue du poumon
+D. Une maladie neuromusculaire
+E. Un asthme
+41- Les aspects radiologiques les plus attendus, chez ce patient sont les suivants:
+A. Radiographie thoracique normale
+B. Opacité réticulaires diffuses
+C. Opacité excavée apicale
+D. Opacité ronde
+E. Distension Thoracique globale
+42- La radiographie thoracique suivante:
+A. Montre un thorax distendu avec élargissement des espaces intercostaux
+B. Montre une radiographie thoracique normale
+C. Peut évoquer un asthme
+D. Peut évoquer une PID (infra radiologique), à confirmer par une TDM thoracique
+E. Peut évoquer une BPCO
+43- La radiographie thoracique suivante (voir cliché)
+A. Montre un thorax distendu avec un poumon hyperclair
+B. Montre une radiographie thoracique normale
+C. Peut évoquer une PID
+D. Peut évoquer un asthme
+Page 197:
+Ataraxie
+
+-- 38 of 58 --
+
+E. Peut évoquer une BPCO
+44- La radiographie thoracique suivante (voir cliché)
+A. Montre une radiographie thoracique normale
+B. Montre des opacités réticulaires diffuses
+C. Montre un aspect en ailes de papillon compatible avec un OAP
+D. Peut évoquer une atélectasie
+E. Peut évoquer une PID au stade de fibrose
+45- Sachant que c’est un sujet grand tabagique (situation 1), quels seraient les résultats attendus à la
+spirométrie
+A. Rapport de Tiffeneau<0,7; VEMS diminué, capacité vital normale
+B. Trouble ventilatoire d’allure restrictif
+C. Trouble ventilatoire obstructif non réversible
+D. Rapport de Tiffeneau normal, VEMS diminué,capacité vital diminué
+E. Une pléthysmographie est souhaitable pour confirmer le trouble ventilatoire restrictif
+46- Sachant que c’est un sujet très obèse (situation 2), quels seraient les résultats attendus à la
+spiromètrie
+A. Rapport Tiffeneau à 0,75, VEMS diminué, capacité vitale diminuée
+B. Trouble ventilatoire d’allure restrictif
+C. Trouble ventilatoire obstructif réversible
+D. Rapport de Tiffeneau à 0,65, VEMS diminué, capacité vitale normale
+E. Une pléthysmographie est souhaitable pour confirmer mon diagnostic
+47- Sachant que c’est un sujet asthmatique contrôlé sous traitement (situation 3), quels seraient les
+résultats attendus à la spirométrie:
+A. Rapport de Tiffeneau à 0,72, VEMS à 87% théo, capacité vitale forcée à 92% théo
+B. Une spirométrie normale
+C. Trouble ventilatoire obstructif sévère réversible
+D. Une trouble ventilatoire obstructif léger réversible
+E. Un trouble ventilatoire d’allure restrictif
+48- Une spirométrie a été réalisée chez ce patient (voir CR spiro). Quelle est la conclusion qui vous
+paraît la plus juste (une seule réponse)
+Page 198:
+Ataraxie
+
+-- 39 of 58 --
+
+A. La spirométrie est normale, avec un rapport de tiffeneau à 0,836
+B. La spirométrie est en faveur d’un trouble ventilatoire obstructif modéré avec un rapport de Tiffeneau à
+0,758 un VEMS à 64% théo
+C. La spirométrie est en faveur d’un trouble ventilatoire obstructif modéré avec un rapport tiffeneau à 0,758
+un VEMS à 64% théo. Le TVO est réversible, avec une amélioration du VEMS de 300ml.
+D. La spirométrie est en faveur d’un trouble ventilatoire restrictif avec un rapport de tiffeneau à 0,775, un
+VEMS et une CVF à 64% théo
+E. La spirométrie est en faveur d’un trouble ventilatoire restrictif très probable, avec un rapport de tiffeneau
+à 0,775, un VEMS à 2,07l (64% théo) et un CVF à 2,68l (64% théo). A compléter par une
+pléthysmographie
+49- En tenant compte des résultats de cette spirométrie, qui est le diagnostic que vous retenez
+A. DDB diffus
+B. Sd obésité hypoventilation
+C. Asthme sévère non contrôlé
+D. BPCO sévère
+E. Séquelles diffuses de tuberculose
+16. Spirométrie : ( 15 questions )
+QR 1 :
+Vous avez 3 profils spirométriques :
+Spirométrie 1 	Spirométrie 2 	Spirométrie 3
+VEMS = 2,80 litres CVF=4,25
+VEMS/CVF=0,65
+CVF=85% de la théorique
+Post B2 mimétiques
+VEMS=3,15 litres
+(augmentation de 12,5%)
+CVF=4,40 VEMS/CVF=0,72
+VEMS = 3,15 litres CVF=4,26
+VEMS/CVF=0,74
+CVF=72% de la théorique
+Post B2 Mimétiques
+VEMS=3,25 litres
+(augmentation de 3%)
+CVF=4,35 VEMS/CVF=0,74
+VEMS = 2,80 litres CVF=4,25
+VEMS/CVF=0,65
+CVF=85% de la théorique
+Post B2 Mimétiques
+VEMS=2,90 litres
+(augmentation de 3,5%)
+CVF=4,35 VEMS/CVF=0,66
+1- Interprétez les spirométries :
+• Spirométrie 1
+Page 199:
+Ataraxie
+
+-- 40 of 58 --
+
+• Spirométrie 2
+• Spirométrie 3
+2- Par des flèches faites correspondre chaque spirométrie au (x) diagnostic (s) compatible(s)
+BPCO
+Spirométrie 1 	Asthme
+Spirométrie 2 	SOH
+Spirométrie 3 	SAOS
+Séquelles de tuberculose diffuses
+PID
+Cas clinique 1:
+Mme Khadija âgée de 40 ans. vient vous voir en consultation, avec la spirométrie (ci-dessous) qu'elle vient
+réaliser dans le cadre d'un bilan pré opératoire
+Theo Test A1 %(A1/theo) 	Test A2 post 	% ( A2/theo) 	Variation A2/A1
+en %
+CVF 	3.91 	3.24 	82 	3.32 	84 	4
+VEMS 	2.93 	1.89 	64 	1.96 	66 	6
+VEMS/CVF 	0.58 	0.59
+Heure 	12:27 	12:48
+3- Interprétez celte spirométrie :
+4- Quelles sont les principales étiologies que vous suspectez (au moins 2) :
+a ……………………… 	b ……………………………………………
+5- Démarche de diagnostic étiologique Pour chacun des diagnostics suspectés, veuillez préciser les
+principaux éléments cliniques que vous devez rechercher (anamnèse, examen physique) :
+a ……………………… 	b …………………………………………
+Cas clinique 2:
+Mme Khadija âgée de 40 ans, vient vous voir en consultation, avec la spirométrie (ci-dessous) qu’elle vient
+de réaliser dans le cadre d’un bilan pré opératoire.
+Theo 	Test 	%(A1/theo)
+CVF 	3.91 	2.14 	54
+VEMS 	3.70 	1.89 	51
+VEMS/CVF 	0.88
+Heure 	12:27
+6- Interprétez cette spirométrie :
+7- Quelles sont les principales étiologies que vous suspectez (au moins 3) :
+a...... 	. b...... 	. c...... 	. d...... 	. e...... 	.
+8- Démarche de diagnostic étiologique Pour chacun des diagnostics suspectés, veuillez préciser les
+principaux éléments cliniques que vous devez rechercher (anamnèse, examen physique) :
+Page 200:
+Ataraxie
+
+-- 41 of 58 --
+
+a...... 	. b...... 	. c...... 	. d...... 	. e...... 	.
+Cas clinique 3:
+9- Vous disposez des Spirométries suivantes, veuillez les interpréter
+Avant beta 2 	Après B2 	Différence
+VEMS post/pré
+VEMS CVF 	VEMS/CVF VEMS CVF 	VEMS/CVF
+Cas 1 	3.36
+(82%)
+2.23
+(66%)
+0.66 	3.58 	2.60 	0.73 	17%
+Au total il s’agit de……………………………………………………………………………………..
+Cas 2 	4.17
+(90%)
+2.66
+(73%)
+0.64 	4.33 	2.81 	0.64 	6%
+Au total il s’agit de…………………………………………………………………………………..
+Cas 3 	4.90
+(104%)
+3.94
+(101%)
+0.81 	5.06 	4.20 	0.85 	9%
+Au total il s’agit de…………………………………………………………………………………..
+Cas 4 	3.06
+(59%)
+2.60
+(57%)
+0.76
+Au total il s’agit de…………………………………………………………………………………..
+10- A propos des spirométries (suite) Parmi les profils cliniques de malades suivants, prière de choisir la
+spirométrie correspondante
+Profil clinique 	Spirométrie (1,2,3,4)
+Mr ali âgé de 55 ans, tabagique depuis 20 ans,
+Présente une dyspnée d’effort depuis 10 ans.
+L'examen cardiaque est normal avec un hyper tympanisme diffus
+Mr Saïd âgé de 30 ans, suivi pour asthme.
+Sous corticothérapie inhalée et bêta 2 mimétiques à longue durée d’action
+depuis 6 mois.
+Depuis 3 mois pas de symptôme nocturne, un épisode diurne tous les 15
+jours, une activité physique conservée, une utilisation des bêta 2 mimétiques
+courte durée d'action (tous les 15 jours en moyenne)
+Ahmed, 38 ans, présente une rhinite d'allure allergique depuis plusieurs
+années. Rapporte une toux chronique depuis quelque mois, avec parfois des
+épisodes de dyspnée à l’effort et aux fortes odeurs.
+L’examen trouve des râles-sibilants discrets
+Mme souad, 45 ans, non tabagique, présente une dyspnée d’effort depuis 15
+ans, non connue cardiaque. 'examen clinique trouve un IMC à 35. La
+radiographie thoracique est normale.
+Cas clinique 4:
+11- Vous disposez des Spirométries suivantes, veuillez les interpréter :
+Page 201:
+Ataraxie
+
+-- 42 of 58 --
+
+Avant beta 2 	Après B2 	Différence
+VEMS post/pré
+VEMS CVF 	VEMS/CVF VEMS CVF 	VEMS/CVF
+Cas 1 	3.36
+(82%)
+2.23
+(66%)
+0.66 	3.58 	2.60 	0.73 	17%
+Au total il s’agit de……………………………………………………………………………………..
+Cas 2 	4.17
+(90%)
+2.66
+(73%)
+0.64 	4.33 	2.81 	0.64 	6%
+Au total il s’agit de…………………………………………………………………………………..
+Cas 3 	4.90
+(110%)
+3.94
+(106%)
+0.81 	5.05 	4.20 	0.85 	9%
+Au total il s’agit de…………………………………………………………………………………..
+Cas 4 	4.06
+(79%)
+3.10
+(77%)
+0.75
+Au total il s’agit de…………………………………………………………………………………..
+12- Parmi les profils cliniques de malades suivants, prière de choisir la spirométrie correspondante :
+Profil clinique 	Spirométrie (1,2,3,4)
+Mr ali âgé de 55 ans, tabagique depuis 20 ans,
+Présente une dyspnée d’effort depuis 10 ans.
+L'examen cardiaque est normal avec un hyper tympanisme diffus
+Mr Saïd âgé de 30 ans, suivi pour asthme.
+Sous corticothérapie inhalée et bêta 2 mimétiques à longue durée d’action
+depuis 6 mois.
+Depuis 3 mois pas de symptôme nocturne, un épisode diurne tous les 15 jours,
+une activité physique conservée, une utilisation des bêta 2 mimétiques courte
+durée d'action (tous les 15 jours en moyenne)
+Ahmed, 38 ans, Depuis 15 jours, toux et expectorations purulentes dans un
+contexte fébriles. Cette symptomatologie s’est aggravée il y a 3 jours par
+l’apparition de douleurs thoraciques et d’une dyspnée d’effort.
+L’examen trouve un patient fébrile à 39°5, asthénique.
+Mme souad, 45 ans, non tabagique, présente une dyspnée d’effort depuis 15
+ans, non connue cardiaque. L'examen clinique trouve un IMC à 35. La
+radiographie thoracique est normale.
+Cas clinique 5:
+Mme Khadija ; patiente âgée de 40 ans, vient vous voir en consultation, avec la spirométrie (ci-dessous)
+Page 202:
+Ataraxie
+
+-- 43 of 58 --
+
+qu’elle vient de réaliser dans le cadre d’un bilan pré opératoire.
+Théo Test A1 %(A1/théo
+)
+Test A2 	%(A2/théo) 	Variation %
+CVF 	2.91 	2.84 	98 	2.97 	102 	+ 4
+VEMS 	2.47 	1.89 	77 	2.17 	88 	+ 14
+VEMS/CVF 	0.66 	0.73
+heure 	12:27 	12:49
+Subst/dose 	Salbutamol / 4 Bouffées
+13- Interprétez cette spirométrie :
+Au total, il s’agit de :
+14- Quelles sont les 2 étiologies que vous suspectez : a - 	b-
+15- Quels sont les éléments de l’interrogatoire à préciser pour orienter votre diagnostic :
+a- 	b- 	c- 	d- 	e- 	f- 	g- 	h-
+17. Cas cliniques généraux : ( 97 questions )
+Cas clinique 1:
+1- Devant une douleur thoracique aiguë, les principales hypothèses diagnostiques sont :
+A : Une tuberculose pulmonaire
+B : Une exacerbation d’asthme
+C : Un pneumothorax
+D : Une dilatation de bronches localisée
+E : Pneumonie sur poumon pathologique
+2- Une dyspnée aiguë récidivante, depuis plusieurs années, doit faire évoquer
+A : Une BPCO
+B : Un asthme
+C : Un cancer bronchique primitif avec envahissement de la trachée
+D : Une dilatation de bronches localisée
+E : Une Pneumopathie d'hypersensibilité
+3- Devant une douleur thoracique aigue, la présence d’une dyspnée aiguë associée, doit évoquer
+A : Une embolie pulmonaire
+B : Une exacerbation de BPCO
+C : Un rétrécissement mitral serré
+D : OEdème aigu du poumon
+E : Un Pneumothorax
+4- Devant une douleur thoracique aiguë, la présence de fièvre doit évoquer
+A : Une exacerbation d’asthme
+B : Pneumonie aiguë communautaire
+C : Bronchectasie diffuse
+D : Embolie pulmonaire
+E : Rechute tuberculeuse
+Un patient âgé de 45 ans, grand tabagique, jamais traité pour tuberculose, présente une douleur thoracique
+aiguë depuis 2 jours évoluant dans un contexte de conservation de l’état général. Le patient vient de
+terminer une séance de sport intense (plongée sous-marine).
+5- Quelles sont les étiologies les plus probables (tenant compte du contexte)
+A : Pneumothorax spontané
+Page 203:
+Ataraxie
+
+-- 44 of 58 --
+
+B : Cancer bronchique primitif avec pleurésie associée.
+C : Kyste hydatique du poumon rompu
+D : Embolie pulmonaire
+E : Cardiopathie ischémique
+6- Chez ce patient, quels sont les aspects radiologiques attendus
+A : Clarté avasculaire périphérique
+B : Radiographie thoracique normale
+C : Cardiomégalie
+D : Opacité hilaire à limites spiculées en patte de crabe
+E : Dilatation des artères pulmonaires
+7- QCU : Devant une douleur thoracique aiguë, La Radiographie thoracique (Cliché 1) doit évoquer
+A : Pneumothorax spontané
+B : Cancer bronchique primitif avec pleurésie associée.
+C : Kyste hydatique du poumon rompu
+D : Embolie pulmonaire
+E : Cardiopathie ischémique
+7- QCU : Devant une douleur thoracique aiguë, La Radiographie thoracique (Cliché 2) doit évoquer
+A : Une pneumonie aiguë communautaire
+B : Un abcès du poumon
+C : Une tuberculose pulmonaire excavée
+D : Opacité hilaire à limites spiculées en patte de crabe
+E : Une pneumonie révélant un cancer bronchique primitif
+Cas clinique 2:
+Mme K.A âgée de 32 ans, vient vous voir en consultation ce jour, pour des douleurs thoraciques brutales
+depuis 24h
+8- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A : Embolie pulmonaire
+B : Kyste hydatique pulmonaire
+C : Cancer bronchique primitif
+D : Aspergillome pulmonaire
+E : Pneumothorax
+9- L'anamnèse doit rechercher les antécédents et facteurs de risque suivants.
+A : Tabagisme
+B : Notion de contact avec les chiens
+Page 204:
+Ataraxie
+
+-- 45 of 58 --
+
+C : Notion d’infections à répétition dans l'enfance
+D : Antécédent de traitement anti bacillaire
+E : Elevage de volailles
+10- L'anamnèse doit aussi rechercher les éléments suivants.
+A : Notion de vomique hydatique
+B : Névralgies cervico-brachiales
+C : Douleur en coup de poignard
+D : Alitement prolongé
+E : Prise de contraceptifs
+11- L’examen physique doit rechercher les éléments suivants.
+A : Une abolition du murmure vésiculaire et des vibrations vocales
+B : Un Sd cave supérieur
+C : Râles crépitants diffus
+D : Distension thoracique avec thorax en tonneau
+E : Douleur à la dorsiflexion du pied
+12- Sachant que l’examen pleuro-pulmonaire de cette patiente est sans anomalies, quel est LE
+DIAGNOSTIC LE PLUS PROBABLE ?
+A : Embolie pulmonaire
+B : Kyste hydatique pulmonaire
+C : Cancer bronchique primitif
+D : Aspergillome pulmonaire
+E : Pneumothorax
+13- La Radiographie thoracique a été réalisée. Quelles sont le ou les aspects radiologiques attendus
+pour cette patiente ?
+A : Opacités réticulaires diffuses
+B : Opacité ronde
+C : Distension thoracique globale avec élargissement des espaces intercostaux
+D : Opacité excavée apicale
+E : Radiographie thoracique normale
+Cas clinique 3:
+Patiente âgée de 48 ans, présente une douleur thoracique brutale depuis quelques heures
+14- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques possibles ?
+A. Embolie pulmonaire
+B. Kyste hydatique pulmonaire
+C. Cancer bronchique primitif
+D. Pneumonie aiguë communautaire
+E. Pneumothorax
+15- L'examen physique doit rechercher les éléments suivants :
+A. Fièvre
+B. Syndrome de condensation
+C. Une déformation rachidienne (cyphoscoliose)
+D. Une insuffisance cardiaque droite
+E. Obésité avec IMC > 35
+F. Syndrome d'épanchement aérique
+G. Syndrome cave supérieur
+H Hépatomégalie
+I. Jambe douloureuse à la dorsiflexion des pieds
+16- Sachant que c'est un sujet grand tabagique, et que la radiographie thoracique est la suivante (cliché
+1), quel est votre diagnostic précis :
+17- Décrivez de façon détaillée votre conduite à tenir
+Page 205:
+Ataraxie
+
+-- 46 of 58 --
+
+Cas clinique 4:
+Mr A. Benbrahim, vient vous voir en consultation, pour des sifflements thoraciques survenus depuis
+quelques jours
+18- Parmi les propositions suivantes, quelles sont Les hypothèses diagnostiques ?
+A. Pneumopathies Infiltrantes Diffuses (PID)
+B. Broncho-Pneumopathies Chroniques Obstructives (BPCO)
+C. Kyste hydatique du poumon
+D. Bronchectasie localisée
+E. Tumeur médiastino-pulmonaire
+19- Parmi les propositions suivantes, quelles sont les hypothèses diagnostiques ?
+A. Insuffisance cardiaque gauche
+B. Asthme allergique
+C. Aspergillome pulmonaire
+D. Sd Obésité hypo ventilation (SOH)
+E. Sténose trachéale post intubation
+20- L’anamnèse doit rechercher les éléments suivants (Antécédents et facteurs de risque) :
+A. Tabagisme actif
+B. Exposition professionnelle aux substances minérales
+C. Contage tuberculeux récent
+D. Atopie familiale
+E. Exposition aux fumées de four
+21- L’anamnèse doit rechercher les éléments suivants (suite)
+A. Prise médicamenteuse au long cours
+B. Exposition professionnelle au foin moisi
+C. Notion de séjour récent en réanimation
+D. Elevage de volailles
+E. Notion de Rhinite saisonnière
+22- L’examen physique doit rechercher les éléments suivants :……
+Cas clinique 5:
+Patient âgé de 45 ans tabagique depuis 30 ans, expectorations depuis 3 ans. Depuis 2 ans, doit faire des
+pauses en marchant à cause de sa dyspnée. Il consulte pour la première fois pour une exacerbation.
+L’examen clinique trouve un patient dyspnéique avec des râles sibilants.
+La spirométrie réalisée après un mois à l’état stable montre un VEMS à 73 % et CVF à 82 % de la
+Page 206:
+Ataraxie
+
+-- 47 of 58 --
+
+théorique VEMS/CVF à 0,65. Après 4 bouffées de salbutamol, le VEMS augmente de 150 ml et de 10 %.
+23- Quel diagnostic retenez-vous ? Argumentez
+24- Quels sont les principales données de cliniques à préciser pour orienter mieux votre diagnostic ?
+25- Quel est le traitement de fond médicamenteux à proposer en première intention (justifier) ?
+Cas clinique 6:
+Patient âgé de 26 ans, non tabagique, sans ATC pathologiques particuliers, présentant depuis une
+semaine, une toux, expectoration purulentes et des douleurs thoraciques droites en point de côté.
+A l’examen physique, patient fébrile à 38,5°c, un herpès labial, eupnéique au repos. L’examen
+pleuro-pulmonaire trouve au niveau de la moitié supérieure de l'hémithorax droit une matité, une diminution
+des vibrations vocales et des râles crépitants
+La radiographie thoracique montre une opacité du lobe supérieur droit, homogène, avec bronchogramme
+aérien, non rétractile.
+26- Quel est le diagnostic le plus probable ? justifiez votre réponse.
+27- Quelle est la prise en charge que vous proposez (bilans ? hospitalisation ? traitement ?)
+Après 10 jours de traitement le patient revient à votre consultation et rapporte la persistance de la fièvre et
+l’apparition d’une hémoptysie
+28- Quelle est votre conduite à tenir ?
+Cas clinique 7:
+Patient de 26 ans, sans antécédents pathologiques notables. Il se présente dans votre consultation pour
+toux avec des expectorations purulentes et des douleurs thoraciques gauches en point de côté évoluant
+depuis 3 jours.
+L’interrogatoire retrouve la notion de rhinopharyngite associée et un épisode similaire chez plusieurs
+membres de la famille les jours précédents
+L’examen clinique trouve un patient, en bon état général avec fièvre à 39°C, fréquence respiratoire à 18
+C/min, pouls à 90 batt/mn, râles crépitant de la base gauche.
+29- Quelle est votre conduite à tenir ? (diagnostics à évoquer ? bilan ? lieu de prise en charge ?
+traitement, surveillance...)
+Cas clinique 8:
+Un patient âgé de 22 ans, non tabagique, sans ATC notables ; se présente à votre consultation dans un
+tableau de fièvre, frissons, toux avec expectorations purulentes, douleurs thoraciques en point de côté.
+L’examen physique retrouve un patient conscient en bon état général, fébrile à 39°C, la fréquence
+respiratoire est à 24 c/min, le pouls à 110 b/min, TA : 120/60.
+L’auscultation retrouve des râles crépitants à droite.
+L’interrogatoire retrouve la notion de rhino-pharyngite, de même qu’un cas similaire récent dans la famille
+30- Quelle est votre conduite à tenir ?
+Cas clinique 9:
+Patiente âgée de 22 ans, mariée, mère d’un enfant de 06 mois (allaitement en cours), connue diabétique
+(équilibré) sous antidiabétiques oraux. Présente depuis 2 semaines une asthénie avec amaigrissement de
+5 kg (son poids actuel est 57 kg) et une douleur thoracique droite en point de côté qui augmente à
+l’inspiration et à la toux, et elle est modifiée par le changement de position
+31- (c’est d’une douleur de type………………..).
+L’examen physique retrouve au niveau de la base thoracique droite, une matité à la percussion, une
+diminution des vibrations vocales et une diminution du murmure vésiculaire.
+32- Il s’agit du syndrome de ........................................................................ .
+33- La radiographie thoracique (cliché 2), montre …………………………………………………………..
+34- Au total, il s’agit de ……………………………………….
+35- Vu le contexte clinique et radiologique le diagnostic le plus probable est : ……………………
+36- L’examen qui doit être réalisé est : ……………………………………………………………..
+Cet examen a confirmé votre diagnostic
+Page 207:
+Ataraxie
+
+-- 48 of 58 --
+
+37- Avant de démarrer le traitement je vais demander les examens complémentaires suivants
+……………………………………………………………………….
+38- La patiente sera traitée (en ambulatoire), (en hospitalier) (entourer la bonne réponse), justifiez :
+39- La prise en charge thérapeutique est la suivante :
+40- Le patient vous demande si elle peut toujours allaiter son enfant et s’il y a des précautions
+particulières vis-à-vis de ses proches. Qu'est-ce que vous lui conseillez ?
+Cas clinique 10:
+Patiente âgée de 22 ans, mariée, mère d’un enfant de 06 mois (allaitement en cours), sans antécédents
+notables. Présente depuis 2 semaines une asthénie avec amaigrissement de 5 kg (son poids actuel est 57
+kg) et une douleur thoracique droite en point de côté qui augmente à l’inspiration et à la toux, et elle est
+modifié par le changement de position
+41- (c’est d’une douleur de type………………………..),
+la patiente rapporte en plus des douleurs abdominales diffuses atypiques avec sensation de pesanteur et
+ballonnement abdominal, sans vomissements ni troubles de transit.
+L’examen physique retrouve au niveau de la base thoracique droite, une matité à la percussion, une
+diminution des vibrations vocales et une diminution du murmure vésiculaire.
+42- Il s’agit du syndrome de …………………………………………….
+43- Par ailleurs l’abdomen est distendu avec matité déclive au niveau des flancs. Il s’agit de ……….
+44- La radiographie thoracique (cliché ci dessous), montre……………………
+45- Au total, il s’agit de………………………………………………..
+46- Vu le contexte clinique et radiologique le diagnostic le plus probable est……………………
+47- L’examen qui doit être réalisé est………………………………………………………….
+48- Les résultats attendus de cet examen sont les suivants………………………………………….
+Le diagnostic que vous avez suspecté a été retenu.
+49- Avant de démarrer le traitement je vais demander les examens complémentaires suivants ………
+50- La patiente sera traitée (en ambulatoire), (en hospitalier) (entourer la bonne réponse)
+51- La prise en charge thérapeutique est la suivante :
+Page 208:
+Ataraxie
+
+-- 49 of 58 --
+
+Le patient vous demande si elle peut toujours allaiter son enfant et s'il y a des précautions particulières
+vis-à-vis de ses proches.
+52- Qu’est-ce que vous lui conseillez ?
+Cas clinique 11:
+Mr. Omar, patient âgé de 54 ans, tabagique chronique depuis 20 ans, consulte aux urgences, pour douleurs
+thoraciques gauches d'installation brutale
+53- Quelles sont les principales hypothèses diagnostics que vous évoquez ?
+54- Quels sont les 2 examens complémentaires à demander ; et quels sont les résultats attendus ?
+Une radiographie thoracique de face a été réalisée : voir cliché C
+55- Veuillez interpréter ce cliché :
+56- Quel est le traitement que vous allez proposer ? (décrire de façon brève)
+57- Comment vous allez surveiller et évaluer ce traitement
+Après 7 j de traitement, vous n’avez pas constaté aucune amélioration.
+58- Quelle est votre conduite à tenir : ……………………………………………………………
+Cas clinique 12:
+Mr M.R., 50 ans, retraité, ex maçon, ex fumeur durant 20 ans, ayant fumé 30 cigarettes/j, sevré depuis 5
+ans, Présente depuis 4 ans des expectorations matinales difficiles avec apparition depuis 1 an d’une
+dyspnée d’effort pour une marche rapide. L’interrogatoire note que le patient a déjà consulté au cours de
+l’année pour une exagération des symptômes.
+59- Evaluez la dyspnée selon l’échelle mMRC
+60- Quels diagnostics évoqueriez-vous chez ce patient ?
+La radiographie thoracique montre une distension thoracique. La spirométrie trouve un VEMS à 1,41 soit
+58% de la théorique et un rapport VEMS/CVF à 0,45. Après 4 bouffées de salbutamol le VEMS a augmenté
+Page 209:
+Ataraxie
+
+-- 50 of 58 --
+
+de 150 ml soit un gain de 9%
+61- Interprétez la spirométrie et quel diagnostic retenez-vous ?
+62- Classez le malade dans un groupe de sévérité et quel traitement médicamenteux vous proposez?
+(ordonnance)
+Cas clinique 13:
+Un patient âgé de 40 ans, tabagique à ± 1 paq/i depuis 5 ans, présentant une rhinite, de père asthmatique.
+Présente depuis quelques mois une toux spasmodique et des épisodes Tie dyspnée, dont les
+caractéristiques sont difficiles à préciser.
+Le médecin traitant a eu du mal à trancher entre BPCO et asthme
+63- Quels sont les arguments en faveur de chacune des étiologies ?
+64- Quels sont les autres éléments distinctifs entre les 2 pathologies ?
+Une spirométrie a été réalisée :
+Avant Béta 2 mimétiques : VEMS = 3,62 litres ; VEMS/CV= 0,65
+Après Béta 2 mimétiques : VEMS = 4,12 litres
+65- Interpréter et analyser les résultats
+Cas clinique 14:
+Mme Fatima âgée de 40 ans. vit en milieu rural. femme au foyer. Elle vient consulter aux urgences, car elle
+a présenté la veille de façon brutale, des douleurs thoraciques droites.
+66- Quels sont les principaux diagnostics suspectés ? (au moins 4)
+a-............... b-............... c-............... d-............... e-............... f-...............
+67- Démarche de diagnostic
+A. Tabagisme actif 	B. Contage tuberculeux récent 	C. Déjà traitée pour tuberculose
+D. Cuisson au four traditionnel 	E. Père asthmatique 	F. Angines à répétition
+G. ATCD de néoplasie 	H. Elevage des volailles 	I. contact avec les chiens
+J. Sifflements thoraciques 	K. dyspnée aiguë 	L. bronchorrhée matinale
+M. hémoptysie 	N. dysphonie 	O. Alitement prolongé
+P. conservation de l’état général Q. Altération de l’état général 	R. Râles crépitants
+S. Sd d’épanchement aérien 	T. Adénopathies périphériques 	U. Sd cave supérieur
+V. Œdème unilatéral de M.I 	W. Sd d’épanchement liquidien X. Vomique hydatique
+Y. obésité IMC = 35 	Z. Ronflements nocturnes
+Choisir parmi les éléments elles ci-dessus. ceux qui correspondent le plus aux diagnostics suspecté
+Diagnostic suspecté 	Élément compatibles (ex : a, g, k, q, s, x ….)
+Page 210:
+Ataraxie
+
+-- 51 of 58 --
+
+68- Quels sont tes principaux examens complémentaires à demander : a-......... b-........ c-.........
+69- Quelles sont les principales anomalies radiologiques (Radiographie thoracique) attendues pour les
+diagnostics suspectés : a-............... b-............... c-............... d-...............
+Cas clinique 15:
+Mr H. Tounsi, âgé de 45 ans, tabagique, se présente à votre consultation pour une fièvre depuis 5 jours. Il
+ramène avec lui une radiographie thoracique (voir cliché 3 ci-dessous)
+70- Veuillez interpréter cette radiographie thoracique
+71- Devant ce tableau radio-clinique, quel est le diagnostic que vous retenez
+72- Quels sont les éléments de l’interrogatoire qui vont conforter votre diagnostic
+73- Décrivez de façon détaillée votre prise en charge, sachant que c’est un patient sans ATCD notables
+et ne présentant pas de signes de gravité, (poids 67 kg).
+Cas clinique 16:
+Mr A. H âgé de 60 ans, ancien maçon, fumeur à 1 paquet/j depuis 40 ans, traité pour tuberculose il y a 30
+ans, connu hypertendu. Présente depuis 8 ans une dyspnée d’effort stade 2 mMRC avec une toux
+épisodique souvent matinale avec des expectorations minimes. Depuis 2 ans il présente une somnolence
+diurne excessive. L’examen clinique trouve un patient légèrement polypnéique, IMC=37, en bon état
+général, avec discrète cyanose des lèvres, SaO2 90 %.
+74- Préciser les données qui permettent de classer la dyspnée chronique en stade 2 ?
+75- Quels diagnostics à évoquer devant la dyspnée chronique ?
+76- Quels sont les 4 diagnostics à retenir ?
+77- La radiographie thoracique est normale. Elle permettrait d’éliminer 2 diagnostics. Lesquels ?
+78- Le patient présente en plus de la dyspnée chronique une somnolence diurne excessive, Quelles
+sont les 2 étiologies possibles. Argumenter.
+79- Quels examens complémentaires à demander pour les confirmer ?
+Cas clinique 17:
+A propos des Radiographies thoraciques :
+80- Vous disposez des examens Radiologiques suivants (1,2, 3, 4), veuillez les interpréter.
+Radio 1
+Radio 2
+Radio 3
+Radio 4
+Page 211:
+Ataraxie
+
+-- 52 of 58 --
+
+81- Parmi les profils cliniques de malades suivants, prière de choisir la radiographie correspondante, et
+décrivez de façon très brève votre conduite à tenir.
+- Observation 1 : Asmae 26 ans sans antécédents notables. Elle se plaint depuis 6 semaines de toux
+ramenant des expectorations purulentes. Elle aurait pris un traitement non précisé (antibiotiques ?) mais
+sans amélioration.
+Radio N°………
+Conduite à tenir :...............................................................................................
+- Observation 2 : patiente âgée de 65 ans hospitalisée en traumatologie pour une prothèse de hanche,
+présente depuis quelques heures une douleur thoracique droite. L’examen pleura pulmonaire RAS
+Radio N°…………
+Conduite à tenir :...............................................................................................
+- Observation 3 : patient de 24 ans présentant depuis 4 jours des douleurs basithoraciques droites en point
+de côté, augmentant à l’inspiration profonde. L’examen physique retrouve une matité droite avec une
+diminution des MV et VV.
+Radio N°………………..
+Conduite à tenir :...............................................................................................
+- Observation 4 : Patient de 56 ans, grand tabagique, se présentant pour des hémoptysies dans contexte
+d’amaigrissement de 6 kg en 1 mois.
+Radio N°……………….
+Conduite à tenir :...............................................................................................
+Page 212:
+Ataraxie
+
+-- 53 of 58 --
+
+Cas clinique 18:
+Un patient âgé de 56 ans, vient vous voir en consultation, et a ramené avec lui la radiographie thoracique
+réalisée dans le cadre d’un bilan d’embauche.
+82- Interpréter cette radio:
+83- Quels sont les éléments de l’interrogatoire qui vont vous orienter vers vos hypothèses diagnostiques
+84- Quelle est votre conduite à tenir ?
+Cas clinique 19:
+Vous recevez en consultation Mr Ahmed, 58 ans, maçon de profession. Il se plaint d'expectorations
+mucopurulentes depuis 2 semaines, il a aussi des sensations fébriles. Son pharmacien lui a donné un
+antibiotique, les expectorations se sont légèrement éclaircies et il ne fait plus de fièvre. Ce matin il constate
+des filets de sang dans ses expectorations. Ce sang l'a inquiété.
+Mr Ahmed a fumé pendant plus 30 ans et est sevré depuis 3 ans. Il rapporte également des céphalées
+matinales et a constaté un changement de sa voix depuis 3 mois. A l'examen il n'est pas fébrile, vous
+trouvez des lacis veineux au niveau du tronc, sa respiration est bruyante et avec un sifflement inspiratoire.
+Sa radiographie thoracique de face est la suivante
+85- Veuillez interprétez ce cliché
+Page 213:
+Ataraxie
+
+-- 54 of 58 --
+
+86- Quel est le diagnostic le plus probable ? Justifiez
+87- A quoi correspond le bruit inspiratoire ? expliquez
+88- Comment expliquez vous le changement de la voix de Mr Ahmed ?
+89- Comment expliquez-vous les lacis veineux?
+90- Dans quel syndrome ce signe clinique s'intègre ?
+91- Quels sont les autres éléments cliniques à rechercher pour conforter votre diagnostic ?
+92- Quelles sont les procédures possibles pour confirmer le diagnostic pour ce patient ?
+Cas clinique 20:
+Patient de 55 ans, consulte pour une dyspnée avec oppressions et sifflements thoraciques.
+L'examen pleuro-pulmonaire a noté des sibilants diffus à l'auscultation.
+93- Quels sont les éléments de l'interrogatoire qui vont permettre d'orienter vers le diagnostic d'asthme
+ou de BPCO ?
+94- Quelles sont les anomalies attendues à la radiographie thoracique, en cas d'asthme et de BPCO ?
+95- Comment confirmer le diagnostic d'asthme et de BPCO ?
+96- Chez notre patient le diagnostic d'asthme a été retenu, sur quelles bases on va démarrer le
+traitement?
+97- L'indication de démarrer un traitement pallier 3 a été retenue, veuillez prescrire une ordonnance
+pour ce patient
+18. Questions Générales : ( 3 questions )
+QR 1 :
+1- Maladies Respiratoires Chroniques
+a. Citer les principales étiologies
+b. Quels sont les principaux éléments de l’interrogatoire qui vont orienter vers ces étiologies
+QR 2 :
+2- Décrire sous forme d’un tableau les différences entre asthme et BPCO
+- TABLEAU COMPARATIF : Asthme / BPCO (03 points)
+Asthme 	BPCO
+Facteur(s) Étiologiques
+Age de survenue (jeune / âgé)
+Inflammation reversible (oui / non)
+Hyperréactivité bronchique
+spécifique (oui / non)
+Hyperréactivité bronchique non
+spécifique (oui / non)
+Terrain atopique (oui/non)
+Bronchite chronique (oui / non)
+Type de dyspnée
+Spirométrie (aspect typique)
+Page 214:
+Ataraxie
+
+-- 55 of 58 --
+
+Radiographie thoracique (aspect
+typique)
+Evolution vers l'insuffisance
+respiratoire chronique (oui / non)
+Traitement de fond
+* Corticoïdes inhalés seuls (oui /
+non)
+* Bronchodilatateurs* $ longue
+action seuls (oui / non)
+Traitement des exacerbations
+* Oxygène
+* Bronchodilatateurs courte action
+(oui / non)
+QR 3 :
+3- Les effets secondaires de la corticothérapie inhalée
+Page 215:
+Ataraxie
+
+-- 56 of 58 --
+
+Chirurgie thoracique
+1. Drainage thoracique : ( 3 questions )
+QR 1 :
+1- Quels sont les sites classiques de pose de drain thoracique et leurs repères anatomiques
+QR 2 :
+2- Le drainage thoracique : Indications et technique.
+QR 3 :
+3- Indications et surveillance du drainage thoracique
+2. Kyste hydatique du poumon : ( 4 questions )
+QR 1:
+1- Quelles sont les complications du KHP ? et leurs manifestations cliniques ?
+QR 2:
+2- Décrivez les principales complications du Kyste hydatique pulmonaire et leurs manifestations cliniques ?
+QR 3:
+3- Citer les deux signes cliniques pathognomoniques de KHP rompu dans les bronches.
+QR 4:
+4- Citer deux signes radiologiques (Radiographie thoracique) évocateurs de kyste hydatique pulmonaire
+rompu dans les bronches.
+3. Plaies thoraco-abdominales : ( 2 questions )
+QR 1 :
+1- Définir une plaie thoracique pénétrante.
+QR 2 :
+2- Signes radiologiques pathognomoniques de rupture ou plaie diaphragmatique ?
+4. Traumatismes thoraciques fermés : ( 8 questions )
+QR 1 :
+1- Définissez le volet thoracique puis décrire sa principale conséquence et ses différents types.
+QR 2 :
+2- Définir le volet thoracique (VT), préciser les types de VT et leurs principales manifestations cliniques
+QR 3 :
+3- Définition, formes et principales conséquences des volets thoraciques
+QR 4 :
+4- Signes clinico radiologique en faveur de rupture trachéo bronchique et moyen de confirmation
+diagnostique
+QR 5 :
+5- Quels sont les signes cliniques orientant vers une rupture trachéobronchique ? Quel est le moyen de
+diagnostic de certitude ?
+QR 6 :
+6- Quels sont les signes radiologiques pathognomoniques d’une rupture diaphragmatique post traumatique
+?
+Page 216:
+Ataraxie
+
+-- 57 of 58 --
+
+Cas clinique 1:
+Mr karim est amené aux urgences par les ambulanciers. Il vient d’être victime d’un accident de la voie
+publique (accident de voiture) avec point d’impact thoracique. Il est conscient, polypnéique à 30 cycle/min,
+pâle et en sueurs.
+Voici sa radiographie thoracique
+7- Interprétez cette radiographie :
+8- Détailler l’ensemble des éléments de votre prise en charge (éléments cliniques, examens à demander,
+conduite à tenir thérapeutique)
+5. Tumeurs médiastinales : ( 8 questions )
+QR 1 :
+1- Citer les principales tumeurs du médiastin antérieur
+- Diagnostics à évoquer devant une tumeur médiastinale antérieure ?
+- Quelles sont les principales étiologies des tumeurs médiastinales antérieures chez l'adulte ?
+2- Enumérer quatre étiologies les plus fréquentes de tumeurs du médiastin antérieur
+QR 2 :
+3- Intérêt (s) de la tomodensitométrie thoracique avec injection du produit de contraste (TDM) dans les
+tumeurs médiastinales. ?
+QR 3 :
+4- Tumeurs médiastinales :Citer les principales étiologies en fonction de la topographie
+QR 4 :
+5- Quel dosage biologique faut-il effectuer en urgence chez un adulte jeune présentant une tumeur
+médiastinale antérieure ?
+QR 5 :
+6- Quels sont les principaux diagnostics à évoquer devant une tumeur médiastinale antérieure et précisez
+les 2 principaux dosages biologiques à réaliser dans le cas de tumeur du médiastin antérieur ?
+QR 6 :
+7- Décrivez les manifestations cliniques des Syndromes médiastinaux (2 points)
+QR 7 :
+8- Devant une tumeur du médiastin postérieure suspecte de tumeur neurogène à la TDM thoracique.
+a. Quel examen radiologique vous demandez ? (1 Point)
+b. b. Justifiez votre réponse? (1 point)
+Page 217:
+Ataraxie
+
+-- 58 of 58 --
+
