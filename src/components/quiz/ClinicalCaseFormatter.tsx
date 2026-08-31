@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import React from 'react'
 
@@ -7,10 +7,21 @@ interface ClinicalCaseFormatterProps {
   className?: string
 }
 
+function cleanMarkdown(str: string): string {
+  if (!str) return ''
+  return str
+    .replace(/^>\s*/gm, '')
+    .replace(/🏥/g, '')
+    .replace(/ℹ️/g, '')
+    .replace(/\*\*/g, '')
+    .replace(/(^|\s)\*([^\*]+)\*(\s|$)/g, '$1$2$3')
+    .replace(/\*/g, '')
+    .trim()
+}
+
 export function ClinicalCaseFormatter({ text, className = '' }: ClinicalCaseFormatterProps) {
   if (!text) return null
 
-  // Détecter si c'est un cas clinique
   const isCase =
     text.toLowerCase().includes('cas clinique') ||
     text.toLowerCase().includes('anamnèse') ||
@@ -20,13 +31,13 @@ export function ClinicalCaseFormatter({ text, className = '' }: ClinicalCaseForm
   if (!isCase) {
     return (
       <div className={`text-base sm:text-lg font-medium text-slate-900 dark:text-white leading-relaxed whitespace-pre-line ${className}`}>
-        {text}
+        {cleanMarkdown(text)}
       </div>
     )
   }
 
   // Si c'est un cas clinique, on découpe le texte pour isoler la vignette et la question
-  const lines = text.split('\n').map(l => l.trim()).filter(Boolean)
+  const rawLines = text.split('\n').map(l => l.trim()).filter(Boolean)
 
   let title = 'Cas Clinique'
   const patientHistory: string[] = []
@@ -37,7 +48,9 @@ export function ClinicalCaseFormatter({ text, className = '' }: ClinicalCaseForm
 
   let currentSection: 'history' | 'vitals' | 'physical' | 'paraclinical' | 'question' = 'history'
 
-  for (const line of lines) {
+  for (const rawLine of rawLines) {
+    const line = cleanMarkdown(rawLine)
+    if (!line) continue
     const lower = line.toLowerCase()
 
     // Titre de cas clinique
@@ -58,7 +71,7 @@ export function ClinicalCaseFormatter({ text, className = '' }: ClinicalCaseForm
       lower.startsWith('citez ') ||
       lower.startsWith('décrire ') ||
       lower.startsWith('énumérez ') ||
-      /^\d+[\.\-\:]\s*(quel|quelle|quels|quelles|parmi|comment|est|s'agit)/i.test(line)
+      /^\d+[\.\-\:]\s*(quel|quelle|quels|quelles|parmi|comment|est|s'agit|indiquez|choisissez)/i.test(line)
     ) {
       currentSection = 'question'
       questionLines.push(line)
@@ -78,7 +91,7 @@ export function ClinicalCaseFormatter({ text, className = '' }: ClinicalCaseForm
     }
 
     // Détection de section Biologie / Paraclinique / Imagerie
-    if (lower.includes('examens complémentaires') || lower.includes('biologie') || lower.includes('dosage') || lower.includes('imagerie') || lower.includes('ecg')) {
+    if (lower.includes('examens complémentaires') || lower.includes('biologie') || lower.includes('dosage') || lower.includes('imagerie') || lower.includes('ecg') || lower.includes('scanner a été') || lower.includes('tdm')) {
       currentSection = 'paraclinical'
       if (!lower.startsWith('●') && !lower.startsWith('○') && !lower.startsWith('-')) {
         paraclinical.push(line)

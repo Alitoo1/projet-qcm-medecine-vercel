@@ -1,6 +1,18 @@
 ﻿import type { QuestionQcmClient } from '@/types'
 import type { ClinicalCaseGroup, ParsedCaseQuestion } from '@/components/quiz/ClinicalCaseCard'
 
+function cleanMarkdown(str: string): string {
+  if (!str) return ''
+  return str
+    .replace(/^>\s*/gm, '')
+    .replace(/🏥/g, '')
+    .replace(/ℹ️/g, '')
+    .replace(/\*\*/g, '')
+    .replace(/(^|\s)\*([^\*]+)\*(\s|$)/g, '$1$2$3')
+    .replace(/\*/g, '')
+    .trim()
+}
+
 export type QuizStep =
   | { type: 'single'; question: QuestionQcmClient }
   | { type: 'case'; caseGroup: ClinicalCaseGroup }
@@ -13,13 +25,13 @@ export function parseQuestionCaseInfo(q: QuestionQcmClient): {
   questionText: string
 } {
   const text = q.enonce || ''
-  if (!text.includes('🏥 **Cas clinique') && !text.toLowerCase().includes('cas clinique')) {
+  if (!text.includes('🏥') && !text.toLowerCase().includes('cas clinique')) {
     return {
       isCase: false,
       caseTitle: '',
       initialObservation: '',
       intermediateNotes: [],
-      questionText: text,
+      questionText: cleanMarkdown(text),
     }
   }
 
@@ -31,15 +43,15 @@ export function parseQuestionCaseInfo(q: QuestionQcmClient): {
 
   for (const line of lines) {
     // Title
-    const titleMatch = line.match(/🏥\s*\*\*(Cas clinique\s*\d+.*?)\*\*/i)
+    const titleMatch = line.match(/(?:🏥\s*)?(?:\*\*)?(Cas clinique\s*\d+.*?)(?:\*\*)?$/i)
     if (titleMatch) {
-      caseTitle = titleMatch[1].trim()
+      caseTitle = cleanMarkdown(titleMatch[1])
       continue
     }
 
     // Initial obs (> *...*)
-    if (line.startsWith('>') && line.includes('*') && !line.includes('ℹ️') && !line.includes('🏥')) {
-      const cleaned = line.replace(/^[>\s\*]+/, '').replace(/[\*]+$/, '').trim()
+    if (line.startsWith('>') && !line.includes('ℹ️') && !line.includes('🏥')) {
+      const cleaned = cleanMarkdown(line)
       if (cleaned) {
         initialObs = initialObs ? `${initialObs} ${cleaned}` : cleaned
       }
@@ -48,7 +60,7 @@ export function parseQuestionCaseInfo(q: QuestionQcmClient): {
 
     // Intermediate note (> ℹ️ *...*)
     if (line.includes('ℹ️')) {
-      const cleaned = line.replace(/^[>\sℹ️\*]+/, '').replace(/[\*]+$/, '').trim()
+      const cleaned = cleanMarkdown(line)
       if (cleaned) {
         intermediateNotes.push(cleaned)
       }
@@ -57,27 +69,27 @@ export function parseQuestionCaseInfo(q: QuestionQcmClient): {
 
     // Question line
     if (!line.startsWith('>')) {
-      const cleaned = line.replace(/^\*\*/, '').replace(/\*\*$/, '').trim()
+      const cleaned = cleanMarkdown(line)
       if (cleaned) {
         questionLines.push(cleaned)
       }
     }
   }
 
-  const questionText = questionLines.join('\n') || text
+  const questionText = questionLines.join('\n') || cleanMarkdown(text)
 
   return {
     isCase: true,
-    caseTitle,
-    initialObservation: initialObs,
-    intermediateNotes,
-    questionText,
+    caseTitle: cleanMarkdown(caseTitle),
+    initialObservation: cleanMarkdown(initialObs),
+    intermediateNotes: intermediateNotes.map(cleanMarkdown),
+    questionText: cleanMarkdown(questionText),
   }
 }
 
 export function groupQuestionsIntoSteps(questions: QuestionQcmClient[]): QuizStep[] {
   const steps: QuizStep[] = []
-  let i = 0;
+  let i = 0
 
   while (i < questions.length) {
     const q = questions[i]
