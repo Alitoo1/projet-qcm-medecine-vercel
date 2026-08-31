@@ -1,0 +1,2155 @@
+Cardiologie - Questions cours par cours
+Remarques
+- Ce document contient toutes les questions d’anciens examens de Cardiologie .
+- ( 2011 - 2025 : 1ère et 2ème sessions ) - disponibles dans le Cahier d’Exams.
+- Les 247 questions sont réparties cours par cours
+- Les QR sont des questions rédactionnelles qui regroupent les QROC’s aussi
+Sommaire :
+Pathologies Coronaires / Ischémiques........................................................................................................2
+1. Introduction à l'Ischémie Myocardique : ( 9 questions ).........................................................................2
+2. Angor Stable : ( 5 questions )................................................................................................................ 3
+3. Syndromes coronaires aigus : ( 22 questions )......................................................................................4
+3.1- Les SCA sans sus décalage ST................................................................................................... 6
+3.2- L'IDM avec sus décalage ST........................................................................................................ 7
+Pathologies Valvulaires et Endocardiques................................................................................................. 9
+4. Rétrécissement Mitral : ( 10 questions )................................................................................................ 9
+5. Insuffisance Mitrale : ( 3 questions ).................................................................................................... 10
+6. Rétrécissement Aortique : ( 7 questions )............................................................................................ 11
+7. Insuffisance Aortique : ( 4 questions )..................................................................................................12
+8. Endocardite infectieuse : ( 6 questions )..............................................................................................13
+9. Rhumatisme Articulaire Aigu : ( 10 questions )....................................................................................15
+Pathologies Myocardiques, Péricardiques et du Rythme........................................................................18
+10. Insuffisance cardiaque : ( 9 questions )............................................................................................. 18
+11. Les myocardites et les cardiomyopathies : ( 1 question ).................................................................. 19
+12. Péricardites aiguës : ( 2 questions )...................................................................................................19
+13. Tamponnade : ( 2 questions )............................................................................................................ 20
+14. Troubles du rythme : ( 17 questions )................................................................................................ 20
+15. Oedème aigu du poumon : ( 2 questions ).........................................................................................23
+16. Choc cardiogénique : ( 3 questions )................................................................................................. 24
+Pathologies Vasculaires..............................................................................................................................26
+17. HTA essentielle : ( 48 questions )...................................................................................................... 26
+18. Thromboses veineuses profondes : ( 2 questions )........................................................................... 32
+19. Embolie pulmonaire : ( 3 questions )................................................................................................. 33
+Questions et Cas cliniques Générales...................................................................................................... 34
+20. Autres : ( 19 questions ).....................................................................................................................34
+21. Électrocardiogramme : ECG ( 21 questions ).................................................................................... 36
+22. Cas cliniques généralisés : ( 42 questions )...................................................................................... 46
+Page 1:
+Ataraxie
+
+-- 1 of 52 --
+
+Pathologies Coronaires / Ischémiques
+1. Introduction à l'Ischémie Myocardique : ( 9 questions )
+1- A propos de la circulation coronaire :
+A. Elle est essentiellement diastolique
+B. Elle est systématisée
+C. Le débit coronaire diminue en cas de diminution du débit cardiaque
+D. Le débit coronaire augmente en cas de sténose aortique
+E. Le tronc commun irrigue essentiellement le ventricule droit
+2- Cochez les réponses justes suivantes :
+A. Le muscle cardiaque est essentiellement dépendant de sa circulation coronaire
+B. La circulation coronaire est essentiellement systolique
+C. Les couches sous-endocardiques sont mieux vascularisées que les couches sous épicardiques
+D. La circulation coronaire est systématisée
+E. L’ischémie myocardique ne peut pas résulter d’une augmentation de la consommation myocardique en
+oxygène
+F. Les statines sont systématiquement prescrites chez le coronarien
+3- Les facteurs suivants diminuent le débit coronaire :
+A. La tachycardie
+B. L'insuffisance aortique
+C. La sténose aortique
+D. La sténose coronaire athéromateuse
+E. Les médicaments vasodilatateurs
+4- Les facteurs suivants augmentent la consommation myocardique en oxygène :
+A. La bradycardie
+B. La diminution de la pré-charge du ventricule
+C. La tachycardie
+D. L’augmentation de la post-charge du ventricule
+E. La vasodilatation artérielle
+F. Le débit coronaire.
+G. La diminution de la pré charge.
+H. L'augmentation de la post charge
+5- Cochez les facteurs de risque de l’athérosclérose coronaire :
+A. L'hypertension artérielle
+B. L’alitement prolongé
+C. La présence d’un cancer
+D. L’hypercholestérolémie
+E. L’hérédité
+6- A propos de l'athérosclérose coronaire :
+A. Le diabète est un facteur de risque.
+B. Elle peut être responsable d'un angor.
+C. Elle se manifeste par la présence de plaques d'athérome.
+D. Elle peut se compliquer d'une thrombose coronaire.
+E. Elle n'est pas une cause d'ischémie myocardique.
+7- Cochez les réponses justes suivantes :
+A. Une plaque d’athérome qui se rompt est riche en collagène
+B. La vasoconstriction périphérique augmente la consommation myocardique en oxygène
+C. La rupture de la plaque d’athérome entraîne une adhésion plaquettaire
+D. La thrombose coronaire est occlusive dans les syndromes coronaires aigus avec sus-décalage du
+segment ST
+Page 2:
+Ataraxie
+
+-- 2 of 52 --
+
+E. La diminution de la réserve coronaire s’observe lorsque le vaisseau diminue son diamètre de plus de
+70%
+8- Concernant l’ischémie myocardique :
+A. Elle peut se compliquer de nécrose myocardique
+B. Elle est chronique dans l’infarctus du myocarde
+C. Elle s’aggrave en cas de tachycardie
+D. Elle peut être révélée par une épreuve d’effort
+E. Elle peut entraîner des troubles de la repolarisation sur l’électrocardiogramme
+F. Elle peut être fonctionnelle
+G. Elle peut être secondaire à une embolie coronaire
+H. Elle est toujours aiguë
+I. Elle peut compliquer une sténose aortique
+J. Elle est liée au déséquilibre de la balance énergétique du myocarde
+K. Elle peut s’observer sur des coronaires saines
+L. Elle entraîne toujours une nécrose myocardique
+M. La douleur thoracique apparaît quand la sténose coronaire est supérieure à 20%.
+N. L'augmentation de la post charge est un facteur aggravant.
+O. L'angor stable est une forme d'ischémie myocardique chronique.
+P. La sténose aortique peut être responsable d'une ischémie myocardique fonctionnelle.
+Q. Une sténose coronaire de plus de 50 % réduit la réserve coronaire
+9- A propos de l’analyse de la topographie de l’ischémie myocardique sur électrocardiogramme :
+A. Le territoire inférieur est exploré par les dérivations DII, DIII et aVF
+B. Le territoire latéral haut est exploré par les dérivations V1- V2
+C. Le territoire antéro-septal est exploré par les dérivations V1, V2, V3
+D. Le territoire latéral bas est exploré par les dérivations V5- V6
+E. La pointe est explorée par la dérivation aVL
+2. Angor Stable : ( 5 questions )
+1- Dans sa forme typique, la douleur de l'angine de poitrine stable
+A. Survient au repos.
+B. Survient l'effort.
+C. Est sensible à la trinitrine.
+D. Est de siège dorsal.
+E. Est déclenchée par un effort.
+2- Concernant l’épreuve d’effort :
+A. Elle recherche l’anatomie coronaire
+B. Elle peut révéler une ischémie myocardique
+C. Elle peut déclencher une douleur thoracique
+D. Elle peut se faire sur bicyclette ou sur tapis roulant
+E. La surveillance de l’ECG est indispensable
+3- Cochez les facteurs influençant le pronostic d’un angor stable :
+A. Le caractère trinitro-sensible de la douleur
+B. L’étendu de l’ischémie à la scintigraphie
+C. Le caractère invalidant de l’angor
+D. L’atteinte de l’artère circonflexe
+E. Le déclenchement de la douleur dès le début d’un ECG d’effort
+4- Concernant l’angor stable :
+A. C’est un syndrome coronaire aigu
+B. Il y a une ischémie myocardique chronique
+C. L’angor de repos est un signe de la maladie
+Page 3:
+Ataraxie
+
+-- 3 of 52 --
+
+D. Il y a une douleur thoracique d’effort
+E. C’est une forme d’infarctus du myocarde
+F. C'est une ischémie myocardique aigue
+G. C'est une ischémie myocardique chronique
+H. C'est une forme de dissection coronaire
+I. Le principal symptôme est une douleur angineuse de repos
+J. Un traitement médical peut être proposé
+K. Il faut hospitaliser le patient en urgence
+L. Il faut doser les enzymes cardiaques
+M. Il faut prescrire une statine
+N. L’ECG d’effort apporte des informations concernant le pronostic
+O. La plaque d’athérome coronaire est riche en macrophages
+P. Il existe une rupture d'une plaque d'athérome
+Q. Il y a un déséquilibre dans la balance énergétique du myocarde
+R. Il peut être la manifestation clinique d’une atteinte de la microcirculation coronaire
+S. La douleur thoracique est trinitro-sensible
+T. La probabilité diagnostique dépend des caractéristiques de la douleur
+U. Il existe une ischémie myocardique aigue
+V. La tachycardie aggrave la pathologie
+W. L’épreuve d'effort est contre-indiquée
+X. L’aspirine doit être prescrite
+QR 1:
+5- Balance énergétique du myocarde
+3. Syndromes coronaires aigus : ( 22 questions )
+1- Cochez les tableaux cliniques faisant partie des syndromes coronaires aigus :
+A. L’infarctus du myocarde avec sus-décalage de ST
+B. L’embolie pulmonaire
+C. L’infarctus du myocarde sans sus-décalage de ST
+D. L’angor stable
+E. L’angor instable
+2- Concernant les syndromes coronaires aigus :
+A. La douleur thoracique peut survenir au repos
+B. Le pronostic dépend de l’existence d’une nécrose myocardique
+C. Le dosage de la troponine est la première étape de stratification
+D. Dans l’angor instable, il n’y a pas de nécrose myocardique
+E. L’électrocardiogramme peut être normal
+F. Les circonstances de survenue de la douleur thoracique sont importantes à
+G. considérer
+H. La stratification du risque du patient est d’abord basée sur le dosage de la
+I. troponine
+J. Il faut d'abord rechercher la présence d’un sous-décalage de ST à
+K. l’électrocardiogramme
+L. Le début de la douleur thoracique influence la prise en charge dans l’infarctus
+M. avec sus-décalage du segment ST
+N. L’élévation de la troponine définit l’angor instable
+O. Dans l'angor instable, il n'y a pas de nécrose myocardique
+P. La thrombolyse est prescrite dans l'angor instable
+Page 4:
+Ataraxie
+
+-- 4 of 52 --
+
+3- Concernant la douleur infarctoïde :
+A. Elle survient uniquement aux efforts.
+B. Elle survient au repos.
+C. Elle est brève.
+D. Elle peut s'accompagner de vomissement.
+E. Elle est trinito-résistante.
+4- Concernant l’infarctus du myocarde (IDM) :
+A. Le sus-décalage de ST est toujours présent
+B. La troponine augmente toujours
+C. La thrombolyse est recommandée quand il n’y a pas de sus-décalage
+D. L’angor instable est une forme clinique
+E. La rupture d’une plaque d’athérome est une cause de la maladie
+F. Il peut être révélé par une douleur épigastrique
+G. Le sus-décalage en D1-aVL oriente vers une topographie latérale haute
+H. Le dosage de la troponine est obligatoire avant de démarrer le traitement
+I. L’aspirine est le seul anti-thrombotique à prescrire
+J. Il n'est pas nécessaire de reperfuser si le début de la douleur remonte à plus de 6 heures
+K. L'écho-Doppler cardiaque est le 1er examen à demander
+L. L’examen clinique doit rechercher un souffle d’insuffisance mitrale
+M. Un état de choc peut être le tableau révélateur
+N. Un accident thrombo-embolique peut survenir
+O. Le sus-décalage ne peut jamais persister au delà de 3 semaines
+P. Le délai de prise en charge est capital
+Q. La thrombolyse peut être utilisée au-delà de 12 heures après le début de la douleur thoracique
+R. Il existe une thrombose coronaire occlusive
+S. Le sus-décalage s'accompagne d’une image en miroir
+T. La reperfusion peut être réalisée par angioplastie primaire
+U. Il n'y a pas de mort cellulaire myocardique.
+V. Un choc cardiogénique peut être observé.
+W. L'athérosclérose coronaire est une étiologie.
+X. Il y'a un risque de mort subite.
+Y. Au Maroc, le principal facteur de risque de l'infarctus du myocarde avec sus-décalage de ST est le tabac
+5- Cochez les réponses justes suivantes concernant l'infarctus du myocarde (IDM):
+A. L'IDM de type 1 est lié à l'athérothrombose
+B. La présence d'un sus-décalage de ST est obligatoire pour définir un IDM
+C. L'IDM de type 4 survient dans les suites d'une angioplastie coronaire
+D. L'IDM de type 3 est lié à un déséquilibre de la balance énergétique du myocarde
+E. L'IDM peut compliquer une dissection coronaire spontanée
+6- Les complications suivantes sont possibles après un IDM :
+A. Un choc cardiogénique.
+B. Une insuffisance mitrale aiguë.
+C. Un trouble du rythme.
+D. Un anévrisme de l'aorte.
+E. Une péricardite.
+7- Dans la prise en charge de l'IDM :
+A. Le temps est essentiel.
+B. L'ECG n'est pas indispensable au diagnostic.
+C. Le sus décalage de ST en Dll, Dlll et avF indique une topographie antérieure.
+D. La thrombolyse est un moyen thérapeutique.
+E. L'angioplastie ne peut pas être utilisée.
+Page 5:
+Ataraxie
+
+-- 5 of 52 --
+
+8- A propos de la thrombolyse à la phase aiguë de l'infarctus du myocarde :
+A. Elle est indiquée même au delà de la 12eme heure après le début des symptômes
+B. Elle peut se compliquer d’un accident vasculaire cérébral
+C. Il faut toujours lui associer de l’aspirine
+D. Le tenecteplase est administré en bolus
+E. Elle peut être démarrée en pré-hospitalier
+9- Le thrombolytique idéal utilisé dans l’infarctus du myocarde :
+A. Doit être administré en bolus
+B. Doit être administré en perfusion
+C. Doit faire baisser le taux de fibrinogène
+D. Doit être fibrino-spécifique
+E. Doit avoir un taux de reperfusion élevé
+10- A propos de l'athérothrombose coronaire:
+A. Elle est responsable de l'angor stable
+B. Elle met en jeu les plaquettes
+C. Elle peut être secondaire à l'érosion d'une plaque d'athérome
+D. Elle entraîne toujours un infarctus du myocarde
+E. Elle complique une plaque d'athérome instable
+QR 1:
+11- Quels sont les 3 types de syndromes coronariens aigus ?
+3.1- Les SCA sans sus décalage ST
+12- A propos de l’angor instable :
+A. C’est une forme d’infarctus du myocarde
+B. La troponine ultra-sensible est normale
+C. L’électrocardiogramme peut être normal
+D. Il y a un sus-décalage du segment ST
+E. La douleur thoracique survient toujours à l’effort
+13- Concernant les syndromes coronaires aigus sans sus-décalage du segment ST :
+A. Le dosage de la troponine permet de stratifier le risque du patient
+B. La thrombolyse est une option thérapeutique
+C. La rupture de la plaque d’athérome est un mécanisme physiopathologique
+D. La présence d’un sous-décalage est un signe de gravité
+E. La coronarographie doit être réalisée chez les patients à haut risque
+F. L’ECG peut être normal
+G. L’aspirine est indiquée
+H. La douleur thoracique ne peut pas survenir à l’effort
+I. La troponine peut être négative
+J. La coronarographie peut être réalisée en urgence
+K. L'angor instable est une forme de la maladie
+L. Il existe une occlusion coronaire thrombotique
+M. La thrombolyse est indiquée dans les formes graves
+N. La plaque d’athérome coronaire est instable
+O. La douleur thoracique peut survenir au repos
+P. La stratification du risque du patient peut se faire par le dosage de la troponine
+Q. L’aspirine doit être administrée
+Page 6:
+Ataraxie
+
+-- 6 of 52 --
+
+3.2- L'IDM avec sus décalage ST
+14- Cochez les complications possibles d’un infarctus avec sus-décalage de ST :
+A. L’endocardite infectieuse
+B. La rupture cardiaque
+C. Le choc cardiogénique
+D. La fibrillation ventriculaire
+E. L’œdème aigu du poumon
+F. Dans l'infarctus du myocarde avec sus-décalage de ST, l'ouverture précoce de l'artère coronaire diminue
+la masse nécrosée
+15- Concernant l’infarctus du myocarde avec sus-décalage de ST :
+A. Il peut se compliquer de mort subite
+B. Le début de la douleur thoracique conditionne la prise en charge thérapeutique
+C. Les anticoagulants sont contre-indiqués
+D. Il peut se compliquer d’accident vasculaire cérébral ischémique
+E. La douleur thoracique est trinitro-sensible
+F. Le dosage de la troponine est normal tout au long de l’évolution de la maladie
+G. L’artère coronaire responsable de l’infarctus est occluse
+H. La thrombolyse n’est pas indiquée
+I. Il peut se compliquer d’une insuffisance cardiaque
+J. La douleur thoracique est brève
+K. La douleur thoracique peut s’accompagner de vomissements
+L. L’image en miroir est toujours retrouvée en VI- V2
+M. Le territoire lésé est inférieur quand le sus-décalage est retrouvé en DII, DIII et a VF
+N. Le diabète est un facteur de risque
+O. L’ECG qualifiant doit être réalisé dans les 30 minutes suivant le contact médical
+P. La thrombolyse doit être préférée à l’angioplastie primaire si le transfert du patient vers un cath-lab
+risque de dépasser 120 minutes
+Q. Le délai entre le début de la douleur et le contact médical peut être réduit par la sensibilisation de la
+population
+R. II faut préférer l’angioplastie primaire si l’hôpital dispose d’un cath-lab opérationnel 24h/24
+S. La thrombolyse n’est pas indiquée si la douleur thoracique date de plus de 12 heures
+T. La douleur est prolongée
+U. La thrombose coronaire est occlusive
+V. Il y a une augmentation de la contractilité dans le territoire infarci
+W. Il faut prescrire l’aspirine
+X. La plaquette n’est pas activée
+Y. Le principal inconvénient de l'angioplastie primaire reste le risque hémorragique
+Z. L'angioplastie coronaire est la méthode de revascularisation de 1er choix
+AA. Si la topographie de l'infarctus est latérale haute, le sus-décalage est retrouvé dans les dérivations
+D1 et aVL
+BB. Le dosage de la troponine est indispensable avant de réaliser une revascularisation
+CC. La communication interventriculaire est une complication possible
+DD. La trinitrine doit être prescrite dans le cas d'un infarctus du ventricule droit
+16- Dans l'IDM antéro septal, le sus-décalage est retrouvé dans les dérivations suivantes :
+A. VI, V2, V3.
+B. Dl, avL.
+C. Dll, Dlll, avF.
+D. V5, V6.
+E. V7, V8, V9.
+F.
+Page 7:
+Ataraxie
+
+-- 7 of 52 --
+
+QR 2:
+17- Citer 2 complications d'un infarctus du myocarde.
+- Décrire les complications d’un IDM avec un sus-décalage ST
+QR 3:
+18- Citer 2 mécanismes expliquant la survenue d'un état de choc à la phase aigüe d'un infarctus du
+myocarde avec sus-décalage de ST
+QR 4:
+19- Préciser le territoire et le vaisseau coupable quand on a un sus-décalage du segment ST en DII,
+DIII et aVF
+QR 5:
+20- Caractéristiques du sus-décalage ST à l'ECG
+QR 6:
+21- L'infarctus du myocarde avec sus-décalage de ST :
+● Décrire les caractéristiques du sus-décalage de ST à l'ECG
+● Citer 4 complications
+● Citer les 2 stratégies de reperfusion possibles
+QR 7:
+22- IDM avec sus-décalage ST
+- Diagnostic
+- Méthodes de reperfusion
+Page 8:
+Ataraxie
+
+-- 8 of 52 --
+
+Pathologies Valvulaires et Endocardiques
+4. Rétrécissement Mitral : ( 10 questions )
+1- Dans la sténose mitrale rhumatismale
+A. Il existe une fusion des commissures
+B. La pression dans l'oreillette gauche est bosse
+C. Il y a un risque de survenue de fibrillation auriculaire
+D. Il y a un risque de formation de thrombus dans l'oreillette gauche
+E. Le ventricule gauche est dilaté
+2- Concernant la sténose mitrale serrée :
+A. La surface mitrale mesurée par planimétrie à l'échocardiographie est inférieure à 2 cm carré
+B. Le diagnostic peut être fait à l'occasion d’un accident vasculaire cérébral ischémique
+C. Il y a un frémissement cataire a l’examen physique
+D. ll y’ a un aspect de double de contours sur la radiographie thoracique
+E. La valvuloplastie mitrale percutanée est contre-indiquée si il y a une insuffisance mitrale importante
+3- A propos du rétrécissement mitral :
+A. Il existe un gradient de pression entre l'OG et le VG.
+B. Le souffle ausculté est systolique.
+C. Une surface mitrale inférieure à 1.5 cm2 définit un rétrécissement mitral serré.
+D. Il peut se compliquer d'une fibrillation auriculaire.
+E. Le remplacement valvulaire par une prothèse est la seule option thérapeutique.
+F. Il est souvent d'origine rhumatismale
+G. L'auscultation cardiaque trouve un souffle systolique au foyer mitral
+H. Un B2 pulmonaire normal témoigne d'une hypertension artérielle pulmonaire
+I. Le ventricule gauche est souvent dilaté
+J. Il peut se compliquer d'un accident vasculaire cérébral ischémique
+K. Il existe un obstacle au remplissage du ventricule gauche.
+L. L'oreillette gauche est toujours de taille normale.
+M. L'auscultation cardiaque trouve une diminution de B1.
+N. Il existe un risque d'arythmie complète par fibrillation auriculaire.
+O. La commissurotomie mitrale percutanée est indiquée quand l'anatomie valvulaire mitrale est favorable
+4- Dans la sténose mitrale :
+A. Il y a un gradient de pression entre le ventricule gauche et l’aorte
+B. Le souffle est diastolique
+C. L’ECG peut montrer une fibrillation auriculaire
+D. L'ischémie aiguë des membres inférieurs est une complication possible
+E. Une hypertension pulmonaire est possible
+F. Il y a un gradient de pression entre l’oreillette gauche et l’aorte
+G. Le souffle est un roulement
+H. L’hypertension artérielle pulmonaire est de type post:capillaire
+I. La valvuloplastie mitrale percutanée est contre-indiquée en cas de thrombose auriculaire gauche
+J. La pression ventriculaire gauche est élevée
+K. La pression auriculaire gauche est élevée
+L. Le souffle ausculté est de type éjectionnel
+M. La thrombose de l’auricule gauche est une complication possible
+N. Il y a un gradient de pression entre l’oreillette gauche et le ventricule gauche
+O. La valvuloplastie mitrale percutanée est contre-indiquée en cas d’insuffisance mitrale importante
+associée
+P. Une complication thrombo-embolique est possible
+Q. La principale étiologie est l’endocardite infectieuse
+R. Il existe un obstacle au remplissage diastolique du ventricule gauche
+Page 9:
+Ataraxie
+
+-- 9 of 52 --
+
+S. Un accident thrombo-embolique peut survenir
+T. Le souffle irradie vers les vaisseaux du cou
+U. Le ventricule gauche est dilaté dans les formes serrées
+V. Il existe un gradient de pression auriculo-ventriculaire
+W. La principale étiologie au Maroc est le rhumatisme articulaire aigu
+X. Le souffle ausculté est apexo-axillaire
+Y. Le souffle ausculté est un roulement diastolique
+Z. Le traitement est toujours chirurgical dans les formes serrées
+5- A propos de la sténose mitrale:
+A. Le sang régurgite du ventricule gauche vers l'oreillette gauche
+B. Il y a une surcharge volumétrique du ventricule gauche
+C. Il y a un gradient de pression diastolique entre l'oreillette gauche et le ventricule gauche
+D. Elle peut se compliquer d'accident vasculaire cérébral
+E. L'oreillette gauche se dilate dans les formes serrées
+6- Cochez les réponses justes suivantes :
+A. La sténose mitrale entraîne une surcharge volumétrique de l'oreillette gauche
+B. L'insuffisance tricuspide peut compliquer une sténose mitrale serrée
+C. Dans l’insuffisance tricuspide. le souffle est diastolique
+D. Une sténose mitrale serrée peut entraîner une insuffisance cardiaque droite
+E. Dans la sténose mitrale serrée, le ventricule gauche est dilaté
+F. Dans la sténose mitrale très serrée, l'arc moyen gauche est concave
+G. La sténose mitrale serrée peut se compliquer par une insuffisance tricuspide
+H. Le roulement diastolique de la sténose mitrale disparaît en cas de fibrillation auriculaire
+I. L’oreillette gauche est dilatée dans une sténose mitrale serrée
+J. La sténose mitrale ne se complique jamais d’accident vasculaire cérébral
+K. Le claquement d’ouverture mitrale est un bruit protodiastolique
+L. Dans la sténose mitrale, le ventricule gauche n'est pas pré-chargé
+M. Le souffle est systolique dans l'insuffisance tricuspide
+QR 1:
+7- Citez 2 complications de la sténose mitrale.
+QR 2:
+8- Physiopathologie du RM
+QR 3:
+9- La sténose mitrale :
+● Physiopathologie
+● Caractéristiques sémiologiques du souffle à l'auscultation
+● Citer 2 complications
+10- Sténose mitrale : - Physiopathologie - Diagnostic
+5. Insuffisance Mitrale : ( 3 questions )
+1- A propos de l’insuffisance mitrale aigue :
+A. L’infarctus du myocarde est une étiologie
+B. L'endocardite infectieuse est une étiologie
+C. La dissection aortique est une étiologie
+D. Il y a un risque de survenue d’un œdème aigu du poumon
+E. Il existe une élévation brutale de la pression auriculaire gauche
+2- A propos de l’insuffisance mitrale :
+A. Le souffle est systolique
+B. Il y a un reflux du sang de l’aorte vers le ventricule gauche
+Page 10:
+Ataraxie
+
+-- 10 of 52 --
+
+C. Elle est toujours chronique
+D. Le ventricule gauche se dilate dans les formes sévères
+E. Il y a une surcharge volumétrique du ventricule gauche
+F. Elle correspond à un reflux de sang entre le ventricule gauche et l'oreillette gauche en diastole
+G. L'auscultation retrouve un souffle systolique maximal au niveau de la pointe
+H. Le rhumatisme articulaire aigu est la principale cause au Maroc
+I. Elle peut être secondaire à une rupture de cordage mitral
+J. Elle peut compliquer un prolapsus de la valve mitrale
+K. Elle peut dilater le ventricule gauche et l’oreillette gauche
+L. Elle augmente la pression auriculaire gauche
+M. C’est une cause possible de choc cardiogénique
+N. L’infarctus du myocarde est une étiologie possible
+O. Le souffle est holodiastolique
+P. Le souffle irradie vers la région axillaire
+Q. Il y a un claquement d’ouverture de la mitrale
+R. Le sang reflue du ventricule gauche vers l’oreillette gauche
+S. II existe un obstacle au remplissage du ventricule gauche
+T. Elle peut compliquer un infarctus du myocarde
+U. L'étiologie peut être organique ou fonctionnelle.
+V. La rupture du cordage peut être une cause..
+W. Le souffle ausculté est un roulement.
+X. Une forme aiguë est possible.
+Y. Le prolapsus valvulaire est l'étiologie principale au Maroc.
+Z. Le volume régurgité dépend essentiellement de la surface de l'origine régurgitant.
+3- Cochez les réponses justes suivantes :
+A. L'insuffisance mitrale aiguë peut se compliquer de choc cardiogénique
+B. L’insuffisance mitrale aiguë est une étiologie de choc cardiogénique
+C. Dans l’insuffisance mitrale importante, il n’y a pas de surcharge volumétrique du ventricule gauche
+D. Dans l’insuffisance mitrale, on trouve un souffle holosystolique
+E. Dans l’insuffisance mitrale,le ventricule gauche est dilaté quand la fuite est importante.
+F. A propos de l’insuffisance mitrale :Elle expose au risque d'endocardite infectieuse.
+6. Rétrécissement Aortique : ( 7 questions )
+1- Dans la sténose aortique serrée :
+A. Le gradient ventricule gauche- aorte peut être bas
+B. La syncope peut révéler la pathologie
+C. La douleur thoracique est associée uniquement en cas de pathologie coronaire associée
+D. Il y a un risque de mort subite
+E. Un angor peut être rapporté
+2- A propos de la sténose aortique :
+A. Le ventricule gauche s’hypertrophie dans les formes serrées
+B. Il y a un risque de syncope
+C. L’écho-Doppler cardiaque permet de poser le diagnostic
+D. Le souffle est diastolique
+E. Il y a un gradient de pression entre le ventricule gauche et l’aorte
+F. Elle représente un obstacle à l'éjection du ventricule gauche
+G. Elle se caractérise par un souffle systolique irradiant vers les vaisseaux du cou
+H. Une sténose aortique serrée peut être responsable d'une syncope
+I. Elle peut se compliquer d'une mort subite
+J. La chirurgie est indiquée en cas de sténose serrée symptomatique
+Page 11:
+Ataraxie
+
+-- 11 of 52 --
+
+K. C’est une surcharge barométrique du ventricule gauche
+L. Elle entraîne une hypertrophie ventriculaire gauche
+M. La pression aortique est supérieure à la pression ventriculaire gauche lors de la systole
+N. Le souffle ausculté est un roulement
+O. Le souffle est systolique
+P. La syncope peut compliquer la valvulopathie
+Q. L’échocardiographie Doppler évalue la sévérité de la valvulopathie
+R. La syncope est un signe de gravité
+S. La pression ventriculaire gauche est élevée lors de la systole
+T. La pression différentielle est élevée
+U. Le souffle est ausculté au 5eme espace intercostal gauche
+V. Il existe un claquement d'ouverture de la mitrale
+W. Elle présente la valvulopathie la plus fréquente chez le sujet âgé.
+X. La pression ventriculaire gauche est élevée.
+Y. Elle peut se manifester par un angor d'effort.
+Z. Un B2 aortique diminué est en faveur d'une sténose serrée.
+3- A propos de la sténose aortique:(suite)
+A. La pression artérielle systolique est souvent élevée.
+B. Il existe un obstacle au remplissage du ventricule gauche
+C. On ausculte un souffle holosystolique à la pointe
+D. Le signe révélateur peut être une syncope
+E. Le B2 aortique est normal quand la sténose est serrée
+F. Elle est toujours d'origine rhumatismale.
+G. Un remplacement valvulaire aortique est indiqué dans les sténoses modérées.
+H. Dans la sténose aortique, le flux sanguin est ralenti au niveau de l'orifice
+4- Cochez les réponses justes suivantes :
+A. La sténose aortique peut se compliquer de mort subite
+B. La sténose aortique serrée peut se compliquer de syncope
+C. Dans la sténose aortique, il y a une surcharge volumétrique du ventricule gauche
+D. Dans la sténose aortique on trouve un souffle diastolique
+E. La sténose aortique peut être responsable de syncope
+F. L’hypertension artérielle pulmonaire peut être responsable d’une dilatation du ventricule droit
+G. Dans La sténose aortique,le 2 bruit peut être aboli au foyer aortique
+QR 1:
+5- Citez 2 signes cliniques de gravité d’une sténose aortique.
+QR 2:
+6- Quels sont les 3 signes fonctionnels à rechercher systématiquement devant une sténose aortique ?
+QR 3:
+7- Décrire les conséquences physiopathologiques d’une sténose aortique
+7. Insuffisance Aortique : ( 4 questions )
+1- A propos de l'insuffisance aortique importante:
+A. Elle représente un obstacle à l'éjection du ventricule gauche
+B. Il existe une ischémie myocardique fonctionnelle
+C. Les pouls périphériques sont amples
+D. La pression artérielle diastolique est élevée
+E. Elle peut être associée à un anévrisme de l'aorte ascendante
+Page 12:
+Ataraxie
+
+-- 12 of 52 --
+
+2- Concernant l’insuffisance aortique :
+A. La cause peut être rhumatismale ;
+B. Le souffle ausculté est de type éjectionnel
+C. La pression différentielle est élargie dans les formes sévères
+D. Le ventricule gauche est dilaté dans les formes sévères
+E. L’angor peut être un signe clinique de la maladie
+F. Elle peut compliquer une maladie de Marfan
+G. Le souffle ausculté est diastolique
+H. Elle est toujours chronique
+I. La pression artérielle diastolique diminue dans les formes sévères
+J. Le débit coronaire augmente dans les formes graves
+K. L’origine est toujours rhumatismale
+L. La pression différentielle est pincée
+M. Les formes aiguës sont des causes de choc cardiogénique
+N. Le rhumatisme articulaire aigu est une étiologie
+O. Un angor peut s’observer dans les formes sévères
+P. Le sang reflue du ventricule gauche vers l’oreillette gauche
+Q. La pression aortique diastolique diminue
+R. Le souffle est doux.
+S. Elle entraine une surcharge volumétrique du VG.
+T. Elle peut être associée à un anévrisme de l'aorte ascendante.
+U. Les pouls sont amples.
+V. La pression artérielle systolique est basse.
+W. L'auscultation cardiaque retrouve un souffle systolique au foyer aortique.
+X. Il y a une surcharge en volume et en pression du ventricule gauche
+Y. L'aorte ascendante peut être dilatée
+Z. Il existe une diminution des pouls dans les formes sévères
+3- Concernant l’insuffisance aortique : (suite)
+A. Le malade peut rapporter une douleur thoracique d’allure angineuse
+B. Elle peut être aiguë ou chronique.
+C. Elle peut compliquer une dissection de l'aorte.
+D. L'auscultation cardiaque trouve un souffle systolique au foyer mitral.
+E. La pression artérielle systolique est basse en cas d'insuffisance aortique sévère.
+F. Un remplacement valvulaire aortique est indiqué en cas de fuite importante symptomatique.
+4- Cochez les réponses justes suivantes :
+A. Un souffle diastolique est ausculté dans l'insuffisance aortique
+B. Le débit coronaire diminue dans une insuffisance aortique importante
+C. Dans l’insuffisance aortique sévère, le ventricule gauche est dilaté
+D. La pression différentielle est pincée dans l’insuffisance aortique importante
+E. L’insuffisance aortique peut être causée par une dilatation de l’aorte ascendante
+F. Dans L'insuffisance aortique, la pression aortique est inférieure à la pression ventriculaire gauche lors
+de la diastole
+8. Endocardite infectieuse : ( 6 questions )
+1- Cochez les complications possibles d'une endocardite infectieuse :
+A. Les accidents vasculaires cérébraux ischémiques
+B. Les hémorragies cérébrales
+C. Les perforations valvulaires
+D. L'insuffisance rénale aiguë
+E. L'infarctus splénique
+Page 13:
+Ataraxie
+
+-- 13 of 52 --
+
+F. L’insuffisance cardiaque
+G. Le choc cardiogénique
+H. L'accident vasculaire cérébral hémorragique
+I. Une ischémie aiguë du membre inférieur
+J. L'endocardite infectieuse est une cause d'accident vasculaire cérébral du sujet jeune
+2- Concernant le traitement de l'endocardite infectieuse :
+A. Le traitement médical est basé sur une bi-antibiothérapie par voie orale
+B. Les aminosides sont indiqués dans la majorité des cas
+C. Il doit être adapté aux résultats des hémocultures
+D. La durée totale du traitement est généralement d'au moins 4 semaines
+E. Il n'y a pas de place au traitement chirurgical
+3- A propos de l’endocardite infectieuse :
+A. Il s’agit d’une maladie auto-immune
+B. Le traitement antibiotique doit être administré par voie intraveineuse
+C. Des complications emboliques sont possibles
+D. Elle peut être responsable d’une fuite valvulaire
+E. Elle doit être évoquée devant l’association fièvre-souffle
+F. Les streptocoques sont incriminés quand la porte d'entrée est bucco-dentaire
+G. Le diagnostic est basé essentiellement sur les résultats des hémocultures et de l'échocardiographie
+H. Les hémocultures peuvent être négatives
+I. La présence d'une végétation à l'échocardiographie représente un critère diagnostique mineur
+J. Elle peut être responsable d'une insuffisance cardiaque aiguë
+K. Elle peut être d’origine fungique
+L. Elle est liée à un problème d’immunité croisée
+M. Elle peut engendrer une perforation valvulaire
+N. Elle nécessite un traitement d’au moins 4 semaines dans les formes bactériennes
+O. La porte d’entrée peut être urinaire
+P. L’antibiothérapie a une durée de 7 jours
+Q. Le germe est le même que pour le rhumatisme articulaire aigu
+R. La rupture d'un cordage est une complication possible
+S. La porte d’entrée est toujours rhinopharyngée
+T. Elle peut survenir après des soins dentaires
+U. Les hémocultures doivent être systématiquement demandées
+V. Elle peut se compliquer d’accidents vasculaires cérébraux
+W. L’antibiothérapie est administrée par voie orale
+X. Il s’agit d’un syndrome post-streptococcique
+Y. La prophylaxie est basée sur l’injection de la pénicilline toutes les 3 semaines
+Z. Il s’agit d'une septicémie
+4- A propos de l’endocardite infectieuse : (suite)
+A. Les germes responsables les plus fréquents sont le BGN.
+B. Le germe le plus fréquemment rencontré est le streptocoque
+C. Elle peut compliquer une insuffisance aortique
+D. Elle peut se compliquer d’un abcès splénique
+E. La fièvre fait partie des critères majeurs dans la classification de Dukes.
+F. La végétation est la lésion caractéristique à l'échocardiographie.
+G. Les complications neurologiques ne sont pas possibles.
+H. Les germes responsables les plus fréquents sont le streptocoque et le staphylocoque
+I. Les hémocultures sont toujours positives
+J. Les patients porteurs d'une prothèse valvulaire représentent un groupe à faible risque
+K. La durée totale du traitement est de 2 semaines
+L. Le diagnostic est évoqué devant la constatation d'un souffle fébrile.
+Page 14:
+Ataraxie
+
+-- 14 of 52 --
+
+M. La végétation est un critère mineur dans la classification de Dukes.
+N. Il existe un risque d'AVC hémorragique.
+O. Le traitement est basé sur l'association de deux antibiotiques.
+P. L'antibioprophylaxie n'est pas nécessaire avant les soins dentaires.
+Q. L’endocardite infectieuse peut compliquer une prothèse valvulaire mécanique
+R. L’endocardite infectieuse peut se compliquer d’une perforation valvulaire
+S. L'endocardite infectieuse peut être à hémoculture négative
+QR 1:
+5- Quelles sont les 2 explorations nécessaires au diagnostic d'une endocardite infectieuse ?
+QR 2:
+6- Décrire les complications d’une Endocardite infectieuse
+9. Rhumatisme Articulaire Aigu : ( 10 questions )
+1- Concernant l'épidémiologie du rhumatisme articulaire aigu (RAA) :
+A. Le Maroc fait partie de la zone A
+B. La zone B présente la plus faible incidence dans le monde
+C. L’incidence du RAA a nettement diminué au Costa-Rica
+D. L’incidence du RAA est plus élevée au Cuba qu'au Maroc
+E. Il existe une recrudescence des cas de RAA dans certains pays de l’Asie centrale
+F. Le Cuba est un exemple de réussite de la prévention
+G. Le Maroc a une prévalence de la maladie plus faible que le Costa-Rica
+H. Il y a une recrudescence de la maladie en Asie centrale
+I. L'Afrique appartient à la même zone épidémiologique que le moyen orient
+J. L'amélioration du niveau socio-économique n’impacte pas l’incidence de la maladie
+2- Concernant les signes cliniques du RAA :
+A. Les nodules sous-cutanés de Meynet sont douloureux
+B. L’erythème marginé de Besnier est un signe majeur
+C. L’arthrite peut toucher les genoux et les chevilles
+D. La chorée de Sydenham guérit sans séquelle
+E. La cardite observée lors d’une 1ere crise est souvent une fuite
+3- Selon les critères de Jones modifiés :
+A. La cardite est un critère mineur.
+B. L'allongement de l'espace PR est un critère mineur.
+C. L'arthrite est un critère majeur.
+D. L'érythème marginé est un critère mineur.
+E. La chorée est un critère majeur.ANG
+4- Le programme de lutte contre le RAA doit comporter les impératifs suivants :
+A. Promouvoir la prévention primaire
+B. Sensibiliser la population générale
+C. Tenir un registre des cardiopathies rhumatismales chroniques
+D. Généraliser rapidement le plan de lutte à tout le pays
+E. Ne pas impliquer les pouvoirs publics
+5- Concernant la prévention du RAA :
+A. La prévention primaire se base sur le traitement adéquat des angines.
+B. La prévention primaire vise l'éradication du staphylocoque.
+C. La prévention secondaire vise la lutte contre les rechutes du RAA.
+D. La prévention secondaire utilise des quinolones.
+E. L'échec de la prévention secondaire peut être lié au patient.
+F. La prophylaxie primaire du rhumatisme articulaire aigu (RAA) est assurée par la prescription
+intra-musculaire de pénicilline toutes les 3 semaines
+Page 15:
+Ataraxie
+
+-- 15 of 52 --
+
+6- A propos du rhumatisme articulaire aigu (RAA) :
+A. Il peut compliquer une infection urinaire à bacille Gram négatif
+B. La promiscuité est un facteur favorisant
+C. Son pronostic dépend de l’atteinte articulaire
+D. Sa prévention primaire est basée sur le traitement adéquat des angines streptococciques
+E. La fièvre est un critère majeur de Jones
+F. Il touche l'enfant à partir de l'âge de 10 ans
+G. Le bas niveau socio-économique est un facteur favorisant
+H. peut survenir dans les suites de soins dentaires
+I. La corticothérapie au long cours est un moyen de prévention secondaire
+J. Le diagnostic de rhumatisme articulaire aigu est retenu s'il y a 3 critères mineurs de Jones
+K. Il s’agit d’une infection purulente
+L. L’arthrite est un facteur majeur
+M. L’érythème marginé de Besnier est un critère majeur
+N. Le staphylocoque est le germe en cause
+O. Le myocarde peut être atteint
+P. Le niveau socio-économique influence l'incidence de la maladie
+Q. Une immunité croisée est incriminée dans la physiopathologie
+R. Le traitement de la crise aiguë peut faire appel à la corticothérapie
+S. Il est lié à un germe bacille Gram négatif
+T. Il entraîne une atteinte articulaire déformante
+U. L’atteinte cardiaque conditionne le pronostic de la maladie
+V. Il est endémique dans les pays à haut niveau socio-économique
+W. Un allongement de l’espace PR peut être noté à l’électrocardiogramme
+X. La polyarthrite et les arthralgies sont des critères majeurs
+Y. Les nodules sous-cutanés siègent au niveau de la face
+Z. L’élévation de la vitesse de sédimentation est un critère mineur
+7- A propos du rhumatisme articulaire aigu (RAA) : (suite)
+A. L’atteinte valvulaire est toujours une sténose lors de la 1ère crise
+B. Le germe en cause peut être le staphylocoque
+C. Le germe en cause est multi-résistant
+D. Le niveau socio-économique est incriminé dans la pathogénie de la maladie
+E. Le Maroc est une zone où le RAA a été éradiqué
+F. La porte d’entrée du germe est essentiellement rhino-pharyngée
+G. La prévention primaire évite les rechutes
+H. La prévention secondaire se fait par la pénicilline
+I. Les signes cutanés sont des critères majeurs
+J. L’arthrite est un critère mineur
+K. L’aspirine peut être administrée pour traiter la poussée aigue
+L. Le germe est le streptocoque B-hémolytique du groupe A
+M. L’atteinte neurologique est irréversible
+N. La péricardite est purulente
+O. La myocardite n’est jamais observée
+P. La prévention secondaire est assurée par la corticothérapie au long cours
+Q. Le niveau socio-économique joue un rôle important dans la physiopathologie
+R. L’atteinte cardiaque domine le pronostic
+S. L'arthralgie est un critère majeur de Jones
+T. La prévention primaire est basée sur la prescription d’antibiotique avant tout geste dentaire
+U. Le traitement adéquat des angines streptococciques est la base de la prévention secondaire
+V. La douleur à l’injection de pénicilline est une cause d’échec de la prévention secondaire
+W. Le programme de lutte contre le RAA doit être soutenu par les pouvoirs publics
+Page 16:
+Ataraxie
+
+-- 16 of 52 --
+
+X. La collecte des données sur la maladie fait partie des actions du programme de lutte contre le RAA
+Y. Il s'agit d’une maladie systémique
+Z. Un problème d’auto-immunité est impliqué dans la genèse de la maladie
+8- A propos du rhumatisme articulaire aigu (RAA) : (suite)
+A. La porte d’entrée du germe est souvent rhino-pharyngée
+B. La chorée est un critère mineur.
+C. Le traitement de la crise aigüe fait appel à l'aspirine.
+D. La cardite guérit toujours sans séquelles.
+E. La chorée de Sydenham est un critère majeur de Jones
+F. Le rhumatisme articulaire aigu peut engendrer une arthrite purulente
+G. Le rhumatisme articulaire aigu est lié à une infection suppurative
+QR 1:
+9- Citez 2 critères majeurs de Jones.
+QR 2:
+10- Quel est le schéma antibiotique utilisant la benzathine-pénicilline adopté dans la prévention
+secondaire d'un RAA (rhumatisme articulaire aigu) ?
+Page 17:
+Ataraxie
+
+-- 17 of 52 --
+
+Pathologies Myocardiques, Péricardiques et du Rythme
+10. Insuffisance cardiaque : ( 9 questions )
+1- Concernant le diagnostic d'une insuffisance cardiaque gauche chronique :
+A. Il est évoqué devant une dyspnée d'effort
+B. L'ECG est normal dans la majorité des cas
+C. L'ECG peut aider au diagnostic étiologique
+D. Le dosage des peptides natriurétiques n'a pas de place
+E. L'écho-Doppler cardiaque peut aider au diagnostic étiologique
+2- A propos de l'insuffisance cardiaque gauche chronique :
+A. Elle peut compliquer toute cardiopathie gauche évoluée
+B. Elle peut être secondaire à une baisse de la contractilité
+C. La cardiopathie ischémique est une cause peu fréquente
+D. Elle peut compliquer une hypertension artérielle mal traitée
+E. Elle peut être secondaire à un mauvais remplissage du ventricule gauche
+F. Il y a une stimulation du système sympathique
+G. Les résistances vasculaires systémiques sont basses
+H. Le débit cardiaque peut diminuer à cause d'une fréquence cardiaque trop élevée
+I. L'hypertension pulmonaire est de type pré-capillaire
+J. On peut observer une insuffisance rénale fonctionnelle
+K. Le principal symptôme est la turgescence des veines jugulaires
+L. L’embolie pulmonaire est une étiologie
+M. La pression artérielle pulmonaire peut être augmentée
+N. L’apport excessif de sel peut décompenser la maladie
+O. Il y a des œdèmes des membres inférieurs
+P. Il y a une dyspnée d’effort
+Q. Le système rénine angiotensine aldostérone est stimulé
+R. Le système nerveux sympathique est stimulé
+S. Le régime hyposodé fait partie de l’arsenal thérapeutique
+T. Le maître symptôme est la dyspnée
+U. L’hypertension artérielle est une étiologie
+V. La vascularisation pulmonaire est diminuée à la radiographie thoracique
+W. Elle peut se compliquer d’insuffisance cardiaque droite
+X. La dyspnée d'effort est le maître symptôme
+Y. Il existe une stimulation neuro-hormonale
+Z. La pression dans l’oreillette gauche est basse
+3- A propos de l'insuffisance cardiaque gauche chronique : (suite)
+A. Les inhibiteurs de l’enzyme de conversion sont indiqués
+B. L'insuffisance mitrale peut être une étiologie
+C. La cardiopathie ischémique peut être une étiologie.
+D. L'écho doppler cardiaque est indispensable pour le diagnostic étiologique.
+E. Une infection intercurrente peut décompenser la maladie.
+F. Les bêtabloqueurs ne sont pas indiqués
+4- Concernant l’insuffisance cardiaque gauche :
+A. La fonction systolique du ventricule gauche est toujours altérée
+B. Il y a une stimulation du système nerveux sympathique
+C. La vascularisation pulmonaire est diminuée à la radiographie thoracique
+D. L‘insuffisance tricuspide importante est une cause possible
+E. La recherche étiologique impose la réalisation d’un écho-Doppler cardiaque
+Page 18:
+Ataraxie
+
+-- 18 of 52 --
+
+5- A propos du traitement de l'insuffisance cardiaque chronique :
+A. Les diurétiques de l'anse permettent de réduire la pré-charge du ventricule gauche
+B. Les diurétiques de l'anse peuvent entrainer une hypokaliémie
+C. Les inhibiteurs de l'enzyme de conversion ont un effet vasodilatateur
+D. Les bêtabloquants sont contre-indiqués
+E. Le traitement de l'étiologie de l'insuffisance cardiaque est capital
+6- A propos de l'insuffisance cardiaque chronique :
+A. La dyspnée est un signe d’insuffisance cardiaque gauche
+B. Elle peut être globale
+C. L’écho-Doppler cardiaque est indispensable pour le diagnostic
+D. Les atteintes valvulaires sont une cause
+E. Les bêta bloqueurs sont contre-indiqués
+F. Les pressions de remplissage peuvent être élevées
+G. Il y a une stimulation du système nerveux parasympathique
+H. Le système rénine angiotensine aldostérone est stimulé
+I. Il y a toujours des œdèmes des membres inférieurs
+J. Le traitement diurétique diminue la pré-charge du ventricule
+K. Il y a une stimulation neuro-hormonale
+L. Le système rénine angiotensine est activé
+M. Les bêtabloqueurs sont indiqués
+N. Les bêtabloqueurs peuvent se compliquer de bradycardie
+O. La consommation de sel doit être diminuée
+P. La turgescence des veines jugulaires est observée dans les formes gauches
+Q. Les résistances vasculaires systémiques sont basses.
+R. Elle se manifeste le plus souvent par une dyspnée d'effort.
+S. Les œdèmes des membres inférieurs s'observent dans les insuffisances cardiaques droites.
+T. L'échocardiographie n'a pas de place dans la stratégie diagnostique.
+QR 1:
+7- Citez 2 étiologies d'une insuffisance cardiaque gauche.
+QR 2:
+8- Les types d'Insuffisance cardiaque
+QR 3:
+9- Citer 4 classes thérapeutiques utilisés des IC Gauche Chroniques avec FE basse
+11. Les myocardites et les cardiomyopathies : ( 1 question )
+1- Cochez les réponses justes suivantes :
+A. Dans la cardiomyopathie hypertrophique il y a un risque de mort subite
+B. Dans la cardiomyopathie hypertrophique, une obstruction à l’éjection du ventricule
+C. gauche peut être observée
+D. La cardiomyopathie restrictive est caractérisée par une altération du remplissage ventriculaire.
+E. Dans la cardiomyopathie dilatée, les parois ventriculaires sont toujours hypertrophiées
+F. L’écho-Doppler cardiaque n’est pas nécessaire.au diagnostic des cardiomyopathies
+G. La cardiomyopathie dilatée peut être causée par un infarctus du myocarde
+12. Péricardites aiguës : ( 2 questions )
+1- A propos de la péricardite aiguë:
+A. La douleur thoracique est insensible à la trinitrine
+B. Un frottement péricardique est toujours présent
+C. L’électrocardiogramme peut montrer un sus-décalage du segment ST
+Page 19:
+Ataraxie
+
+-- 19 of 52 --
+
+D. La constitution rapide d’un épanchement péricardique expose au risque de tamponnade
+E. Elle est toujours d’origine virale
+F. La douleur thoracique est sensible à la trinitrine
+G. L'épanchement péricardique est toujours présent
+H. La tamponnade est une complication grave
+I. La constriction est une complication aiguë de la maladie
+J. Une péricardite aiguë peut révéler une maladie de système
+K. Dans la péricardite chronique constrictive, on peut avoir des calcifications
+L. Dans l'embolie pulmonaire, l'hyperventilation peut entraîner une hypocapnie
+QR 1:
+2- Citez 2 complications de la péricardite aigue.
+13. Tamponnade : ( 2 questions )
+1- A propos de l’épanchement péricardique :
+A. Il peut être hémorragique
+B. Il peut compliquer une grippe
+C. Il comprime en premier les cavités gauches quand il est abondant
+D. Il est absent dans la péricardite dite sèche
+E. La tuberculose peut être une cause
+F. Dans l’épanchement péricardique, on peut mettre en évidence un microvoltage à l’électrocardiogramme
+2- Concernant la tamponnade :
+A. La pression péricardique est basse
+B. C’est une cause d’œdème aigu du poumon
+C. Le remplissage vasculaire est indiqué
+D. Elle entraîne une adiastolie
+E. C’est une cause de dyspnée aiguë
+F. La pression péricardique est élevée
+G. C’est une cause de choc cardiogénique
+H. Le remplissage vasculaire est contre-indiqué
+I. Il y a une diminution inspiratoire de la pression artérielle systolique
+J. C’est une urgence médicale
+K. La pression est basse dans le sac péricardique
+L. C’est une complication de la péricardite aiguë
+M. La pression artérielle systolique est toujours normale
+N. La ponction péricardique est un geste salvateur
+O. Dans la tamponnade, il existe un obstacle à l'éjection du ventricule droit
+P. La tamponnade peut compliquer un infarctus du myocarde
+Q. La pression intra-péricardique augmente dans la tamponnade
+14. Troubles du rythme : ( 17 questions )
+1- A propos de la fibrillation auriculaire :
+A. C'est une cause d'ischémie aiguë du membre inférieur
+B. Le rythme est irrégulier
+C. Elle peut compliquer une sténose mitrale
+D. Il y a une perte de la systole ventriculaire
+E. Il y a toujours des ondes P à l'ECG
+F. Le remplissage ventriculaire passif est altéré
+G. La valvulopathie mitrale est une cause de la maladie
+H. La fréquence auriculaire est inférieure à 100 battements par minute
+I. Il y a un risque thrombo-embolique
+Page 20:
+Ataraxie
+
+-- 20 of 52 --
+
+J. II y a une perte de la systole auriculaire
+K. C’est une cause de tachycardie
+L. Il n’y a pas d’ondes P à l’ECG
+M. Le rythme est régulier
+N. Les oreillettes ont un rythme inférieur à celui des ventricules
+O. La systole auriculaire est conservée
+P. Le rythme peut être régulier en cas de dissociation auriculo-ventriculaire
+Q. L’évaluation de l’espace PR n’est pas possible
+R. Il y a un risque de thrombose veineuse profonde
+S. Le débit cardiaque diminue
+T. La fréquence des dépolarisations auriculaires oscille entre 400 et 600 par minute
+U. Il y a un risque de survenue d'un accident vasculaire cérébral
+V. Il y a toujours des signes fonctionnels
+W. Les oreillettes ne sont pas dépolarisées
+X. C'est un trouble du rythme touchant essentiellement le sujet âgé
+Y. Le patient peut être asymptomatique
+Z. La fréquence auriculaire peut atteindre 600/min
+AA. Il n'y a pas de risque thromboembolique.
+BB. Il y'a des ondes P à l'ECG.
+CC. Une étiologie valvulaire peut être retrouvée.
+2- A propos du score CHA2DS2VASc :
+A. Il est utilisé dans la prise en charge des arythmies ventriculaires
+B. L’antécédent d'accident vasculaire cérébral est coté 1 point
+C. L’âge supérieur à 75 ans est coté 2 points
+D. Il évalue le risque de saignement sous anticoagulant
+E. Lin score > 2 est une indication au traitement anticoagulant
+F. II évalue le risque thrombo-embolique d'une fibrillation auriculaire valvulaire
+G. Il évalue le risque thrombo-embolique d’une fibrillation auriculaire non valvulaire
+H. L'hypertension artérielle est cotée 1
+I. Un score à 1 est une indication ou traitement anticoagulant
+J. Le diabète est coté 2
+3- Concernant les blocs auriculo-ventriculaires (BAV) :
+A. Le noeud sinusal n'arrive pas à dépolariser l'oreillette
+B. Dans le BAV de 3eme degré, il y a une dissociation auriculo-ventriculaire
+C. Dans le BAV de 1er degré, il y a autant d'ondes P que de complexes QRS
+D. Dans le BAV de 2eme degré Mobitz 2, l’espace PR est constant
+E. Dans le BAV de 3eme degré, les complexes d'échappement sont toujours larges
+4- Dans le bloc auriculo-ventriculaire de 2eme degré Mobitz 2 :
+A. Il y a une dissociation auriculo-ventriculaire
+B. Aucune onde P ne conduit
+C. Le blocage est précédé d’un allongement de l’espace PR
+D. Le noeud sinusal ne se dépolarise pas
+E. Les ondes P conduisent par intermittence
+5- Dans le bloc auriculo-ventriculaire de 3ème degré :
+A. Toutes les onde P conduisent
+B. Il n'y a pas d'ondes P sur l'électrocardiogramme
+C. Le rythme est lent
+D. Il y a une dissociation auriculo-ventriculaire
+E. L'espace PR est constant
+Page 21:
+Ataraxie
+
+-- 21 of 52 --
+
+6- Dans le bloc auriculo-ventriculaire (BAV) complet :
+A. Il y a un allongement fixe de l’espace PR
+B. Les complexes QRS sont toujours larges
+C. La fréquence auriculaire est supérieure à celle des ventricules
+D. La syncope peut être un signe révélateur
+E. Le rythme ventriculaire est toujours irrégulier
+7- A propos des extrasystoles ventriculaires (ESV) :
+A. Deux ESV qui se suivent sont bigéminées
+B. Les QRS sont larges
+C. Un temps de couplage court est un élément pronostic
+D. Elles peuvent survenir sur coeur sain
+E. Le repos compensateur est toujours présent
+8- Dans une tachycardie à complexes QRS fins :
+A. L’analyse de la régularité du rythme est importante pour le diagnostic
+B. Le flutter auriculaire est une étiologie
+C. Les 2 ventricules ne se dépolarisent pas en même temps
+D. La durée des QRS dépasse 0.12 secondes
+E. Une origine sinusale est possible
+9- Une tachycardie à complexe QRS large peut être due à :
+A. Une tachycardie ventriculaire.
+B. Une tachycardie sinusale sans bloc de branche.
+C. Une tachycardie sinusale avec bloc de branche.
+D. Une tachycardie sur Wolff Parkinson White.
+E. Une fibrillation auriculaire avec bloc de branche.
+10- Dans la tachycardie ventriculaire :
+A. Les ventricules sont stimulés à partir de la voie nodo-hissienne
+B. Les QRS sont larges
+C. Les ondes P précédent les complexes QRS
+D. Il y a un risque thrombo-embolique
+E. Le foyer de stimulation ventriculaire siège toujours à gauche
+F. Les QRS sont fins.
+G. La fréquence cardiaque peut être comprise entre 140 et 22/min.
+H. La découverte d'un complexe de capture plaise en faveur du diagnostic.
+I. Le diagnostic différentiel peut être une tachycardie supra ventriculaire avec bloc de branche.
+J. On peut retrouver des complexes de fusion
+K. L’état hémodynamique peut être altéré
+L. Le risque est thrombo-embolique
+11- 	A propos des extrasystoles :
+A. L'extrasystole auriculaire peut être bloquée
+B. Le repos compensateur est toujours présent après une extrasystole
+C. Leur gravité ne dépend pas de .l’état-cardiaque sous-jacent
+D. Le doublet représente 2 extrasystoles séparées par un complexe normal
+E. Dans l'extrasystolie ventriculaire, les complexes QRS sont larges
+12- 	Cochez les réponses justes suivantes :
+A. La fibrillation auriculaire rend inefficace la contraction auriculaire
+B. L’espace PR est lié essentiellement au frein nodal
+C. La fréquence des ondes P est supérieure à celle des ventricules dans le rythme sinusal
+D. L’onde P est normalement négative en aVR
+E. La tachycardie sinusale peut être secondaire à une hyperthyroïdie
+F. Un rythme irrégulier peut être observé dans l’arythmie respiratoire
+G. Les cellules du tissu nodal ne sont pas excitables
+Page 22:
+Ataraxie
+
+-- 22 of 52 --
+
+H. Le noeud sinusal est le pacemaker physiologique du coeur
+I. Les cellules musculaires de la paroi auriculaire conduisent l’activité électrique
+J. Le potentiel de repos des cellules du faisceau de His est instable
+K. La conduction de l’activité électrique dans un tissu cardiaque ne dépend pas de la période réfractaire
+des cellules
+L. Dans la fibrillation auriculaire,la fréquence de l’activité auriculaire est inférieure à 200/min
+M. Une tachycardie à QRS large est toujours d’origine ventriculaire
+13- 	Concernant la nomenclature des pacemakers :
+A. La 1ere lettre indique la cavité stimulée
+B. La 1ere lettre indique la cavité permettant l’écoute
+C. La 2eme lettre indique le cavité stimulée
+D. La 2eme lettre indique la cavité permettant l’écoute
+E. La lettre A correspond à l’oreillette
+QR 1:
+14- Citer 2 causes de bradycardie sinusale.
+QR 2:
+15- Citer 2 étiologies de tachycardies supraventriculaires.
+QR 3:
+16- Citer 2 mécanismes de tachycardies à complexes QRS larges.
+QR 4:
+17- Quelles sont les 3 possibilités diagnostiques devant une tachycardie à complexes QRS larges ?
+15. Oedème aigu du poumon : ( 2 questions )
+1- Concernant l’œdème aigu du poumon d’origine cardiaque : (cardiogénique) :
+A. Il y a une surcharge vasculaire pulmonaire
+B. Il y a une hypoxie
+C. On peut observer une hypocapnie
+D. La sténose mitrale peut être une étiologie
+E. La membrane alvéolo-capillaire est lésée
+F. La pression capillaire pulmonaire est basse
+G. Le taux d'oxygène dans le sang est élevé
+H. La polypnée permet de rejeter l'excès de CO2
+I. L'insuffisance mitrale aigue peut être une cause
+J. C’est une forme d’état de choc
+K. La pression capillaire pulmonaire est élevée
+L. Il engendre une hypoxie
+M. Les diurétiques sont la base du traitement d’urgence
+N. Il peut compliquer un infarctus du myocarde
+O. La pression oncotique interstitielle est élevée
+P. L’hypocapnie est la traduction de l’hyperventilation alvéolaire
+Q. Le malade doit être placé en décubitus dorsal
+R. Le furosémide doit être administré le plus tôt possible
+S. Il y'a des opacités à la radiographie thoracique.
+T. L'oxygénothérapie fait partie des mesures urgentes à prescrire.
+U. Le malade doit être mis en position demi-assise.
+V. La pression capillaire pulmonaire est élevée dans l'œdème aigu du poumon cardiogénique
+2- Concernant l’œdème aigu du poumon (OAP)
+A. La pression artérielle est toujours basse
+B. II y a des râles crépitants
+Page 23:
+Ataraxie
+
+-- 23 of 52 --
+
+C. Il y a une hypoxie
+D. L’hypercapnie est un signe de gravité
+E. La pression capillaire pulmonaire est élevée quand la cause est une sténose mitrale
+F. Il peut être une forme d’insuffisance cardiaque droite
+G. L'œdème aigu du poumon peut compliquer une insuffisance cardiaque droite
+H. Il se manifeste par une détresse respiratoire
+I. Il peut compliquer une sténose mitrale
+J. peut compliquer une poussée hypertensive
+K. La diminution de la précharge est un moyen thérapeutique quand l’étiologie est cardiogénique
+L. C’est une forme d’insuffisance cardiaque droite
+M. C’est une urgence respiratoire
+N. La baisse de la pré-charge est un moyen thérapeutique
+O. Il peut compliquer une hypertension artérielle
+P. Le patient doit être placé en position demi-assise
+Q. L'insuffisance cardiaque droite est une étiologie
+R. La radiographie thoracique est normale
+S. La présence de signes neurologiques est un critère de gravité
+T. La prescription d'un diurétique doit être urgente
+U. Il réalise un tableau d'insuffisance cardiaque aiguë.
+V. Il réalise un tableau d'insuffisance respiratoire aiguë.
+W. La dyspnée est absente.
+X. L'oedème aigu du poumon compliquant une hypertension artérielle est une urgence hypertensive
+16. Choc cardiogénique : ( 3 questions )
+1- A la phase aiguë d’un infarctus du myocarde, le choc cardiogénique peut être en rapport avec :
+A. La rupture d’un pilier mitral
+B. Une insuffisance aortique aiguë
+C. Une nécrose du ventricule droit
+D. Une thrombose du tronc commun de la coronaire gauche
+E. Une tamponnade
+2- Dans quelles situations remplir un choc cardiogénique ?
+A. L'insuffisance mitrale aiguë
+B. L’infarctus du ventricule droit
+C. L'infarctus latéral haut
+D. La tamponnade
+E. Le rétrécissement mitral
+3- Concernant l’état de choc cardiogénique :
+A. L’infarctus du ventricule droit est une étiologie
+B. C’est une forme d’insuffisance cardiaque aiguë
+C. Les résistances vasculaires systémiques sont élevées
+D. Les extrémités sont chaudes
+E. La pression différentielle est pincée
+F. Le débit cardiaque est diminué
+G. Il complique exclusivement les infarctus antérieurs
+H. La tamponnade est une étiologie
+I. Il y a une souffrance des organes périphériques
+J. Il y a une oligurie
+K. Il y a une augmentation des pressions de remplissage
+L. Il y a une hypovolémie
+M. Une adiastolie peut être une cause
+Page 24:
+Ataraxie
+
+-- 24 of 52 --
+
+N. Le remplissage n’est jamais préconisé
+O. La cause peut être une embolie pulmonaire.
+P. Le pouls est absent.
+Q. La pression artérielle est normale.
+R. Les extrémités sont froides.
+S. Dans le choc cardiogénique, le débit cardiaque est conservé
+Page 25:
+Ataraxie
+
+-- 25 of 52 --
+
+Pathologies Vasculaires
+17. HTA essentielle : ( 48 questions )
+1- Cochez les réponses justes suivantes :
+A. Le débit cardiaque dépend de la fréquence cardiaque
+B. Le volume d’éjection systolique influence le débit cardiaque
+C. Le volume d'éjection systolique augmente quand la contractilité diminue
+D. Le débit cardiaque est diminué dans les états de choc cardiogéniques
+E. La pression artérielle diminue quand le débit cardiaque diminue
+F. La diminution du débit cardiaque stimule le système nerveux parasympathique
+G. L'hypertension artérielle du sujet âgé est souvent systolique
+H. L'hypertension artérielle est un facteur de risque de l'insuffisance cardiaque
+I. L'élévation des résistances vasculaires peut être secondaire à une stimulation sympathique
+2- Cochez les réponses justes suivantes :
+A. L’angiotensine II entraîne une vasodilatation
+B. La stimulation du système sympathique engendre une élévation de la pression artérielle
+C. La rénine transforme l’angiotensine I en angiotensine II
+D. L’aldostérone entraîne une élimination du sodium dans les urines
+E. La diminution de la volémie entraîne une diminution de la pression artérielle
+3- Cochez les réponses justes suivantes :
+A. L’enzyme de conversion transforme l’angiotensinogène en angiotensine I
+B. L’angiotensine II est un vasoconstricteur
+C. L’aldostérone intervient dans la régulation des résistances systémiques
+D. Le volume télédiastolique du ventricule gauche influence la pression artérielle
+E. La pression artérielle a une régulation neuro-hormonale
+4- Cochez les réponses justes suivantes :
+A. La pression artérielle dépend des résistances vasculaires
+B. La volémie n’influence pas la pression artérielle
+C. La pression artérielle a une régulation rénale
+D. Le système nerveux sympathique diminue la pression artérielle
+E. L’angiotensine II est un puissant vasoconstricteur
+5- A propos de la pression artérielle systémique :
+A. Elle dépend du volume éjecté par le ventricule gauche
+B. Elle dépend de la saturation de l’hémoglobine en O2
+C. Elle augmente en cas de vasoconstriction
+D. Elle diminue quand le débit cardiaque diminue
+E. Elle ne dépend pas de la fréquence cardiaque
+6- Cocher les réponses justes concernant la définition de l'hypertension artérielle :
+A. Pression systolique ≥ 140 mmHg en consultation
+B. Pression systolique ≥ 130 mmHg en auto-mesure tensionnelle
+C. Pression diastolique ≥ 70 mmHg en auto-mesure tensionnelle
+D. Pression systolique diurne ≥ 135 mmHg à la MAPA
+E. Pression diastolique diurne ≥ 85 mmHg à la MAPA
+7- Un patient est considéré comme étant hypertendu si :
+A. La pression systolique est ≥ 140 mmHg
+B. La pression diastolique est ≥ 80 mmHg
+C. La pression systolique est ≥ 140 mmHg et/ou la pression diastolique ≥ 90 mmHg
+D. La pression systolique est < 140 mmHg et la pression diastolique ≥ 90 mmHg
+E. La pression systolique est ≥ 140 mmHg et la pression diastolique < 90 mmHg
+Page 26:
+Ataraxie
+
+-- 26 of 52 --
+
+8- Une hypertension artérielle systolique est définie à partir d’un chiffre tensionnel supérieur ou égal à :
+A. 120 mmHg en consultation
+B. 140 mmHg en consultation
+C. 130 mmHg à l’automesure tensionnelle
+D. 135 mmHg à l’automesure tensionnelle
+E. 120 mmHg à la MAPA (mesure ambulatoire de la pression artérielle) durant la nuit
+9- Le diagnostic d’une hypertension artérielle peut être retenu dans les situations suivantes :
+A. Une pression égale À 50 mmHg en consultation
+B. Une pression diastolique égale à 80 mmHg en auto-mesure
+C. Une pression systolique diurne égale à 138 mmHg à la MAPA
+D. Une pression diastolique nocturne égale à 75 mmHg à la MAPA
+E. Une pression systolique égale à 130 mmHg en auto-mesure
+10- Cochez les réponses justes suivantes:
+A. Une pression systolique en consultation de 130 mmHg est considérée comme une pression élevée
+B. Une pression en consultation de 130/80 mmHg et une pression moyenne diurne de 140/87 mmHg å la
+MAPA (mesure ambulatoire de la pression artérielle) est en faveur d'une HTA masquée
+C. Une pression en consultation de 119/90 mmHg est considérée comme une pression non élevée
+D. Une pression en consultation de 185/115 mmHg correspond à une HTA stade 3
+E. Une pression systolique moyenne nocturne de 125 mmHg à la MAPA correspond à une HTA systolique
+nocturne
+11- Cochez parmi les chiffres tensionnels suivants ce qui définit une pression artérielle systolique (PAS)
+élevée :
+A. PAS ≥ 140 mmHg
+B. PAS comprise entre 140 et 160 mmHg
+C. PAS comprise entre 120 et 139 mmHg
+D. PAS comprise entre 120 et 130 mmHg
+E. PAS comprise entre 130 et 140 mmHg
+12- Dans l’hypertension artérielle essentielle :
+A. Il y a un risque d'insuffisance cardiaque gauche
+B. La pression en dehors du cabinet est plus élevée que celle en consultation quand il existe un effet
+blouse blanche
+C. Le système sympathique joue un rôle physiopathologique
+D. Le rein n'est pas mis en cause
+E. La pression peut être mesurée en dehors du cabinet
+13- Cochez les causes secondaires d’hypertension artérielle :
+A. Le syndrome d’apnée du sommeil
+B. L’acromégalie
+C. L’infarctus du myocarde
+D. La dissection de l’aorte
+E. Le phéochromocytome
+F. L’hyperaldostéronisme
+G. La baisse du taux circulant de corticoïdes
+H. L’apnée du sommeil
+14- La mesure de la pression artérielle :
+A. Est influencée par la position du bras
+B. Est influencée par la taille du brassard
+C. Peut se faire en position debout
+D. Doit toujours se faire dans une ambiance calme
+E. Est toujours la même au niveau des 2 bras
+Page 27:
+Ataraxie
+
+-- 27 of 52 --
+
+15- A propos de la mesure de la pression artérielle :
+A. Le brassard peut ne pas être adapté à la circonférence du bras.
+B. Le malade doit être au repos.
+C. La mesure ne se fait jamais en dehors de l'hôpital.
+D. La prise de la pression artérielle des 2 côtés est recommandée.
+E. Les chiffres mesurés en consultation sont plus élevés en cas d'effet blouse blanche.
+16- Cochez les réponses justes suivantes :
+A. La pression systolique augmente avec l’âge
+B. L’hypertension artérielle est dite systolique quand la pression systolique est supérieure ou égale à 140
+mmHg
+C. La mesure ambulatoire de la pression artérielle détecte l’hypertension artérielle nocturne
+D. L’auto-mesure tensionnelle peut détecter une hypertension artérielle blouse blanche
+E. La pression artérielle augmente la nuit chez un sujet normal
+17- Cochez les réponses justes suivantes :
+A. La mesure de la pression artérielle en consultation doit être réalisée en position couchée et debout
+B. La pression diastolique nocturne est normalement supérieure à la pression diastolique diurne à la
+mesure ambulatoire de la pression artérielle (MAPA)
+C. L’auto-mesure tensionnelle permet de poser le diagnostic d’un effet blouse blanche
+D. La MAPA est indiquée quand on suspecte une hypertension artérielle masquée
+E. Une hypertension artérielle systolique est définie par un chiffre de pression systolique ≥ 135 mmHg à
+l’auto-mesure tensionnelle
+18- Un enregistrement ambulatoire de la pression artérielle chez une patiente de 50 ans met en
+évidence les résultats suivants : Moyenne des pressions diurnes : 140/80 mmHg ; moyenne des
+pressions nocturnes : 130/65 mmHg.
+A. Il s’agit d’un profil tensionnel normal
+B. Il y a une hypertension artérielle systolique diurne
+C. Il y a une hypertension artérielle diastolique diurne
+D. Il y a une hypertension artérielle diastolique nocturne
+E. Il y a une hypertension artérielle systolique nocturne
+19- Un enregistrement ambulatoire de la pression artérielle (MAPA) met en évidence les résultats
+suivants : moyenne des pressions diurnes 150/87 mmHg moyenne des pressions nocturnes 140/80
+mmHg; index systolique d'abaissement nocturne: 7%
+A. la une hypertension artérielle systolique diurne
+B. La pression diastolique diurne est normale
+C. il s'agit d'une hypertension artérielle « blouse blanche »
+D. La pression diastolique nocturne est normale
+E. la baisse nocturne de la pression artérielle est conservée
+20- Un enregistrement ambulatoire de la pression artérielle (MAPA) met en évidence les résultats
+suivants: moyenne des pressions diurnes 117/90 mmHg: moyenne des pressions nocturnes: 125/85
+mmHg
+A. Il s'agit d'un profil tensionnel normal
+B. Il y a une hypertension artérielle systolique nocturne
+C. La pression diastolique diurne est normale
+D. Il y a une hypertension artérielle systolique diurne
+E. Il y a une perte de la baisse nocturne de la pression artérielle
+21- Un enregistrement ambulatoire de la pression artérielle (MAPA) met en évidence les résultats
+suivants : moyenne des pressions diurnes 140/90 mmHg ; moyenne des pressions nocturnes : 135/88
+mmHg.
+A. Il s’agit d’un profil tensionnel normal
+B. Il y a une hypertension artérielle systolo-diastolique diurne
+C. La pression systolique nocturne est normale
+Page 28:
+Ataraxie
+
+-- 28 of 52 --
+
+D. La pression diastolique diurne est normale
+E. La pression systolique nocturne est élevée
+22- Un enregistrement ambulatoire de la pression artérielle (MAPA) met en évidence les résultats
+suivants : moyenne des pressions diurnes 140/75 mmHg ; moyenne des pressions nocturnes : 125/85
+mmHg.
+A. Il s’agit d’un profil tensionnel normal
+B. Il y une hypertension artérielle systolique nocturne
+C. La pression diastolique diurne est normale
+D. Il y a une hypertension artérielle systolique diurne
+E. Il y a une hypertension artérielle systolo-diastolique diurne
+23- L’enregistrement ambulatoire de la pression arterielle (MAPA) chez un patient hypertendu sous
+inhibiteur calcique met en évidence les résultats suivants : Moyenne des pressiones diurnes : 145/80
+mmHg, Moyenne des pressions nocturnes: 116/67 mmHg; index systolique d’abaissement nocturne: 20
+%
+A. Le patient est équilibre sur le plan tensionnel
+B. II ya une hypertension artérielle systolique diume
+C. Il s’agit une hypertension artérielle *blouse blanche*
+D. Les pressions systolique et diastolique nocturnes sont normales
+E. La baisse nocturne de la pression artérielle est conservée
+24- Le risque cardiovasculaire d’un patient hypertendu dépend :
+A. Du niveau tensionnel
+B. Du type systolique ou diastolique de l’hypertension artérielle
+C. De la présence d’un diabète
+D. De la présence d’une hypertrophie ventriculaire gauche
+E. De la survenue d’une épistaxis
+25- Cochez les organes cibles de l'hypertension artérielle
+A. Le myocarde
+B. Le péricarde
+C. Le foie
+D. La rétine
+E. Les vaisseaux
+F. La peau
+G. Le rein
+H. Le pancréas
+26- Les complications suivantes peuvent être observées chez le patient hypertendu :
+A. L’épanchement péricardique
+B. L’infarctus du myocarde
+C. L’atteinte glomérulaire rénale
+D. L’oedème aigu du poumon
+E. L’hémorragie cérébrale
+27- A propos du bilan du patient hypertendu :
+A. Il vise la recherche d’une éventuelle atteinte pancréatique
+B. Il recherche la présence d’une dyslipidémie associée
+C. Comporte systématiquement un électrocardiogramme
+D. Le dosage de la kaliémie peut influencer la prescription d’un inhibiteur calcique
+E. L’épreuve d’effort est systématiquement demandée
+28- Le bilan suivant est demandé systématiquement chez le patient hypertendu :
+A. Le dosage de la rénine
+B. Un taux de chlore sanguin
+C. Le taux sanguin de LDL cholestérol
+D. Le taux de TSH
+Page 29:
+Ataraxie
+
+-- 29 of 52 --
+
+E. La glycémie à jeun
+F. Le dosage de l’aldostérone
+G. La kaliémie sans garrot
+H. Le fer sérique
+I. Une coronarographie
+J. Une clairance de la créatinine.
+K. Un ECG
+L. Un écho-Doppler des artères rénales
+29- Le bilan minimal du patient hypertendu comporte :
+A. Un taux d’urée
+B. Une clearance de le créatinine
+C. Une glycémie à jeun
+D. Une coronarographie
+E. Une artériographie rénale
+F. Une kaliémie sans garrot
+G. Un fond d'oeil
+H. Un taux sanguin de LDL cholestérol
+I. Un ionogramme urinaire
+J. Un électrocardiogramme
+K. Une calcémie
+L. Un électrocardiogramme d'effort
+M. Un écho-Doppler carotidien
+30- Le risque d’un patient hypertendu dépend :
+A. Du type d’antihypertenseur prescrit
+B. Du niveau de la pression artérielle
+C. De l’association d’autres facteurs de risque cardiovasculaires
+D. De la présence d’une micro-albuminurie
+E. De la réponse au régime hyposodé
+31- Concernant la prise en charge de l’hypertension artérielle :
+A. La réduction de la consommation de sel aide à la baisse des chiffres tensionnels
+B. L’ECG fait partie du bilan du patient hypertendu
+C. Les inhibiteurs calciques sont des vasodilatateurs
+D. La recherche des autres facteurs de risque n’est pas indiquée
+E. On peut associer des médicaments antihypertenseurs
+32- Concernant la prise en charge thérapeutique de l’hypertension artérielle :
+A. Il faut baisser la pression à moins de 130/80 mmHg chez le diabétique
+B. II faut baisser la pression à moins de 140/90 mmHg chez le diabétique
+C. II faut baisser la pression à moins de 1 40/90 mmHg chez le non diabétique
+D. Il faut baisser la pression diastolique à moins de 60 mmHg chez le sujet âgé
+E. La baisse de la pression artérielle diminue le risque d’accident vasculaire cérébral
+33- Les mesures hygiéno-diététiques suivantes sont prescrites chez le patient hypertendu :
+A. Un régime désodé
+B. Une activité physique régulière
+C. Une alimentation pauvre en potassium
+D. L’arrêt de la cigarette
+E. Un apport de sel inférieur 5 g/j
+34- Les médicaments suivants sont des antihypertenseurs :
+A. Les inhibiteurs calciques.
+B. L'aspirine.
+C. L'adrénaline.
+D. Les bêtabloqueurs.
+Page 30:
+Ataraxie
+
+-- 30 of 52 --
+
+E. Les inhibiteurs de l'enzyme de conversion.
+F. La noradrénaline
+G. Les diurétiques
+35- Concernant le mode d’action des antihypertenseurs :
+A. Les inhibiteurs calciques sont des vasoconstricteurs
+B. Les inhibiteurs calciques augmentent la diurèse
+C. Les inhibiteurs de l’enzyme de conversion sont des vasodilatateurs
+D. Les diurétiques diminuent la volémie
+E. Les antagonistes de l’angiotensine II sont des vasodilatateurs
+F. Les diurétiques ne modifient pas le métabolisme du potassium
+36- Concernant l'adrénaline:
+A. C'est un vasodilatateur artériel
+B. Elle est administrée dès le diagnostic de l'arrêt cardiocirculatoire
+C. Elle entraîne une tachycardie
+D. Elle est administrée à la dose de 0.1 mg en intraveineuse directe en cas d'arrêt cardiocirculatoire
+E. Elle augmente l'inotropisme cardiaque
+37- Dans l’hypertension artérielle (HTA) :
+A. Le taux du LDL cholestérol fait partie du bilan à prescrire
+B. L’atteinte rénale peut se manifester par une protéinurie
+C. L’accident vasculaire hémorragique est une complication
+D. Le bêtabloqueur est le médicament à prescrire de 1ere intention chez tous les patients
+E. La réduction de la consommation de sel fait partie de la prise en charge
+38- Concernant l’hypertension artérielle :
+A. Elle est souvent essentielle
+B. Elle est souvent secondaire
+C. Elle peut être liée à une baisse des résistances vasculaires systémiques
+D. Elle peut être secondaire à une insuffisance rénale
+E. Elle peut être liée à une hyperstimulation sympathique
+F. Elle est définie par à partir de chiffres tensionnels >= 160/100 mmHg.
+G. L'œil est un organe cible.
+H. Elle est essentielle dans la majorité des cas.
+I. Elle peut entraîner une hypertrophie ventriculaire gauche.
+J. Elle est responsable d'AVC.
+39- Cochez les réponses justes suivantes :
+A. L’effet « blouse blanche » peut être observé chez un patient hypertendu traité
+B. On parle d’hypertension artérielle diastolique à P auto-mesure tensionnelle quand la pression diastolique
+est supérieure à 70 mmHg
+C. La présence de céphalées constitue une forme d’urgence hypertensive
+D. La résistance au traitement d’une hypertension artérielle peut être liée à la présence d’un syndrome
+d’apnée du sommeil
+E. Le système des kinines est mis en cause dans la survenue de la toux sous antagonistes des récepteurs
+de l’angiotensine II
+40- Cochez les réponses justes suivantes :
+A. L’auto-mesure tensionnelle peut diagnostiquer un phénomène de blouse blanche
+B. L’effet blouse blanche s’observe chez le sujet normotendu
+C. La pression artérielle nocturne baisse de 30 % par rapport au jour
+D. L’hypertension artérielle nocturne est associée au risque d’atteinte d’un organe cible
+E. La fibrillation auriculaire peut compliquer une hypertension artérielle
+41- Les situations cliniques suivantes sont considérées comme des urgences hypertensives:
+A. Une hypertension artérielle associée à des épistaxis
+B. L'œdème aigu du poumon
+Page 31:
+Ataraxie
+
+-- 31 of 52 --
+
+C. Une pression systolique comprise entre 160 et 180 mmHg
+D. La dissection aortique
+E. L'hypertension artérielle résistante à une trithérapie
+QR 1:
+42- Citez 2 bilans à demander systématiquement chez l’hypertendu. - Bilan initial devant hypertendu
+QR 2:
+43- Citez 2 antihypertenseurs utilisés de façon préférentielle chez l’hypertendu coronarien.
+QR 3:
+44- Quels sont les 3 facteurs permettant de stratifier le risque d'un patient hypertendu ?
+QR 4:
+45- En se basant sur la mesure en consultation et sur la mesure à la MAPA (mesure ambulatoire de la
+pression artérielle), décrire le profil tensionnel d'une hypertension artérielle masquée.
+QR 5:
+46- L'hypertension artérielle systémique essentielle :
+● Définition
+● Citer 4 organes cibles
+● Citer 2 mesures hygiéno-diététiques
+● Citer 4 classes thérapeutiques antihypertensives
+QR 6:
+47- Les mesures ambulatoires de la pression artérielle :
+- Préciser les chiffres tensionnels diurnes et nocturnes pour définir une HTA
+- Donner 4 indications
+Cas clinique 1:
+Chez un patient de 50 ans non connu hypertendu, on réalise les mesures suivantes de la pression
+artérielle:
+❖ En consultation: 145/85 mmHg
+❖ A la mesure ambulatoire de la pression artérielle (MAPA):
+- Période diurne: 128/80 mmHg
+- Période nocturne: 100/68 mmHg.
+48- Cochez les réponses justes suivantes :
+A. Il s'agit d'un profil tensionnel normal
+B. Il s'agit d'une hypertension artérielle systolique nocturne
+C. Il s'agit d'une hypertension artérielle diastolique diurne
+D. Il s'agit d'une hypertension artérielle « blouse blanche ».
+E. Il s'agit d'une hypertension artérielle masquée
+18. Thromboses veineuses profondes : ( 2 questions )
+1- A propos de la thrombose veineuse profonde des membres inférieurs :
+A. Elle peut se compliquer d’une insuffisance cardiaque gauche
+B. La pathologie cancéreuse peut être une cause
+C. Elle peut compliquer une.fibrillation auriculaire
+D. C’est une cause de grosse jambe
+E. Les antiplaquettaires sont plus efficaces que les anticoagulants
+F. L'aspirine est une alternative à l'héparine dans la thrombose veineuse profonde
+G. Une thrombose veineuse profonde peut compliquer une insuffisance cardiaque
+QR 1:
+2- Citez 2 complications d’une thrombose veineuse profonde.
+Page 32:
+Ataraxie
+
+-- 32 of 52 --
+
+19. Embolie pulmonaire : ( 3 questions )
+1- propos du diagnostic de l'embolie pulmonaire :
+A. La gazométrie montre souvent une hypoxie associée à une hypercapnie B
+B. L'ECG montre souvent une tachycardie sinusale
+C. La radiographie thoracique montre une surcharge vasculaire pulmonaire
+D. Le dosage des D-dimères est utile pour le diagnostic positif
+E. L'angioscanner thoracique est l'examen de référence
+2- Concernant l’embolie pulmonaire :
+A. Il y a une augmentation de la post-charge du ventricule droit
+B. Elle peut se compliquer d’œdème aigu du poumon
+C. Elle se manifeste par une tachycardie
+D. L’angioscanner pulmonaire peut mettre en évidence le thrombus
+E. Le traitement anti-thrombotique repose sur le clopidogrel
+F. C’est une étiologie de dyspnée aiguë
+G. Il faut toujours rechercher un facteur favorisant la maladie veineuse thrombo-embolique
+H. Le traitement est essentiellement basé sur l’aspirine
+I. Le dosage des D-dimères n’est pas indiqué
+J. Elle est souvent révélée par une dyspnée aigue
+K. Elle peut être responsable d'une mort subite
+L. Elle est favorisée par un alitement prolongé
+M. La pression artérielle pulmonaire est basse
+N. Des signes d'insuffisance cardiaque droite peuvent être présents
+O. Le thrombus peut emboliser à partir du ventricule gauche
+P. Il existe une diminution de la post-charge du ventricule droit
+Q. Un terrain néoplasique prédispose à la maladie
+R. La thrombolyse est indiquée dans les formes massives
+S. La syncope peut révéler la maladie
+T. C’est une cause de douleurs thoraciques
+U. Il faut toujours rechercher la notion d’alitement prolongé
+V. Elle peut compliquer un long voyage
+W. Les anticoagulants font partie de l’arsenal thérapeutique
+X. La présence d’une pathologie néoplasique est un facteur favorisant
+Y. Il y a une élévation de la post-charge du ventricule gauche
+Z. L’aspirine est prescrite chez tous les patients
+3- Concernant l’embolie pulmonaire : (suite)
+A. L’hypertension artérielle pulmonaire est de type pré-capillaire
+B. La gazométrie peut mettre en évidence une hypocapnie
+C. La pression capillaire .pulmonaire est augmentée
+D. Les signes d’une thrombose veineuse profonde doivent être recherchés
+E. La tachycardie peut être observée
+F. Les anticoagulants sont indiqués
+G. La dyspnée aiguë est un symptôme de la maladie.
+H. Il y'a une hypoxie.
+I. Il n'y a pas de retentissement sur le cœur droit.
+J. Le traitement anticoagulant est urgent à instaurer.
+K. Il y'a une tachycardie.
+L. Le traitement de l’embolie pulmonaire est basé essentiellement sur les antiplaquettaires
+M. Le taux de D-dimères doit être interprété en fonction de l'âge
+N. Dans l'embolie pulmonaire, la fréquence respiratoire s'accélère
+Page 33:
+Ataraxie
+
+-- 33 of 52 --
+
+Questions et Cas cliniques Générales
+20. Autres : ( 19 questions )
+1- Concernant les inhibiteurs de l’enzyme de conversion :
+A. C’est une classe d’antihypertenseur
+B. Ils sont prescrits dans l’insuffisance cardiaque
+C. Ils sont vasoconstricteurs
+D. Ils diminuent la fréquence cardiaque.
+E. Us diminuent les résistances vasculaires
+F. Les inhibiteurs de l'aldostérone sont hyperkaliémiants
+2- Le diurétique est prescrit dans les pathologies suivantes
+A. Le rhumatisme articulaire aigu
+B. L'insuffisance cardiaque chronique
+C. L'angor instable
+D. L'hypertension artérielle
+E. L'insuffisance cardiaque aiguë
+3- Cochez les réponses justes suivantes :
+A. La prophylaxie primaire du rhumatisme articulaire aigu (RAA) est assurée par la prescription
+intra-musculaire de pénicilline toutes les 3 semaines
+B. La pression capillaire pulmonaire est élevée dans l'œdème aigu du poumon cardiogénique
+C. La fibrillation ventriculaire est une cause de dyspnée
+D. Les barorécepteurs détectent la diminution du débit cardiaque
+E. L'oreillette gauche est toujours dilatée dans l'insuffisance mitrale
+4- Les bêtabloqueurs sont indiqués dans les pathologies suivantes :
+A. L’oedème aigu du poumon
+B. L’insuffisance cardiaque chronique
+C. L’infarctus du myocarde
+D. L’hypertension artérielle
+E. Le bloc auriculo-ventriculaire
+5- Le clopidogrel :
+A. Est un anticoagulant
+B. Est un antiplaquettaire
+C. Inhibe le cyclo-oxygénase 1
+D. Inhibe les récepteurs P2Y12
+E. Peut être une alternative en cas d’allergie à l'aspirine
+6- A propos des héparines :
+A. L'enoxaparine est une héparine de bas poids moléculaire
+B. L’héparine sodique est une héparine non fractionnée
+C. L'enoxaparine est indiquée à la phase aigue de l’infarctus du myocarde
+D. L'enoxaparine est surveillée par le TCA
+E. Les héparines: amplifient l’action de l’anti-thrombine Ill
+7- L’aspirine :
+A. Est un anticoagulant
+B. Est un antiplaquettaire
+C. Est surveillée par l’INR
+D. Est gastro-toxique
+E. Est indiquée dans l’angor stable
+8- L’aspirine est prescrite dans les pathologies suivantes :
+A. Le rhumatisme articulaire aigu
+B. L’infarctus du myocarde
+C. L’angor stable
+Page 34:
+Ataraxie
+
+-- 34 of 52 --
+
+D. L’embolie pulmonaire
+E. L’endocardite infectieuse
+F. L'aspirine est systématiquement prescrite dans l'infarctus du myocarde aortique
+9- Cochez les valvulopathies suivantes qui entraînent un souffle systolique :
+A. La sténose tricuspide
+B. L’insuffisance pulmonaire
+C. La sténose pulmonaire
+D. La sténose mitrale
+E. L’insuffisance tricuspide
+10- Un patient ayant un souffle systolique au foyer mitral et un souffle diastolique au foyer aortique a
+probablement :
+A. Une maladie aortique.
+B. Une insuffisance mitrale et une sténose pulmonaire.
+C. Une insuffisance aortique et une sténose mitrale.
+D. Une sténose aortique et une sténose mitrale.
+E. Une maladie mitrale.
+11- 	A propos de la dissection aortique :
+A. Il y'a un clivage de la paroi aortique.
+B. B La maladie de Marfan n'est pas une étiologie.
+C. A l'examen, on peut trouver une asymétrie tensionnelle.
+D. L'angioscanner aortique n'a pas d'intérêt.
+E. La classification de Stanford isole 2 types de dissections.
+F. La cause peut être iatrogène lors d’un cathétérisme cardiaque
+G. La syncope ne peut pas révéler la maladie
+H. La stratégie thérapeutique dépend du siège de la dissection
+I. On peut avoir des complications ischémiques
+J. La classification de Stanford isole 3 types de dissection
+12- 	Dans l’arrêt cardio-circulatoire :
+A. Une défibrillation précoce peut améliorer le pronostic
+B. Il n’y a jamais de rythme cardiaque
+C. Il faut toujours alerter dès le diagnostic posé
+D. Le malade peut avoir une respiration spontanée
+E. Le pouls est filant.
+F. Le patient est inconscient.
+G. Il n'y a pas de respiration spontanée.
+H. Le massage cardiaque externe fait partie des gestes élémentaires de survie.
+I. La défibrillation auriculaire est le traitement de choix dans la fibrillation ventriculaire.
+J. L'alerte fait partie de la chaîne de survie
+K. La fibrillation ventriculaire est une cause possible
+L. Le coup de poing sternal est indiqué en cas d’asystolie
+M. Un rythme cardiaque peut être enregistré
+N. Le pouls est absent.
+O. La défibrillation est indiquée en cas d'asystolie.
+P. L'IDM peut être une cause.
+Q. Il faut toujours alerter dès que le diagnostic est posé.
+13- Concernant l'arrêt cardiocirculatoire:
+A. L'hyperkaliémie est une cause possible
+B. La phase électrique s'étend au-delà de 10 minutes d'arrêt
+C. L'interruption du massage cardiaque ne doit pas dépasser plus de 7-10 secondes
+Page 35:
+Ataraxie
+
+-- 35 of 52 --
+
+D. Dans la position standard, les électrodes de défibrillation sont placées en parasternal droit sous la
+clavicule et sur la ligne axillaire moyenne gauche
+E. Le rythme sans pouls est considéré comme un rythme choquable
+14- La chaîne de survie de l'arrêt cardiocirculatoire comporte:
+A. L'alerte
+B. Le diagnostic précoce
+C. Le massage cardiaque externe
+D. La réalisation d'une échocardiographie immédiatement après le diagnostic
+E. La défibrillation
+15- 	A propos des gestes élémentaires de survie :
+A. Le massage cardiaque externe doit commencer dès la constatation de l’arrêt cardiaque
+B. La défibrillation fait partie de ces gestes
+C. Le « bouche à bouche » permet d’insuffler de l’air contenant encore de l’oxygène
+D. Le massage cardiaque externe permet de restaurer un débit cardiaque normal
+E. Ces gestes ne font pas partie de la chaîne de survie
+16- Cochez les réponses justes suivantes:
+A. L'insuffisance mitrale est responsable d'une surcharge volumétrique du ventricule gauche
+B. Dans la sténose mitrale, le souffle est ausculté entre B2 et B1
+C. La sténose aortique peut être une cause de mort subite
+D. Dans l'insuffisance aortique sévère, la pression diastolique augmente
+E. La sténose mitrale entraîne une augmentation de la postcharge du ventricule gauche
+17- Cochez les réponses justes suivantes:
+A. L'œdème aigu du poumon cardiogénique est lié à une élévation de la pression capillaire pulmonaire
+B. L'endocardite infectieuse peut se compliquer d'une insuffisance rénale aiguë
+C. La fièvre est un critère majeur de Jones dans le rhumatisme articulaire aigu
+D. Dans la tamponnade, la précharge du ventricule gauche augmente
+E. Le traitement antibiotique de l'endocardite bactérienne est toujours administré par voie orale
+18- Cochez les réponses justes suivantes:
+A. Dans le rhumatisme articulaire aigu, la prévention secondaire est basée sur le traitement adéquat des
+angines
+B. La gravité d'un épanchement péricardique dépend de la rapidité de sa constitution
+C. Un accident vasculaire cérébral ischémique peut compliquer une endocardite infectieuse
+D. La sténose mitrale serrée peut se compliquer d'une hypertension pulmonaire
+E. Un taux de D-dimères négatif permet d'exclure une embolie pulmonaire
+QR 1:
+19- Citer deux étiologies de souffles diastoliques
+21. Électrocardiogramme ECG : ( 21 questions )
+1- Cochez les réponses justes suivantes :
+A- Un trouble de la repolarisation en V7 V8 V9 oriente vers un territoire basal
+B- La fibrillation ventriculaire est une cause de dyspnée
+D- Devant une douleur thoracique, le dosage de la troponine doit être prescrit avant la réalisation de l'ECG
+E- La fibrillation auriculaire fait disparaître la systole auriculaire
+F- Un sus-décalage de ST en D1 aVL traduit un infarctus latéral bas
+ECG 1:
+2- A propos de l’électrocardiogramme n°1 :
+A. Il s’agit d’un ECG 6 pistes
+B. Il y a un sus-décalage de ST en antérieur étendu
+C. Il n’y a pas d’image en miroir
+D. La conduction auriculo-ventriculaire est normale
+Page 36:
+Ataraxie
+
+-- 36 of 52 --
+
+E. Le diagnostic le plus probable est celui d’une péricardite aiguë
+ECG 2:
+3- Concernant l’électrocardiogramme n°2 :
+A. Il y a un trouble de la repolarisation
+B. Il y a un sus-décalage de ST en inférieur
+C. Il y a un bloc auriculo-ventriculaire de 1er degré
+D. Il y a un sus-décalage de ST en latéral bas
+E. Le rythme est en fibrillation auriculaire
+Page 37:
+Ataraxie
+
+-- 37 of 52 --
+
+ECG 3:
+4- A propos de l’électrocardiogramme n°3 :
+A. Il y a une dissociation auriculo-ventriculaire
+B. Il s’agit d’un bloc auriculo-ventriculaire de 2eme degré Mobitz 2
+C. Il s’agit d’un flutter
+D. Aucune onde P n’a conduit
+E. Il s’agit d’un bloc sino-auriculaire
+ECG 4:
+5- A propos de l’ECG suivant :
+A. Le rythme est sinusal
+B. Il existe une fibrillation auriculaire
+C. Il y a des troubles de la repolarisation
+D. Il s’agit d’un infarctus dans le territoire latéral haut
+E. Il y a une image en miroir
+Page 38:
+Ataraxie
+
+-- 38 of 52 --
+
+ECG 5:
+6- A propos de l’ECG suivant :
+A. Il s’agit d'une fibrillation auriculaire
+B. Il y a des ondes P d’origine sinusale
+C. La fréquence auriculaire est de 300/min
+D. Il y a plus d’activité auriculaire que ventriculaire
+E. Il y a un retour à la ligne isoélectrique entre les impulsions auriculaires
+ECG 6:
+7- A propos de l’ECG suivant :
+A. C’est une tachycardie à QRS larges
+B. Le rythme est irrégulier
+C. Il peut s’agir d’une tachycardie supraventriculaire avec bloc de branche
+D. Il peut s’agir d'une tachycardie ventriculaire
+E. Il peut s’agir d’une tachycardie utilisant une voie accessoire
+Page 39:
+Ataraxie
+
+-- 39 of 52 --
+
+ECG 7:
+8- A propos de l’ECG suivant :
+A. Le rythme est irrégulier
+B. Il s’agit d’un bloc auriculo-ventriculaire
+C. Il s’agit d’un flutter auriculaire
+D. L’activité auriculaire est anarchique
+E. Il s’agit d’une fibrillation auriculaire
+ECG 8:
+9- A propos de l’ECG suivant :
+A. Il s’agit d’un rythme lent
+B. Il s’agit d'un bloc sino-auriculaire
+C. Il s’agit d’un BAV de 2eme degré Mobitz 1
+D. Il s’agit d'un BAV de 2eme degré Mobitz 2
+E. Il s'agit d’une dissociation auriculo-ventriculaire
+Page 40:
+Ataraxie
+
+-- 40 of 52 --
+
+ECG 9:
+10- Interpréter cet ECG enregistré chez un patient âgé de 41 ans qui se plaint de palpitations.
+ECG 10:
+11- Interpréter cet ECG enregistré chez un patient âgé de 47 ans qui se plaint de dyspnée et de
+palpitations
+Page 41:
+Ataraxie
+
+-- 41 of 52 --
+
+ECG 11:
+12- Interpréter cet ECG enregistré chez un patient âgé de 66 ans qui se plaint de vertige et de
+palpitations.
+ECG 12:
+13- Interpréter cet ECG enregistré chez une patiente âgée de 50 ans qui se plaint de douleurs
+thoraciques qui remontent a 5 heures.
+Page 42:
+Ataraxie
+
+-- 42 of 52 --
+
+ECG 13:
+14- Interpréter cet ECG enregistré chez un patient âgé de 60 ans qui se plaint de palpitations.
+ECG 14:
+15- Interpréter cet ECG enregistré chez un patient âgé de 40 ans qui se plaint de douleurs thoraciques
+et de palpitations.
+NB : l'interprétation des ECG doit comprendre le rythme, la fréquence, l’axe du coeur et les différentes anomalies.
+ECG 15:
+16- Patiente de 72 ans admise pour prise en charge de douleurs thoraciques.
+Page 43:
+Ataraxie
+
+-- 43 of 52 --
+
+ECG 16:
+17- Patient de 60 ans admis pour des douleurs thoraciques
+ECG 17:
+18- L'électrocardiogramme a été enregistré chez un patient admis aux urgences pour des douleurs
+thoraciques. Cochez les réponses justes suivantes :
+A. L'angor instable est un diagnostic probable
+B. Il s'agit d'un infarctus du myocarde avec sus-décalage de ST en antérieur étendu
+C. Il s'agit d'un infarctus du myocarde avec sus-décalage de ST en inférieur
+D. Il n'y a pas de trouble de la repolarisation dans le territoire latéral haut
+E. Il n'y a pas d'image en miroir
+Page 44:
+Ataraxie
+
+-- 44 of 52 --
+
+ECG 18:
+19- A propos de cet électrocardiogramme :
+A. Il s'agit d'un bloc sino-auriculaire
+B. Le rythme est sinusal avec des extrasystoles
+C. Il s'agit d'un bloc auriculo-ventriculaire de 2ème degré Mobitz 1
+D. Il s'agit d'un bloc auriculo-ventriculaire de 2ème degré Mobitz 2
+E. Il s'agit d'un bloc auriculo-ventriculaire de 3ème degré
+ECG 19:
+20- Cochez les bonnes réponses concernant l'électrocardiogramme (ECG) :
+A. Il s'agit d'un ECG normal
+B. Le rythme est irrégulier
+C. Il s'agit d'un bloc auriculo-ventriculaire de 3ème degré
+D. Il s'agit d'une fibrillation ventriculaire
+E. Il s'agit d'une fibrillation auriculaire
+Page 45:
+Ataraxie
+
+-- 45 of 52 --
+
+ECG 20:
+21- L'électrocardiogramme est réalisé chez un patient se présentant aux urgences pour des douleurs
+thoraciques. Cochez les bonnes réponses:
+A. Il y a des troubles de la repolarisation
+B. Il y a un sus-décalage dans le territoire inférieur
+C. Il y a une image en miroir
+D. Il y a un sus-décalage dans le territoire latéral haut
+E. Il y a un sus-décalage dans le territoire latéral bas
+22. Cas cliniques généralisés : ( 42 questions )
+Cas clinique 1:
+Un patient âgé de 56 ans, diabetique, fumeur est admis aux urgences pour prise en charge d'une douleur
+thoracique au repos qui a débuté 5 heures avant sa consultation. L'examen cardiovasculaire révèle des
+chiffres tensionnels de 160/80 mmHg aux 2 bras. L'auscultation cardio vasculaire et pulmonaire est sans
+particularités
+1- Les diagnostics suivants doivent être évoqués en premier :
+A. Une pleurésie
+B. Un syndrome coronaire aigu
+C. Un infarctus du myocarde
+D. Un angor stable
+E. Une péricardite
+2- Cochez les réponses justes suivantes concernant le raisonnement diagnostique:
+A. Il faut faire un scanner thoracique en 1ere intention
+B. La survenue de la douleur thoracique au repos impose l'hospitalisation
+C. C L'ECG doit être réalisé en urgence
+D. Le dosage de La troponine constitue la première étape si on évoque un syndrome coronaire aigu
+E. La Radiographie thoracique est la 1 exploration à demander
+Page 46:
+Ataraxie
+
+-- 46 of 52 --
+
+3- Un électrocardiogramme est demandé (tracé ci-joint). Cochez les réponses justes.
+A. Il n'y a pas d'anomalie de la repolarisation
+B. ll y a un sus-décalage de ST dans le territoire inférieur
+C. Il n'y a pas d'image en miroir
+D. Il ya un sus-décalage de ST en apico-latéral
+E. Le rythme est irrégulier
+4- Cochez les réponses justes suivantes concernant la prise en charge :
+A. Il faut hospitaliser le patient en unité de soins intensifs cardiologiques
+B. Il faut mettre le patient sous antiplaquettaires
+C. La thrombolyse peut être une alternative thérapeutique
+D. Il faut avoir le taux de troponine avant de démarrer le traitement
+E. Aucune stratégie de reperfusion ne doit être proposée
+5- A propos des chiffres tensionnels du patient :
+A. II s'agit d'une HTA systolo-diastolique
+B. Il s'agit d'une HTA diastolique
+C. Il s'agit d'une HTA systolique
+D. Le bêta bloqueur est le traitement antihypertenseur de choix
+E. Ils augmentent la consommation myocardique en oxygène
+Cas clinique 2:
+Un patient âgé de 26 ans est admis aux urgences pour prise en charge d’une dyspnée aiguë. L’examen
+cardiovasculaire révèle une fréquence cardiaque de 110 battements par minute et une pression artérielle
+de 110/70 mmHg aux 2 bras. La fréquence respiratoire est de 20 cycles par minute et la saturation en
+oxygène à l’air ambiant est de 90 %. L’auscultation cardio vasculaire montre un éclat de B1 au foyer mitral
+avec des râles crépitants à l’auscultation pulmonaire.
+6- Cochez les réponses justes suivantes :
+A. Il s’agit d’une urgence respiratoire
+B. Il s’agit d’une insuffisance cardiaque droite
+C. Il s’agit d’un choc cardiogénique
+D. Le diagnostic d’un oedème aigu du poumon doit être évoqué
+E. L’état respiratoire du patient est normal
+7- L’auscultation cardiaque évoque :
+A. Une embolie pulmonaire
+B. Une sténose mitrale
+Page 47:
+Ataraxie
+
+-- 47 of 52 --
+
+C. Une sténose aortique
+D. Un épanchement péricardique
+E. Une insuffisance mitrale
+8- Les explorations à demander sont :
+A. Un angioscanner pulmonaire
+B. Un ECG
+C. Une radiographie thoracique
+D. Un écho-Doppler cardiaque
+E. Une coronarographie
+9- Les mesures suivantes doivent être adoptées :
+A. Le remplissage vasculaire
+B. L’oxygénothérapie
+C. La prescription d’adrénaline
+D. La prescription de diurétiques par voie injectable
+E. La mise du patient en position demi-assise
+Cas clinique 3:
+Un patient âgé de 28 ans est admis aux urgences pour prise en charge d' une dyspnée aiguë, il rapporte
+également la notion de douleurs thoraciques à l'effort depuis 2 ans.
+A I’examen, sa pression artérielle est de 135/50 mmHg aux 2 bras, sa fréquence cardiaque est de 100
+battements par minute. L'auscultation cardiaque met en évidence un souffle diastolique au 2ème espace
+intercostal droit et au bord gauche du sternum. Il existe des râles crépitants aux 2 bases pulmonaires
+gauches. L’ECG met en évidence une hypertrophie ventriculaire gauche et il y a une cardiomégalie à la
+radiographie thoracique.
+10- Allez-vous hospitaliser ce patient? justifiez.
+11- A quelle valvulopathie correspond le souffle ?
+12- Interpréter les chiffres tensionnels.
+13- Quels sont les signes de sévérité de cette valvulopathie ?
+14- Comment expliquer les douleurs thoraciques présentées par le patient ?
+15- Quelle exploration demander chez ce patient ? justifiez.
+16- Quelle prise en charge thérapeutique proposez-vous ?
+Cas clinique 4:
+Un patient âgé de 52 ans ayant comme facteurs de risque cardio-vasculaire un tabagisme actif est admis
+aux urgences pour une douleur thoracique, Celle-ci est apparue au repos et elle persiste depuis 2 heures.
+A l’examen, sa pression artérielle est de 150/85 mmHg aux 2 bras, sa fréquence cardiaque est de 60
+battements par minute. Le reste de l'examen est sans particularités.
+Un ECG est réalisé en urgence (ECG n°1).
+Page 48:
+Ataraxie
+
+-- 48 of 52 --
+
+17- S'agit-il d'un syndrome coronaire aigu ? justifiez.
+18- Interprétez les chiffres tensionnels du patient
+19- Interprétez l'ECG (rythme, fréquence, axe et les différentes anomalies).
+20- Quel est votre diagnostic et quelle est votre conduite à tenir ?'
+21- Deux heures après son hospitalisation, le patient a fait une perte de connaissance, l’examen
+retrouve un pouls à 25 battements par minute, quelle est votre supposition diagnostique ?
+Cas clinique 5:
+Un patient âgé de 53 ans ayant comme facteurs de risque cardio-vasculaire une hypertension artérielle
+consulte aux urgences pour une douleur thoracique. Celle-ci remonte à 6 mois avant sa consultation mais
+elle survenait à la montée de 3 étages.
+Le jour de son admission, la même douleur est survenue au repos ce qui a motivé sa consultation.
+A l’examen, sa pression artérielle est 180/100 mmHg aux 2 bras, sa fréquence cardiaque est de 80
+battements par minute. Le reste de l’examen est sans particularités.
+Un ECG est réalisé en urgence (ECG n'1) :
+22- S'agit-il d'un syndrome coronaire aigu ? justifier
+23- Interpréter l'ECG.
+24- Quel est votre diagnostic et quelle est votre conduite à tenir ?
+25- Le patient est-il hypertendu ? De quel type d’hypertension artérielle s’agit-il ?
+26- Un bilan lipidique a été demandé et a montré un taux de LDL cholestérol à 1 6 g/L. Quelle est votre
+interprétation et votre conduite à tenir ?
+Cas clinique 6:
+Un patient âgé de 25 ans ayant des antécédents d'arthralgies consulte aux urgences pour prise en charge
+d’une dyspnée. En effet, le malade rapporte la notion d’une dyspnée d’effort quand il monte 1 étage.
+A son admission, l'examen cardiovasculaire retrouve un rythme irrégulier à 150 battements par minute avec
+une pression artérielle à 100/70 mmHg aux 2 bras.
+L'auscultation cardiaque met en évidence un éclat du 1er bruit au foyer mitral et un éclat du 2eme bruit au
+foyer pulmonaire. Il existe un discret œdème rétro-malléolaire bilatéral.
+Un ECG est réalisé (ECG n=2).
+Page 49:
+Ataraxie
+
+-- 49 of 52 --
+
+27- Le malade est-il en insuffisance cardiaque ? si oui de quel type ? justifier.
+28- A quel stade correspond la dyspnée rapportée par le patient ?
+29- A quelle valvulopathie correspond l’auscultation ? justifier
+30- Quels sont les signes de gravite de cette valvulopathie ?
+31- Interpréter l'ECG.
+32- Au cours de son hospitalisation, le patient présente une lourdeur de l'hémicorps droit, comment
+expliquer ce symptôme ?
+Cas clinique 7:
+Un patient âgé de 64 ayant comme facteurs de risque cardio-vasculaire une hypertension artérielle
+consulte aux urgences pour une douleur thoracique rétro-sternale et constrictive.
+Celle-ci remonte à 1 an avant sa consultation, elle est déclenchée par la montée de 2 étages et elle
+disparaît à l'arrêt de l'effort.
+A l'examen, sa pression artérielle est de 160/95 mmHg aux 2 bras, sa fréquence cardiaque est de 90
+battements par minute. Le reste de l’examen est sans particularités..
+Un ECG est réalisé en urgence (ECG n°1).
+33- S'agit-il d'un syndrome coronaire aigu ? justifier.
+34- Interpréter l'ECG.
+35- Quel est votre diagnostic et quelle est votre conduite à tenir ?
+36- A propos des chiffres tensionnels du patient :
+- De quel type d'hypertension artérielle s’agit-il ?
+- Quel médicament prescrire de façon préférentielle chez l'hypertendu coronarien.
+37- 	Quels bilans demander pour rechercher d’autres facteurs de risque cardio-vasculaires ?
+Page 50:
+Ataraxie
+
+-- 50 of 52 --
+
+Cas clinique 8:
+Un patient âgé de 50 ans tabagique (20 paquets/années) consulte au prise en charge d'une syncope. Le
+malade rapporte la notion d’une dyspnée d’effort stade II de la NYHA depuis 1 an.
+L’examen cardiovasculaire retrouve une pression artérielle à 140/90 mmHg aux 2 bras et fréquence
+cardiaque à 110 battements/mn. L’auscultation cardiaque au foyer aortique, met en évidence un souffle
+systolique avec une diminution du 2eme bruit.
+Un ECG est réalisé (ECG n°2).
+38- Définir la dyspnée stade II de la NYHA.
+39- A quelle valvulopathie correspond cette auscultation ? justifier.
+40- Quels sont les signes de gravité de cette valvulopathie ?
+41- Interpréter l’ECG.
+42- Quelles sont les explorations à prescrire à ce patient ? Justifier.
+Page 51:
+Ataraxie
+
+-- 51 of 52 --
+
+Page 52:
+Ataraxie
+
+-- 52 of 52 --
+
