@@ -1,0 +1,1794 @@
+Chirurgie Viscérale
+Questions cours par cours
+Remarques
+- Ce document contient toutes les questions d’anciens examens du Chirurgie viscérale.
+- ( 2008 - 2025 : 1ère et 2ème sessions ) - disponibles dans le Cahier d’Exams.
+- Les 286 questions sont réparties cours par cours
+- Les QR sont des questions rédactionnelles qui regroupent les QROC’s aussi
+Sommaire :
+Pathologies Traumatiques & Vasculaires................................................................................................125
+1. L'ischémie mésentérique aiguë - Infarctus entéro-mésentérique : ( 13 questions ).......................... 125
+2. Lésions caustiques du tube digestif : ( 10 questions )....................................................................... 126
+3. Traumatismes abdominaux : ( 15 questions )....................................................................................128
+Pathologies Infectieuses et Inflammatoires............................................................................................130
+4. Appendicite aiguë : ( 7 questions ).....................................................................................................130
+5. Pancréatite aiguë : ( 11 questions )................................................................................................... 131
+6. Péritonites aiguës généralisées : ( 12 questions )............................................................................. 133
+7. Angiocholites : ( 17 questions )..........................................................................................................134
+8. Cholécystite : ( 7 questions )..............................................................................................................136
+9. Kyste Hydatique du Foie : ( 15 questions )........................................................................................ 137
+10. Complications des ulcères : ( 5 questions )..................................................................................... 138
+Tumeurs et Cancers.................................................................................................................................. 140
+11. Cancer colorectal : ( 29 questions )................................................................................................. 140
+11.1- Cancer du côlon...................................................................................................................... 141
+11.2- Cancer du rectum....................................................................................................................142
+12. Cancer de l’œsophage : ( 10 questions ).........................................................................................144
+13. Tumeurs de l'estomac : ( 16 questions ).......................................................................................... 146
+14. Tumeurs du Pancréas : ( 18 questions )..........................................................................................148
+15. Tumeurs Hépatiques : ( 12 questions )............................................................................................150
+Cas cliniques générales : ( 89 questions ).............................................................................................. 153
+Page 124:
+Ataraxie
+
+-- 1 of 36 --
+
+Pathologies Traumatiques & Vasculaires
+1. L'ischémie mésentérique aiguë - Infarctus entéro-mésentérique : ( 13
+questions )
+1- Lors de l’ischémie mésentérique
+A. L’embolie est la cause la plus fréquente et elle est due à certaines affections cardiaques
+B. Un foyer infectieux intra abdominal peut causer une ischémie par thrombose veineuse
+C. L’angioscanner abdominal est un examen très sensible pour tout type de lésion vasculaire; occlusive ou
+non
+D. Le pneumopéritoine et l’épanchement intrapéritonéal sont des signes précoces
+E. Le siège proximal de l'embol artériel cause une ischémie plus étendue
+2- L’ischémie mésentérique
+A. La cardiopathie arythmogène est un facteur de risque
+B. Le tableau clinique de l’embolie artérielle survient brutalement
+C. L’hémorragie digestive est un signe de gravité
+D. Les lactates sont élevés dès le début de l’ischémie
+E. Au scanner, l’aéroportie est un signe tardif
+F. doit être traitée de manière précoce pour prévenir l'infarctus intestinal
+G. est une indication de laparotomie dès la suspicion diagnostique
+H. Après une résection intestinale, l’anastomose est réalisée systématiquement
+I. L'artériographie est l’examen à choisir pour diagnostiquer et traiter un vasospasme artériel
+J. Si une résection intestinale étendue est nécessaire, elle doit être réalisée même si la nutrition
+parentérale n'est pas disponible
+3- Dans les ischémies mésentériques:
+A. Le niveau basal de délivrance d'oxygène baisse de plus de 50%
+B. La thrombose veineuse extensive peut être responsable de l'ischémie
+C. La lactatémie est élevée en cas d'infarctus
+D. La défense abdominale et vomissements sont des signes précoces
+E. Le diagnostic précoce permet d'éviter la chirurgie
+4- Dans l’ischémie mésentérique aiguë
+A. La mortalité par ischémie veineuse est plus élevée que lors de l’ischémie artérielle
+B. L’angor mésentérique est l’association de douleurs post prandiales, peur alimentaire et amaigrissement
+C. La contraception orale est un facteur de risque de l’ischémie veineuse
+D. L’élévation des lactates sériques est un signe précoce
+E. Une stratégie agressive est nécessaire même si le patient « va bien »
+F. L'angor mésentérique est l'association de douleurs post prandiales, peur alimentaire et rectorragies
+G. La consommation de cocaïne est un facteur de risque de l'ischémie veineuse
+H. L'ischémie veineuse est de meilleur pronostic que l'ischémie artérielle
+I. La chirurgie vasculaire est systématique
+5- L'ischémie mésentérique aiguë (IMA)
+A. Est due principalement à la thrombose artérielle
+B. Se manifeste d'emblée par une douleur abdominale associée à une défense et une diarrhée sanglante
+C. L'IMA non occlusive est évoquée en cas de traitement vasoconstricteur ou de consommation de cocaïne
+D. L'arythmie complète par fibrillation auriculaire est une cause d'IMA par embolie artérielle
+E. Son traitement peut inclure un geste de revascularisation radiologique
+6- Dans la chirurgie pour ischémie mésentérique :
+A. La découverte d'une ischémie intestinale sans nécrose induit une abstention chirurgicale
+B. Un second look est toujours nécessaire
+C. Une nécrose étendue du grêle induit une abstention chirurgicale
+D. L'alimentation parentérale est toujours nécessaire
+Page 125:
+Ataraxie
+
+-- 2 of 36 --
+
+E. La stomie à haut débit est un risque post opératoire important
+F. La découverte d'une perforation intestinale contre indique une stomie
+G. Une ischémie sans nécrose nécessite un second look chirurgical
+H. Le syndrome de grêle court permet le sevrage de l'alimentation parentérale
+7- Dans l'infarctus mésentérique :
+A. La défense abdominale peut faire partie des signes physiques
+B. Les lactates ne sont pas élevées
+C. La radiologie interventionnelle est indiquée pour lever l'obstacle
+D. La chirurgie n'est nécessaire que si le patient présente un SRIS (ou SIRS)
+E. La résection intestinale n'a de limite que la disponibilité de nutrition parentérale
+8- Concernant l'infarctus entéro-mésentérique d’origine veineuse
+A. C'est une ischémie non occlusive
+B. Il est expliqué par une extension de la thrombose aux veines collatérales du mésentère
+C. Il est favorisé par la prise des contraceptifs oraux
+D. L’augmentation de la lactatémie est un signe de bon pronostic
+E. Le traitement repose sur l'héparine non fractionnée HNF plutôt que l'héparine de bas poids moléculaire
+HBPM
+9- Concernant l'embolie de l'artère mésentérique supérieure :
+A. Elle est favorisée par la fibrillation auriculaire
+B. Elle représente plus de 50% des ischémies mésentériques aiguës
+C. Elle atteint surtout le côlon gauche
+D. Elle peut être d'origine iatrogène
+E. Elle est favorisée par l'athérosclérose aortique
+10- Quel examen d'imagerie est le plus performant pour le diagnostic d'ischémie mésentérique ?
+A. Échographie Doppler
+B. ASP
+C. Angioscanner multibarrettes
+D. IRM abdominale
+E. Radiographie thoracique
+QR 1 :
+11- Diagnostic positif clinique d'une ischémie mésentérique aiguë ?
+QR 2 :
+12- Étiologies de l'ischémie aiguë mésentérique ?
+QR 3 :
+13- Étiologie de l'ischémie entéro-mésentérique occlusive.
+2. Lésions caustiques du tube digestif : ( 10 questions )
+1- Les lésions de caustiques oesogastriques
+A. Sont toujours sévères
+B. Se compliquent de sténose dans 75% des cas graves
+C. Peuvent se manifester cliniquement par une détresse respiratoire
+D. Ont un stade IIIb qui est une nécrose localisée
+E. Nécessitent une bronchoscopie systématique
+2- Dans l’ingestion de caustique
+A. L’HCL provoque le maximum de lésions au niveau oro pharyngé
+B. Il y a une nécrose de coagulation qui limite l’effet de pénétration en profondeur
+C. La pose d’une sonde gastrique est à proscrire
+D. L’oesogastrectomie est réalisée systématiquement
+E. La sténose oesophagienne peut survenir en cas de lésion ulcérée
+Page 126:
+Ataraxie
+
+-- 3 of 36 --
+
+3- Dans l'ingestion de HCL :
+A. Le maximum de lésions au niveau oro pharyngé
+B. Il y a une nécrose de coagulation qui limite l'effet de pénétration en profondeur
+C. La pose d'une sonde gastrique est à proscrire
+D. L'oesogastrectomie est réalisée systématiquement
+E. La sténose œsophagienne peut être une indication d'oesophagoplastie
+4- Concernant l'Ingestion d'esprit de sel
+A. Ce produit caustique est un acide fort
+B. Il provoque des lésions plus importantes au niveau de l'œsophage par rapport au reste du tube digestif
+C. Les ulcérations confluentes sont des lésions de stade 3
+D. La nécrose localisée gastrique ne nécessite pas de chirurgie
+E. La nécrose localisée de l'œsophage ne nécessite pas de chirurgie
+5- L’ingestion de caustique
+A. Est plus fréquente chez l’homme
+B. Est plus grave chez l’homme
+C. Au Maroc, l’esprit de sel est l’agent caustique le plus utilisé
+D. L’ingestion involontaire provoque des lésions graves
+E. L’hémorragie peut compliquer l’évolution des lésions caustiques
+6- Dans les ingestions de caustiques
+A. Les lésions par HCl sont souvent plus graves au niveau gastrique
+B. La défense abdominale est toujours présente
+C. La gastrectomie peut être indiquée seule sans oesophagectomie
+D. La plastie colique est réalisée au niveau du lit de l’oesophage
+E. En cas de sténose oesophagienne longue on réalise une dilatation endoscopique
+F. Les lésions sont plus graves au niveau gastrique
+G. L'indication opératoire peut être posée dès l'examen du patient
+H. La plastie colique est réalisée à partir du côlon droit uniquement
+I. En cas de sténose cœsophagienne longue on réalise une dilatation chirurgicale
+7- Quels sont les signes cliniques qui peuvent être présents suite à une ingestion de caustique ?
+A- Des brûlures buccales
+B- Des douleurs thoraciques
+C- Une hypersialorrhée
+D- Une douleur abdominale
+E- Une hémorragie digestive
+8- Quelles complications peuvent survenir en cas de retard diagnostique suite à une ingestion caustique ?
+A- Nécrose intestinale
+B- Péritonite aiguë
+C- Sepsis
+D- Syndrome de l'intestin court
+E- Pancréatite aiguë
+9- Lors d'une ingestion de caustique, concernant la prise en charge initiale, quelle mesure est formellement
+contre-indiquée ?
+A. Lavage buccal au sérum physiologique
+B. Position demi-assise
+C. Sondage gastrique systématique
+D. Oxygénothérapie au masque
+E. Abord veineux périphérique
+QR 1 :
+10- Prise en charge initiale d’un patient ayant ingéré un produit caustique.
+Page 127:
+Ataraxie
+
+-- 4 of 36 --
+
+3. Traumatismes abdominaux : ( 15 questions )
+1- Le traumatisme abdominal
+A. Par choc direct est le plus souvent dû à une décélération
+B. Par plaie antérieure, qui est dite pénétrante quand elle atteint le plan musculaire de la paroi
+C. La TDM abdominale est un examen radiologique de première intention
+D. La ponction lavage du péritoine (PLP) est réalisée en absence de TDM ou d'échographie
+E. La mise en condition du patient commence par la pose de sondes gastrique et vésicale
+2- Dans les traumatismes de l’abdomen
+A. Le choc hémorragique intense est un critère d'intervention chirurgicale immédiate
+B. Le traumatisme bipolaire permet d’écarter une lésion abdominale
+C. L’examen clinique est réalisé quel que soit l’état hémodynamique du patient
+D. L’échographie abdominale permet d’éviter la laparotomie purement exploratrice
+E. La laparotomie écourtée a parmi ses objectifs une hémostase rapide
+F. La splénectomie pour traumatisme de la rate est réalisée uniquement en cas d'instabilité
+hémodynamique
+G. Un hématome de la rate de plus de 50% est un grade III de l’AAST
+H. Les ruptures diaphragmatiques sont fréquentes à droite
+I. Les lésions digestives sont faciles à mettre en évidence au temps précoce
+J. Il faut hospitaliser systématiquement tout patient qui présente des brûlures
+K. Un hématome sous capsulaire de la rate de plus de 5 cm est un grade Il de l'AAST
+L. Les lésions pancréatiques sont rarement associées aux autres lésions de l'abdomen
+M. Les lésions intestinales sont faciles à mettre en évidence cliniquement au temps précoce
+N. Les lésions du wirsung sont diagnostiquées à l'IRM
+O. La laparotomie écourtée permet d'éviter une deuxième intervention chirurgicale
+P. Le tamponnement péri-hépatique est une technique salvatrice
+Q. Les résections pancréatiques sont réalisées d'emblée si le pancréas est traumatisé
+R. L'embolisation est indiquée dans les grades 4 des lésions de la rate
+S. L'exploration chirurgicale est systématique en cas de plaie pénétrante
+3- Le traumatisme fermé de l'abdomen :
+A. Provoque fréquemment des lésions spléniques
+B. Les signes cliniques sont ceux d'un tableau de perforation d'organe creux
+C. Le sondage gastrique est urinaire sont réalisés quelque soient les lésions provoquées
+D. L'état de choc hémorragique est l'indication principale à une chirurgie en urgence
+E. Le tamponnement péri hépatique est une technique importante en cas de chirurgie
+4- Lors des traumatismes fermés de l'abdomen
+A. L'atteinte hépatique est la plus fréquente
+B. La ponction lavage péritonéal (PLP) est un examen systématique.
+C. L’échographie abdominale FAST est réalisée en première intention
+D. Un état de choc sévère est une indication chirurgicale immédiate
+E. Les lésions d'organes creux sont plus fréquentes que lors des plaies pénétrantes
+5- En cas de perforation d’un organe creux dans la cavité péritonéale, laquelle des propositions suivantes
+est correcte ?
+A. Une défaillance multiviscérale peut survenir suite à un choc septique.
+B. La gravité de l’irritation péritonéale est indépendante de l’organe perforé.
+C. Les abcès et plastrons… (proposition invisible)
+D. L’hypovolémie est secondaire aux vomissements réflexes.
+6- Dans les traumatismes du foie
+A. Est le deuxième en fréquence des traumatismes fermés après le traumatisme de la rate
+B. Les signes cliniques sont ceux d’un tableau de perforation d’organe creux
+C. Le sondage urinaire est réalisé quelques soient les lésions associées
+Page 128:
+Ataraxie
+
+-- 5 of 36 --
+
+D. Le tamponnement péri hépatique est une technique importante en cas de chirurgie
+E. Une résection hépatique peut être nécessaire après l’ablation du tamponnement
+7- Le traumatisme de la rate
+A. Est le plus fréquent des traumatismes des organes pleins de l’abdomen
+B. Est plus fréquent si le traumatisme est ouvert
+C. Souvent associé à une lésion du diaphragme
+D. L’échographie FAST ne peut pas faire le diagnostic de la contusion de la rate
+E. La splénectomie est indiquée devant tout traumatisé de la rate
+8- Le traumatisme du pancréas
+A. Est suspecté devant tout traumatisé de l’abdomen
+B. Est moins grave s’il atteint la tête du pancréas
+C. La lipasémie doit être faite systématiquement chez un traumatisé de l’abdomen
+D. La lésion du canal pancréatique principal est diagnostiquée sur la pancréato IRM
+E. Le grade II est une lacération ou contusion majeure avec atteinte du wirsung
+9- Le bilan lésionnel dans les traumatismes abdominaux est basé sur :
+A- L'examen clinique
+B- L'échographie
+C- La biologie
+D- Le scanner
+E- La ponction-lavage péritonéale
+10- La gravité d'un traumatisme abdominal peut être :
+A- Immédiate, due à une hémorragie
+B- Immédiate, due à une péritonite aiguë
+C- Secondaire, due à une péritonite aiguë
+D- Secondaire, due à un chọc hémorragique
+E- Secondaire, due à une hémorragie
+11- Lors de la prise en charge du traumatisé de l’abdomen
+A. Le sondage gastrique est réalisé dès l'admission
+B. Le sondage vésicale est réalisé dès l'admission
+C. L'abstention chirurgicale avec surveillance armée est préconisée dans la majorité des cas
+D. La laparotomie écourtée est un principe chirurgical
+E. Le tamponnement péri-hépatique (ou Packing) est une des techniques de la laparotomie écourtée
+12- Quelle est la prise en charge initiale d'un traumatisme abdominal avec instabilité hémodynamique ?
+A. Antibiothérapie probabiliste
+B. Remplissage vasculaire et transfusion
+C. Sondage gastrique systématique
+D. Radiographie thoracique en urgence
+E. Laparotomie exploratrice différée
+QR 1 :
+13- Examen clinique d’un traumatisé de l’abdomen : évaluation initiale ?
+QR 2 :
+14- Traumatisme abdominal: Tableau clinique et paraclinique des lésions du tube digestif ?
+QR 3 :
+15- Traumatisme de la rate : tableau clinique ?
+Page 129:
+Ataraxie
+
+-- 6 of 36 --
+
+Pathologies Infectieuses et Inflammatoires
+4. Appendicite aiguë : ( 7 questions )
+1- Dans l'appendicite aiguë
+A. La douleur constitue le maître symptôme
+B. La douleur débute parfois au niveau épigastrique pour se localiser à la fosse iliaque droite
+C. La douleur débute toujours au niveau de la région épigastrique
+D. La douleur débute toujours au niveau de la fosse iliaque droite
+E. La radiographie d'abdomen sans préparation montre souvent un pneumopéritoine
+F. L’échographie abdominale peut être normale
+G. La TDM abdominale est obligatoire pour poser le diagnostic
+H. Une TDM abdominale normale élimine le diagnostic d’appendicite aiguë
+I. Le traitement chirurgical se fait toujours par laparotomie
+J. La péritonite est une complication qui peut survenir en cas de retard diagnostic
+K. La douleur est souvent intense et transfixiante
+L. L'échographie montre toujours un épanchement de la fosse iliaque droite
+M. L'échographie et le scanner abdominal ont la même valeur diagnostic
+N. Le traitement chirurgical peut se faire par laparotomie ou par laparoscopie
+O. La douleur est toujours accompagnée de troubles de transit
+P. La palpation montre une douleur provoquée de la fosse iliaque droite au point de Blumberg
+Q. La TDM abdominale est utile en cas de doute diagnostic
+R. L'évolution peut se faire vers la constitution d'un plastron appendiculaire
+S. La douleur est souvent accompagnée d'une fièvre supérieure à 38,5°
+T. La douleur débute parfois au niveau épigastrique pour se localiser à la fosse iliaque gauche
+U. L'échographie peut être normale
+V. L'échographie peut montrer la présence d'un stercolite
+W. L'évolution peut se faire vers une péritonite aigue généralisée
+X. L'échographie abdominale montre toujours un appendice augmenté en taille avec stercolite
+Y. L'évolution spontanée peut se faire vers une péritonite aigue généralisée
+Z. Le traitement chirurgical se fait toujours par coelioscopie
+2- En cas d'appendicite aiguë. Laquelle des propositions est correcte ?
+A. Le tableau clinique est toujours typique
+B. Le diagnostic différentiel se fait avec la salpingite en cas d’appendicite méso-coeliaque.
+C. le plastron appendiculaire évolue vers l’abcès.
+D. La péritonite est toujours secondaire à la perforation de l’appendice.
+QR 1 :
+3- Formes cliniques de l’appendicite aiguë ?
+QR 2 :
+4- Tableau clinique d'une appendicite rétro-caecal
+QR 3 :
+5- Quels sont les diagnostics différentiels de l'appendicite aiguë en per-opératoire ?
+QR 4 :
+6- Quelles sont les formes évolutives de l’appendicite aiguë ?
+QR 5 :
+7- Formes topographiques de l'appendicite aiguë ?
+Page 130:
+Ataraxie
+
+-- 7 of 36 --
+
+5. Pancréatite aiguë : ( 11 questions )
+1- La pancréatite aigue
+A. est une urgence médicochirurgicale
+B. forme nécrotico-hémorragique est la plus fréquente
+C. est dans notre contexte le plus souvent d'origine lithiasique
+D. est plus fréquente chez les femmes que les hommes au Maroc
+E. nécessite une prise en charge chirurgicale en urgence
+2- Dans la pancréatite aiguë
+A. la douleur abdominale constitue le premier symptôme
+B. la douleur est violente et transfixiante
+C. la fièvre est présente dès l’apparition de la douleur
+D. L'examen clinique est souvent pauvre
+E. l’échographie permet de préciser la gravité et contribuer à évaluer le pronostic
+F. l'ictère est présent dès le troisième jour de la douleur
+G. L'examen clinique note souvent une défense épigastrique
+H. l'échographie permet de calculer l'index de sévérité
+3- Dans la pancréatite aiguë, la TDM abdominale
+A. Doit être réalisée pour stadification, dans les 24 heures qui suivent le début des symptômes
+B. doit être réalisée dans les 24h qui suivent le début des symptômes
+C. Doit être réalisée minimum 48h après le début des symptômes
+D. Doit être faite pour confirmer le diagnostic, en cas de lipasémie supérieure à 3 fois la normale
+E. Permet de calculer l'index de sévérité
+F. Permet de rechercher des signes orientant vers une étiologie
+G. Permet une Surveillance évolutive à la recherche de complications
+H. Permet de confirmer le diagnostic en cas de lipasémie supérieure à 3 fois la normale
+I. Permet de détecter les complications précoces et tardives
+J. est le seul moyen de confirmer le diagnostic
+K. n'a pas de valeur pronostique
+L. Permet de rechercher le signe de Grey-Turner
+M. A une grande valeur dans la détection des lithiases de la vésicule biliaire
+N. Doit être faite pour confirmer le diagnostic, en cas d'amylasémie inférieure à 3 fois la normale
+O. Doit être réalisée dans les 72 heures qui suivent le début des symptômes
+P. Doit se faire sans injection de produit de contraste
+Q. Permet de rechercher des signes de surinfection des coulées de nécrose
+R. Permet d'apprécier l'extension à distance et l'envahissement locorégional de la maladie
+S. A pour objectif principal de rechercher des signes d'ischémie intestinale
+T. Permet de guider d'éventuels drainages d'abcès profond
+U. Doit être réalisée pour stadification, dans les 72 heures qui suivent le début des symptômes
+V. Permet de guider des drainages de collections intra-abdominales et rétro-péritonéales
+W. Doit être réalisée dès l'admission du patient
+X. Permet de calculer le score du SIRS (syndrome de réponse inflammatoire systémique)
+Y. Permet de détecter les complications précoces comme l'apparition d'un faux kyste du pancréas
+4- La pancréatite aiguë d'origine lithiasique
+A- est une urgence médicochirurgicale
+B- la forme nécrotico-hémorragique est la plus fréquente
+C- est aussi fréquente que la pancréatite d'origine iatrogène
+D- est plus fréquente chez les femmes que les homme au maroc
+E- nécessite une cholécystectomie en urgence dans les formes nécrotiques
+Page 131:
+Ataraxie
+
+-- 8 of 36 --
+
+5- La pancréatite aiguë oedémateuse
+A. Est la forme la plus fréquente des pancréatites
+B. Se traduit histologiquement par une Inflammation exsudative avec nécrose diffuse
+C. Est dans notre contexte le plus souvent d'origine médicamenteuse
+D. L'association des dosages amylasémie et lipasémie est obligatoire pour le diagnostic positif
+E. Nécessite une prise en charge chirurgicale en urgence
+F. forme la moins fréquente des pancréatites
+G. Est dans notre contexte le plus souvent d'origine lithiasique
+H. Peut entrainer une défaillance multi viscérale en quelques heures
+I. Nécessite souvent un drainage percutané des collections intra-abdominales
+J. Peut être d'origine médicamenteuse
+K. Est la forme la plus fréquente des pancréatites nécrosantes
+L. Se traduit histologiquement par une Inflammation exsudative avec nécrose caséeuse
+M. Nécessite toujours un drainage radiologique dans les 48h qui suivent le début de la douleur
+N. Se traduit histologiquement par une Inflammation exsudative sans nécrose
+O. Est dans notre contexte le plus souvent d'origine virale
+P. Correspond aux stades A et B de la classification scannographique de balthazar
+Q. Se complique souvent d'un faux kyste du pancréas après quelques semaines d'évolution
+6- La pancréatite aiguë Nécrotico-hémorragique
+A. Est dans notre contexte le plus souvent d’origine alcoolique
+B. Est la forme la plus fréquente des pancréatites
+C. Se traduit histologiquement par une Inflammation exsudative avec nécrose diffuse
+D. Peut entraîner une défaillance multi viscérale en quelques heures
+E. Nécessite toujours une cholécystectomie dans les 48 h qui suivent le début de la douleur
+F. Se traduit histologiquement par une Inflammation exsudative avec nécrose caséeuse
+G. Nécessite toujours une prise en charge chirurgicale en urgence
+H. Est dans notre contexte le plus souvent d'origine tumorale
+I. Se traduit toujours au scanner par des bulles d'air dans les coulées de nécrose
+J. Peut entraîner une hémorragie digestive par érosion d'un vaisseau sanguin
+QR 1 :
+7- Pancréatite aiguë lithiasique
+a. Formes anatomopathologiques.
+b. Les signes cliniques évocateurs
+c. Eléments du diagnostic positif
+d. Classification scanographique de Balthazar
+QR 2 :
+8- Quelles sont les complications de la pancréatite aiguë ?
+QR 3 :
+9- Quels sont les intérêts de la tomodensitométrie (TDM) dans la pancréatite aiguë ?
+QR 4 :
+10- Diagnostic positif et classification de Balthazar de la pancréatite aigüe ?
+QR 5 :
+11- Décrivez les Formes anatomopathologiques de la pancréatite aiguë et leurs pronostics ?
+Page 132:
+Ataraxie
+
+-- 9 of 36 --
+
+6. Péritonites aiguës généralisées : ( 12 questions )
+1- Dans la péritonite aiguë généralisée
+A. La douleur abdominale est souvent d'installation brutale
+B. La douleur peut débuter en un endroit précis puis se généraliser vers le reste de l’abdomen
+C. l’examen clinique est pauvre
+D. le scanner abdominal est l'examen de première intention
+E. l’infarctus du myocarde peut constituer un diagnostic différentiel
+F. Un état de choc septique peut s'installer rapidement
+2- Dans les formes compliquées des péritonites aiguës généralisées on peut avoir
+A. Un Choc septique d’aggravation rapide
+B. Une défaillance poly-viscérale.
+C. Une insuffisance rénale d’origine obstructive
+D. Thrombose septique des vaisseaux mésentérique et porte
+E. Des emboles septiques à distance des organes abdominaux
+F. Une insuffisance rénale
+G. Des troubles de conscience
+3- Dans la péritonite aiguë généralisée, la forme asthénique se voit
+A. En cas de péritonite négligée
+B. Chez le patient jeune en bonne santé
+C. Chez le patient immunodéprimé
+D. Chez le patient sous antihypertenseurs
+E. Chez le patient sous corticoïdes
+F. Chez la femme enceinte
+4- En cas de péritonites aiguës généralisées, les Formes Asthéniques :
+A. S'accompagnent toujours d'une contracture abdominale généralisée
+B. Peuvent se manifester sous forme d'un tableau d'occlusion fébrile
+C. Se voient chez les patients jeunes en bonne santé
+D. Se voient Chez les patients immunodéprimés
+E. Peuvent se voir en cas de péritonites négligées
+5- La péritonite aigue généralisée d'origine appendiculaire
+A. est l’une des causes les plus fréquentes des péritonites aigues
+B. prédomine chez le sujet âgé
+C. peut entraîner une contracture abdominale généralisée
+D. se traduit souvent par un pneumopéritoine sur l'ASP
+E. nécessite une prise en charge chirurgicale en urgence
+6- La péritonite aiguë généralisée d'origine colique :
+A. Est une péritonite grave à cause de sa haute septicité
+B. Peut-être une complication de la maladie diverticulaire
+C. Peut-être secondaire à un volvulus du sigmoïde
+D. Peut-être secondaire à une perforation tumorale
+E. Peut évoluer vers le choc septique et le décès en l'absence de traitement rapide
+F. Peut-être secondaire à une perforation diastatique en amont d'une occlusion tumorale
+G. Peut-être secondaire à une perforation d'une tumeur de l'angle colique droit
+H. Peut survenir après une endoscopie basse
+7- La péritonite d'origine biliaire :
+A. Est souvent consécutive à une rupture secondaire d'un pyocholécyste.
+B. Se manifeste cliniquement par une douleur qui commence au niveau de l'hypochondre droit et se
+généralise à tout l'abdomen après
+C. Est toujours accompagnée d'un ictère cutanéomuqueux
+Page 133:
+Ataraxie
+
+-- 10 of 36 --
+
+D. S'accompagne souvent d'un pneumopéritoine à l'ASP
+E. Le diagnostic nécessite souvent le recours à une Bili-IRM
+8- La péritonite aiguë généralisée par perforation d'ulcère bulbaire
+A- est l'une des causes les plus fréquentes des péritonites aiguës chez les patients tabagiques
+B- nécessite la réalisation d'une fibroscopie oeso-gastro-duodénale en urgence
+C- peut entraîner une contracture abdominale généralisée
+D- se traduit par un pneumopéritoine sur l'ASP
+E- nécessite une prise en charge chirurgicale en urgence
+9- La perforation d'un ulcère duodénal
+A. Concerne principalement les ulcères de la face antérieure du bulbe
+B. Est Responsable d'une péritonite biliaire
+C. La péritonite chimique est l'état initial de cette complication
+D. La prise en charge repose sur un traitement médical à base d'IPP
+E. La contracture fait partie des signes cardinaux de la péritonite
+QR 1 :
+10- Formes étiologiques des péritonites aiguës généralisées
+- Citez 5 formes étiologiques de péritonite aiguë ?
+QR 2 :
+11- Quels sont les diagnostics différentiels de la péritonite aiguë généralisée ?
+QR 3 :
+12- Signes cliniques et paracliniques d'une péritonite aiguë généralisée par perforation d'un ulcère
+duodénal.
+7. Angiocholites : ( 17 questions )
+1- Dans l'angiocholite lithiasique
+A. Le diagnostic clinique est basé sur la triade de Villard
+B. Les germes retrouvés sont essentiellement des bacilles gram négatifs
+C. L'échographie pose le diagnostic étiologique dans 90% des cas
+D. Le traitement repose seulement sur la prescription d'antibiotique
+E. Le pronostic est fonction de la gravité
+F. L'ictère peut être variable
+G. Le diagnostic de certitude positif repose sur l'ASP et le bilan biologique
+H. L’intervention de l'endoscopie peut être à visée diagnostique et thérapeutique
+I. Les troubles psychiatriques font partie des signes de gravités
+J. Le pronostic peut être grave en l’absence traitement
+2- Dans le cas d'une angiocholite aiguë d'origine lithiasique, on a :
+A. Une lipasémie à 3x la normale.
+B. Une condensation des contours du pancréas.
+C. Un ictère d'allure cholestatique.
+D. Une hyperleucocytose à prédominance des polynucléaires neutrophiles.
+E. Une dilatation de la voie biliaire principale en échographie.
+3- En cas d’angiocholite aiguë lithiasique, la cholangiographie rétrograde endoscopique (CPRE) avec
+sphinctérotomie a l'intérêt de :
+A. Être un examen non invasif.
+B. Visualiser les voies biliaires sans injection de produit de contraste.
+C. Exposer a aucune complication grave.
+D. Permettre une évacuation des calculs.
+Page 134:
+Ataraxie
+
+-- 11 of 36 --
+
+4- Dans la physiopathologie des angiocholites aiguës, lequel des facteurs est le moins probable :
+A. La translocation des germes… (proposition invisible)
+B. Le passage des germes dans la bile
+C. La remontée des germes d'origine intestinales dans les voies biliaires
+D. L'augmentation de la pression dans les voies biliaires
+5- Dans l'angiocholite aigue, Un syndrome rétentionnel se définit comme :
+A. Une augmentation des transaminases
+B. Une augmentation de la gamma glutamyl-transférase
+C. Une hyperleucocytose à polynucléaire neutrophile
+D. Une augmentation de la bilirubine indirecte
+E. Une augmentation de la 5’-Nucléotidase
+6- Dans la triade de VILLARD
+A. La chronologie d'apparition des symptômes ne compte pas
+B. L'ictère est cholestatique
+C. La douleur est due à la présence des germes dans la bile
+D. Les frissons ont un caractère plus péjoratif que la fièvre
+E. L’angiocholite d'origine parasitaire est la cause la plus fréquente
+7- Quels sont les critères biologiques d'une angiocholite grave?
+A. Insuffisance rénale, TP bas et cytolyse
+B. Insuffisance rénale, TP bas et CRP élevée.
+C. Insuffisance hépatique, TP bas et thrombopénie
+D. Anémie sévère, thrombopénie et bilirubine élevée.
+E. Insuffisance rénale, TP bas et une thrombopénie.
+8- La colique hépatique
+A. Est une douleur de l'hypogastre irradiant vers la région pelvienne
+B. Doit faire indiquer la réalisation d'une échographie
+C. Doit faire penser à une cholécystite, si elle est accompagnée d'une fièvre
+D. Est secondaire souvent à un obstacle sur les voies biliaires
+E. Est une indication à la réalisation d’une radiographie ASP pour le diagnostic d'une cholécystite
+9- Quel est le traitement initial recommandé en cas d'angiocholite sévère ?
+A- Transfusion et mise en jeûne prolongé.
+B- Cholécystectomie immédiate.
+C- Antibiothérapie et drainage endoscopique des voies biliaires.
+D- Traitement symptomatique uniquement.
+E- cholédochotomie et mise en place d'un drain de KEHR.
+QR 1 :
+10- Diagnostic étiologique d'une angiocholite aiguë.
+QR 2 :
+11- Les signes de gravités d’une angiocholite ?
+- Quelles sont les formes graves des angiocholites ?
+QR 3 :
+12- Quelles sont les formes compliquées des angiocholites aiguës ?
+QR 4 :
+13- Angiocholite aiguë grave d'origine lithiasique :
+a. signes de gravité.
+b. Traitement.
+Page 135:
+Ataraxie
+
+-- 12 of 36 --
+
+Cas clinique 1:
+Vous recevez en consultation une patiente âgée de 45 ans qui présente des coliques hépatiques depuis 1
+semaine. S'il s'agit d'une angiocholite :
+14- Quels sont les autres signes fonctionnels qu'il faut chercher ?
+15- Quels sont les signes de gravité à craindre ? (cliniques et biologiques)
+16- Quelles sont les étiologies probables chez cette patiente ?
+17- Citez les principes de la conduite thérapeutique chez votre patiente.
+8. Cholécystite : ( 7 questions )
+1- A propos des cholécystites aiguës. Laquelle des propositions est correcte ?
+A. La stase biliaire dans la vésicule existe toujours.
+B. En l’absence de traitement, l'évolution se fait toujours vers la chronicité.
+C. Le signe de Murphy correspond à la palpation d’une grosse vésicule.
+D. L’infection est liée à des germes d’origine intestinale.
+2- Dans La cholécystite aiguë
+A. La prédominance est féminine mais les hommes se compliquent plus
+B. La douleur commence dans la région épigastrique puis éradication en hémi-ceinture
+C. Le scanner abdominale est l'examen de référence à faire en première intention
+D. Ne se complique jamais en calculo-cancer
+E. Les antibiotiques sont largement suffisants pour son traitement
+3- La cholécystite aigue lithiasique peut se manifester par :
+A. Une colique hépatique fébrile .
+B. Un signe de Murphy positif.
+C. Un aspect épaissi de la paroi de la vésicule biliaire en échographie
+D. Une choléstase biologique
+E. Une Cytolyse supérieur à 10 x la normale
+4- Quel signe clinique est le plus spécifique d'une cholécystite aiguë ?
+A- Douleur en coup de poignard épigastrique.
+B- Douleur hypochondre droit avec arrêt brutal de l'inspiration à la palpation (signe de Murphy).
+C- Ictère progressif.
+D- Douleur lombaire droite.
+E- douleur hypogastrique
+5- En cas de cholécystite aiguë lithiasique non compliquée, quelle est l’anomalie retrouvée au bilan
+biologique ?
+A. Une cytolyse hépatique.
+B. Cholestase hépatique.
+C. Hyperleucocytose.
+D. Insuffisance rénale
+6- Quelle est la complication la plus fréquente de la cholécystite aiguë ?
+A- Perforation de la vésicule.
+B- Angiocholite.
+C- Pancréatite aiguë.
+D- Abcès de la cavité péritonéale.
+E- toutes les propositions sont justes.
+QR 1 :
+7- Formes cliniques des cholécystites aiguës.
+Page 136:
+Ataraxie
+
+-- 13 of 36 --
+
+9. Kyste Hydatique du Foie : ( 15 questions )
+1- Les kystes hydatiques :
+A. Se localisent préférentiellement au niveau du foie et du poumon
+B. Sont souvent cliniquement latents pendant des années
+C. Sont facilement ponctionnables, ce qui permet un diagnostic parasitologique direct
+D. Peuvent se localiser en n'importe quel point de l'organisme
+E. Se manifestent cliniquement surtout par des troubles de compression des organes
+2- Les complications du kyste hydatique peuvent être de type
+A. Mécaniques
+B. Compressives
+C. Toxiques
+D. Septiques
+E. Aucune de ces réponses n'est exacte
+3- Le kyste hydatique du foie
+A. est une Formation kystique due au développement dans le foie d’un parasite : Echinococcus Granulosus
+B. est une affection très répandue au Maroc
+C. est une maladie qui reste longtemps latente
+D. Le diagnostic est porté tardivement, souvent au stade de complications
+E. Jusqu'à 30 % des KHF au Maroc sont découvert au stade de complication
+4- Dans le kyste hydatique, toutes les propositions suivantes sont fausses, sauf
+A. Un kyste hydatique antérieur du foie de 12 centimètres peut être asymptomatique.
+B. Un kyste hydatique de type I de la classification échographique de Gharbi est un kyste multi-vésiculaire
+C. Le traitement chirurgical du kyste hydatique nécessite une dérivation interne
+D. Le traitement par l'albendazole peut entraîner la guérison.
+E. L'échographie seule peut suffire à faire le diagnostic
+5- Quel est l’examen réalisé en première intention pour poser le diagnostic de kyste hydatique du foie :
+A. Abdomen sans préparation.
+B. IRM abdominale (imagerie par résonance magnétique).
+C. Echographie abdominale.
+D. Scanner abdominal.
+6- Un kyste hydatique du foie type III :
+A. Pose un problème de diagnostic différentiel avec une tumeur hépatique.
+B. Est une collection liquidienne cloisonnée.
+C. Comport des calcifications.
+D. Est un kyste compliqué de fistule biliaire.
+7- Un kyste hydatique du foie peut se compliquer de :
+A. Une angiocholite aiguë
+B. Une péritonite généralisée
+C. Une péritonite localisé
+D. Un abcès hépatique
+E. Un abcès du psoas
+F. Une biliptysie
+G. Un ictère hémolytique
+H. Un choc anaphylactique
+8- Toutes les complications suivantes du kyste hydatique du foie sont possibles, sauf :
+A. Compression
+B. Fistulisation
+C. Hémorragie
+D. Rupture
+E. Suppuration
+Page 137:
+Ataraxie
+
+-- 14 of 36 --
+
+9- Les indications du traitement médical en cas du kyste hydatique du foie sont :
+A. Les récidives multiples et l'hydatidose généralisée
+B. Le refus de la chirurgie
+C. Une contre-indication à la chirurgie
+D. En préopératoire
+E. En post-opératoire
+F. Le siège central du kyste
+G. La présence d'une pathologie associée
+10- Les indications du traitement percutané en cas du kyste hydatique du foie sont :
+A. Les récidives multiples et l'hydatidose généralisée
+B. Le refus de la chirurgie
+C. Une contre-indication à la chirurgie
+D. le kyste type CE4
+E. le kyste compliqué
+QR 1 :
+11- Le kyste hydatique du foie
+a. Le parasite responsable
+b. Le diagnostic positif clinique, immunologique et échographique (classification de Gharbi)
+QR 2 :
+12- Quels sont les complications du kyste hydatique du foie ?
+- Décrire les différentes complications du kyste hydatique du foie.
+- Décrire les complications infectieuses et mécaniques du kyste hydatique du foie ?
+- Décrire les différentes complications du kyste hydatique du foie et leur traitement ?
+QR 3 :
+13- Formes cliniques et explorations radiologiques du kyste hydatique du foie
+QR 4 :
+14- Formes cliniques du kyste hydatique du foie.
+QR 5 :
+15- Décrire les différents moyens thérapeutiques du kyste hydatique du foie
+10. Complications des ulcères : ( 5 questions )
+1- Les ulcères gastro-duodénaux
+A. Leur physiopathologie répond à un déséquilibre entre les facteurs d'agressions et de défonces
+B. Les ulcères de la face postérieure se perforent
+C. Le stress est impliqué dans la genèse des ulcères
+D. Un ulcère duodénal évolue vers la cancérisation
+E. Leurs complications peuvent engendrer le pronostic vital
+2- L'hémorragie ulcéreuse
+A. Peut se manifester par des mélénas
+B. Ne s'arrête spontanément que dans 20% des cas
+C. Son incidence à diminuer ces dernières années vue l'efficacité du traitement médicale
+D. Le traitement par des anticoagulants n'aggrave pas le saignement
+E. L'endoscopie digestive haute a un triple intérêt diagnostic, pronostic et thérapeutique
+3- Concernant l'hémorragie sur ulcère gastroduodénal
+A. Est une complication qui peut engager le pronostic vital
+B. Le diagnostic positif repose sur un scanner abdominal
+C. La classification endoscopique de Forrest permet d’établir le diagnostic de gravité
+Page 138:
+Ataraxie
+
+-- 15 of 36 --
+
+D. Le traitement est toujours chirurgical
+E. La prévention repose entre autre, sur l'arrêt du tabac
+4- La sténose ulcéreuse
+A. Est plus l'apanage de l'ulcère gastrique que de l'ulcère duodénal
+B. Les vomissements sont fécaloïdes
+C. Des troubles hydroélectrolytiques sont souvent associés
+D. Le diagnostic différentiel peut être poser avec le cancer de l'estomac
+E. Le traitement chirurgical n'est jamais indiqué
+5- En cas d'ulcère gastroduodénal perforé, la douleur est classiquement :
+A- Douleur sourde prolongée, soulagée par les repas.
+B- Douleur aiguë, brutale, intense, surtout en épigastrique.
+C- Douleur épigastrique isolée, avec fièvre modérée.
+D- Douleur lombaire et sensation de pesanteur.
+E- Douleur de la Fosse iliaque droite.
+Page 139:
+Ataraxie
+
+-- 16 of 36 --
+
+Tumeurs et Cancers
+11. Cancer colorectal : ( 29 questions )
+1- Concernant le cancer colorectal, quelle(s) est (sont) (la) les assertions(s) exacte(s) ?
+A. Le pronostic du cancer colo-rectal dépend du stade tumoral au diagnostic
+B. La survie globale à 5 ans est supérieure à 50%
+C. La coloscopie virtuelle est l'examen de référence pour le diagnostic positif du cancer du côlon
+D. L'exérèse chirurgicale curative devant un cancer rectal classé T3N0M0 et situé à 9 cm de la marge
+anale est une résection antérieure du rectum avec anastomose colorectale basse protégée par une
+iléostomie
+E. Le syndrome de lynch est un syndrome de prédisposition héréditaire au cancer colorectal qui est liée à
+la mutation du gène APC.
+F. La survie globale à 5 ans tous stades confondus est inférieure à 15%
+G. L'exérèse chirurgicale curative devant un cancer localisé du bas rectum situé à 2 cm de la marge anale
+avec envahissement du sphincter externe est une résection antérieure du rectum avec anastomose
+colorectale basse protégée par une iléostomie
+H. La polypose adénomateuse familiale (PAF) est un syndrome de prédisposition héréditaire au cancer
+colorectal qui est liée à la mutation du gène APC.
+2- A propos de l'adénocarcinome colorectal, quelle(s) est (sont) (la) les proposition(s) exacte(s) ?
+A- L'intervention chirurgicale curative classique devant un adénocarcinome rectal situé à 9 cm de la marge
+anale et à 6 cm du bord supérieur de l'appareil sphinctérien est une résection antérieure du rectum avec
+anastomose colorectale basse et iléostomie de protection.
+B- Le mésorectum correspond au tissu cellulo-graisseux entourant le rectum sous péritonéal, limité en
+périphérie par le fascia recti. Il contient notamment les premiers relais ganglionnaires du rectum.
+C- Le délai moyen de la transformation adénome cancer est d'environ 10 ans; d'où l'intérêt de dépistage du
+cancer colorectal
+D- La cancérogenèse des MICI (maladies inflammatoires chroniques intestinales) est caractérisée par la
+transformation adénome-cancer identique à la population générale.
+E- La polypose adénomateuse familiale (PAF) évolue inéluctablement vers la dégénérescence en l'absence
+d'un traitement chirurgical prophylactique.
+QR 1 :
+3- Cancer colorectal
+a. Les facteurs génétiques et les facteurs de risques
+b. Bilan de la maladie tumorale
+c. Signes Cliniques
+QR 2 :
+4- Concernant les cancers colo-rectaux : citer les états et les lésions précancéreuses ainsi que les facteurs
+de risques génétiques et exogènes ?
+Cas clinique 1:
+Patient de 62 ans présentant des douleurs pelviennes et des rectorragies intermittentes depuis 2 mois.
+5- Citer les signes cliniques à rechercher en cas de cancer rectal ?
+6- Quels examens para-cliniques doit on réaliser pour poser de façon certaine le diagnostic d'un cancer
+colique cette fois-ci ?
+Cas clinique 2:
+Mme A.B âgée de 54 ans, consulte pour un syndrome rectal associé à des rectorragies défécatoires
+d'apparition récente. Le toucher rectal objective une tuméfaction bourgeonnante du moyen rectum.
+7- Comment réalisez-vous le toucher rectal (technique, et éléments à rechercher) ?
+Page 140:
+Ataraxie
+
+-- 17 of 36 --
+
+Une rectoscopie rigide a été réalisée, mettant en évidence une lésion ulcéro-bourgeonnante dont le pôle
+inférieur est situé à 8 cm de la marge anale et dont la biopsie confirme le diagnostic d'adénocarcinome bien
+différencié.
+8- Quel bilan d'extension réalisez-vous chez cette patiente ?
+Au terme de votre bilan, il s'agit d'un adénocarcinome localisé (non métastatique) classé CT3N2M0; un
+traitement néoadjuvant à base de radiothérapie et de chimiothérapie a été administré dans un premier
+temps
+9- quel type d'exérèse chirurgicale curative proposez-vous chez cette patiente ?
+11.1- Cancer du côlon
+10- Concernant le cancer du côlon
+A. La tumeur colorectale synchrone justifie un traitement endoscopique palliatif
+B. La perforation diastatique est une perforation de la tumeur secondaire à son abcédation
+C. La coloproctectomie totale est le traitement chirurgicale de la polypose adénomateuse familiale (PAF)
+dégénérée
+D. Selon la classification TNM, l'envahissement du ganglion de Troisier correspond à N+
+E. Le carcinome épidermoïde est un type histologique rare dans les cancers coliques
+F. Chez les patients déjà traités et guéris d’un cancer colique, la possibilité de survenue d'une tumeur
+colorectale métachrone, justifie la surveillance
+G. Le risque de sa survenue, est faible en cas de syndrome de Lynch (HNPCC)
+H. La polypose adénomateuse familiale (PAF) et le syndrome de Lynch (HNPCC) sont des états
+précancéreux
+I. La résection endoscopique d’un polype dégénéré peut parfois suffir comme traitement curatif
+J. La colectomie segmentaire basse sigmoïdienne est une alternative curative valable à l’hémicolectomie
+gauche en cas de cancer du sigmoïde
+K. L'éventuelle survenue d’une tumeur colorectale métachrone justifie les coloscopies totales régulières
+L. La radiothérapie fait partie des traitements du cancer colique primitif
+M. La radiothérapie est indiquée pour les tumeurs coliques avec ganglion de Troisier
+N. L'adénocarcinome est un type histologique rare dans les cancers coliques
+O. L’adénocarcinome est le type histologique retrouvé dans la majorité des cas
+P. Le syndrome de Lynch (HNPCC) est un état précancéreux
+Q. Le diagnostic positif repose sur l'examen anatomo-pathologique de la biopsie par endoscopie
+R. La chirurgie carcinologique du cancer du caecum est l'hémicolectomie gauche
+S. La chirurgie carcinologique du cancer du caecum est l’hémicolectomie droite
+T. La chirurgie carcinologique du cancer du sigmoïde est la coloproctectomie
+U. Le dépistage se fait par la recherche de sang dans les selles et la coloscopie
+V. Le diagnostic positif repose sur la coloscopie virtuelle
+W. La recherche de sang dans les selles est un examen de dépistage de cette maladie
+X. La tumeur colorectale métachrone est secondaire à la maladie de Crohn
+Y. La perforation diastatique justifie un traitement endoscopique palliatif
+Z. La colectomie totale est indiquée en cas de cancers coliques multiples droits et gauches
+11- Concernant le cancer du côlon
+A. L'élévation du taux de l'antigène carcino-embryonnaire (ACE) et le stade tumoral sont des facteurs
+pronostics majeurs
+B. La rectocolite hémorragique et le syndrome de Lynch sont des états précancéreux
+C. La coloscopie avec coloration différencie les tumeurs métachrones des synchrones
+D. En cas d'occlusion, la perforation diastatique fréquemment au niveau du sigmoïde
+E. L'antigène carcino-embryonnaire (ACE) est intéressant dans la surveillance et le pronostic
+F. La radiothérapie néoadjuvante suivie de chirurgie est le traitement Classique
+Page 141:
+Ataraxie
+
+-- 18 of 36 --
+
+12- Concernant le cancer du côlon, quelles propositions sont justes ?
+A. Le type histologique le plus fréquent est l'adénocarcinome
+B. Le syndrome de Lynch (HNPCC) est un état précancéreux
+C. Le diagnostic positif repose sur l'examen anatomo-pathologique de la biopsie par endoscopie
+D. La radiothérapie fait partie des traitements de ce cancer
+QR 3 :
+13- Epidémiologie descriptive et analytique de l'adénocarcinome du côlon.
+QR 4 :
+14- Quels sont les lésions et états précancéreux ainsi que facteurs de risque du cancer du côlon ?
+QR 5 :
+15- Citer les éléments du bilan d’extension dans le cancer du côlon.
+QR 6 :
+16- États précancéreux du cancer du côlon.
+QR 7 :
+17- Facteurs de risque et diagnostic du cancer colique (clinique et para-clinique).
+Cas clinique 3:
+Patient âgé de 70 ans, admis en urgence pour un syndrome occlusif aiguë. Le scanner abdominal révèle
+une occlusion colique, sans signe de gravité, secondaire à une tumeur de l'angle colique gauche.
+18- Quelle(s) est (sont) (la) les proposition(s) exacte(s) ?
+A- L'occlusion peut révéler jusqu'à 25% des cancer colorectaux.
+B- Le cancer colorectal est responsable de 70% des occlusions coliques.
+C- La prothèse colique par voie endoscopique est généralement réservée aux patients tarés et en
+situations palliative.
+D- La coloscopie en urgence avec biopsie est obligatoire avant tout traitement chirurgical du cancer colique
+en occlusion aiguë.
+E- La sigmoïdostomie de décharge est une option chirurgicale chez ce patient pour lever l'occlusion.
+Cas clinique 4:
+19- Un patient âgé de 55 ans avait consulté, il y a deux mois, pour des rectorragies. L'examen
+proctologique réalisé à cette occasion par son médecin traitant avait mis en évidence des hémorroïdes
+internes, pour lesquelles un traitement symptomatique avait été prescrit. Actuellement, le patient est
+admis en urgence pour un syndrome occlusif aigu. Le scanner objective une occlusion colique en amont
+d'une tumeur du côlon ascendant sans signe de gravité ni métastases à distance.
+A- 70% des cancer colorectaux sont révélés par l'occlusion intestinale.
+B- La coloscopie aurait dû être réalisée dès la première consultation chez ce patient.
+C- La prothèse colique par voie endoscopique est la meilleure option thérapeutique chez ce patient pour
+lever l'occlusion.
+D- La coloscopie en urgence avec biopsie est obligatoire avant tout traitement chirurgical chez ce patient.
+E- La colectomie droite carcinologique ne constitue pas une option thérapeutique à réaliser chez ce patient
+dans le contexte urgent d'occlusion intestinale.
+11.2- Cancer du rectum
+20- Concernant le cancer du rectum
+A. L'occlusion tumorale peut être à l'origine d'une perforation colique, loin de la tumeur
+B. L'amputation abdomino-périnéale préserve le sphincter anal
+C. La résection antérieure du rectum permet de préserver la paroi postérieure du rectum
+D. Les faux besoins, les épreintes et les ténesmes définissent le syndrome rectal
+E. Le toucher rectal est un examen invasif qui doit être réservé aux cas extrêmes
+F. La chirurgie radicale à visée curative n’est envisagée qu’après échec de la chimiothérapie
+Page 142:
+Ataraxie
+
+-- 19 of 36 --
+
+G. La chirurgie carcinologique du cancer du rectum est souvent la résection du mésorectum avec résection
+rectale antérieure
+H. La chirurgie radicale à visée curative est habituellement envisagée après radiothérapie
+I. La résection antérieure du rectum à visée curative, s’accompagne du curage de la chaîne ganglionnaire
+mésentérique inférieure
+J. La survie à 5 ans, tous stades confondus, est supérieure à celle du cancer de l'oesophage
+K. La survie à 5 ans, tous stades confondus, est inférieure à 25%
+L. La survie à 5 ans, tous stades confondus, est supérieure à 40%
+M. Les tumeurs compliquées d’occlusion peuvent être à l’origine d’une perforation diastatique
+N. L'amputation abdomino-périnéale est indiquée en cas envahissement du sphincter anal
+O. La résection antérieure du rectum à visée curative, permet de prévenir la survenu de cancer colique
+droit.
+P. L'adénocarcinome est le type histologique retrouvé dans la majorité des cas
+Q. L'examen clinique fait partie du bilan d'extension
+R. La chirurgie carcinologique du cancer du haut rectum est l'amputation abdomino-périnéale
+S. La radiothérapie fait partie des traitements du cancer primitif
+T. La radiothérapie précède habituellement la chirurgie
+U. le carcinome épidermoïde est le type histologique retrouvé dans la majorité des cas
+V. Le diagnostic positif repose sur l'examen anatomo-pathologique de la biopsie par endoscopie
+W. La radiothérapie fait souvent partie des traitements du cancer rectal primitif
+X. Le syndrome rectal associe une diarrhée à une rectorragie avec des céphalées rebelles
+Y. Le protocole court de la radiothérapie est le même que celui du cancer colique gauche
+Z. L’amputation abdomino-périnéale avec curage ganglionnaire préserve le sphincter anal
+21- Concernant le cancer du rectum
+A. L'examen clinique n'a pas sa place dans la surveillance postthérapeutique
+B. Le syndrome rectal est fait d'épreintes, de ténesmes et de faux besoins.
+C. Le toucher rectal est contre-indiqué en cas de tumeur villeuse
+D. L'endoscopie est utile au diagnostic, et elle peut être utilisée dans le cadre d'un traitement curatif ou
+pour gérer des formes compliquées
+E. Lors de la résection antérieure du rectum, le curage ganglionnaire emporte les ganglions du
+mėsorectum, le Troisier et les ganglions mésentériques inférieurs
+F. L'amputation abdomino-périnéale avec préservation du sphincter interne est une intervention fréquente
+qui préserve la continence anale
+22- Concernant le cancer du rectum, quelles propositions sont justes ?
+A. Le type histologique le plus fréquent est l'adénocarcinome
+B. L’examen clinique fait partie au bilan d’extension
+C. Le diagnostic positif repose sur l'examen anatomo-pathologique de la biopsie par endoscopie
+D. La radiothérapie fait partie des traitements de ce cancer
+23- Concernant les tumeurs du rectum, quelle(s) est (sont) (la) les assertions(s) exacte(s) ?
+A. Le toucher rectal permet d'évaluer la tonicité sphinctérienne
+B. Le toucher rectal permet de mesurer la distance entre le pôle inférieur de la tumeur et la marge anale
+pour les tumeurs palpables.
+C. Pour les tumeurs du haut rectum, la rectoscopie rigide permet de mesurer la distance entre le pôle
+inférieur de la tumeur et la marge anale
+D. Le toucher rectal permet d'évaluer la mobilité tumorale pour les tumeurs palpables.
+E. La rectoscopie rigide permet de réaliser des biopsies.
+24- A propos de l'adénocarcinome du rectum, quelle(s) est (sont) (la) les proposition(s) exacte(s) ?
+A- La radiothérapie néoadjuvante permet de réduire le risque de récidive tumorale après chirurgie curative.
+B- L'intervention chirurgicale curative classique devant un adénocarcinome rectal situé à 5 cm de la marge
+anale et à 2 cm du bord supérieur de l'appareil sphinctérien est une amputation abdominopérinéale (AAP).
+Page 143:
+Ataraxie
+
+-- 20 of 36 --
+
+C- Le toucher rectal permet de mesurer la distance entre le pôle inférieur de la tumeur et le bord supérieur
+de l'appareil sphinctérien pour les tumeurs palpables.
+D- Pour les tumeurs non palpables du rectum, la rectoscopie rigide permet de mesurer avec une meilleure
+précision la distance entre le põle inférieur de la tumeur et la marge anale.
+E- Le toucher rectal permet d'évaluer la mobilité des tumeurs palpables.
+25- A propos du toucher rectal dans du cancer du rectum, quelle(s) est (sont) (la) les proposition(s)
+exacte(s) ?
+A. Peut-être réalisé en position de décubitus latéral droit
+B. Peut-être réalisé en position genu pectoral
+C. Un toucher rectal normal permet d'éliminer une tumeur du rectum
+D. Il permet d'explorer la tonicité sphinctérienne
+E. Il permet de préciser la distance du pôle inférieur de la tumeur par rapport à la marge anale pour les
+tumeurs palpables
+QR 8 :
+26- Techniques et résultats des touchers pelviens dans le cancer du rectum
+- Le toucher rectal dans le cadre du diagnostic du cancer du rectum : technique et éléments à chercher ?
+QR 9 :
+27- Dans le cadre du diagnostic positif du cancer du rectum, quels sont :
+- les signes d'appel ?
+- les autres modes de révélation ?
+- les signes physiques retrouvés à l'examen clinique ?
+QR 10 :
+28- Citer les états précancéreux du cancer du rectum ?
+QR 11 :
+29- Diagnostic clinique endoscopique et radiologique du cancer de rectum
+12. Cancer de l’œsophage : ( 10 questions )
+1- Concernant le cancer de l'oesophage
+A. Il est le deuxième cancer digestif le plus fréquent au Maroc
+B. Il est le premier cancer digestif le plus fréquent au Maroc
+C. L'endobrachyoesophage est une lésion précancéreuse de l'adénocarcinome de l’oesophage
+D. Au Maroc, ce cancer digestif est moins fréquent que celui de l'estomac
+E. L'intoxication alcoolo-tabagique multiplie le risque de cancer
+F. La dysphagie paradoxale est typique de la localisation cervicale
+G. L'oesophagectomie avec curage ganglionnaire est le traitement chirurgical de référence
+H. La radiochimiothérapie est utilisée dans le traitement de la maladie
+I. La survie à 5 ans tous stades confondus ne dépasse pas 20%
+J. L'endobrachyoesophage et l’achalasie sont des lésions précancéreuses
+K. La dysphagie est le signe d’un stade débutant non métastatique
+L. L’odynophagie et la dysphagie doivent faire suspecter le diagnostic
+M. La radiothérapie est un des traitements des métastases pulmonaires
+N. La radiothérapie fait partie des traitements du cancer primitif
+O. L'adénocarcinome est le type histologique retrouvé dans la majorité des cas
+P. L'adénocarcinome et le carcinome épidermoïde sont les types histologiques retrouvés dans la majorité
+des cas
+Q. L'examen anatomo-pathologique de la biopsie par endoscopie permet le diagnostic positif
+R. L'achalasie oesophagienne est un état précancéreux du cancer de l'oesophage
+S. La chirurgie carcinologique repose sur l'oesophagectomie avec curage ganglionnaire
+T. La chirurgie carcinologique repose sur le stripping de l'oesophage par abords abdominal et cervical
+Page 144:
+Ataraxie
+
+-- 21 of 36 --
+
+U. L’oesophagectomie sans curage ganglionnaire est le traitement de référence de cette pathologie
+V. L'oesophagectomie sans thoracotomie peut faire partie du traitement de cette pathologie
+W. L’irathérapie traite les métastases osseuses
+X. Le diagnostic positif repose sur l'examen anatomo-pathologique de la biopsie par endoscopie
+Y. L'intoxication alcoolo-tabagique est un facteur de risque pour le carcinome épidermoïde
+Z. L'oesophagectomie est le traitement chirurgical de référence
+2- Concernant le cancer de l'oesophage
+A. La radiochimiothérapie n'est pas utilisée dans le traitement de la maladie
+B. Adénocarcinome et carcinome épidermoïde sont les types histologiques les plus fréquents
+C. La dysphagie est un signe majeur qui doit conduire à faire une endoscopie oesophagienne
+D. Le diagnostic de carcinome épidermoïde impose la surveillance des voies aéro-digestives supérieures à
+la recherche d'une autre localisation extra-oesophagienne
+E. La mise en place d'une prothèse, la radiothérapie, la chimiothérapie ou la chirurgie, sont parmi les
+moyens thérapeutiques
+F. En cas de résection de l'oesophage, il peut être remplacé par de l'estomac ou du côlon
+3- Concernant le cancer de l'œsophage, quelles propositions sont justes ?
+A. Le type histologique le plus fréquent est l'adénocarcinome?
+B. L’examen physique est pauvre
+C. Le diagnostic positif repose sur l’examen anatomo-pathologique de la biopsie par endoscopie
+D. La radiothérapie fait partie des traitements de ce cancer
+4- Concernant le cancer de l'œsophage, quelle(s) est (sont) (la) les proposition(s) exacte(s) ?
+A. L'alcool et le tabac sont des facteurs de risque indépendants
+B. L'Helicobacter pylori est un facteur favorisant du carcinome épidermoïde de l'œsophage
+C. L'endobrachy-oesophage est considéré comme un état pré-cancéreux.
+D. L'hématémèse est le signe révélateur le plus fréquent
+E. La dysphagie est un signe tardif témoignant d'une lésion évoluée
+F. Le reflux gastro-cœsophagien via l'endobrachyoesophage est un facteur de risque de l'adénocarcinome
+œsophagien
+G. Le mégaoesophage idiopathique est considéré comme un état pré-cancéreux.
+H. La dysphonie peut-être est un signe révélateur.
+I. La dysphagie est un signe précoce témoignant d'une lésion débutante.
+J. L'endobrachyoesophage secondaire au RGO chronique est un facteur de risque du carcinome
+épidermoïde de l'œsophage.
+K. L'obésité est un facteur de risque de l'adénocarcinome de l'œsophage.
+L. La maladie de Biermer est un facteur de risque du carcinome épidermoïde de l'œsophage.
+M. Au terme du bilan d'extension, uniquement 20% des patient sont éligibles à un traitement curatif
+N. L'examen ORL à la recherche d'un cancer associé est impérativement indiqué en cas de carcinome
+épidermoïde de l'œsophage.
+QR 1 :
+5- Citer les lésions précancéreuses du cancer de l'œsophage ?
+QR 2 :
+6- Bilan du cancer de l'oesophage
+QR 3 :
+7- Bilan prethérapeutique du cancer de l'œsophage
+QR 4 :
+8- Cancer de l’oesophage :
+a. formes anatomopathologiques.
+b. Facteurs favorisants.
+Page 145:
+Ataraxie
+
+-- 22 of 36 --
+
+QR 5 :
+9- Citer les facteurs de risque du cancer de l'œsophage ?
+Cas clinique 5:
+Patiente âgée de 70 ans, qui présente une dysphagie d'aggravation progressive. L'endoscopie digestive
+haute met en évidence un adénocarcinome du bas œsophage.
+10- Concernant le cancer de l'œsophage, quelle(s) est (sont) (la) les proposition(s) exacte(s) ?
+A- Le cancer de l'œsophage est le 2ème cancer en termes de fréquence au Maroc d'après les données du
+registre de cancérologie du grand Casablanca.
+B- Le mégaoesophage idiopathique est un facteur de risque identifié de l'adénocarcinome de l'œsophage.
+C- L'adénocarcinome de l'œsophage est associé à un cancer ORL dans 15% de cas.
+D- La survie à 5 ans est de 15% en cas de résection chirurgicale curative R0.
+E- La Tomographie par Émission de Positons couplée à la Tomodensitométrie (PET scan) s'impose dans le
+cadre du bilan d'extension en cas de chirurgie curative envisagée afin de ne pas méconnaitre une
+contre-indication métastatique.
+13. Tumeurs de l'estomac : ( 16 questions )
+1- Concernant les tumeurs de l'estomac
+A. Le carcinome épidermoïde est le type histologique retrouvé dans la majorité des cas de cancer
+B. Le diverticule de Zenker est un état précancéreux de l'estomac
+C. Le diagnostic positif repose sur la recherche de HP à l'examen anatomo-pathologique de la biopsie par
+endoscopie
+D. Le diagnostic positif repose sur l’examen anatomo-pathologique de la biopsie par endoscopie
+E. Les tumeurs de Krukenberg sont des tumeurs gastriques de type histologique de bon pronostic
+F. Les tumeurs de Krukenberg sont un type de tumeurs gastriques
+G. La radiothérapie peut faire partie des traitements du cancer gastrique primitif
+H. La radiothérapie fait partie des traitements du cancer primitif
+I. Le cancer épidermoïde est le type histologique retrouvé le plus souvent en cas de cancer
+J. L'adénocarcinome est le type histologique retrouvé dans la majorité des cas de cancer
+K. La hernie hiatale est un état précancéreux
+L. Les tumeurs de Krukenberg sont des tumeurs cancéreuses antrales.
+M. Les tumeurs de Krukenberg sont des tumeurs cancéreuses secondaires.
+N. Les tumeurs de Krukenberg sont des tumeurs primitives gastriques cancéreuses
+O. L’ulcère duodénal est une lésion précancéreuse
+P. L'ulcère gastrique est une lésion précancéreuse
+Q. L'Helicobacter pylori (HP) peut être à l’origine d’un carcinome épidermoïde de l’estomac
+R. L'hélicobacter pylori (HP) peut être à l'origine d'un lymphome de l'estomac
+S. L'hélicobacter pylori (HP) peut être à l’origine d’un l’adénocarcinome ou d’un lymphome de l’estomac
+T. L’adénocarcinome est le type histologique retrouvé dans la majorité des cas de cancer gastrique
+U. La gastrectomie totale est indiquée pour les linites plastiques
+V. La gastrectomie totale ne présente pas de séquelles à long terme
+W. La gastrectomie totale est à l'origine d'une anémie
+X. La résection endoscopique peut être indiquée à visée curative pour les linites plastiques
+Y. Les tumeurs de Krukenberg sont plus rares chez les garçons que chez les hommes adultes
+Z. L'ulcère gastrique est une lésion précancéreuse des GIST
+2- Concernant les tumeurs de l'estomac
+A. La gastrectomie totale peut être à l'origine d'une anémie et d'un dumping syndrom
+B. L'adénocarcinome est le type histologique retrouvé le plus souvent en cas de cancer
+C. Le lymphome de l'estomac peut avoir comme facteur de risque l'hélicobacter pylori (HP)
+D. L'adénocarcinome est moins fréquent que le lymphome
+E. L'adénocarcinome peut avoir une extension sanguine lymphatique et péritonéale
+Page 146:
+Ataraxie
+
+-- 23 of 36 --
+
+F. Le clapotage à jeun oriente vers une localisation cardiale de la tumeur
+G. La découverte de tumeurs de Krukenberg classe la maladie au stade métastatique
+H. Les GIST sont dues à l'hélicobacter pylori (HP)
+3- A propos des tumeurs de l'estomac, Quelle(s) est (sont) (la) les assertions(s) exacte(s) ?
+A- La gastrectomie totale entraîne inévitablement une carence en vitamine B12, du fait de la disparition des
+cellules pariétales sécrétrices du facteur intrinsèque
+B- La résection curative indiquée chez un patient ayant un adénocarcinome de la grosse tubérosité
+gastrique est une gastrectomie subtotale (gastrectomie des 4/5) avec curage ganglionnaire correspondant
+et anastomose gastro-jéjunale.
+C- Le traitement chirurgical d'une tumeur stromale antrale de 3 em de diamètre consiste en une
+gastrectomie subtotale avec curage ganglionnaire.
+D- La linite gastrique est un adénocarcinome diffus de l'estomac caractérisé par la présence de cellules
+indépendantes en bague à chaton.
+E- L'adénocarcinome gastrique indifférencié peut présenter un problème de diagnostic différentiel avec le
+lymphome. Le recours à l'immunohistochimie est souvent indispensable pour la confirmation diagnostique.
+4- Concernant le cancer de l'estomac, quelles propositions sont justes ?
+A. Le type histologique le plus fréquent est l'adénocarcinome
+B. Le Reflux gastro-oesophagien est un état précancéreux
+C. Le diagnostic positif repose sur l'examen anatomo-pathologique de la biopsie par endoscopie
+D. La radiothérapie fait partie des traitements de ce cancer
+5- Concernant les tumeurs stromales gastro-intestinales (GIST), quelle(s) est (sont) (la) les proposition(s)
+exacte(s) ?
+A. Elles sont des tumeurs mésenchymatouses rares
+B. Elles dérivent des cellules de Kajal
+C. Elles expriment typiquement les récepteurs C-KIT à l'immuo-histochimie
+D. Le traitement chirurgical d'une GIST consiste souvent à des résections larges associés à un curage
+ganglionnaire.
+E. Elles sont des tumeurs à développement sous-muqueux
+6- Concernant l'adénocarcinome de l'estomac, quelle(s) est (sont) (la) les proposition(s) exacte(s) ?
+A. La maladie de Biermer est considérée comme un état pré-cancéreux
+B. Le transit oeso-gastroduodénal est l'examen de référence pour le diagnostic positif
+C. La linite plastique est une forme clinique rare.
+D. Le dumping syndrome tardif après gastrectomie totale est liée à une hypoglycémie réactionnelle.
+E. La résection curative classiquement indiquée en cas d'adénocarcinome antro-pylorique bien différencié
+est une gastrectomie totale avec curage ganglionnaire avec anastomose oeso-jéjunale.
+F. L'infection par l'Helicobacter pylori est un facteur de risque
+G. La survie globale, tous stades confondus, est supérieure à 60%
+H. La linite plastique est caractérisée par une paroi gastrique immobile à l'endoscopie
+I. Le dumping syndrome tardif après gastrectomie totale est liée à une hyperinsulinémie réactionnelle.
+J. La dysphagie peut être un signe révélateur des localisations cardio-tubérositaires.
+QR 1 :
+7- Diagnostic positif du cancer de l'estomac
+QR 2 :
+8- Epidémiologie analytique du cancer de l’estomac.
+QR 3 :
+9- Épidémiologie descriptive et analytique du cancer gastrique
+QR 4 :
+10- Citer les éléments du bilan d'extension du cancer de l'estomac ?
+Page 147:
+Ataraxie
+
+-- 24 of 36 --
+
+QR 5 :
+11- Moyens thérapeutiques de l'adénocarcinome de l'estomac ?
+QR 6 :
+12- Quelles sont les interventions chirurgicales curatives dans le cancer de l’estomac.
+Cas clinique 1:
+Patient âgé de 60 ans, qui présente des douleurs épigastriques évoluant depuis quelques semaines et
+rebelles à l'automédication. La fibroscopie oesogastroduodénale met en évidence une tumeur
+ulcéro-bourgoenante antro-pylorique de 3 cm de diamètre. L'examen anatomopathologique confirme le
+diagnostic d'un adénocarcinome bien différencié. Au terme du bilan d'extension, il n'existe pas de lésions
+métastatiques et la tumeur est classée cT3N0M0;
+13- quelle(s) est (sont) (la) les assertions(s) exacte(s) ?
+A. Le syndrome ulcéreux peut être un mode revelation du cancer gastrique.
+B. La résection curative indiquée chez ce patient est une gastrectomie subtotale (gastrectomie des 4/5)
+avec curage ganglionnaire et anastomose gastro-jéjunale
+C. La résection curative indiquée chez ce patient est une gastrectomie totale avec curage ganglionnaire et
+anastomose oeso-jéjunale.
+D. La résection curative indiquée chez ce patient est une dissection sous-muqueuse endoscopique
+E. La résection curative indiquée chez ce patient est une gastrectomie atypique, sans curage
+ganglionnaire.
+Cas clinique 2:
+Patient âgé de 55 ans, qui présente des douleurs épigastriques évoluant depuis quelques semaines. Le
+diagnostic d'un adénocarcinome bien différencié du fundus gastrique (grosse tubérosité) de 03 cm de
+diamètre classée cT3N0M0 a été posé; le patient a bénéficié d'une chirurgie curative. Après 4 semaines de
+la chirurgie, le patient rapporte une lipothymie et des sueurs associées à une sensation de plénitude
+gastrique et de ballonnement abdominale aboutissant parfois à des vomissements. Cette symptomatologie
+s'installe caractéristiquement dans les premières 20 minutes post-prandiales.
+14- Quelle(s) est (sont) (la) les assertions(s) exacte(s) ?
+A- Le scanner TAP injecté avec réplétion gastrique hydrique est l'examen fondamental du bilan d'extension
+d'un cancer gastrique.
+B- Le syndrome ulcéreux peut être un mode révélation du cancer gastrique.
+C- La résection curative indiquée chez ce patient est une gastrectomie subtotale (gastrectomie des 4/5)
+avec curage ganglionnaire correspondant et anastomose gastro-jėjunale.
+D- La résection curative indiquée chez ce patient est une gastrectomie totale avec curage ganglionnaire
+correspondant et anastomose oeso-jéjunale.
+E- La symptomatologie post-prandiale rapporté par le patient est un due à l'hyperinsulinisme réactionnelle.
+Cas clinique 3:
+Patient âgé de 50 ans, tabagique chronique, qui présente des douleurs épigastriques associé à des
+vomissements évoluant depuis trois semaines. Une fibroscopie oesogastroduodénale a mis en évidence
+une lésion ulcéro-bourgeonnante antro-pylorique de 3 cm dont la biopsie confirme le diagnostic
+d'adénocarcinome bien différencié de l'estomac.
+15- Quel bilan d'extension réalisez-vous pour ce patient ?
+16- Au terme du bilan d'extension, il s'agit d'un adénocarcinome localisé (non métastatique) ; Quelle
+type d'exérèse gastrique curative proposez-vous ?
+14. Tumeurs du Pancréas : ( 18 questions )
+1- Le cancer du pancréas :
+A. Est le plus souvent un adénocarcinome d'origine acineuse.
+B. Est le cancer digestif le plus fréquent.
+C. Est nettement lié à l'intoxication alcoolo-tabagique.
+Page 148:
+Ataraxie
+
+-- 25 of 36 --
+
+D. Est rarement greffé sur une pancréatite chronique alcoolique.
+E. Est influencé par certaines hormones de croissance
+2- Les tumeurs du pancréas
+A. L’adénocarcinome est le type histologique le plus fréquent
+B. Les tumeurs endocrines peuvent être associé à une sécrétion hormonale
+C. peuvent être bénigne ou maligne, solide ou kystique
+D. Les tumeurs kystiques pancréatiques sont généralement découvertes de façon fortuite
+E. L'adénocarcinome est de très mauvais pronostic avec moins de 5 % de survie globale à 5 ans
+3- Le Cancer de la tête du pancréas:
+A. Est le plus souvent un adénocarcinome
+B. Est le cancer digestif le plus fréquent
+C. Peut être greffé sur une pancréatite chronique
+D. Peut être à l’origine d’une baisse du TP (Taux de prothrombine)
+E. Est traité exclusivement par chirurgie
+F. Est fortement suspecté devant un ictère nu progressif.
+G. Est pratiquement certain dès l'examen clinique lorsqu'on détecte une masse céphalique pancréatique.
+H. Peut être associé à une hépatomégalie à bord inférieur mousse.
+I. Peut se manifester par une hyperbilirubinémie à prédominance de bilirubine conjuguée sans cytolyse
+notable.
+J. Peut être à l'origine d'une baisse du taux de prothrombine.
+4- Le cancer de la tête du pancréas est caractérisé au plan clinique et dans sa forme typique
+A. Par un ictère généralisé
+B. Par un prurit
+C. Par un amaigrissement
+D. Par une grosse vésicule
+E. Par une température à 39
+5- L'examen clinique en cas d'adénocarcinome de la tête du pancréas peut trouver :
+A. Une hépatomégalie : cholestase ou nodulaire
+B. Une masse palpable (8-35%)
+C. Une ascite
+D. Un ganglion de troisier
+E. Des nodules aux touchers pelviens
+F. Une masse rénitente
+G. Des angiomes stellaires
+6- Le Cancer du corps du pancréas :
+A. Est le plus souvent un adénocarcinome
+B. Est souvent asymptomatique
+C. Peut-être greffé sur une tumeur intra-canalaire du pancréas
+D. Peut être à l’origine d’un syndrome tumoral
+E. Est traité essentiellement par chirurgie
+7- L'examen clinique en cas d'adénocarcinome du corps du pancréas peut trouver :
+A. Un ictère cholestatique
+B. Une masse palpable
+C. Une splénomégalie
+D. Un ganglion de troisier
+E. Des nodules aux touchers pelviens
+8- Le cancer de la queue du pancréas exocrine se révèle préférentiellement par
+A. Une hémorragie digestive
+B. Une tumeur de l'hypochondre gauche
+C. Une tumeur ombilicale
+Page 149:
+Ataraxie
+
+-- 26 of 36 --
+
+D. Des douleurs épigastriques violentes
+E. Aucune de ces propositions
+9- L'examen clinique en cas d'adénocarcinome de la queue du pancréas peut trouver :
+A- Une hépatomégalie: cholestatique ou nodulaire
+B- une masse rénitente
+C- Une ascite
+D- des angiomes stellaires
+E- Des nodules aux touchers pelviens
+10- Les circonstances de découverte des tumeurs endocrines pancréatique peuvent être :
+A- un syndrome hormonal
+B- un syndrome de masse
+C- un bilan génétique familial
+D- une découverte fortuite
+E- une hémorragie digestive
+QR 1 :
+11- Cancer de la tête du pancréas :
+a. Signes fonctionnels
+b. Signes physiques
+c. Apport de la Tomodensitométrie
+QR 2 :
+12- Quels sont les signes cliniques et paracliniques qui orientent vers une tumeurs malignes de la tête
+du pancréas ?
+13- Signes cliniques du cancer de la tête du pancréas
+QR 3 :
+14- Bilan de résécabilité de l'adénocarcinome du pancréas ?
+QR 4 :
+15- Bilan d'extension clinique et paraclinique du cancer du pancréas ?
+- Bilan d’extension du cancer du pancréas.
+QR 5 :
+16- Quelles sont les interventions chirurgicales à visée curative dans le cancer du pancréas ?
+QR 6 :
+17- Traitement endoscopique et chirurgical du cancer du pancréas ?
+QR 7 :
+18- Le pronostic et les facteurs de mauvais pronostic du cancer du pancréas.
+15. Tumeurs Hépatiques : ( 12 questions )
+1- Parmi les propositions suivantes concernant les carcinomes hépatocellulaires, lesquelles sont vraies ?
+A. Le principal facteur de risque est la cirrhose.
+B. Une hypercalcémie est un syndrome paranéoplasique fréquent.
+C. Une PBH est nécessaire chez un patient qui n'a pas de cirrhose.
+D. Les critères de Milan sont les critères diagnostiques du CHC.
+E. Le wash out est la principale caractéristique des nodules de CHC.
+2- Dans le carcinome hépato-cellulaire on peut rencontrer :
+A. Un syndrome tumoral
+B. Un syndrome paranéoplasique
+C. Une défense de l’hypochondre droit
+D. Une décompensation d’une cirrhose
+Page 150:
+Ataraxie
+
+-- 27 of 36 --
+
+E. Aucune de ces réponses n’est exacte
+F. Des lésions multifocales
+G. Une cirrhose hépatique
+H. Aucune de ces réponses n’est exacte
+3- Le CHC
+A. est le carcinome hépato cellulaire
+B. survient sûr foie de cirrhose
+C. Généralement découverte fortuitement à l'échographie
+D. Peut être associé à une thrombopénie
+E. peut être responsable d'une hémorragie digestive
+4- Le carcinome hépato-cellulaire
+A. est le cancer primitif du foie le plus fréquent
+B. se développe sur un foie cirrhotique dans 90 % des cas
+C. est la 1ère cause de mortalité du cirrhotique
+D. Son Pronostic dépend du terrain et de la tumeur
+E. Le traitement curatif est essentiellement chirurgical
+5- L’adénome hépato-cellulaire
+A. Est une prolifération bénigne d’hépatocytes séparés par des travées fibreuses
+B. Est une pathologie qui se voit essentiellement chez les hommes
+C. Est une pathologie qui se voit essentiellement chez les femmes
+D. Est une tumeur hypervasculaire avec risque de dégénérescence
+E. Est une tumeur hypervasculaire sans risque de dégénérescence
+F. Peut être lié à la prise d’un traitement oestrogénique
+G. Peut-être lié à la prise d’un traitement hormonal
+H. Nécessite une prise en charge chirurgicale
+I. Est une tumeur hépatocytaire bénigne rare
+J. Une Tumeur hypervascularisé avec risque d'hémorragie et de dégénérescence
+K. Le traitement oestrogénique est le principal facteur de risque
+L. est une lésion hypodense prenant le contraste de façon précoce, du centre vers la périphérie
+M. Son traitement est chirurgical
+N. est une Prolifération maligne d'hépatocytes séparés par des travées fibreuses
+O. Une Tumeur sans risque de dégénérescence
+P. est une lésion hypodense prenant le contraste de façon précoce, de la périphérie vers le centre
+Q. Son traitement est médical
+R. Est une Prolifération maligne d'hépatocytes
+S. Le traitement à base de corticoïdes est le principal facteur de risque
+T. est une Tumeur de la femme jeune
+U. Le traitement à base de contraceptifs oraux est le principal facteur de risque
+V. est une lésion avec un risque de dégénérescence
+6- Les angiomes hépatiques :
+A. Sont des lésions circonscrites, formées de cavités bordées par des cellules endothéliales
+B. Leur taille passe de quelques mm à plusieurs cm
+C. Généralement découverte fortuitement à l'échographie
+D. Peuvent être associé à une thrombopénie (Syndrome de kasabach merritt)
+E. Peuvent être responsable d'une occlusion intestinale
+A. Sont des lésions circonscrites, formées de cavités bordées par des cellules fusiformes
+B. Leur taille ne dépasse pas quelques mm
+E. Peuvent dégénérer après quelques années d'évolution
+Page 151:
+Ataraxie
+
+-- 28 of 36 --
+
+7- Parmi les caractéristiques suivantes concernant l'hyperplasie nodulaire focale du foie, quelles sont
+celles qui sont exactes?
+A. Elle s'agit d'une tumeur bénigne
+B. Elle ne saigne pas
+C. Elle est liée à la prise de pilule
+D. Elle est caractéristique en imagerie
+E. Elle doit toujours être opérée
+8- Les hyperplasies nodulaires focale:
+A- sont des lésions séparées par des travées fibreuses
+B- sont souvent multiples
+C- sont généralement asymptomatique
+D- Peuvent être associé à une hémorragie intra tumorale
+E- peuvent dégénérer après quelques années d'évolution
+9- Parmi les tumeurs bénignes suivantes, quelles sont celles qui sont associées à un risque de
+développement d'un carcinome hépatocellulaire ?
+A. Le kyste biliaire
+B. L'angiome
+C. L'adénome hépatocellulaire
+D. L'hyperplasie nodulaire focale
+E. Le cystadénome
+QR 1 :
+10- Conditions précancéreuses du carcinome hépatocellulaire du foie
+QR 2 :
+11- Diagnostic positif d'un carcinome hépatocellulaire
+QR 3 :
+12- Décrire les différents signes cliniques et paracliniques du carcinome hépato-cellulaire ?
+Page 152:
+Ataraxie
+
+-- 29 of 36 --
+
+Cas cliniques générales : ( 89 questions )
+Cas clinique 1:
+Vous recevez un patient âgé de 25 ans, connu tabagique chronique et présentant une douleur abdominale
+maximale au niveau de l’épigastre associée à des vomissement et à un arrêt des matières et des gaz. A
+l’examen vous relevez une sensibilité abdominale diffuse.
+1- Quel est le diagnostic le plus probable chez ce patient ?
+A. Une occlusion intestinale aiguë.
+B. Un ulcère gastroduodénal hyperalgique.
+C. Une pancréatite aiguë.
+D. Une péritonite par perforation d’ulcère
+Cas clinique 2:
+Une femme de 72 ans se présente aux urgences avec une fièvre à 39,5°C, des frissons, un ictère
+cutanéo-muqueux et une douleur de l'hypochondre droit irradiant vers l'épaule. Elle est confuse et présente
+une hypotension artérielle (90/50 mmHg). Ses antécédents incluent une lithiase biliaire non traitée. La
+biologie révèle une hyperbilirubinémie, une cholestase majeure et un syndrome inflammatoire biologique
+très élevé. L'échographie montre une dilatation des voies biliaires intra- et extra-hépatiques avec un calcul
+enclavé dans le cholédoque.
+2- Quelle est la prise en charge la plus urgente ?
+A. Réanimation, antibiothérapie à large spectre couvrant les germes entériques et cholécystectomie en
+urgence.
+B. Antibiothérapie à large spectre, rééquilibration hydro-électrolytique et CPRE en urgence pour drainage
+biliaire.
+C. Antibiothérapie orale et surveillance en ambulatoire.
+D. Traitement symptomatique seul et surveillance étroite.
+E. Cholécystostomie percutanée.
+Cas clinique 3:
+3- Vous recevez aux urgences une patiente âgée de 50 ans pour douleur épigastrique associée à un ictère
+cutanéo-muqueux avec des vomissements bilieux, l'examen retrouve une patiente fébrile à 38,5°c, avec
+douleur à la palpation de l'hypochondre droit.
+Devant cette symptomatologie clinique vous pensez à :
+A. Une cholécystite aiguë
+B. Une appendicite aiguë en position sous hépatique
+C. Une angiocholite lithiasique
+D. Un infarctus entéro-mésentérique
+E. Une hépatite virale B
+4- Devant ce tableau clinique vous réaliserais en urgence :
+A. Une échographie abdominale
+B. Une endoscopie digestive basse
+C. Une radiographie d'abdomen sans préparation
+D. Un bilan hépatique complet
+E. Une hémoculture
+5- Si on pense à une obstruction des voies biliaires quels sont les signes de gravité à rechercher :
+A. Délire et hallucination visuelle
+B. Cirrhose hépatique
+C. Insuffisance rénale sur un ionogramme
+D. Baisse de la tension artérielle
+E. Abcès sous phrénique
+Page 153:
+Ataraxie
+
+-- 30 of 36 --
+
+6- Devant cette obstruction notre but c'est :
+A. Traiter par des antalgiques en ambulatoire et revoir la malade en cas de complications
+B. Traiter l'infection par des antibiotiques efficaces et procéder à une désobstruction des voies biliaires par
+voie endoscopique ou chirurgicale
+C. Refroidir par des antibiotiques et revoir la malade dans deux mois pour la chirurgie
+D. En absence de signe de gravité ne rien faire c'est une symptomatologie qui va se résoudre
+spontanément
+Cas clinique 4:
+Il s'agit d'un patient de 70 ans, qui consulte pour une douleur de l'hypochondre droit et l'épigastre
+d'apparition progressive, insomniante évoluant dans un contexte d'altération de l'état général. L'examen
+clinique trouve un ictère cutanéo-muqueux Biologiquement: une CRP élevé, une cholestase et une
+cytolyse.
+7- Quel est le diagnostic le plus probable:
+A. Cancer du rectum
+B. Cancer du pancréas
+C. Une cholécystite aiguë
+D. Une Pancréatite aiguë
+E. Une Occlusion intestinale
+8- Que devez-vous rechercher à l'examen clinique ?
+A. Une défense abdominale
+B. Une contracture abdominale
+C. Une grosse vésicule
+D. Une masse abdominale
+E. Une circulation veineuse collatérale
+9- Quels examens complémentaires envisagez vous ?
+A. Un ASP
+B. Une échographie abdominale
+C. Un scanner abdominal
+D. Une IRM
+E. Une radiographie du thorax
+Cas clinique 5:
+Mme X a présenté deux crises de colique hépatique avec fièvre. Une échographie réalisée au décours de
+la première crise montre une vésicule lithiasique à paroi fine contenant des microlithiases, une voie biliaire
+principale de calibre normal avec une légère dilatation des voies biliaire intra hépatique, une formation
+pseudo tumorale hépatique au niveau du segment V. Mme X a apporté un bilan sanguin comprenant une
+légère hyperleucocytose et un bilan hépatique perturbé avec une cytolyse à 3 fois la normale, des
+phosphatases alcalines à 5 fois la normale. L'examen clinique trouve un sub-ictère conjonctival.
+10- Quel est le diagnostic le plus probable:
+A. Lithiase vésiculaire
+B. Angiocholite aiguë
+C. Un kyste hydatique du foie
+D. Une Pancréatite aiguë
+E. Un abcès hépatique
+11- Quels examens demanderiez-vous pour confirmer le diagnostic
+A. ASP
+B. Échographie abdominale
+C. Scanner abdominale
+D. Bili-IRM
+E. CPRE
+Page 154:
+Ataraxie
+
+-- 31 of 36 --
+
+Cas clinique 6:
+Un homme de 65 ans est hospitalisé pour ictère cutanéo-muqueux nu apparu depuis 15 jours. On note que
+depuis un mois, le patient présente des troubles dyspeptiques avec un amaigrissement de 6 Kg.. L'examen
+clinique découvre un ictère franc, des lésions de grattage, une hépatomégalie à bord mousse, de surface
+irrégulière, sensible à la palpation, une vésicule tendue,
+12- Quel (s) examen(s) biologique(s) complémentaire(s) demandez-vous pour confirmer la nature de
+cet ictère ?
+A. Marqueurs tumoraux
+B. Taux d'albuminémie et cholestérolémie
+C. Bilirubine conjuguée-phosphatases alcalines-taux de prothrombine
+D. Transaminases-bilirubinémie totale
+E. Bilirubine libre gamma-glutamine transferase
+13- Quel(s) examen(s) morphologique(s) demandez-vous en première intention ?
+A. Endoscopie digestive haute
+B. Echo-endoscopic
+C. Ponction biopsie hépatique
+D. Echographie abdominale
+E. Cholangiographie rétrograde (CPRE)
+14- Quel(s) diagnostic(s) vous semble (ent) le (s)plus probable(s)
+A. Cirrhose post hépatitique
+B. Cancer primitif du foie
+C. Cholécystite aiguë
+D. Cancer de la tête du pancréas
+E. Pancréatite chronique
+Cas clinique 7:
+Un homme de 45 ans, aux antécédents de lithiase vésiculaire, consulte pour une douleur intense de
+L'hypochondre droit, apparue brutalement il y a 12 heures, associée à des nausées et une fièvre à 38,8°C.
+L'examen clinique révèle une défense de l'hypochondre droit et un signe de Murphy positif. La biologie
+montre une hyperleucocytose à 15.000/mm avec 80% de polynucléaires neutrophiles. L'échographie
+abdominale confirme la présence de calculs vésiculaires et un épaississement de la paroi vésiculaire de 5
+mm, sans dilatation des voies biliaires intra- ou extra-hépatiques.
+15- Quelle est la prise en charge initiale la plus appropriée ?
+A. Cholécystectomie en urgence.
+B. Traitement médical conservateur avec antibiothérapie et antalgiques, puis cholécystectomie à froid si les
+symptômes récidivent.
+C. Antibiothérapie intraveineuse, réhydratation, antalgiques, puis cholécystectomie laparoscopique dans
+les 24-72 heure.
+D. Drainage biliaire par CPRE.
+E. Cholécystostomie percutanée.
+Cas clinique 8:
+Un patient de 50 ans, consommateur chronique d'AINS, se présente aux urgences avec une douleur
+abdominale brutale et intense, généralisée, débutée il y a 3 heures. L'examen clinique révèle un abdomen
+'en bois', une disparition de la matité hépatique et une défense généralisée. Il est fébrile à 38°C. Une
+radiographie de l'abdomen sans préparation montre un croissant gazeux sous-diaphragmatique.
+16- Quelle est la prise en charge thérapeutique la plus urgente et indispensable ?
+A. Antibiothérapie seule et surveillance.
+B. Mise en place d'une sonde naso-gastrique et aspiration pour repos digestif.
+C. FOGD en urgence pour tenter un traitement endoscopique.
+D. Laparotomie exploratrice en urgence avec suture de la perforation avec lavage et drainage.
+E. Drainage percutané de la collection gazeuse.
+Page 155:
+Ataraxie
+
+-- 32 of 36 --
+
+Cas clinique 9:
+Un patient âgé de 56 ans, admis aux urgences pour douleur épigastrique irradiant en hémi ceinture vers le
+dos et en inter scapulaire associée à une fièvre à 39°c et des vomissements, l'examen clinique retrouve
+une défense de l'hypochondre droit.
+17- Quel est votre premier diagnostic ?
+18- Pour confirmer ce diagnostic quel examen para-clinique demanderait vous en citant trois de ses
+éléments clés ?
+19- Quelles sont les complications de cette pathologie ?
+Cas clinique 10:
+L’interne de garde admet aux urgences, une patiente âgée de 45 ans, diabétique, qui accuse depuis deux
+jours des douleurs épigastriques irradiant en hémi ceinture vers le dos avec vomissement bilieux. À
+l’examen il retrouve une fièvre (O° : 38,5°) avec défense de l’hypochondre droit.
+20- Quel est le diagnostic le plus probable ?
+21- Quel examen radiologique demandé en urgence et quels sont ses résultats pour ce diagnostic ?
+22- Quelle est votre conduite à tenir vis-à-vis de cette patiente ?
+Cas clinique 11:
+Vous recevez un patient âgé de 25 ans, sans antécédent pathologique notable qui présente depuis un jour
+une douleur abdominale généralisée, avec défense au niveau de la fosse iliaque droite.
+23- Quel est le diagnostic à évoquer en premier ?
+24- Quel est le premier examen radiologique à réaliser ? Citez au moins deux signes à chercher sur cet
+examen.
+25- Quels sont les examens biologiques à réaliser ? Citez les anomalies possibles chez votre patient.
+26- Quelle est la complication à craindre chez ce patient ?
+Cas clinique 12:
+On reçoit en consultation un patient âgé de 60 ans, tabagique chronique à raison de 30 paquets années,
+qui présente une douleur rétro-sternale avec hoquet évoluant depuis 2 semaines.
+27- A quel diagnostic doit-on penser en premier, justifier votre réponse ?
+28- Quels sont les autres éléments cliniques à rechercher par l'interrogatoire et par l'examen du malade
+pour approuver ce diagnostic
+29- Quel est le premier examen paraclinique à demander pour confirmer ce diagnostic ?
+30- Après confirmation du diagnostic, quel bilan pré-therapeutique doit-on réaliser
+Cas clinique 13:
+Patient de 65 ans, tabagique chronique 20 Pa, qui présente des rectorragies de faible abondance depuis 6
+mois avec notion d'alternance diarrhée - constipation. Cela évoluant dans un contexte d'apyrexie et
+d'amaigrissement chiffré à 5 kg.
+31- Quels diagnostics peut-on évoquer ?
+32- 	Quel examen clinique et quels examens paracliniques doit ont faire en première intention ?
+33- S'il s'agit d'un cancer, citer les éléments des bilans d'extension clinique et paraclinique, en précisant
+ce qui est recherché à chaque étape ?
+Cas clinique 14:
+Patiente de 55 ans, consulte aux urgences pour des rectorragies de faible à moyenne abondance.
+L'examen retrouve une patiente en ABEG, conjonctives légèrement décolorées. Le toucher rectal trouve
+une formation dure et saignante au contact à 3 cm de la marge anale.
+34- Complétez votre interrogatoire ?
+35- Quelles sont les données complémentaires que vous devez chercher chez votre malade lors du TR
+36- Quelle est le diagnostic le plus probable ?
+37- Comment allez-vous le confirmer ?
+38- Quelles sont les examens para cliniques pour évaluer l'extension locorégionale et à distance de
+cette pathologie (chez votre malade) ?
+Page 156:
+Ataraxie
+
+-- 33 of 36 --
+
+39- Quel(s) type(s) de chirurgie allez-vous indiquer chez votre malade ?
+40- Quelles sont les complications spécifiques pour ce type de chirurgie ?
+Cas clinique 15:
+Patiente âgée de 50 ans ayant des antécédents de coliques hépatiques, admise aux urgences dans un
+tableau fait de douleur épigastrique transfixiante ne cédant pas aux antalgiques usuelles associées à des
+nausées, évoluant dans un contexte d'apyrexie. L'examen note une sensibilité de la région épigastrique..
+41- Votre diagnostic le plus probable face à cette patiente ?
+42- Comment confirmer le diagnostic positif ?
+43- Comment évaluer la gravité de la lésion tout en mentionnant les résultats de l'examen réalisé ?
+Cas clinique 16:
+Patiente âgée de 55 ans sans antécédents pathologiques notables, admise aux urgences dans un tableau
+clinique fait de coliques hépatiques avec des nausées et vomissements associées à un ictère d'allure
+cholestatique et dont l'examen clinique retrouve l'ictère cutanéo-muqueux foncé avec une fièvre à 38.5 et
+une sensibilité de l'hypochondre droit. Cette patiente a bénéficié d'un premier examen biologique qui a
+montré une insuffisance rénale avec une urée à 0.90 g/l et une créatinine & 15 mg.
+44- Quels diagnostics peut-on évoquer devant ce tableau clinique ?
+45- L'insuffisance rénale constitue un signe de gravité d'un des diagnostics que vous avez évoqué
+quels sont les autres signes ?
+46- Quelles sont les explorations paracliniques qui permettent de porter le diagnostic positif d'une
+lithiase de la voie biliaire principale de façon certaine ?
+47- Quels sont les moyens therapeutiques qui permettent de traiter cette lithiase de la voie biliaire
+principale
+Cas clinique 17:
+Patient âgé de 28 ans sans antécédents particuliers, qui consulte pour des douleurs de l'hypochondre droit
+associée à un ictère cutanéo-muqueux, évoluant dans un contexte de fièvre mesurée à 38.7°C, ce patient a
+bénéficié d'une échographie qui a révélé un kyste hydatique du foie ( KHF) des segments 4, 5, et 8 avec
+une voie biliaire dilatée avec en son sein un matériel hydatique.
+48- Cette symptomatologie vous rappelle quelle pathologie ?
+49- Quelles sont ses signes de gravités ?
+50- D'après l'observation, comment expliquer ce syndrome chez ce patient ?
+51- Quelles sont les moyens de prévention du KHF ?
+Cas clinique 18:
+Patiente de 45 ans cholécystectomisée il y a 3 ans, consulte aux urgences avec des douleurs épigastriques
+transfixiantes associées à plusieurs épisodes de vomissements. L'examen retrouve une patiente algique,
+apyrétique avec à l'examen abdominale une sensibilité épigastrique.
+52- Complétez votre interrogatoire et votre examen clinique ?
+53- Quelle est le diagnostic le plus probable ?
+54- Comment allez-vous le confirmer ?
+55- Donnez une explication étiopathogénique pouvant expliquer la survenue de cette pathologie chez
+votre malade
+56- Quelles sont les examens complémentaires que vous allez demander ? Justifier.
+57- Quelles sont les indications chirurgicales et/ou endoscopiques chez votre malade à court et à
+moyen termes ?
+Cas clinique 19:
+Patient de 65 ans, sans ATCD pathologiques qui consulte pour un ictère évoluant depuis 2 mois
+d'aggravation progressive avec des urines foncées et des selles décolorées. L'examen clinique trouve un
+patient en mauvaise état générale. Fébrile à 39,5° avec un ictère cutanéo muqueux généralisé et grosse
+vésicule palpable :
+58- Quel est votre premier diagnostic ?
+Page 157:
+Ataraxie
+
+-- 34 of 36 --
+
+59- Quels sont les autres diagnostics à évoquer ?
+60- Quel est le premier examen para-clinique à réaliser devant ce tableau clinique ? Par quel moyen
+peut ont confirmer le diagnostic ?
+61- Quels sont les autres bilans à réaliser ?
+62- Quels sont les moyens dont on dispose pour traiter notre patient : Réponses courtes.
+Cas clinique 20:
+Patient âgé de 34 ans en bonne état général. tabagique a raison de 30 paquets années. admis au service
+des urgences pour douleurs abdominales généralisées d‘installation brutale en coup de poignard à point de
+départ épigastrique avec vomissements. L'examen physique retrouve une contracture abdominale
+généralisée.
+63- Quel est votre diagnostic clinique et étiologique ?
+64- Quels sont les examens complémentaires à demander pour confirmer voire diagnostic (avec
+résultats) ?
+65- Quels sont les éléments du traitement de ce patient ?
+66- Citez nous 5 autres étiologies pour ce diagnostic clinique ?
+Cas clinique 21:
+Patiente âgée de 55 ans, accusant depuis 5 ans des douleurs de l’hypochondre droit cédant au traitement
+antalgique, qui se présente aux urgences pour des douleurs épigastriques intenses et transfixantes
+évoluant depuis 24 heures associées à des nausées et vomissements. L'examen retrouve une sensibilité
+de la région épigastrique :
+67- Quel est votre diagnostic ?
+68- Quels est ou sont l’(es)examen(s) permettant de confirmer votre diagnostic ?
+69- Est-ce qu'il y a une indication à faire une TDM si oui quel est son délai et son apport ?
+70- Quelles sont les complications que risque cette patiente ?
+71- quels sont les moyens du traitement ?
+Cas clinique 22:
+Patient de 55 ans. présentant une constipation depuis 3 mois aggravée depuis 15 jours de rectorragies.
+tenesmes, épreintes et d’une altération de l’état général.
+72- Quel est le premier diagnostic à évoquer ?
+73- Quel geste capital de l’examen clinique doit on réaliser chez ce patient pour poser le diagnostic ?
+74- Quelles sont les examens complémentaires à réaliser pour confirmer le diagnostic ?
+75- Citez les éléments des bilans d'extension clinique et paraclinique. et ce que chacun d'eux peut
+objectiver ?
+76- Quels sont les traitements possibles ?
+Cas clinique 23:
+Patiente âgée de 56 ans, sans antécédent pathologique, admise aux urgences pour ictère
+cutanéo-muqueux avec apparition deux jours auparavant de colique hépatique associée à des nausées et
+vomissements intermittents. L'examen retrouve une patiente fébrile à 38°5 avec une sensibilité
+épigastrique.
+77- Quel est votre diagnostic ?
+78- Quel est l’intérêt de l'échographie dans cette situation ?
+79- Citez 3 principales étiologies à cette symptomatologie en précisant les examens complémentaire
+qui peuvent aider au diagnostic étiologique ?
+80- Quels sont les éléments de gravité de cette pathologie ?
+Cas clinique 24:
+Patiente âgée de 57 ans ayant des antécédents de colique hépatique et présentant depuis 2 jours des
+douleurs épigastrique à irradiatións postérieurs avec vomissement sans trouble de transit et dont l’examen
+retrouve une sensibilité épigastrique associé à une fièvre à 38
+81- Quel est le diagnostic le plus probable ?
+Page 158:
+Ataraxie
+
+-- 35 of 36 --
+
+82- Comment le confirmer ?
+83- Quel est l'intérêt du scanner dans cette situation ?
+84- Quels sont les indications d'une intervention chirurgicale en présence de ce tableau clinique ?
+Cas clinique 25:
+Femme , âgée de 50 ans, sans ATCD pathologiques notables, qui se présente en consultation avec des
+douleurs épigastriques pseudo-ulcéreuses associées à des vomissements et une dyspepsie évoluant dans
+un contexte d'altération profonde de l'état général avec un amaigrissement chiffré à 20 Kg en un mois :
+85- Devant cette symptomatologie , quel est le premier diagnostic à évoquer ?
+86- Quels sont les examens paracliniques à réaliser pour confirmer votre diagnostic ?
+87- Quel est le bilan d'extension à réaliser (bilan argumenté)
+Cas clinique 26:
+Patient âgé de 65 ans, ayant comme ATCD un polype rectal isolé réséqué endoscopiquement il y'a 10 ans
+et dont l'étude anatomopathologique était en faveur d'un polype villeux en dysplasie légère, qui présente au
+cours de son suivie un syndrome rectal associé à des troubles de transit à type d'alternance diarrhée
+constipation :
+88- quel est le premier examen clinique à réaliser pour rechercher un cancer rectal tout en précisant
+ses résultats.
+89- Quels sont les moyens thérapeutiques dont nous disposons pour traiter ce cancer ainsi que leurs
+indications
+Page 159:
+Ataraxie
+
+-- 36 of 36 --
+
