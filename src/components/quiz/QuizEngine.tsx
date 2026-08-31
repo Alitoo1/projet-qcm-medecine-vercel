@@ -1,10 +1,12 @@
-'use client'
+﻿'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import { ProgressBar } from './ProgressBar'
 import { QuestionCard } from './QuestionCard'
+import { ClinicalCaseCard } from './ClinicalCaseCard'
 import { ResultScreen } from './ResultScreen'
 import { useTimer } from '@/hooks/use-timer'
+import { groupQuestionsIntoSteps, type QuizStep } from '@/lib/quiz-steps'
 import type { QuestionQcmClient, QuizResult, CheckAnswerResult, ExamItem } from '@/types'
 
 interface QuizEngineProps {
@@ -33,11 +35,16 @@ export function QuizEngine({
   const [loading, setLoading] = useState(false)
   const [questions, setQuestions] = useState<QuestionQcmClient[]>([])
   const [examToken, setExamToken] = useState<string | null>(null)
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentStepIndex, setCurrentStepIndex] = useState(0)
   const [reponses, setReponses] = useState<Record<string, number[]>>({})
   const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState<QuizResult | null>(null)
   const [error, setError] = useState<string | null>(null)
+
+  // Étapes groupées (Cas cliniques groupés sur la même page)
+  const steps: QuizStep[] = useMemo(() => {
+    return groupQuestionsIntoSteps(questions)
+  }, [questions])
 
   // Soumission finale du quiz
   const handleSubmitQuiz = useCallback(async () => {
@@ -100,7 +107,6 @@ export function QuizEngine({
       } else if (moduleId) {
         endpoint = `/api/examen/blanc?module=${moduleId}&n=20&shuffle_props=${shuffleProps ? 1 : 0}`
       } else if (revisionScoreId) {
-        // En révision, on récupère les questions erronées du score
         endpoint = `/api/questions?revision=${revisionScoreId}&shuffle_props=${shuffleProps ? 1 : 0}`
       } else if (coursId) {
         endpoint = `/api/questions?cours=${coursId}&type=qcm&shuffle_props=${shuffleProps ? 1 : 0}`
@@ -129,6 +135,7 @@ export function QuizEngine({
       }
 
       setStarted(true)
+      setCurrentStepIndex(0)
       if (mode === 'examen') {
         timer.reset(durationMin * 60)
         timer.start()
@@ -140,12 +147,8 @@ export function QuizEngine({
     }
   }
 
-  const handleSelectAnswer = (propIndex: number) => {
-    const currentQ = questions[currentIndex]
-    if (!currentQ) return
-
-    const qId = String(currentQ.id)
-    const isQCU = currentQ.type === 'QCU'
+  const handleSelectAnswerForQuestion = (questionId: number, propIndex: number, isQCU: boolean) => {
+    const qId = String(questionId)
 
     setReponses((prev) => {
       const existing = prev[qId] || []
@@ -161,17 +164,14 @@ export function QuizEngine({
     })
   }
 
-  const handleInstantCheck = async (): Promise<CheckAnswerResult | null> => {
-    const currentQ = questions[currentIndex]
-    if (!currentQ) return null
-
+  const handleInstantCheckSingle = async (questionId: number): Promise<CheckAnswerResult | null> => {
     try {
       const res = await fetch('/api/quiz/verifier', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          question_id: currentQ.id,
-          reponses: reponses[String(currentQ.id)] || [],
+          question_id: questionId,
+          reponses: reponses[String(questionId)] || [],
         }),
       })
       if (res.ok) {
@@ -309,22 +309,33 @@ export function QuizEngine({
           setResult(null)
           setStarted(false)
           setReponses({})
-          setCurrentIndex(0)
+          setCurrentStepIndex(0)
         }}
       />
     )
   }
 
-  const currentQ = questions[currentIndex]
+  const currentStep = steps[currentStepIndex]
+
+  // Calcul du nombre de questions répondues au total
+  const answeredQuestionsCount = Object.keys(reponses).filter(
+    (k) => (reponses[k] || []).length > 0
+  ).length
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 space-y-6">
       {/* Barre d'état (Timer + Progression) */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm space-y-3">
         <div className="flex items-center justify-between">
-          <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
-            {mode === 'examen' ? '⏱️ Mode Examen' : '🎯 Mode Entraînement'}
-          </span>
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
+              {mode === 'examen' ? '⏱️ Mode Examen' : '🎯 Mode Entraînement'}
+            </span>
+            <span className="text-xs text-slate-400">•</span>
+            <span className="text-xs font-semibold text-teal-600 dark:text-teal-400">
+              {answeredQuestionsCount} / {questions.length} questions répondues
+            </span>
+          </div>
 
           {mode === 'examen' && (
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-red-50 dark:bg-red-950/50 text-red-700 dark:text-red-300 font-mono font-bold text-sm">
@@ -334,39 +345,58 @@ export function QuizEngine({
           )}
         </div>
 
-        <ProgressBar current={currentIndex + 1} total={questions.length} />
+        <ProgressBar current={currentStepIndex + 1} total={steps.length} />
       </div>
 
-      {/* Carte de Question */}
-      {currentQ && (
-        <QuestionCard
-          key={currentQ.id}
-          question={currentQ}
-          selectedAnswers={reponses[String(currentQ.id)] || []}
-          onSelectAnswer={handleSelectAnswer}
+      {/* Rendu dynamique de l'Étape : Cas Clinique Groupé OU Question Simple */}
+      {currentStep && currentStep.type === 'case' && (
+        <ClinicalCaseCard
+          key={`case-${currentStep.caseGroup.caseTitle}-${currentStepIndex}`}
+          caseGroup={currentStep.caseGroup}
+          reponses={reponses}
+          onSelectAnswer={handleSelectAnswerForQuestion}
           isExamMode={mode === 'examen'}
-          onInstantCheck={handleInstantCheck}
+          onInstantCheckSingle={handleInstantCheckSingle}
         />
       )}
 
-      {/* Navigation */}
+      {currentStep && currentStep.type === 'single' && (
+        <QuestionCard
+          key={`single-${currentStep.question.id}`}
+          question={currentStep.question}
+          selectedAnswers={reponses[String(currentStep.question.id)] || []}
+          onSelectAnswer={(propIdx) =>
+            handleSelectAnswerForQuestion(
+              currentStep.question.id,
+              propIdx,
+              currentStep.question.type === 'QCU'
+            )
+          }
+          isExamMode={mode === 'examen'}
+          onInstantCheck={() => handleInstantCheckSingle(currentStep.question.id)}
+        />
+      )}
+
+      {/* Navigation entre Étapes (Dossiers / Questions) */}
       <div className="flex items-center justify-between pt-2">
         <button
           type="button"
-          onClick={() => setCurrentIndex((prev) => Math.max(prev - 1, 0))}
-          disabled={currentIndex === 0}
+          onClick={() => setCurrentStepIndex((prev) => Math.max(prev - 1, 0))}
+          disabled={currentStepIndex === 0}
           className="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 disabled:opacity-30 text-slate-700 dark:text-slate-300 font-semibold text-xs transition cursor-pointer"
         >
-          ← Question précédente
+          ← Étape précédente
         </button>
 
-        {currentIndex < questions.length - 1 ? (
+        {currentStepIndex < steps.length - 1 ? (
           <button
             type="button"
-            onClick={() => setCurrentIndex((prev) => Math.min(prev + 1, questions.length - 1))}
-            className="px-6 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs transition cursor-pointer"
+            onClick={() =>
+              setCurrentStepIndex((prev) => Math.min(prev + 1, steps.length - 1))
+            }
+            className="px-6 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-semibold text-xs transition cursor-pointer shadow-xs"
           >
-            Question suivante →
+            Étape suivante →
           </button>
         ) : (
           <button
@@ -375,7 +405,7 @@ export function QuizEngine({
             disabled={submitting}
             className="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white font-bold text-xs shadow-xs transition cursor-pointer"
           >
-            {submitting ? 'Correction en cours...' : 'Terminer et valider ✅'}
+            {submitting ? 'Correction en cours...' : 'Terminer et valider le quiz ✅'}
           </button>
         )}
       </div>
